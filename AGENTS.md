@@ -48,6 +48,44 @@ docs/games/                   网站前台公开的中文译文与媒体评测�
 - 文档的 `slug` 必须与 CSV 中对应游戏的 `slug` 一致。
 - 只有存在对应中文文档时，首页才显示“中文译文已收录”并提供站内链接。
 
+## 新增媒体评测
+
+一个游戏继续只使用一个公开页面。不同媒体的译文放在同一页面的标签页中，不要为同一游戏复制出 `ign`、`gamespot` 等多个 Docusaurus 页面。
+
+### 只增加某个游戏页的媒体标签
+
+如果只是给一个已有游戏增加新媒体，不需要改 Docusaurus 配置：
+
+1. 在 `docs/games/<slug>.mdx` 的现有 `<Tabs groupId="review-source">` 内增加一个 `TabItem`。
+2. `value` 使用稳定的小写标识，例如 `eurogamer`、`polygon` 或 `pc-gamer`，不要与其他标签重复。
+3. 在该标签页中写入中文译文，并保留对应媒体原文链接。
+4. 如有英文源资料，放入 `content/reviews/en/`，推荐使用 `content/reviews/en/<slug>/<site>.md`，避免多个媒体共用一个源文件。
+
+示例：
+
+```mdx
+<TabItem value="eurogamer" label="Eurogamer">
+
+这里填写 Eurogamer 中文译文。
+
+<a href="https://example.com/review" target="_blank" rel="noreferrer">查看 Eurogamer 原文 ↗</a>
+
+</TabItem>
+```
+
+### 让首页也支持新媒体
+
+当前 CSV 和首页为了方便最初的 IGN / GameSpot 数据，使用了固定字段。新增媒体后，必须同步修改以下位置，不能只改游戏页：
+
+1. `data/metacritic-games.csv`：增加该媒体的评分和链接字段，例如 `eurogamer_score`、`eurogamer_url`；已有行没有数据时留空。
+2. `scripts/generate-games-data.mjs`：把新字段转成生成数据中的媒体记录。推荐逐步统一为 `reviews: [{site, score, url}]`，不要继续在首页组件里增加越来越多的单独字段。
+3. `src/pages/index.tsx`：将固定的 IGN / GS 链接改为遍历 `reviews`，这样新媒体会自动出现在所有有链接的游戏卡片上。
+4. `docs/games/_template.mdx`：补充新媒体的 `TabItem` 示例，或保留清晰的“可继续添加标签页”说明。
+5. 若新媒体有英文源资料，按 `<slug>/<site>.md` 保存，并在对应标签页写中文译文；不要把英文源目录接入 Docusaurus。
+6. 重新运行 `npm run generate-data` 和 `npm run typecheck`，检查首页链接和文档标签数量。
+
+当媒体数量超过两个时，优先先完成 `reviews` 数组化，再添加更多媒体。不要在 `GameRecord`、CSV 映射和 JSX 中重复堆叠 `xxxUrl` / `xxxScore` / `xxxLink` 字段。
+
 ## 推荐工作流
 
 处理一款新游戏时按以下顺序：
@@ -79,6 +117,7 @@ docs/games/                   网站前台公开的中文译文与媒体评测�
 - 不引入新的运行时依赖，除非确有必要并说明原因。
 - 不把英文资料目录加入 Docusaurus 的 `docs`、sidebar、搜索索引或首页数据读取逻辑。
 - 不在 React 页面中硬编码游戏列表；列表来自生成的 JSON。
+- 新增媒体时，不要把媒体名称硬编码成只能支持两个选项；页面标签和首页媒体链接都应能扩展。
 - 保持首页简洁、易扫读，不添加与选游戏无关的煽情文案或复杂功能。
 
 ## 模型与跨 AI 协同
@@ -97,6 +136,7 @@ docs/games/                   网站前台公开的中文译文与媒体评测�
 - 英文资料位于 `content/reviews/en/`，不在 `docs/` 下。
 - `docs/games/` 公开文档只展示中文译文和必要的来源链接。
 - 生成数据只包含游戏元数据和译文状态，不读取英文评测正文。
+- 新增媒体时，确认游戏页标签、英文源文件、CSV 字段、生成数据和首页链接没有脱节。
 - `npm run generate-data` 成功。
 - `npm run typecheck` 成功。
 - 没有未经用户要求的 Git 提交、推送、生产发布或本地生产构建。
