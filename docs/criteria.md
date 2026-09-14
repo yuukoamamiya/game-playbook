@@ -10,21 +10,11 @@ description: Playbook 的 Metacritic 高分游戏收录规则
 
 ## 当前规则
 
-- 首页只展示 Metacritic 总分 **90 分及以上**的游戏。
-- 每条记录包含：游戏名、MC 分数、发行年份、平台和类型。
-- 数据统一维护在 `src/data/games.ts`。
-- 暂时没有游戏条目时，首页会显示空状态，不放示例数据。
+- 首页只展示 Metacritic 总分 **90 分及以上**且带有 **Must-Play** 金标的游戏。
+- 当前平台范围：PC、Nintendo Switch、Nintendo Switch 2。
+- 每款游戏对应 `docs/games/` 下的一篇文档。
+- CSV 只作为抓取和 AI 之间交换数据的中间层，不参与网站构建。
 
 ## 新增游戏
 
-在 `src/data/games.ts` 的 `games` 数组中加入一条记录：
-
-```ts
-{
-  title: '游戏名称',
-  score: 90,
-  releaseYear: 2024,
-  platforms: ['PC'],
-  genre: 'RPG',
-}
-```
+先把抓取结果整理到 `data/metacritic-games.csv`，确认无误后，为每款游戏复制 `docs/games/_template.mdx` 并补充 IGN / GameSpot 链接。

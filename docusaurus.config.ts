@@ -67,6 +67,12 @@ const config: Config = {
       title: 'PLAYBOOK / 游戏档案',
       items: [
         {to: '/', label: '高分游戏', position: 'left'},
+        {
+          type: 'docSidebar',
+          sidebarId: 'librarySidebar',
+          position: 'left',
+          label: '文档库',
+        },
         {to: '/docs/criteria', label: '收录说明', position: 'left'},
         {
           type: 'html',

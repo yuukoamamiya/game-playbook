@@ -1,9 +1,20 @@
 import Link from '@docusaurus/Link';
 import Layout from '@theme/Layout';
-import {games} from '../data/games';
+import gamesData from '../generated/games.json';
 import styles from './index.module.css';
 
+type GameRecord = {
+  slug: string;
+  title: string;
+  platform: string;
+  score: number;
+  releaseYear: number;
+  genre: string;
+  notes?: string;
+};
+
 export default function Home(): React.ReactNode {
+  const games = gamesData as GameRecord[];
   const highScoreGames = games.filter((game) => game.score >= 90).sort((a, b) => b.score - a.score);
 
   return (
@@ -33,10 +44,10 @@ export default function Home(): React.ReactNode {
                 <article className={styles.gameCard} key={game.title}>
                   <div className={styles.score}>{game.score}</div>
                   <div className={styles.gameInfo}>
-                    <h3>{game.title}</h3>
+                    <h3><Link to={`/docs/games/${game.slug}`}>{game.title}</Link></h3>
                     <p>{game.releaseYear} · {game.genre}</p>
-                    <div className={styles.platforms}>{game.platforms.join(' / ')}</div>
-                    {game.note && <div className={styles.note}>{game.note}</div>}
+                    <div className={styles.platforms}>{game.platform}</div>
+                    {game.notes && <div className={styles.note}>{game.notes}</div>}
                   </div>
                 </article>
               ))}
@@ -46,8 +57,8 @@ export default function Home(): React.ReactNode {
               <span className={styles.emptyNumber}>00</span>
               <div>
                 <h3>还没有收录游戏</h3>
-                <p>把第一款游戏加入数据文件后，它会出现在这里。</p>
-                <code>src/data/games.ts</code>
+                <p>把第一款游戏文档加入文档库后，它会出现在这里。</p>
+                <code>docs/games/</code>
               </div>
             </div>
           )}

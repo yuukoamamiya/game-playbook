@@ -14,13 +14,14 @@ The site is a personal game decision archive: calm, editorial, compact, and easy
 
 ## Content rules
 
-- Keep the showcase data in `src/data/games.ts`.
+- Treat `docs/games/*.mdx` as the website's source of truth.
+- Treat `data/metacritic-games.csv` as a disposable exchange layer between AI tools.
 - Keep the game record fields stable. Add a new field only when it is useful for filtering or comparison.
 - Never edit generated output or invent game scores.
 
 ## AI maintenance rules
 
 - Preserve the existing information architecture unless the user asks for a redesign.
-- Prefer editing `src/data/games.ts` over changing React components.
-- When adding a game, keep the existing `Game` type shape.
+- Prefer editing a game document over changing React components.
+- When adding a game, copy `docs/games/_template.mdx` and keep its frontmatter shape.
 - Keep the site deployable through Cloudflare Pages with `npm run build`.
