@@ -14,14 +14,15 @@ The site is a personal game decision archive: calm, editorial, compact, and easy
 
 ## Content rules
 
-- Treat `docs/games/*.mdx` as the website's source of truth.
-- Treat `data/metacritic-games.csv` as a disposable exchange layer between AI tools.
+- Treat `data/metacritic-games.csv` as the exchange layer between scraping and AI tools. It provides the candidate list and review links.
+- Treat `content/reviews/en/*.md` as private English source material for AI translation. This directory must stay outside `docs/`.
+- Treat `docs/games/*.mdx` as the public Chinese translation and personal notes. English source text may be included, but cite the source site.
 - Keep the game record fields stable. Add a new field only when it is useful for filtering or comparison.
 - Never edit generated output or invent game scores.
 
 ## AI maintenance rules
 
 - Preserve the existing information architecture unless the user asks for a redesign.
-- Prefer editing a game document over changing React components.
+- Prefer editing the CSV for metadata and review links, and editing a game document for Chinese translation and personal notes.
 - When adding a game, copy `docs/games/_template.mdx` and keep its frontmatter shape.
 - Keep the site deployable through Cloudflare Pages with `npm run build`.

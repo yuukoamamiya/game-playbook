@@ -18,6 +18,12 @@
 .gameInfo h3 { margin: 2px 0 8px; color: var(--playbook-ink); font-size: 21px; }
 .gameInfo p { margin: 0 0 16px; color: var(--ifm-color-emphasis-700); font-size: 13px; }
 .platforms { letter-spacing: .04em; }
+.translationReady, .translationPending { margin-top: 14px; font: 500 11px/1.5 var(--ifm-font-family-monospace); letter-spacing: .04em; }
+.translationReady { color: var(--ifm-color-primary); }
+.translationPending { color: var(--ifm-color-emphasis-600); }
+.reviewLinks { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; font: 500 11px/1.5 var(--ifm-font-family-monospace); }
+.reviewLinks a { color: var(--ifm-color-emphasis-700); }
+.reviewLinks a:hover { color: var(--ifm-color-primary); }
 .note { margin-top: 14px; color: var(--ifm-color-emphasis-700); font-size: 13px; line-height: 1.6; }
 .empty { display: grid; grid-template-columns: 1fr 2fr; gap: 24px; padding: 42px 0; border-top: 1px solid var(--ifm-color-emphasis-200); border-bottom: 1px solid var(--ifm-color-emphasis-200); }
 .emptyNumber { color: var(--ifm-color-primary); font: 500 13px var(--ifm-font-family-monospace); }

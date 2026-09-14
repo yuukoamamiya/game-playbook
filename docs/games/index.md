@@ -4,14 +4,14 @@ sidebar_label: 游戏文档库
 description: MC 高分游戏及其评测来源
 ---
 
-# 游戏文档库
+# 中文译文库
 
-每款游戏一页。这里保存 Metacritic 的收录依据、IGN 和 GameSpot 的原文链接，以及后续由 AI 协助整理的中文内容。
+每款游戏一页。前台只展示中文译文、个人备注，以及 IGN 和 GameSpot 的原文入口。
 
 ## 内容状态
 
-目前还没有正式收录的游戏。抓取结果可以先放进 `data/metacritic-games.csv`，确认后再整理成 `docs/games/` 下的游戏文档。
+具体游戏的英文评测资料放在仓库的 `content/reviews/en/`，只供 AI 翻译和整理使用，不会被 Docusaurus 发布。完成后，把中文译文放入 `docs/games/`，首页会自动显示“中文译文已收录”。
 
 :::tip 数据流
-CSV 是不同 AI 之间交换数据的中间层。网站构建只读取游戏文档，不依赖 CSV。
+CSV 是不同 AI 之间交换数据的中间层。网站构建会读取它来生成候选游戏卡片，再读取 `docs/games/` 判断哪些条目已经有中文译文。
 :::
