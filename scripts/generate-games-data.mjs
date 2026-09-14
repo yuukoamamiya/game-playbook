@@ -100,7 +100,6 @@ const games = rows
       gamespotScore: numberValue(row.gamespot_score),
       gamespotUrl: row.gamespot_url,
       contentStatus: row.content_status || 'links-only',
-      notes: row.notes,
       hasTranslation: Boolean(translation),
       translationStatus: translation?.status || 'pending',
       translationPath: translation?.path || '',

@@ -1,7 +1,10 @@
+import {useMemo, useState} from 'react';
 import Link from '@docusaurus/Link';
 import Layout from '@theme/Layout';
 import gamesData from '../generated/games.json';
 import styles from './index.module.css';
+
+type SortOrder = 'score' | 'year';
 
 type GameRecord = {
   slug: string;
@@ -15,9 +18,7 @@ type GameRecord = {
   ignUrl: string;
   gamespotScore: number | null;
   gamespotUrl: string;
-  notes?: string;
   hasTranslation: boolean;
-  translationStatus: string;
 };
 
 function ExternalReviewLink({label, url, score}: {label: string; url: string; score: number | null}) {
@@ -31,33 +32,58 @@ function ExternalReviewLink({label, url, score}: {label: string; url: string; sc
 
 export default function Home(): React.ReactNode {
   const games = gamesData as GameRecord[];
-  const highScoreGames = games.filter((game) => game.score >= 90);
-  const translatedGames = games.filter((game) => game.hasTranslation);
+  const [platform, setPlatform] = useState('全部平台');
+  const [sortOrder, setSortOrder] = useState<SortOrder>('score');
+  const platforms = ['全部平台', ...Array.from(new Set(games.map((game) => game.platform)))];
+  const translatedCount = games.filter((game) => game.hasTranslation).length;
+
+  const visibleGames = useMemo(() => games
+    .filter((game) => platform === '全部平台' || game.platform === platform)
+    .sort((left, right) => {
+      if (sortOrder === 'year') {
+        return (right.releaseYear ?? 0) - (left.releaseYear ?? 0) || right.score - left.score;
+      }
+      return right.score - left.score || (right.releaseYear ?? 0) - (left.releaseYear ?? 0);
+    }), [games, platform, sortOrder]);
 
   return (
-    <Layout title="MC 高分游戏" description="Metacritic 高分且 Must-Play 游戏橱窗">
+    <Layout title="游戏橱窗" description="个人游戏评测档案">
       <main className={styles.shelf}>
         <header className={styles.header}>
-          <div className={styles.kicker}>METACRITIC / MUST-PLAY SHOWCASE</div>
-          <h1>高分游戏橱窗</h1>
-          <p>只收录 MC 90+ 且带有 Must-Play 标记的游戏，方便决定下一款玩什么。</p>
+          <div className={styles.kicker}>GAME PLAYBOOK</div>
+          <h1>游戏橱窗</h1>
+          <p>按平台找到想玩的游戏，再按评分或出版年份浏览。</p>
         </header>
 
         <section className={styles.summary} aria-label="游戏统计">
-          <div><strong>{games.length}</strong><span>已收录</span></div>
-          <div><strong>{highScoreGames.length}</strong><span>MC 90+</span></div>
-          <div><strong>{translatedGames.length}</strong><span>已有中文译文</span></div>
+          <div><strong>{games.length}</strong><span>收录游戏</span></div>
+          <div><strong>{translatedCount}</strong><span>已有中文译文</span></div>
+          <div><strong>{visibleGames.length}</strong><span>当前显示</span></div>
         </section>
 
         <section className={styles.catalog}>
           <div className={styles.catalogHeading}>
-            <h2>全部候选</h2>
-            <span>按 MC 评分排序</span>
+            <h2>游戏列表</h2>
+            <div className={styles.controls} aria-label="筛选和排序">
+              <label>
+                <span>平台</span>
+                <select value={platform} onChange={(event) => setPlatform(event.target.value)}>
+                  {platforms.map((item) => <option key={item} value={item}>{item}</option>)}
+                </select>
+              </label>
+              <label>
+                <span>排序</span>
+                <select value={sortOrder} onChange={(event) => setSortOrder(event.target.value as SortOrder)}>
+                  <option value="score">MC 评分</option>
+                  <option value="year">出版年份</option>
+                </select>
+              </label>
+            </div>
           </div>
 
-          {highScoreGames.length > 0 ? (
+          {visibleGames.length > 0 ? (
             <div className={styles.gameGrid}>
-              {highScoreGames.map((game) => (
+              {visibleGames.map((game) => (
                 <article className={styles.gameCard} key={`${game.slug}-${game.platform}`}>
                   <div className={styles.score}>{game.score}</div>
                   <div className={styles.gameInfo}>
@@ -66,17 +92,13 @@ export default function Home(): React.ReactNode {
                         <Link to={`/docs/games/${game.slug}`}>{game.title}</Link>
                       ) : game.title}
                     </h3>
-                    <p>{game.releaseYear || '年份待补'} · {game.genre || '类型待补'}</p>
-                    <div className={styles.platforms}>{game.platform}</div>
-                    <div className={game.hasTranslation ? styles.translationReady : styles.translationPending}>
-                      {game.hasTranslation ? '中文译文已收录' : '中文译文待补'}
-                    </div>
+                    <p>{game.releaseYear || '年份待补'} · {game.platform}</p>
+                    {game.hasTranslation && <div className={styles.translationReady}>中文译文已收录</div>}
                     <div className={styles.reviewLinks}>
                       <ExternalReviewLink label="MC" url={game.metacriticUrl} score={game.score} />
                       <ExternalReviewLink label="IGN" url={game.ignUrl} score={game.ignScore} />
                       <ExternalReviewLink label="GS" url={game.gamespotUrl} score={game.gamespotScore} />
                     </div>
-                    {game.notes && <div className={styles.note}>{game.notes}</div>}
                   </div>
                 </article>
               ))}
@@ -85,18 +107,12 @@ export default function Home(): React.ReactNode {
             <div className={styles.empty}>
               <span className={styles.emptyNumber}>00</span>
               <div>
-                <h3>还没有收录游戏</h3>
-                <p>将筛选结果写入 CSV 后，Cloudflare Pages 构建时会自动生成橱窗数据。</p>
-                <code>data/metacritic-games.csv</code>
+                <h3>没有符合条件的游戏</h3>
+                <p>换一个平台试试。</p>
               </div>
             </div>
           )}
         </section>
-
-        <footer className={styles.footerNote}>
-          <span>数据来源：Metacritic · 评测入口：IGN / GameSpot</span>
-          <Link to="/docs/criteria">查看收录说明 →</Link>
-        </footer>
       </main>
     </Layout>
   );

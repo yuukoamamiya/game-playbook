@@ -7,6 +7,8 @@ review_score: 10
 review_score_text: "masterpiece"
 author: "Len Hafer"
 published: "2023-08-18"
+image: "https://assets-prd.ignimgs.com/2023/08/18/baldursgate3-review-blogroll-1692393747093.jpg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets-prd.ignimgs.com/2023/08/24/baldursg3-1692894717196.jpeg"
 ---
 
 # Baldur's Gate 3 — IGN Review

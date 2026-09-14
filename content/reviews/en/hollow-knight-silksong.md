@@ -7,6 +7,8 @@ review_score: 9
 review_score_text: "amazing"
 author: "Tom Marks"
 published: "2025-09-14"
+image: "https://assets-prd.ignimgs.com/2025/09/04/hollowknightsilksong-review-blogroll-1757024063307.jpg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets-prd.ignimgs.com/2025/04/02/nintendoswitch2-hollow-knight-silksong-keyart-square-1743636317910.jpg"
 ---
 
 # Hollow Knight: Silksong — IGN Review

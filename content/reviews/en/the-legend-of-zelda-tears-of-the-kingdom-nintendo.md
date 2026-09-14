@@ -7,6 +7,8 @@ review_score: null
 review_score_text: ""
 author: "Tom Marks"
 published: "2025-06-10"
+image: "https://assets-prd.ignimgs.com/2025/06/10/tearsofthekingdom-switch2review-blogroll-1749596298631.jpg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets-prd.ignimgs.com/2025/04/03/nintendoswitch2-1x1-zeldatotknintendoswitch2edition-keyart-1743639505941.png"
 ---
 
 # The Legend of Zelda: Tears of the Kingdom - Nintendo Switch 2 Edition — IGN Review

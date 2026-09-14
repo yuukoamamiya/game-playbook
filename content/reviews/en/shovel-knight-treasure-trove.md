@@ -7,6 +7,8 @@ review_score: 9
 review_score_text: "amazing"
 author: "Mike Rougeau"
 published: "2017-03-07"
+image: "https://assets1.ignimgs.com/2017/03/07/shovelknight-1280-1488856075535_160w.jpg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets1.ignimgs.com/2014/06/24/shovel-knight-button-v2jpg-6e4d5c.jpg"
 ---
 
 # Shovel Knight: Treasure Trove — IGN Review

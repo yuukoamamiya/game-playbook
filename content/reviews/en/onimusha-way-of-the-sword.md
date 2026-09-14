@@ -7,6 +7,8 @@ review_score: 10
 review_score_text: "masterpiece"
 author: "Will Borger"
 published: "2026-08-31"
+image: "https://assets-prd.ignimgs.com/2026/08/28/onimusha-way-of-the-sword-review-blogroll-1787956599317.jpg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets-prd.ignimgs.com/2024/12/13/onimusha-ws-art-11-1734068293513.png"
 ---
 
 # Onimusha: Way of the Sword — IGN Review

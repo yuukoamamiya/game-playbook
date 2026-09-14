@@ -7,6 +7,8 @@ review_score: 9
 review_score_text: "amazing"
 author: "Samuel Claiborn"
 published: "2020-03-16"
+image: "https://assets1.ignimgs.com/2020/03/13/ign-ac-horizons-review-blogroll-1584134666110_160w.jpg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets1.ignimgs.com/2020/05/05/animal-crossing-new-horizons---button-fin-1588641487551.jpg"
 ---
 
 # Animal Crossing: New Horizons — IGN Review

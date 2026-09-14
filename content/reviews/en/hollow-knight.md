@@ -7,6 +7,8 @@ review_score: 9.4
 review_score_text: "amazing"
 author: "Tom Marks"
 published: "2018-06-22"
+image: "https://assets1.ignimgs.com/2018/06/21/hollowknight-1280-1529623462572_160w.jpg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets-prd.ignimgs.com/2021/12/07/hollowknight-1638908888257.png"
 ---
 
 # Hollow Knight — IGN Review

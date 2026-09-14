@@ -7,6 +7,8 @@ review_score: 10
 review_score_text: "masterpiece"
 author: "Len Hafer"
 published: "2025-09-24"
+image: "https://assets-prd.ignimgs.com/2025/09/24/hades2-review-blogroll-1758680853197.jpg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets-prd.ignimgs.com/2025/04/02/nintendoswitch2-hades-ii-keyart-square-1743635900559.jpg"
 ---
 
 # Hades II — IGN Review

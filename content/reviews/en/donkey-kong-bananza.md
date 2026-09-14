@@ -7,6 +7,8 @@ review_score: 10
 review_score_text: "masterpiece"
 author: "Logan Plant"
 published: "2025-07-16"
+image: "https://assets-prd.ignimgs.com/2025/07/16/donkeykongbananza-blogroll-02-1752641236229.jpg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets-prd.ignimgs.com/2025/06/18/ns2-1x1-donkeykongbananza-keyart-1750260823194.png"
 ---
 
 # Donkey Kong Bananza — IGN Review

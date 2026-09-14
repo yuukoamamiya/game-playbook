@@ -7,6 +7,8 @@ review_score: 9.5
 review_score_text: "amazing"
 author: "Ryan McCaffrey"
 published: "2013-03-22"
+image: "https://oyster.ignimgs.com/wordpress/stg.ign.com/2013/03/Bioshock_121212_176-136x771.jpg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets-prd.ignimgs.com/2021/12/14/bioshockinfinite-1639510499163.jpg"
 ---
 
 # BioShock Infinite — IGN Review

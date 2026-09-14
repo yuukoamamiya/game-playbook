@@ -7,6 +7,8 @@ review_score: 10
 review_score_text: "masterpiece"
 author: "Samuel Claiborn"
 published: "2023-02-17"
+image: "https://assets-prd.ignimgs.com/2023/02/17/metroidprimeremastered-blogroll-2-1676667173405.jpg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets-prd.ignimgs.com/2023/02/08/primeremastered-1675898126498.jpg"
 ---
 
 # Metroid Prime Remastered — IGN Review

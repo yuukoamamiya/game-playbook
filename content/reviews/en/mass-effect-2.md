@@ -7,6 +7,8 @@ review_score: 9
 review_score_text: "amazing"
 author: "Dan Stapleton"
 published: "2021-06-30"
+image: "https://assets-prd.ignimgs.com/2021/06/30/me-changes-blogroll-1620936805631-1625087505680.jpg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets-prd.ignimgs.com/2021/02/04/mass-effect-legendary-edition-button-1612480958351.jpg"
 ---
 
 # Mass Effect 2 — IGN Review

@@ -7,6 +7,8 @@ review_score: 9
 review_score_text: "amazing"
 author: "Ryan McCaffrey"
 published: "2023-10-18"
+image: "https://assets-prd.ignimgs.com/2023/10/17/supermariobroswonder-review-blogroll-1697564284331.jpg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets-prd.ignimgs.com/2023/06/22/1x1-supermariobroswonder-1687454112497.jpg"
 ---
 
 # Super Mario Bros. Wonder — IGN Review

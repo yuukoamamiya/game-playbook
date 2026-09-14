@@ -7,6 +7,8 @@ review_score: 9.6
 review_score_text: "amazing"
 author: "Brandin Tyrrel"
 published: "2018-09-01"
+image: "https://assets1.ignimgs.com/2018/08/31/divinityoriginalsin2definitive-blogroll-1535750435689_160w.jpg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets1.ignimgs.com/2019/01/16/divinity-original-sin-2---button-fin-1547678837529.jpg"
 ---
 
 # Divinity: Original Sin II - Definitive Edition — IGN Review

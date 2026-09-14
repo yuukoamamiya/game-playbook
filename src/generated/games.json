@@ -13,7 +13,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/super-mario-odyssey-review/1900-6416795/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic筛选：≥90 + Must-Play；批次：Nintendo Switch前10",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/super-mario-odyssey.mdx"
@@ -32,7 +31,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/the-legend-of-zelda-breath-of-the-wild-review/1900-6416626/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic筛选：≥90 + Must-Play；批次：Nintendo Switch前10",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/the-legend-of-zelda-breath-of-the-wild.mdx"
@@ -51,7 +49,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/half-life-review/1900-2537398/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic筛选：≥90 + Must-Play；批次：PC前10",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/half-life.mdx"
@@ -70,7 +67,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/half-life-2-review/1900-6113062/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic筛选：≥90 + Must-Play；批次：PC前10",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/half-life-2.mdx"
@@ -89,7 +85,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/baldurs-gate-3-review-let-freedom-reign/1900-6418131/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic筛选：≥90 + Must-Play；批次：PC前10",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/baldurs-gate-3.mdx"
@@ -108,7 +103,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/the-orange-box-review/1900-6180730/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic筛选：≥90 + Must-Play；批次：PC前10",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/the-orange-box.mdx"
@@ -127,7 +121,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/the-legend-of-zelda-tears-of-the-kingdom-review/1900-6418063/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic筛选：≥90 + Must-Play；批次：Nintendo Switch前10",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/the-legend-of-zelda-tears-of-the-kingdom.mdx"
@@ -146,7 +139,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/bioshock-review/1900-6177215/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic筛选：≥90 + Must-Play；批次：PC前10",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/bioshock.mdx"
@@ -165,7 +157,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/grand-theft-auto-5-ps4-xbox-one-pc-review/1900-6415959/",
     "contentStatus": "links-collected",
-    "notes": "IGN使用PC版评测；GameSpot链接覆盖PC版本",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/grand-theft-auto-v.mdx"
@@ -184,7 +175,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/baldurs-gate-ii-shadows-of-amn-review/1900-2635279/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic筛选：≥90 + Must-Play；批次：PC前10",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/baldurs-gate-ii-shadows-of-amn.mdx"
@@ -203,7 +193,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/portal-2-review/1900-6309133/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic筛选：≥90 + Must-Play；批次：PC前10",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/portal-2.mdx"
@@ -222,7 +211,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/hades-2-review-witching-hours/1900-6418231/",
     "contentStatus": "links-collected",
-    "notes": "同一作品在PC与Nintendo Switch 2条目下均入选",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/hades-ii.mdx"
@@ -241,7 +229,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/the-legend-of-zelda-tears-of-the-kingdom-review/1900-6418063/",
     "contentStatus": "links-collected",
-    "notes": "IGN为Switch 2版评测更新；GameSpot为原版Switch评测，未找到NS2专属评测",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/the-legend-of-zelda-tears-of-the-kingdom-nintendo.mdx"
@@ -260,7 +247,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/elden-ring-review-death-of-the-wild/1900-6417832/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第1页",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/elden-ring.mdx"
@@ -279,7 +265,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/tetris-effect-connected-review/1900-6417618/",
     "contentStatus": "links-collected",
-    "notes": "IGN搜索到的是Tetris Effect主评测，未找到Connected专属IGN评测",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/tetris-effect-connected.mdx"
@@ -298,7 +283,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/hades-2-review-witching-hours/1900-6418231/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic筛选：≥90 + Must-Play；批次：PC前10",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/hades-ii.mdx"
@@ -317,7 +301,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/grim-fandango-remastered-review/1900-6416008/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第1页",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/grim-fandango.mdx"
@@ -336,7 +319,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/persona-5-royal-review-hearts-of-gold/1900-6417444/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic筛选：≥90 + Must-Play；批次：Nintendo Switch前10",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/persona-5-royal.mdx"
@@ -355,7 +337,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/the-legend-of-zelda-breath-of-the-wild-review/1900-6416626/",
     "contentStatus": "links-collected",
-    "notes": "IGN为Switch 2版评测更新；GameSpot为原版Switch评测，未找到NS2专属评测",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/the-legend-of-zelda-breath-of-the-wild-nintendo.mdx"
@@ -374,7 +355,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/the-elder-scrolls-iv-oblivion-review/1900-6146661/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第1页",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/the-elder-scrolls-iv-oblivion.mdx"
@@ -393,7 +373,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/the-elder-scrolls-v-skyrim-review/1900-6344618/",
     "contentStatus": "links-collected",
-    "notes": "IGN与GameSpot均使用PC/主版本评测",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/the-elder-scrolls-v-skyrim.mdx"
@@ -412,7 +391,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/bioshock-infinite-review/1900-6405506/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第1页",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/bioshock-infinite.mdx"
@@ -431,7 +409,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/civilization-iv-review/1900-6136659/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第1页",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/sid-meiers-civilization-iv.mdx"
@@ -450,7 +427,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/grand-theft-auto-vice-city-review/1900-2895954/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第1页",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/grand-theft-auto-vice-city.mdx"
@@ -469,7 +445,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "links-collected",
-    "notes": "未在GameSpot公开搜索结果中找到该重制版专属评测",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/metroid-prime-remastered.mdx"
@@ -488,7 +463,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/mass-effect-2-review/1900-6246931/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第1页",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/mass-effect-2.mdx"
@@ -507,7 +481,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/ori-and-the-will-of-the-wisps-review/1900-6417425/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic筛选：≥90 + Must-Play；批次：Nintendo Switch前10",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/ori-and-the-will-of-the-wisps.mdx"
@@ -526,7 +499,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/hades-review-the-long-hard-road-out-of-hell/1900-6417568/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic筛选：≥90 + Must-Play；批次：Nintendo Switch前10",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/hades.mdx"
@@ -545,7 +517,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/hades-review-the-long-hard-road-out-of-hell/1900-6417568/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第2页",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/hades.mdx"
@@ -564,7 +535,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/super-smash-bros-ultimate-review-me-and-you-and-ev/1900-6417051/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic筛选：≥90 + Must-Play；批次：Nintendo Switch前10",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/super-smash-bros-ultimate.mdx"
@@ -583,7 +553,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/divinity-original-sin-2-review/1900-6416769/",
     "contentStatus": "links-collected",
-    "notes": "GameSpot链接为Divinity: Original Sin 2主评测",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/divinity-original-sin-ii-definitive-edition.mdx"
@@ -602,7 +571,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第1页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -621,7 +589,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第2页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -640,7 +607,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第2页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -659,7 +625,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第2页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -678,7 +643,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第2页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -697,7 +661,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第2页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -716,7 +679,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第2页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -735,7 +697,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第2页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -754,7 +715,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第2页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -773,7 +733,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第2页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -792,7 +751,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第2页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -811,7 +769,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第1页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -830,7 +787,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第2页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -849,7 +805,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第2页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -868,7 +823,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/super-mario-bros-wonder-review-a-badge-of-honor/1900-6418136/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第1页",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/super-mario-bros-wonder.mdx"
@@ -887,7 +841,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/bayonetta-2-review/1900-6415911/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第1页",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/bayonetta-2.mdx"
@@ -906,7 +859,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/mario-kart-8-deluxe-review/1900-6416660/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第1页",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/mario-kart-8-deluxe.mdx"
@@ -925,7 +877,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第2页",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/resident-evil-requiem.mdx"
@@ -944,7 +895,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/celeste-review-more-than-just-a-great-platformer/1900-6416843/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第1页",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/celeste.mdx"
@@ -963,7 +913,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第3页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -982,7 +931,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第2页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -1001,7 +949,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第2页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -1020,7 +967,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第3页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -1039,7 +985,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第3页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -1058,7 +1003,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第3页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -1077,7 +1021,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第3页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -1096,7 +1039,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第3页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -1115,7 +1057,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第3页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -1134,7 +1075,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第2页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -1153,7 +1093,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第3页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -1172,7 +1111,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第3页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -1191,7 +1129,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第2页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -1210,7 +1147,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第3页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -1229,7 +1165,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第3页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -1248,7 +1183,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第3页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -1267,7 +1201,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第3页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -1286,7 +1219,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第3页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -1305,7 +1237,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第2页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -1324,7 +1255,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/shovel-knight-review/1900-6415805/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第2页",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/shovel-knight-treasure-trove.mdx"
@@ -1343,7 +1273,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/donkey-kong-bananza-review-a-new-start-for-nintendos-first-star/1900-6418382/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic筛选：≥90 + Must-Play；批次：Nintendo Switch 2前10",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/donkey-kong-bananza.mdx"
@@ -1362,7 +1291,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/hollow-knight-silksong-review-an-unforgettable-climb/1900-6418415/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic筛选：≥90 + Must-Play；批次：Nintendo Switch 2前10",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/hollow-knight-silksong.mdx"
@@ -1381,7 +1309,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "links-collected",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第3页",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/medal-of-honor-allied-assault.mdx"
@@ -1400,7 +1327,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/call-of-duty-review/1900-6077549/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第5页",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/call-of-duty.mdx"
@@ -1419,7 +1345,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/sonic-mania-plus-review-encore-encore/1900-6416729/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第1页",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/sonic-mania-plus.mdx"
@@ -1438,7 +1363,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "links-collected",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第5页",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/no-one-lives-forever-2-a-spy-in-h-a-r-m-s-way.mdx"
@@ -1457,7 +1381,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/dragon-quest-xi-review-nintendo-switch-definitive/1900-6416969/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第1页",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/dragon-quest-xi-s-echoes-of-an-elusive-age.mdx"
@@ -1476,7 +1399,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "links-collected",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第4页",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/freespace-2.mdx"
@@ -1495,7 +1417,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第3页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -1514,7 +1435,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第4页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -1533,7 +1453,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第4页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -1552,7 +1471,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第5页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -1571,7 +1489,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第4页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -1590,7 +1507,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第4页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -1609,7 +1525,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第5页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -1628,7 +1543,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第4页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -1647,7 +1561,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第4页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -1666,7 +1579,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第5页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -1685,7 +1597,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第5页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -1704,7 +1615,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/disco-elysium-the-final-cut-review-pure-dynamite/1900-6417354/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第5页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -1723,7 +1633,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第3页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -1742,7 +1651,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第5页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -1761,7 +1669,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第5页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -1780,7 +1687,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第4页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -1799,7 +1705,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第4页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -1818,7 +1723,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/inside-review/1900-6416458/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第1页",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/inside.mdx"
@@ -1837,7 +1741,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第3页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -1856,7 +1759,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第5页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -1875,7 +1777,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第4页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -1894,7 +1795,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第5页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -1913,7 +1813,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第5页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -1932,7 +1831,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第5页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -1951,7 +1849,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第5页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -1970,7 +1867,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第5页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -1989,7 +1885,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第4页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -2008,7 +1903,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第4页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -2027,7 +1921,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第4页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -2046,7 +1939,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第4页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -2065,7 +1957,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第4页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -2084,7 +1975,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第4页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -2103,7 +1993,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第3页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -2122,7 +2011,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第4页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -2141,7 +2029,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第3页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -2160,7 +2047,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/elden-ring-review-death-of-the-wild/1900-6417832/",
     "contentStatus": "links-collected",
-    "notes": "两站链接均为Elden Ring主版本评测，未找到Tarnished Edition专属评测",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/elden-ring-tarnished-edition.mdx"
@@ -2179,7 +2065,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/ori-and-the-blind-forest-review/1900-6416053/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第2页",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/ori-and-the-blind-forest-definitive-edition.mdx"
@@ -2198,7 +2083,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/onimusha-way-of-the-sword-review/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic筛选：≥90 + Must-Play；批次：Nintendo Switch 2前10",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/onimusha-way-of-the-sword.mdx"
@@ -2217,7 +2101,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "links-collected",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第2页",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/animal-crossing-new-horizons.mdx"
@@ -2236,7 +2119,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/hollow-knight-review-an-exceptional-adventure/1900-6416972/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第2页",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/hollow-knight.mdx"
@@ -2255,7 +2137,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/hollow-knight-silksong-review-an-unforgettable-climb/1900-6418415/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第6页",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/hollow-knight-silksong.mdx"
@@ -2274,7 +2155,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/persona-4-golden-review-stay-golden/1900-6400482/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第2页",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/persona-4-golden.mdx"
@@ -2293,7 +2173,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/resident-evil-requiem-review-two-headed-mutant/1900-6418464/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic筛选：≥90 + Must-Play；批次：Nintendo Switch 2前10",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/resident-evil-requiem.mdx"
@@ -2312,7 +2191,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/mina-the-hollower-surpasses-the-greatness-of-shovel-knight/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic筛选：≥90 + Must-Play；批次：Nintendo Switch 2前10",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/mina-the-hollower.mdx"
@@ -2331,7 +2209,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/mina-the-hollower-surpasses-the-greatness-of-shovel-knight/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第6页",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/mina-the-hollower.mdx"
@@ -2350,7 +2227,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/sea-of-stars-review-playing-with-power/1900-6418113/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第2页",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/sea-of-stars.mdx"
@@ -2369,7 +2245,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第5页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -2388,7 +2263,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/balatro-review-one-more-blind/1900-6418192/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第5页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -2407,7 +2281,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第7页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -2426,7 +2299,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第2页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -2445,7 +2317,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第6页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -2464,7 +2335,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第2页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -2483,7 +2353,6 @@
     "gamespotScore": null,
     "gamespotUrl": "https://www.gamespot.com/reviews/chicory-a-colorful-tale-review-masterful-strokes/1900-6417696/",
     "contentStatus": "links-collected",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第7页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -2502,7 +2371,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第6页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -2521,7 +2389,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第6页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -2540,7 +2407,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第7页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -2559,7 +2425,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第7页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -2578,7 +2443,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第7页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -2597,7 +2461,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第6页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -2616,7 +2479,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第5页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -2635,7 +2497,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第7页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -2654,7 +2515,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第7页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -2673,7 +2533,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第7页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -2692,7 +2551,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第7页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -2711,7 +2569,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第7页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -2730,7 +2587,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第7页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -2749,7 +2605,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第6页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -2768,7 +2623,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第6页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -2787,7 +2641,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第7页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -2806,7 +2659,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "links-collected",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第6页",
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/nhl-2001.mdx"
@@ -2825,7 +2677,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第6页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -2844,7 +2695,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第6页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -2863,7 +2713,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第6页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -2882,7 +2731,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第7页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -2901,7 +2749,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第7页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -2920,7 +2767,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第6页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -2939,7 +2785,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第6页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -2958,7 +2803,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第6页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -2977,7 +2821,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第7页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -2996,7 +2839,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第5页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -3015,7 +2857,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第7页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -3034,7 +2875,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第6页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -3053,7 +2893,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第7页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -3072,7 +2911,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第7页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -3091,7 +2929,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第6页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""
@@ -3110,7 +2947,6 @@
     "gamespotScore": null,
     "gamespotUrl": "",
     "contentStatus": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第5页",
     "hasTranslation": false,
     "translationStatus": "pending",
     "translationPath": ""

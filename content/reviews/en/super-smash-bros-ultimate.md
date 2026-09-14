@@ -7,6 +7,8 @@ review_score: 9.4
 review_score_text: "amazing"
 author: "Tom Marks"
 published: "2018-12-06"
+image: "https://assets1.ignimgs.com/2018/12/05/smashbrosultimate-blogroll-1544048292689_160w.jpg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets1.ignimgs.com/2018/06/13/super-smash-btros-ultimate---button-0001-1528851298611.jpg"
 ---
 
 # Super Smash Bros. Ultimate — IGN Review

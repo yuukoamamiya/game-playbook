@@ -7,6 +7,8 @@ review_score: 10
 review_score_text: "masterpiece"
 author: "Samuel Claiborn"
 published: "2026-05-27"
+image: "https://assets-prd.ignimgs.com/2026/05/26/minathehollower-blogroll-01-1779836216342.jpg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets-prd.ignimgs.com/2022/02/02/mina-the-hollower-button-02-1643782522835.jpg"
 ---
 
 # Mina the Hollower — IGN Review

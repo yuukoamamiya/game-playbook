@@ -7,6 +7,8 @@ review_score: 9.5
 review_score_text: "amazing"
 author: "Charles Onyett"
 published: "2011-04-19"
+image: "https://assets2.ignimgs.com/2016/11/15/video-games-for-people-who-hate-video-games1280jpg-f9b6a6_160w.jpg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets-prd.ignimgs.com/2021/12/08/portal2-1638924084230.jpg"
 ---
 
 # Portal 2 — IGN Review

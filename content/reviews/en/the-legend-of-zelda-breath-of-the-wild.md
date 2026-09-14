@@ -7,6 +7,8 @@ review_score: 10
 review_score_text: "masterpiece"
 author: "Jose Otero"
 published: "2017-03-02"
+image: "https://assets1.ignimgs.com/2017/03/02/zeldabotw-1280-1488421063116_160w.jpg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets-prd.ignimgs.com/2022/06/14/zelda-breath-of-the-wild-1655249167687.jpg"
 ---
 
 # The Legend of Zelda: Breath of the Wild — IGN Review

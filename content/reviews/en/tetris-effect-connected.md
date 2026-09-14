@@ -7,6 +7,8 @@ review_score: 8.5
 review_score_text: "great"
 author: "Dan Crowd"
 published: "2018-11-09"
+image: "https://assets1.ignimgs.com/2018/11/09/tetriseffect-blogroll-01-1541780658244_160w.jpg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets1.ignimgs.com/2018/06/07/tetris-effect---button-1528335221766.jpg"
 ---
 
 # Tetris Effect: Connected — IGN Review

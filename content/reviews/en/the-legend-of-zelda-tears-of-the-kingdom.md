@@ -7,6 +7,8 @@ review_score: 10
 review_score_text: "masterpiece"
 author: "Tom Marks"
 published: "2023-05-11"
+image: "https://assets-prd.ignimgs.com/2023/05/11/tearsofthekingdom-review-blogroll-1683764100501.jpg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets-prd.ignimgs.com/2022/09/14/zelda-tears-of-the-kingdom-button-2k-1663127818777.jpg"
 ---
 
 # The Legend of Zelda: Tears of the Kingdom — IGN Review

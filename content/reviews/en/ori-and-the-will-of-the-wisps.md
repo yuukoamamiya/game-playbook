@@ -7,6 +7,8 @@ review_score: 9
 review_score_text: "amazing"
 author: "Brandin Tyrrel"
 published: "2020-03-10"
+image: "https://assets1.ignimgs.com/2020/03/09/ign-ori-wisps-blogroll-a-1583796117460_160w.jpg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets1.ignimgs.com/2020/03/10/ori-and-the-will-of-the-wisps---button-fin-1583863235923.jpg"
 ---
 
 # Ori and the Will of the Wisps — IGN Review

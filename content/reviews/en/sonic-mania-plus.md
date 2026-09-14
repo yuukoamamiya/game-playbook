@@ -7,6 +7,8 @@ review_score: 7
 review_score_text: "good"
 author: "Heidi Kemps"
 published: "2018-07-10"
+image: "https://assets1.ignimgs.com/2018/07/10/sonicmaniaplus-1280-1531193331471_160w.jpg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets1.ignimgs.com/2018/04/25/sonic-mania-plus---button-1-1524691799804.jpg"
 ---
 
 # Sonic Mania Plus — IGN Review

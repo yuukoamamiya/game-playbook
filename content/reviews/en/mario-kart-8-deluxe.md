@@ -7,6 +7,8 @@ review_score: 9.3
 review_score_text: "amazing"
 author: "Jose Otero"
 published: "2017-04-20"
+image: "https://assets1.ignimgs.com/2017/04/20/mariokart8deluxe-1280-1-1492647771597_160w.jpg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets1.ignimgs.com/2019/05/31/mario-kart-8-deluxe---button-1559265583166.jpg"
 ---
 
 # Mario Kart 8 Deluxe — IGN Review

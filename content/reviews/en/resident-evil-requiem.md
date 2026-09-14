@@ -7,6 +7,8 @@ review_score: 9
 review_score_text: "amazing"
 author: "Tristan Ogilvie"
 published: "2026-02-25"
+image: "https://assets-prd.ignimgs.com/2025/12/09/g7uethpbiaazzaq-1765283237391.jpeg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets-prd.ignimgs.com/2026/01/13/residentevil-1768340841615.jpg"
 ---
 
 # Resident Evil Requiem — IGN Review

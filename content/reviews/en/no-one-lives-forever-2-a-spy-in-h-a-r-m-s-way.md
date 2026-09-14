@@ -7,6 +7,8 @@ review_score: 9
 review_score_text: "amazing"
 author: "Steve Butts"
 published: "2002-10-02"
+image: "https://assets-prd.ignimgs.com/2022/04/16/nolf2-1650079060966.jpg"
+image_fallback: "https://assets-prd.ignimgs.com/2022/04/16/nolf2-1650079060966.jpg"
 ---
 
 # No One Lives Forever 2: A Spy in H.A.R.M.'s Way — IGN Review

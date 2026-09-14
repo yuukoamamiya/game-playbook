@@ -7,6 +7,8 @@ review_score: 9.3
 review_score_text: "amazing"
 author: "Greg Miller"
 published: "2012-11-21"
+image: "https://oyster.ignimgs.com/wordpress/stg.ign.com/2012/11/p4g_111912_176-136x77.jpg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets-prd.ignimgs.com/2022/03/30/persona4golden-1648662182208.jpg"
 ---
 
 # Persona 4 Golden — IGN Review

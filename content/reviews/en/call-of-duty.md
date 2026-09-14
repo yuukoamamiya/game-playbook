@@ -7,6 +7,8 @@ review_score: 9.3
 review_score_text: "amazing"
 author: "Dan Adams"
 published: "2003-10-28"
+image: "https://assets1.ignimgs.com/2018/10/11/call-of-duty-1-blogroll-ingame-fix-1539289378056_160w.jpg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets-prd.ignimgs.com/2022/03/14/cod-1647224857106.jpg"
 ---
 
 # Call of Duty — IGN Review

@@ -7,6 +7,8 @@ review_score: 9.5
 review_score_text: "amazing"
 author: "Jose Otero"
 published: "2014-10-13"
+image: "https://assets1.ignimgs.com/2014/10/12/bayonetta21280jpg-800626_160w.jpg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets-prd.ignimgs.com/2021/12/21/bayonetta-2-button-fin-1640126696223.jpg"
 ---
 
 # Bayonetta 2 — IGN Review

@@ -7,6 +7,8 @@ review_score: null
 review_score_text: ""
 author: "Tristan Ogilvie"
 published: "2025-06-06"
+image: "https://assets-prd.ignimgs.com/2025/06/06/breathofthewild-switch2review-blogroll-1749187124784.jpg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets-prd.ignimgs.com/2025/04/03/nintendoswitch2-1x1-zeldabotwnintendoswitch2edition-keyart-1743639366219.png"
 ---
 
 # The Legend of Zelda: Breath of the Wild - Nintendo Switch 2 Edition — IGN Review

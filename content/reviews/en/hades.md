@@ -7,6 +7,8 @@ review_score: 9
 review_score_text: "amazing"
 author: "Nick Limon"
 published: "2020-09-17"
+image: "https://assets1.ignimgs.com/2020/09/17/hades-review-blogroll-1600308943783_160w.jpg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets-prd.ignimgs.com/2020/09/17/hades-button-fin-1600382124693.png"
 ---
 
 # Hades — IGN Review

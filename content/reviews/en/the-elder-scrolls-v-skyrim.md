@@ -7,6 +7,8 @@ review_score: 9.5
 review_score_text: "amazing"
 author: "Charles Onyett"
 published: "2011-11-10"
+image: "https://media.ignimgs.com/pc/pc/image/object/093/093395/Skyrim_110911_176.jpg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets-prd.ignimgs.com/2021/08/19/elder-scrolls-skyrim-button-2017-1629409446732.jpg"
 ---
 
 # The Elder Scrolls V: Skyrim — IGN Review

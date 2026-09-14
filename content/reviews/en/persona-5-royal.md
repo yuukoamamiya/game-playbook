@@ -7,6 +7,8 @@ review_score: 10
 review_score_text: "masterpiece"
 author: "Len Hafer"
 published: "2020-03-31"
+image: "https://assets1.ignimgs.com/2020/03/31/ign-persona5-royal-review-blogroll-1585687770590_160w.jpg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets1.ignimgs.com/2020/02/14/persona-5-royal---button-fin-1581716582492.jpg"
 ---
 
 # Persona 5 Royal — IGN Review

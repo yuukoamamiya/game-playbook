@@ -7,6 +7,8 @@ review_score: 8.5
 review_score_text: "great"
 author: "Mikel Reparaz"
 published: "2015-03-10"
+image: "https://assets1.ignimgs.com/2015/03/10/ori0307151280jpg-52a7a6_160w.jpg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets1.ignimgs.com/2019/08/24/ori-and-the-blind-forest---standard---button-1566606857173.jpg"
 ---
 
 # Ori and the Blind Forest: Definitive Edition — IGN Review

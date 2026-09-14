@@ -7,6 +7,8 @@ review_score: 9.3
 review_score_text: "amazing"
 author: "Dan Adams"
 published: "2002-01-19"
+image: "https://assets-prd.ignimgs.com/2022/02/01/medal-of-honor-allied-assault-1-button-crop-1643679250790.jpg"
+image_fallback: "https://assets-prd.ignimgs.com/2022/02/01/medal-of-honor-allied-assault-1-button-crop-1643679250790.jpg"
 ---
 
 # Medal of Honor: Allied Assault — IGN Review

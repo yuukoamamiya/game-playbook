@@ -7,6 +7,8 @@ review_score: 10
 review_score_text: "masterpiece"
 author: "Mitchell Saltzman"
 published: "2022-02-23"
+image: "https://assets-prd.ignimgs.com/2022/02/23/eldenring-review-blogroll-1645576973659.jpg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets-prd.ignimgs.com/2021/06/12/elden-ring-button-03-1623460560664.jpg"
 ---
 
 # Elden Ring — IGN Review

@@ -7,6 +7,8 @@ review_score: 9.5
 review_score_text: "amazing"
 author: "Jason Bates"
 published: "1998-11-26"
+image: "https://assets-prd.ignimgs.com/2021/12/07/half-life-ign-1638907041170.jpg"
+image_fallback: "https://assets-prd.ignimgs.com/2021/12/07/half-life-ign-1638907041170.jpg"
 ---
 
 # Half-Life — IGN Review

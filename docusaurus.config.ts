@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Playbook',
-  tagline: 'Metacritic 高分游戏橱窗',
+  tagline: '个人游戏评测档案',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -66,30 +66,17 @@ const config: Config = {
     navbar: {
       title: 'PLAYBOOK / 游戏档案',
       items: [
-        {to: '/', label: '高分游戏', position: 'left'},
+        {to: '/', label: '游戏橱窗', position: 'left'},
         {
           type: 'docSidebar',
           sidebarId: 'librarySidebar',
           position: 'left',
           label: '文档库',
         },
-        {to: '/docs/criteria', label: '收录说明', position: 'left'},
-        {
-          type: 'html',
-          value: '<span class="navbar__item--quiet">PERSONAL ARCHIVE</span>',
-          position: 'right',
-        },
       ],
     },
     footer: {
       style: 'dark',
-      links: [{
-        title: 'Playbook',
-        items: [
-          {label: '高分游戏', to: '/'},
-          {label: '收录说明', to: '/docs/criteria'},
-        ],
-      }],
       copyright: `个人游戏档案库 · ${new Date().getFullYear()}`,
     },
     prism: {

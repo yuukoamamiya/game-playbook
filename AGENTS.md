@@ -21,7 +21,7 @@
 ```text
 data/metacritic-games.csv     抓取与 AI 之间交换数据的中间层
 content/reviews/en/           英文评测资料，仅供 AI 翻译和整理
-docs/games/                   网站前台公开的中文译文与个人备注
+docs/games/                   网站前台公开的中文译文与媒体评测页
 ```
 
 ### `data/metacritic-games.csv`
@@ -41,8 +41,9 @@ docs/games/                   网站前台公开的中文译文与个人备注
 
 ### `docs/games/`
 
-- 保存网站前台可见的中文译文、中文整理、个人备注，以及按需保留的英文评测原文。
-- 英文原文可以保留在公开文档中，但必须标注来源站点和链接。
+- 保存网站前台可见的中文译文和媒体评测页。
+- 不保存个人备注，也不把英文评测原文作为公开正文。
+- 每个游戏页面使用媒体标签页切换 IGN、GameSpot 等来源。
 - 每个公开游戏文档使用 `docs/games/_template.mdx` 的 frontmatter 结构。
 - 文档的 `slug` 必须与 CSV 中对应游戏的 `slug` 一致。
 - 只有存在对应中文文档时，首页才显示“中文译文已收录”并提供站内链接。
@@ -55,7 +56,7 @@ docs/games/                   网站前台公开的中文译文与个人备注
 2. 补充 Metacritic、IGN 和 GameSpot 链接；找不到的链接留空并在 `notes` 说明。
 3. 将英文评测资料放入 `content/reviews/en/<slug>.md`。
 4. 用 AI 将英文资料翻译或整理为中文，写入 `docs/games/<slug>.mdx`。
-5. 保留来源链接；引用英文评测原文时标注来源站点。
+5. 在对应媒体标签页写入中文译文，并保留来源链接。
 6. 运行 `npm run generate-data` 更新 `src/generated/games.json`。
 7. 运行 `npm run typecheck` 做静态检查。
 8. 将改动交给用户审阅；除非用户明确要求，不要自行提交或推送 Git，也不要在 Cloudflare 外发布。
@@ -94,7 +95,7 @@ docs/games/                   网站前台公开的中文译文与个人备注
 
 - CSV 记录仍满足 MC 90+ 与 Must-Play 交集条件。
 - 英文资料位于 `content/reviews/en/`，不在 `docs/` 下。
-- `docs/games/` 公开文档中的英文评测内容标注了来源站点。
+- `docs/games/` 公开文档只展示中文译文和必要的来源链接。
 - 生成数据只包含游戏元数据和译文状态，不读取英文评测正文。
 - `npm run generate-data` 成功。
 - `npm run typecheck` 成功。

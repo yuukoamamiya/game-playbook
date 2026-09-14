@@ -7,6 +7,8 @@ review_score: 8.8
 review_score_text: "great"
 author: "Jared Petty"
 published: "2018-08-28"
+image: "https://assets1.ignimgs.com/2018/08/28/dqxi-blogroll-1535414671036_160w.jpg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets1.ignimgs.com/2019/08/08/dragon-quest-xi-s---button-1565222632841.jpg"
 ---
 
 # Dragon Quest XI S: Echoes of an Elusive Age - Definitive Edition — IGN Review

@@ -7,6 +7,8 @@ review_score: 10
 review_score_text: "masterpiece"
 author: "Dan Stapleton"
 published: "2015-04-14"
+image: "https://assets1.ignimgs.com/2015/04/14/gta50406151280jpg-806cc2_160w.jpg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets-prd.ignimgs.com/2021/12/17/gta-5-button-2021-1639777058682.jpg"
 ---
 
 # Grand Theft Auto V — IGN Review

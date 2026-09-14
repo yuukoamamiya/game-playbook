@@ -7,6 +7,8 @@ review_score: 9.7
 review_score_text: "amazing"
 author: "Charles Onyett"
 published: "2007-08-17"
+image: "https://media.ignimgs.com/xbox360/xbox360/image/article/106/1065663/176x99_bioshock_in_5_1265065385.jpg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets1.ignimgs.com/2019/01/05/bioshock-1---button-1546669924727.jpg"
 ---
 
 # BioShock — IGN Review

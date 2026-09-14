@@ -7,6 +7,8 @@ review_score: 9.7
 review_score_text: "amazing"
 author: "Dan Adams"
 published: "2004-11-15"
+image: "https://media.ignimgs.com/media/games/image/object/492/492830/halflifeblogroll.jpg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets-prd.ignimgs.com/2021/12/07/halflife2-1638907186351.png"
 ---
 
 # Half-Life 2 — IGN Review

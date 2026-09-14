@@ -7,6 +7,8 @@ review_score: 8
 review_score_text: "great"
 author: "Gabriel Moss"
 published: "2023-08-28"
+image: "https://assets-prd.ignimgs.com/2023/08/28/seaofstars-review-blogroll-1693194161234.jpg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets-prd.ignimgs.com/2022/05/03/seaofstars-1651615311837.jpg"
 ---
 
 # Sea of Stars — IGN Review

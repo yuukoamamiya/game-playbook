@@ -7,6 +7,8 @@ review_score: 10
 review_score_text: "masterpiece"
 author: "Ryan McCaffrey"
 published: "2016-06-28"
+image: "https://assets1.ignimgs.com/2016/06/27/inside1280jpg-6aaf64_160w.jpg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets1.ignimgs.com/2016/08/03/inside-button-0jpg-7cf127.jpg"
 ---
 
 # INSIDE — IGN Review

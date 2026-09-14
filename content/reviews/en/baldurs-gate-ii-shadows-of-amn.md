@@ -7,6 +7,8 @@ review_score: 9.4
 review_score_text: "amazing"
 author: "IGN Staff"
 published: "2000-10-10"
+image: "https://assets-prd.ignimgs.com/2021/12/07/baldurs-gate-ii-1638916688105.jpg"
+image_fallback: "https://assets-prd.ignimgs.com/2021/12/07/baldurs-gate-ii-1638916688105.jpg"
 ---
 
 # Baldur's Gate II: Shadows of Amn — IGN Review

@@ -6,9 +6,8 @@
 
 - `data/metacritic-games.csv`：抓取和不同 AI 之间交换数据的中间层。
 - `content/reviews/en/`：英文评测资料，仅供 AI 翻译使用；它位于 `docs/` 之外，不会发布到网站。
-- `docs/games/`：网站前台使用的中文译文，每款游戏一篇；可保留英文评测原文并标注来源。
+- `docs/games/`：网站前台使用的中文译文，每款游戏一篇；页面内按媒体标签切换评测。
 - `docs/games/_template.mdx`：新增游戏文档时使用的模板。
-- `docs/criteria.md`：高分游戏的收录说明。
 - `DESIGN.md`：给 AI 和后续维护者使用的视觉与内容规则。
 - `AGENTS.md`：跨 AI 协作、内容边界、验证和交接规则。
 

@@ -7,6 +7,8 @@ review_score: null
 review_score_text: ""
 author: "Luke Reilly"
 published: "2026-09-11"
+image: "https://assets-prd.ignimgs.com/2026/09/09/gta-vice-city-legacy-review-thumb-1788943824601.jpg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets-prd.ignimgs.com/2022/01/07/gta-vice-city-collage-1641589519678.jpg"
 ---
 
 # Grand Theft Auto: Vice City — IGN Review

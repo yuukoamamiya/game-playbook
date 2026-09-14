@@ -7,6 +7,8 @@ review_score: 8.4
 review_score_text: "great"
 author: "Ryan Clements"
 published: "2007-12-11"
+image: "https://assets-prd.ignimgs.com/2022/02/06/orangebox-sq-1644176776471.jpg"
+image_fallback: "https://assets-prd.ignimgs.com/2022/02/06/orangebox-sq-1644176776471.jpg"
 ---
 
 # The Orange Box — IGN Review

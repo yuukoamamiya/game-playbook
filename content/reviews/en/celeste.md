@@ -7,6 +7,8 @@ review_score: 10
 review_score_text: "masterpiece"
 author: "Tom Marks"
 published: "2018-01-25"
+image: "https://assets1.ignimgs.com/2018/01/24/celeste-2-1280-1516825733137_160w.jpg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets1.ignimgs.com/2018/01/23/celeste---button-1516746065043.jpg"
 ---
 
 # Celeste — IGN Review

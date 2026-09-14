@@ -7,6 +7,8 @@ review_score: 8
 review_score_text: "great"
 author: "Travis Northup"
 published: "2025-04-28"
+image: "https://assets-prd.ignimgs.com/2025/04/23/theelderscrolls4oblivionremastered-review-blogroll-1745445788739.jpg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets-prd.ignimgs.com/2025/04/22/elderscrolls-1745339694084.jpg"
 ---
 
 # The Elder Scrolls IV: Oblivion — IGN Review

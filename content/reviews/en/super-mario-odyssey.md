@@ -7,6 +7,8 @@ review_score: 10
 review_score_text: "masterpiece"
 author: "Ryan McCaffrey"
 published: "2017-10-26"
+image: "https://assets1.ignimgs.com/2017/10/25/marioodyssey-1280-1508970511647_160w.jpg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets1.ignimgs.com/2017/09/01/super-mario-odyssey-button-fin-1504225715322.jpg"
 ---
 
 # Super Mario Odyssey — IGN Review

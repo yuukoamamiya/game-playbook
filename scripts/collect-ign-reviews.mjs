@@ -138,6 +138,8 @@ function renderMarkdown(row, page) {
   const review = page.review ?? {};
   const author = page.contributors?.[0]?.name ?? '';
   const published = (page.publishDate ?? '').slice(0, 10);
+  const imageUrl = page.image || page.primaryObject?.primaryImage?.url || '';
+  const imageFallback = page.primaryObject?.primaryImage?.url || '';
   let body = htmlToMarkdown(page.processedHtml);
 
   const verdictText = typeof review.verdict === 'string' ? htmlToMarkdown(review.verdict) : '';
@@ -155,6 +157,8 @@ function renderMarkdown(row, page) {
     `review_score_text: ${yamlString(review.scoreText ?? '')}`,
     `author: ${yamlString(author)}`,
     `published: ${yamlString(published)}`,
+    `image: ${yamlString(imageUrl)}`,
+    `image_fallback: ${yamlString(imageFallback)}`,
     '---',
   ].join('\n');
 

@@ -7,6 +7,8 @@ review_score: 9.3
 review_score_text: "amazing"
 author: "Ryan McCaffrey"
 published: "2015-01-27"
+image: "https://assets2.ignimgs.com/2015/01/26/grimfandango0126151280jpg-56e809_160w.jpg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets1.ignimgs.com/2018/11/01/grim-fandango-remastered---button-1541102277240.jpg"
 ---
 
 # Grim Fandango — IGN Review

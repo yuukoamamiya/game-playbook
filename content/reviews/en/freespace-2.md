@@ -7,6 +7,8 @@ review_score: 8.9
 review_score_text: "great"
 author: "IGN Staff"
 published: "1999-10-02"
+image: "https://assets-prd.ignimgs.com/2025/10/20/freespace2-1760956240175.jpg"
+image_fallback: "https://assets-prd.ignimgs.com/2025/10/20/freespace2-1760956240175.jpg"
 ---
 
 # FreeSpace 2 — IGN Review
