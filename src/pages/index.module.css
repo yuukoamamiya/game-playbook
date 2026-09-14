@@ -1,31 +1,37 @@
-.home { max-width: 1180px; margin: 0 auto; padding: 0 32px 100px; }
-.hero { padding: 112px 0 96px; border-bottom: 1px solid var(--ifm-color-emphasis-200); }
-.eyebrow, .sectionLabel { display: flex; justify-content: space-between; color: var(--ifm-color-primary); font: 600 11px/1.4 var(--ifm-font-family-monospace); letter-spacing: .14em; }
-.hero h1 { max-width: 760px; margin: 34px 0 24px; color: var(--playbook-ink); font: 600 clamp(58px, 9vw, 124px)/.94 var(--ifm-heading-font-family); letter-spacing: -.065em; }
-.hero h1 em { color: var(--ifm-color-primary); font-style: normal; }
-.lead { max-width: 490px; margin: 0; color: var(--ifm-color-emphasis-700); font-size: 19px; line-height: 1.7; }
-.actions { display: flex; align-items: center; gap: 28px; margin-top: 42px; }
-.primaryAction, .outlineAction { display: inline-flex; gap: 20px; align-items: center; background: var(--playbook-ink); color: #fff !important; padding: 15px 20px; font-size: 14px; transition: transform .2s ease, background .2s ease; }
-.primaryAction:hover, .outlineAction:hover { background: var(--ifm-color-primary); color: #fff !important; text-decoration: none; transform: translateY(-2px); }
-.textAction { color: var(--playbook-ink); font-size: 14px; border-bottom: 1px solid var(--playbook-ink); padding-bottom: 4px; }
-.overview { display: grid; grid-template-columns: 1fr 2fr; padding: 30px 0; border-bottom: 1px solid var(--ifm-color-emphasis-200); }
-.statGrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
-.statGrid div { display: flex; flex-direction: column; gap: 7px; border-left: 1px solid var(--ifm-color-emphasis-300); padding-left: 20px; }
-.statGrid strong { color: var(--playbook-ink); font: 500 32px/1 var(--ifm-font-family-monospace); }
-.statGrid span { color: var(--ifm-color-emphasis-700); font-size: 13px; }
-.noteGrid { display: grid; grid-template-columns: 1fr 1fr; gap: 12%; padding: 110px 0; }
-.noteGrid h2, .emptyState h2 { margin: 16px 0 0; color: var(--playbook-ink); font-size: clamp(32px, 4vw, 52px); letter-spacing: -.04em; line-height: 1.1; }
-.noteCopy { max-width: 390px; padding-top: 34px; color: var(--ifm-color-emphasis-700); font-size: 16px; line-height: 1.8; }
-.noteCopy a { display: inline-block; margin-top: 12px; color: var(--ifm-color-primary); font-size: 14px; }
-.emptyState { display: grid; grid-template-columns: 1fr 2fr; gap: 30px; border-top: 1px solid var(--ifm-color-emphasis-200); padding: 54px 0; }
-.emptyIndex { color: var(--ifm-color-primary); font: 600 13px var(--ifm-font-family-monospace); }
-.emptyState p { color: var(--ifm-color-emphasis-700); margin: 16px 0 26px; }
-.outlineAction { padding: 11px 16px; font-size: 13px; }
+.shelf { max-width: 1120px; margin: 0 auto; padding: 0 32px 72px; }
+.header { padding: 96px 0 72px; border-bottom: 1px solid var(--ifm-color-emphasis-200); }
+.kicker, .catalogHeading span, .platforms, .footerNote { color: var(--ifm-color-primary); font: 500 11px/1.5 var(--ifm-font-family-monospace); letter-spacing: .1em; }
+.header h1 { margin: 28px 0 16px; color: var(--playbook-ink); font-size: clamp(48px, 8vw, 96px); letter-spacing: -.065em; line-height: .95; }
+.header p { margin: 0; color: var(--ifm-color-emphasis-700); font-size: 17px; }
+.summary { display: grid; grid-template-columns: repeat(3, 1fr); border-bottom: 1px solid var(--ifm-color-emphasis-200); }
+.summary div { display: flex; flex-direction: column; gap: 8px; padding: 24px 20px 24px 0; border-right: 1px solid var(--ifm-color-emphasis-200); }
+.summary div + div { padding-left: 20px; }
+.summary strong { color: var(--playbook-ink); font: 500 30px/1 var(--ifm-font-family-monospace); }
+.summary span { color: var(--ifm-color-emphasis-700); font-size: 12px; }
+.catalog { padding: 72px 0 0; }
+.catalogHeading { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 22px; }
+.catalogHeading h2 { margin: 0; color: var(--playbook-ink); font-size: 24px; letter-spacing: -.03em; }
+.gameGrid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+.gameCard { display: flex; gap: 20px; min-height: 170px; padding: 24px; background: var(--ifm-background-surface-color); border: 1px solid var(--ifm-color-emphasis-200); transition: border-color .2s ease, transform .2s ease; }
+.gameCard:hover { border-color: var(--ifm-color-primary); transform: translateY(-2px); }
+.score { display: grid; place-items: center; flex: 0 0 58px; height: 58px; background: var(--ifm-color-primary); color: #fff; font: 500 23px var(--ifm-font-family-monospace); }
+.gameInfo h3 { margin: 2px 0 8px; color: var(--playbook-ink); font-size: 21px; }
+.gameInfo p { margin: 0 0 16px; color: var(--ifm-color-emphasis-700); font-size: 13px; }
+.platforms { letter-spacing: .04em; }
+.note { margin-top: 14px; color: var(--ifm-color-emphasis-700); font-size: 13px; line-height: 1.6; }
+.empty { display: grid; grid-template-columns: 1fr 2fr; gap: 24px; padding: 42px 0; border-top: 1px solid var(--ifm-color-emphasis-200); border-bottom: 1px solid var(--ifm-color-emphasis-200); }
+.emptyNumber { color: var(--ifm-color-primary); font: 500 13px var(--ifm-font-family-monospace); }
+.empty h3 { margin: 0 0 10px; color: var(--playbook-ink); font-size: 25px; }
+.empty p { margin: 0 0 16px; color: var(--ifm-color-emphasis-700); }
+.empty code { color: var(--ifm-color-primary); background: transparent; padding: 0; font-size: 12px; }
+.footerNote { display: flex; justify-content: space-between; gap: 20px; padding-top: 24px; font-size: 10px; }
+.footerNote a { color: var(--ifm-color-primary); }
 @media (max-width: 700px) {
-  .home { padding: 0 20px 70px; }
-  .hero { padding: 72px 0 64px; }
-  .eyebrow { gap: 20px; flex-wrap: wrap; }
-  .overview, .noteGrid, .emptyState { grid-template-columns: 1fr; gap: 32px; }
-  .noteGrid { padding: 72px 0; }
-  .noteCopy { padding-top: 0; }
+  .shelf { padding: 0 20px 56px; }
+  .header { padding: 64px 0 52px; }
+  .summary div { padding-right: 10px; }
+  .summary div + div { padding-left: 10px; }
+  .gameGrid { grid-template-columns: 1fr; }
+  .empty { grid-template-columns: 1fr; gap: 20px; }
+  .footerNote { flex-direction: column; }
 }

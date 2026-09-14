@@ -14,14 +14,13 @@ The site is a personal game decision archive: calm, editorial, compact, and easy
 
 ## Content rules
 
-- One game per Markdown file under `docs/games/`.
-- Keep frontmatter keys stable. Add a new key only when it is useful for filtering or comparison.
-- Write conclusions in plain language and make the “why” more important than the score.
-- Never edit generated output or invent game experiences that are not present in the source notes.
+- Keep the showcase data in `src/data/games.ts`.
+- Keep the game record fields stable. Add a new field only when it is useful for filtering or comparison.
+- Never edit generated output or invent game scores.
 
 ## AI maintenance rules
 
 - Preserve the existing information architecture unless the user asks for a redesign.
-- Prefer editing Markdown content over changing React components.
-- When adding a game, copy `docs/games/_template.md` and keep its frontmatter shape.
+- Prefer editing `src/data/games.ts` over changing React components.
+- When adding a game, keep the existing `Game` type shape.
 - Keep the site deployable through Cloudflare Pages with `npm run build`.
