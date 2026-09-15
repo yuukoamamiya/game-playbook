@@ -129,6 +129,7 @@ theatlantic, gamestudies
 - **Game Studies 期刊**：用 `scripts/collect-media-reviews.mjs` 的 gamestudies 规则，从期刊归档（344 篇）里挑出针对本目录具体游戏的论文并翻译，已收录 **21 篇**（`kind: essay`），覆盖 Portal、BioShock、The Last of Us Part II、The Sims、Elden Ring、Overwatch、World of Warcraft、Minecraft、Breath of the Wild、Red Dead Redemption 2、Fallout 3、Mass Effect 2、Skyrim 等；其中 Elden Ring、Fallout 3、Minecraft、Overwatch、The Last of Us Part II、The Sims、World of Warcraft 各有 2 篇。**同一游戏同一媒体可以有多篇**：每篇一个 `<ReviewTab>`，用独立的 `id` 区分（见上节）。
 - **Jesper Juul**：除已有的《GTA IV and Philip Glass》，新收录《Half-Life 2, the Good and the Bad》《Half-Life 2: Episode Two Stats》（The Ludologist）→ `half-life-2`、`half-life-2-episode-two`（`site: jesperjuul`）。
 - **Slavoj Žižek**：未找到针对本目录任一游戏的文化评论（只有泛论与访谈），暂不收录。
+- **Mark Fisher**（k-punk / 《Capitalist Realism》）：未找到以电子游戏为对象的文章；最接近的是 *Film Quarterly* 的〈Work and Play in eXistenZ〉（讨论的是 Cronenberg 电影），其余只在博客与著作里顺带提及游戏，暂不收录。
 - **ToDiGRA**（Digital Games Research Association）：期刊全文只有 PDF，用 `pdftotext` 提取正文后收录，已收 3 篇：Minecraft ×2、The Last of Us ×1（`site: todigra`，`kind: essay`）。
 - **Games and Culture**（SAGE）：多数文章有付费墙（curl 403、浏览器也只能看摘要），只收录**开放获取**的；已收 1 篇 Undertale 论文（`site: gamesandculture`，`kind: essay`）。
 - **Games: Research and Practice**（ACM）：用 Crossref 全量扫描（111 篇）后，**没有**以本目录具体游戏为对象的论文。
