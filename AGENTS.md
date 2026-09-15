@@ -343,3 +343,10 @@ node scripts/collect-additional-review-links.mjs 80 84
 - 下一步优先在 Cloudflare Pages 预览环境确认首页筛选宽度和合并卡片的视觉效果；若显示符合预期，再继续采集 4Gamer.net（无 sitemap，需站内搜索/搜索引擎）和法米通历史文章。
 - 新增媒体链接继续先落到 JSON 交换层；媒体数量继续增加前，优先把现有固定媒体字段逐步统一到 `sources: [{site, kind, language, score, url}]`，再接入首页的通用媒体链接展示。
 - 开始结构迁移前复核发现，早先补 Unwinnable 数组时有 3 个上下文不唯一的补丁误把链接写到 Super Mario Odyssey、Shovel Knight: Treasure Trove、Batman: Arkham City；已在迁移前纠正，并补回 Elden Ring、Resident Evil 4、Resident Evil Requiem 的正确记录。后续批量结构转换必须使用脚本按 `slug + platform` 操作并立即校验目标关联。
+
+## 2026-09-15 Cloudflare Pages 发布验证
+
+- `b48d36a` 已推送到 `origin/main`，Cloudflare Pages 已自动触发生产部署。
+- Cloudflare 构建命令 `npm run build` 成功；Docusaurus 静态文件生成、资产上传和生产发布均成功。
+- 最新部署预览地址为 `https://df07fc74.game-playbook.pages.dev/`，生产域名 `https://game-playbook.amamiyayuuko.com/` 已可访问。
+- 本地未运行生产构建；后续视觉复核应直接在 Cloudflare Pages 生产站点进行。
