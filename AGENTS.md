@@ -205,7 +205,8 @@ git diff --check
 
 ### 媒体英文源与译文现状（2026-09-15）
 
-- 已抓英文源并翻译进标签页（约数）：IGN 约 162、GameSpot 约 170、Eurogamer 约 94、Nintendo World Report 27、Rock Paper Shotgun 约 48、RPG Site 约 31、Game Studies 21、RPGamer 约 15、Fami通 4、4Gamer 4、ToDiGRA 3、Jesper Juul 2、Unwinnable 2、The Atlantic 1、The CRPG Addict 1、Games and Culture 1、Aftermath 1、Radical Philosophy 1。以 `src/generated/reviews.json` 为准。
+- 已抓英文源并翻译进标签页（约数）：IGN 约 162、GameSpot 约 170、Eurogamer 约 94、Nintendo World Report 27、Rock Paper Shotgun 约 48、RPG Site 约 31、Game Studies 21、RPGamer 约 15、Fami通 4、4Gamer 4、ToDiGRA 3、The CRPG Addict 6、Jesper Juul 2、Unwinnable 2、The Atlantic 1、Games and Culture 1、Aftermath 1、Radical Philosophy 1。以 `src/generated/reviews.json` 为准。
+- **The CRPG Addict**（Chester Bolingbroke）：正式索引（`blog-page_3.html`）止于 1994 年，与本目录（1998 起）**无重合**；只收录了他项目外的专帖——Skyrim 4 篇、Elden Ring 1 篇（多主题合集中的一节）、Oblivion 1 篇。
 - 已移除 PC Gamer（用户不需要）；`indienova` 已因版权风险撤回。
 - 抓取脚本：`scripts/collect-media-reviews.mjs`（按站点规则，curl 抓取）；`scripts/add-media-tabs.mjs`（给文档补媒体标签页占位）；`scripts/collect-ign-reviews.mjs` / `collect-ign-images.mjs`（IGN 正文与头图）。
 
