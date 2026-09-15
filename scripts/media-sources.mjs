@@ -96,4 +96,5 @@ export const mediaLabels = {
   theatlantic: 'The Atlantic',
   gamestudies: 'Game Studies',
   todigra: 'ToDiGRA',
+  gamesandculture: 'Games and Culture',
 };

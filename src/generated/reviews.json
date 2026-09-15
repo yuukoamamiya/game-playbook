@@ -2561,6 +2561,11 @@
       "id": "rockpapershotgun",
       "site": "rockpapershotgun",
       "label": "Rock Paper Shotgun"
+    },
+    {
+      "id": "gamesandculture",
+      "site": "gamesandculture",
+      "label": "Games and Culture"
     }
   ],
   "unreal-tournament-2004": [

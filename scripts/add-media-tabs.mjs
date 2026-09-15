@@ -17,6 +17,7 @@ const labels = {
   jesperjuul: 'Jesper Juul',
   gamestudies: 'Game Studies',
   todigra: 'ToDiGRA',
+  gamesandculture: 'Games and Culture',
 };
 
 async function exists(p) { try { await access(p); return true; } catch { return false; } }

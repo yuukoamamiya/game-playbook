@@ -128,8 +128,9 @@ theatlantic, gamestudies
 - **Jesper Juul**：除已有的《GTA IV and Philip Glass》，新收录《Half-Life 2, the Good and the Bad》《Half-Life 2: Episode Two Stats》（The Ludologist）→ `half-life-2`、`half-life-2-episode-two`（`site: jesperjuul`）。
 - **Slavoj Žižek**：未找到针对本目录任一游戏的文化评论（只有泛论与访谈），暂不收录。
 - **ToDiGRA**（Digital Games Research Association）：期刊全文只有 PDF，用 `pdftotext` 提取正文后收录，已收 3 篇：Minecraft ×2、The Last of Us ×1（`site: todigra`，`kind: essay`）。
-- **Games and Culture**（SAGE）、**Games: Research and Practice**（ACM）：站点对 curl 返回 403，需要浏览器或代理才能枚举/抓取，尚未收录。
-- 新站点：`theatlantic`（The Atlantic）、`gamestudies`（Game Studies）、`todigra`（ToDiGRA）；抓取规则见 `scripts/collect-media-reviews.mjs`。
+- **Games and Culture**（SAGE）：多数文章有付费墙（curl 403、浏览器也只能看摘要），只收录**开放获取**的；已收 1 篇 Undertale 论文（`site: gamesandculture`，`kind: essay`）。
+- **Games: Research and Practice**（ACM）：用 Crossref 全量扫描（111 篇）后，**没有**以本目录具体游戏为对象的论文。
+- 新站点：`theatlantic`（The Atlantic）、`gamestudies`（Game Studies）、`todigra`（ToDiGRA）、`gamesandculture`（Games and Culture）；抓取规则见 `scripts/collect-media-reviews.mjs`。
 
 ### MDX 构建注意
 
@@ -195,7 +196,8 @@ git diff --check
 
 - **进行中**：核查学术期刊 **Games and Culture**、**Games: Research and Practice**（ACM）、**ToDiGRA**（Digital Games Research Association）里是否有可对应本目录游戏的论文，有则按 Game Studies 同样流程收录（抓正文 → 写 `content/reviews/en/<slug>/<site>.md` → 补 `<ReviewTab>` → 翻译）。
   - ToDiGRA：已完成，收录 3 篇（Minecraft ×2、The Last of Us ×1）。
-  - Games and Culture（SAGE）、Games: Research and Practice（ACM）：curl 403，需浏览器/代理才能继续。
+  - Games and Culture（SAGE）：已完成第一轮，收录 1 篇开放获取（Undertale）；其余多为付费墙，需逐篇确认开放获取再收。
+  - Games: Research and Practice（ACM）：已完成，无匹配文章。
 - 完成图片 Cloudflare Worker 代理方案：明确 Worker 路由、GitHub 源地址、缓存键和失效策略。
 - 继续补充已收录游戏的媒体入口，但必须逐篇核对，不把自动匹配候选直接落库。
 - IGN / GameSpot 侧还有新平台（GBA/NDS/3DS）等约 27 个游戏没有公开页（Codex 抓取失败，用户要求先留空，最后再回头看）。

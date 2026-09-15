@@ -74,6 +74,7 @@ const mediaLabels: Record<string, string> = {
   theatlantic: 'The Atlantic',
   gamestudies: 'Game Studies',
   todigra: 'ToDiGRA',
+  gamesandculture: 'Games and Culture',
 };
 
 function ExternalReviewLink({source}: {source: MediaSource}) {
