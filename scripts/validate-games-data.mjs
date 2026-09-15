@@ -1,13 +1,10 @@
 import {readGames} from './data-store.mjs';
+import {getSources} from './media-sources.mjs';
 
 const required = [
   'slug', 'title', 'platform', 'metacritic_score', 'must_play', 'release_year',
-  'genre', 'metacritic_url', 'ign_score', 'ign_url', 'gamespot_score', 'gamespot_url',
-  'content_status', 'notes', 'pcgamer_url', 'eurogamer_url', 'nintendolife_url',
-  'rockpapershotgun_url', 'rpgsite_url', 'adventuregamers_url', 'nintendoworldreport_url',
+  'genre', 'metacritic_url', 'sources', 'content_status', 'notes',
 ];
-const urlFields = required.filter((field) => field.endsWith('_url'));
-const urlArrayFields = ['famitsu_urls', 'unwinnable_urls'];
 const games = await readGames();
 const records = new Set();
 const errors = [];
@@ -18,20 +15,23 @@ for (const [index, game] of games.entries()) {
   if (records.has(recordKey)) errors.push(`row ${index + 1}: duplicate game/platform ${recordKey}`);
   records.add(recordKey);
   if (typeof game.must_play !== 'boolean') errors.push(`row ${index + 1}: must_play must be boolean`);
-  for (const field of ['metacritic_score', 'release_year', 'ign_score', 'gamespot_score']) {
+  for (const field of ['metacritic_score', 'release_year']) {
     if (game[field] !== null && typeof game[field] !== 'number') errors.push(`row ${index + 1}: ${field} must be number or null`);
   }
-  for (const field of urlFields) {
-    if (game[field] && !/^https?:\/\//.test(game[field])) errors.push(`row ${index + 1}: invalid URL in ${field}`);
-  }
-  for (const field of urlArrayFields) {
-    if (!(field in game)) continue;
-    if (!Array.isArray(game[field])) {
-      errors.push(`row ${index + 1}: ${field} must be an array`);
-      continue;
-    }
-    for (const url of game[field]) {
-      if (typeof url !== 'string' || !/^https?:\/\//.test(url)) errors.push(`row ${index + 1}: invalid URL in ${field}`);
+  if (!Array.isArray(game.sources)) {
+    errors.push(`row ${index + 1}: sources must be an array`);
+  } else {
+    const rowSources = new Set();
+    for (const [sourceIndex, source] of game.sources.entries()) {
+      const prefix = `row ${index + 1} source ${sourceIndex + 1}`;
+      for (const field of ['site', 'kind', 'language', 'url']) {
+        if (typeof source?.[field] !== 'string' || !source[field]) errors.push(`${prefix}: missing ${field}`);
+      }
+      if (source?.url && !/^https?:\/\//.test(source.url)) errors.push(`${prefix}: invalid URL`);
+      if (source?.score !== null && (typeof source?.score !== 'number' || !Number.isFinite(source.score))) errors.push(`${prefix}: score must be number or null`);
+      const key = `${source?.site}::${source?.url}`;
+      if (rowSources.has(key)) errors.push(`${prefix}: duplicate source ${key}`);
+      rowSources.add(key);
     }
   }
 }
@@ -40,5 +40,5 @@ if (errors.length) {
   console.error(errors.join('\n'));
   process.exitCode = 1;
 } else {
-  console.log(`Validated ${games.length} game records with ${required.length} stable fields.`);
+  console.log(`Validated ${games.length} game records with extensible media sources.`);
 }

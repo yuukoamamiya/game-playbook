@@ -3,6 +3,7 @@ import {resolve, dirname} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {tmpdir} from 'node:os';
 import {readGames, writeGames} from './data-store.mjs';
+import {addSource, hasSource} from './media-sources.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const corpusDir = resolve(tmpdir(), 'opencode');
@@ -86,7 +87,7 @@ const rows = await readGames();
 
 const report = [];
 for (const row of rows) {
-  if (row.gamespot_url) continue;
+  if (hasSource(row, 'gamespot')) continue;
   report.push({slug: row.slug, title: row.title, cand: candidates(row.title)});
 }
 
@@ -115,13 +116,13 @@ if (write) {
   };
   let filled = 0;
   for (const row of rows) {
-    if (row.gamespot_url) continue;
+    if (hasSource(row, 'gamespot')) continue;
     const slug = row.slug;
     if (exclude.has(slug)) continue;
-    if (overrides[slug]) { row.gamespot_url = overrides[slug]; filled += 1; continue; }
+    if (overrides[slug]) { addSource(row, {site: 'gamespot', kind: 'review', language: 'en', score: null, url: overrides[slug]}); filled += 1; continue; }
     const best = candidates(row.title)[0];
-    if (best && best.extras === 0 && best.prefixLen === best.titleLen) { row.gamespot_url = best.url; filled += 1; }
+    if (best && best.extras === 0 && best.prefixLen === best.titleLen) { addSource(row, {site: 'gamespot', kind: 'review', language: 'en', score: null, url: best.url}); filled += 1; }
   }
   await writeGames(rows);
-  console.error(`wrote gamespot_url for ${filled} rows`);
+  console.error(`wrote GameSpot sources for ${filled} rows`);
 }

@@ -53,8 +53,6 @@ let inserted = 0;
 
 for (const slug of gsFiles) {
   const gsFm = (await readFile(resolve(enDir, slug, 'gamespot.md'), 'utf8')).match(/^---\r?\n([\s\S]*?)\r?\n---/)?.[1] ?? '';
-  const gsScore = (gsFm.match(/^review_score:\s*(.*)$/m)?.[1] ?? '').trim();
-
   const docPath = resolve(docDir, `${slug}.mdx`);
   if (await exists(docPath)) {
     let doc = await readFile(docPath, 'utf8');
@@ -85,10 +83,6 @@ for (const slug of gsFiles) {
     `release_year: ${num(row.release_year)}`,
     `genre: ${q(row.genre)}`,
     `metacritic_url: ${q(row.metacritic_url)}`,
-    `ign_score: ${num(row.ign_score)}`,
-    `ign_url: ${q(row.ign_url)}`,
-    `gamespot_score: ${gsScore && gsScore !== 'null' ? gsScore : num(row.gamespot_score)}`,
-    `gamespot_url: ${q(row.gamespot_url)}`,
     'content_status: translated',
     'translation_status: translated',
     `source_file: content/reviews/en/${slug}/gamespot.md`,

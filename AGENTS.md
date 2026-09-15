@@ -25,8 +25,10 @@ docs/games/                   网站前台公开的中文译文与媒体评测�
 
 ### `data/metacritic-games.json`
 
-- 保存游戏元数据、Metacritic 分数、Must-Play 状态、平台和评测链接。
+- 保存游戏元数据、Metacritic 分数、Must-Play 状态、平台和可扩展的媒体来源。
 - 使用 JSON 数组而不是 CSV，避免列数错位；分数使用数字、Must-Play 使用布尔值、缺失数值使用 `null`。
+- 媒体来源统一放在 `sources` 数组中，每项结构为 `{site, kind, language, score, url}`；同一媒体可以有多篇文章。
+- `kind` 使用 `review`、`essay`、`feature` 或 `score`；没有媒体评分时 `score` 为 `null`。`site` 使用稳定的小写标识。
 - 这是方便多个 AI 之间交换和批量处理的唯一主数据层；网站构建时从它生成 `src/generated/games.json`。
 - 不要把英文评测正文写进 JSON。
 - 除非用户明确要求，不要擅自修改已有评分或伪造链接。
@@ -98,23 +100,24 @@ docs/games/                   网站前台公开的中文译文与媒体评测�
 
 ### 让首页也支持新媒体
 
-当前 JSON 为了兼容已有资料，保留了 `ign_url`、`gamespot_url` 及推荐媒体 URL 字段。新增媒体后，必须同步修改以下位置，不能只改游戏页：
+当前媒体入口统一放在 `sources` 数组中。新增媒体后，必须同步修改以下位置，不能只改游戏页：
 
-1. `data/metacritic-games.json`：增加该媒体的评分和链接字段，例如 `eurogamer_score`、`eurogamer_url`；已有记录没有数据时使用 `null` 或空字符串。
-2. `scripts/generate-games-data.mjs`：把新字段转成生成数据中的媒体记录。推荐逐步统一为 `sources: [{site, kind, language, score, url}]`，其中 `kind` 可为 `review`、`essay`、`feature` 或 `score`；不要继续在首页组件里增加越来越多的单独字段。现有 `reviews` 命名仅作为兼容历史实现。
-3. `src/pages/index.tsx`：将固定的 IGN / GS 链接改为遍历 `reviews`，这样新媒体会自动出现在所有有链接的游戏卡片上。
-4. `docs/games/_template.mdx`：补充新媒体的 `<ReviewTab>` 示例，或保留清晰的“可继续添加标签页”说明。
-5. 若新媒体有英文源资料，按 `<slug>/<site>.md` 保存，并在对应标签页写中文译文；不要把英文源目录接入 Docusaurus。
-6. 重新运行 `npm run generate-data` 和 `npm run typecheck`，检查首页链接和文档标签数量。
+1. `data/metacritic-games.json`：在对应记录的 `sources` 数组追加来源对象；不要再增加 `xxx_url`、`xxx_score` 或 `xxx_urls` 字段。
+2. `scripts/media-sources.mjs`：使用来源规范化和 `addSource` / `hasSource` 辅助函数写入，避免重复 URL。
+3. `scripts/generate-games-data.mjs`：把 `sources` 传到生成数据；不要在首页组件里增加越来越多的单独字段。
+4. `src/pages/index.tsx`：遍历通用 `sources` 展示所有媒体链接和评分。
+5. `docs/games/_template.mdx`：补充新媒体的 `<ReviewTab>` 示例，或保留清晰的“可继续添加标签页”说明。
+6. 若新媒体有英文源资料，按 `<slug>/<site>.md` 保存，并在对应标签页写中文译文；不要把英文源目录接入 Docusaurus。
+7. 重新运行 `npm run validate-data`、`npm run generate-data` 和 `npm run typecheck`。
 
-当媒体数量超过两个时，优先先完成 `reviews` 数组化，再添加更多媒体。不要在 `GameRecord`、JSON 映射和 JSX 中重复堆叠 `xxxUrl` / `xxxScore` / `xxxLink` 字段。
+不要在 `GameRecord`、JSON 映射和 JSX 中重复堆叠 `xxxUrl` / `xxxScore` / `xxxLink` 字段。
 
 ## 推荐工作流
 
 处理一款新游戏时按以下顺序：
 
 1. 确认它在 JSON 中满足 `must_play=true`；MC 分数只作为展示和排序字段，不再作为收录门槛。
-2. 补充 Metacritic、IGN 和 GameSpot 链接；找不到的链接留空并在 `notes` 说明。
+2. 在 `sources` 中补充媒体入口；找不到的链接不要猜测，必要时在 `notes` 说明。
 3. 将英文评测资料放入 `content/reviews/en/<slug>.md`。
 4. 用 AI 将英文资料翻译或整理为中文，写入 `docs/games/<slug>.mdx`。
 5. 在对应媒体标签页写入中文译文，并保留来源链接。
@@ -164,6 +167,7 @@ docs/games/                   网站前台公开的中文译文与媒体评测�
 - `docs/games/` 公开文档只展示中文译文和必要的来源链接。
 - 生成数据只包含游戏元数据和译文状态，不读取英文评测正文。
 - 新增媒体时，确认游戏页标签、英文源文件、JSON 字段、生成数据和首页链接没有脱节。
+- 不要重新引入已经迁移掉的 `ign_url`、`gamespot_url`、`famitsu_urls`、`unwinnable_urls` 等固定媒体字段。
 - `npm run generate-data` 成功。
 - `npm run typecheck` 成功。
 - 没有未经用户要求的 Git 提交、推送、生产发布或本地生产构建。
@@ -283,6 +287,22 @@ node scripts/collect-additional-review-links.mjs 80 84
 - 本轮变更尚未提交或推送。交付前运行 `npm run validate-data`、`npm run generate-data`、`npm run typecheck`，确认后再由用户决定是否发布。
 - 已于本轮再次执行完整分页复核：脚本不是测试采样，而是从第 1 页持续抓取到空页；PC 共 7 页（130 条），Nintendo Switch 共 2 页（25 条），Nintendo Switch 2/GBA/NDS/3DS 各 1 页（9/14/6/5 条），合计 189 条 Must-Play。
 
+## 2026-09-15 媒体来源结构迁移（当前交接）
+
+- 用户要求先整理结构，再继续采集 4Gamer、法米通等新媒体；本节记录迁移结果，迁移完成前不要继续联网采集。
+- `data/metacritic-games.json` 已从固定的 `ign_url`、`gamespot_url`、推荐媒体字段及 `famitsu_urls` / `unwinnable_urls` 迁移为统一的 `sources` 数组。当前仍是 189 条平台记录，媒体来源总数为 611 条。
+- 来源对象结构为 `{site, kind, language, score, url}`。同一 `slug` 可以有多个同站文章，也可以在多个平台记录中复用相同文章；不要因为 URL 重复就跨游戏合并。
+- 新增 `scripts/media-sources.mjs`，提供 `getSources`、`addSource`、`hasSource` 和来源规范化；IGN、GameSpot、推荐媒体采集脚本已改为使用这些函数。
+- 新增一次性迁移脚本 `scripts/migrate-media-sources.mjs`；它已运行完毕，不要再次用旧字段覆盖 JSON。155 个公开文档的 frontmatter 已移除 IGN/GameSpot 固定字段，正文译文和标签页未改动。
+- `scripts/generate-games-data.mjs` 已生成通用 `sources`；首页已遍历所有来源，因此后续新增媒体无需再改首页的固定字段。
+- `scripts/validate-games-data.mjs` 已改为校验来源数组、来源类型、URL、评分和同一条记录内的重复来源。
+- 本阶段验证已完成：`npm run validate-data`、`npm run generate-data`、`npm run typecheck`、`git diff --check` 和全部改动脚本的 `node --check` 均通过；未运行本地生产构建。
+- DeepSec 离线扫描 `scripts/` 与 `src/` 未发现安全问题。
+- `README.md` 已补充 `sources` 数据结构说明，方便新 AI 接手时先理解数据入口。
+- 当前来源统计：IGN 153、GameSpot 176、Unwinnable 30、Eurogamer 88、RPG Site 33、PC Gamer 75、Fami通 2、Rock Paper Shotgun 53、Adventure Gamers 1；同一条记录内无重复来源。
+- 结构现已稳定，可以继续采集 4Gamer、法米通历史文章等；新链接直接用 `addSource` 写入 `sources`，文化评论使用 `kind: essay` 或 `kind: feature`，没有评分使用 `score: null`。
+- 当前工作区有未提交改动，包含数据结构迁移、首页媒体遍历、采集脚本更新、模板更新以及此前纠正的 Unwinnable 关联；提交和推送需等用户明确要求。
+
 ## 2026-09-15 BrowserMCP 与文化媒体链接采集
 
 - BrowserMCP 已配置到 Codex 全局 MCP，并已确认连接到用户配置的浏览器标签页；可以读取此前被内置浏览器拦截的 Unwinnable 站点地图。
@@ -313,6 +333,8 @@ node scripts/collect-additional-review-links.mjs 80 84
 - 合并后的总数、中文译文数和当前显示数均按去重后的游戏计算；数据层仍保留每个平台独立记录，不修改 Metacritic 原始平台数据。
 - 本轮首页改动后 `npm run typecheck` 已通过；按约定未运行本地生产构建，待用户在 Cloudflare Pages 上预览确认视觉效果。
 - 最终差异检查通过；当前生成数据为 189 条平台记录、182 个去重后的游戏，首页合并后不再重复显示 7 条跨平台重复记录。
+- 用户反馈 PC、Nintendo Switch 与“全部平台”切换时仍有页面宽度差异，而新增小平台与“全部平台”一致。仅依靠 `scrollbar-gutter` 在目标浏览器中未完全稳定；已将 `src/css/custom.css` 的根元素改为 `overflow-y: scroll` 并保留 `scrollbar-gutter: stable`，强制所有筛选状态使用相同的纵向滚动条槽位。待 Cloudflare Pages 重新构建后复核。
+- 进一步检查截图和线上 DOM 后确认还有更主要的原因：Docusaurus 的 `.main-wrapper` 是 flex 容器，`.shelf` 只有 `max-width` 时会作为 flex 子项受内容固有宽度影响。已给 `src/pages/index.module.css` 的 `.shelf` 增加 `width: 100%`，保持 `max-width: 1120px`，使筛选状态不再改变主容器宽度；滚动条修复仍保留作为第二层保障。
 
 ## 2026-09-15 GitHub 发布与下一步
 
@@ -320,3 +342,4 @@ node scripts/collect-additional-review-links.mjs 80 84
 - 发布提交：`1030935`（`Refine catalog merging and media data`）。Cloudflare Pages 应会根据 GitHub 推送自动触发构建；本地没有运行生产构建。
 - 下一步优先在 Cloudflare Pages 预览环境确认首页筛选宽度和合并卡片的视觉效果；若显示符合预期，再继续采集 4Gamer.net（无 sitemap，需站内搜索/搜索引擎）和法米通历史文章。
 - 新增媒体链接继续先落到 JSON 交换层；媒体数量继续增加前，优先把现有固定媒体字段逐步统一到 `sources: [{site, kind, language, score, url}]`，再接入首页的通用媒体链接展示。
+- 开始结构迁移前复核发现，早先补 Unwinnable 数组时有 3 个上下文不唯一的补丁误把链接写到 Super Mario Odyssey、Shovel Knight: Treasure Trove、Batman: Arkham City；已在迁移前纠正，并补回 Elden Ring、Resident Evil 4、Resident Evil Requiem 的正确记录。后续批量结构转换必须使用脚本按 `slug + platform` 操作并立即校验目标关联。

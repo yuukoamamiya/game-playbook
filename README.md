@@ -5,6 +5,7 @@
 ## 内容存储位置
 
 - `data/metacritic-games.json`：抓取和不同 AI 之间交换数据的主中间层，使用 JSON 避免 CSV 列错位。
+- `data/metacritic-games.json` 中的媒体入口统一放在 `sources` 数组，每项记录站点、文章类型、语言、评分和 URL，同一媒体可有多篇文章。
 - `content/reviews/en/`：英文评测资料，仅供 AI 翻译使用；它位于 `docs/` 之外，不会发布到网站。
 - `docs/games/`：网站前台使用的中文译文，每款游戏一篇；页面内按媒体标签切换评测。
 - `docs/games/_template.mdx`：新增游戏文档时使用的模板。

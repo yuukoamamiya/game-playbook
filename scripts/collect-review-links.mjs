@@ -1,4 +1,5 @@
 import {dataPath, readGames, writeGames} from './data-store.mjs';
+import {addSource, hasSource} from './media-sources.mjs';
 const userAgent = 'Mozilla/5.0 (compatible; GamePlaybookResearch/1.0)';
 
 function parseCsvLine(line) {
@@ -107,15 +108,15 @@ let changed = 0;
 
 for (const row of rows.slice(start, end)) {
   const targets = [
-    ['ign.com', 'ign_url'],
-    ['gamespot.com', 'gamespot_url'],
+    ['ign.com', 'ign'],
+    ['gamespot.com', 'gamespot'],
   ];
   for (const [domain, field] of targets) {
-    if (row[field]) continue;
+    if (hasSource(row, field)) continue;
     try {
       const { result } = await findReview(domain, row.title);
       if (result) {
-        row[field] = result.url;
+        addSource(row, {site: field, kind: 'review', language: 'en', score: null, url: result.url});
         changed += 1;
         console.log(`${row.platform} | ${row.title} | ${field} | ${result.url}`);
       } else {
@@ -125,7 +126,7 @@ for (const row of rows.slice(start, end)) {
       console.log(`${row.platform} | ${row.title} | ${field} | ERROR: ${error.message}`);
     }
   }
-  if (row.ign_url || row.gamespot_url) row.content_status = 'links-collected';
+  if (row.sources?.length) row.content_status = 'links-collected';
   await writeGames(rows);
 }
 

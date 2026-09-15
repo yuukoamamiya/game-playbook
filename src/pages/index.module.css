@@ -1,4 +1,4 @@
-.shelf { max-width: 1120px; margin: 0 auto; padding: 0 32px 72px; }
+.shelf { width: 100%; max-width: 1120px; margin: 0 auto; padding: 0 32px 72px; }
 .header { padding: 96px 0 72px; border-bottom: 1px solid var(--ifm-color-emphasis-200); }
 .kicker { color: var(--ifm-color-primary); font: 500 11px/1.5 var(--ifm-font-family-monospace); letter-spacing: .1em; }
 .header h1 { margin: 28px 0 16px; color: var(--playbook-ink); font-size: clamp(48px, 8vw, 96px); letter-spacing: -.065em; line-height: .95; }

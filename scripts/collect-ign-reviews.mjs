@@ -2,6 +2,7 @@ import {mkdir, writeFile, access} from 'node:fs/promises';
 import {dirname, resolve} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {readGames} from './data-store.mjs';
+import {getSources} from './media-sources.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const outDir = resolve(root, 'content/reviews/en');
@@ -135,6 +136,7 @@ async function fetchPage(url) {
 }
 
 function renderMarkdown(row, page) {
+  const sourceUrl = getSources(row).find((source) => source.site === 'ign')?.url ?? '';
   const review = page.review ?? {};
   const author = page.contributors?.[0]?.name ?? '';
   const published = (page.publishDate ?? '').slice(0, 10);
@@ -153,7 +155,7 @@ function renderMarkdown(row, page) {
     '---',
     `slug: ${yamlString(row.slug)}`,
     `source_title: ${yamlString(row.title)}`,
-    `source_url: ${yamlString(row.ign_url)}`,
+    `source_url: ${yamlString(sourceUrl)}`,
     'source_site: IGN',
     `review_score: ${Number.isFinite(review.score) ? review.score : 'null'}`,
     `review_score_text: ${yamlString(review.scoreText ?? '')}`,
@@ -165,7 +167,7 @@ function renderMarkdown(row, page) {
   ].join('\n');
 
   const meta = [
-    `- Source: [IGN](${row.ign_url})`,
+    `- Source: [IGN](${sourceUrl})`,
     author ? `- Author: ${author}` : '',
     published ? `- Published: ${published}` : '',
     Number.isFinite(review.score) ? `- IGN score: ${review.score}/10${review.scoreText ? ` (${review.scoreText})` : ''}` : '',
@@ -182,7 +184,8 @@ const rows = await readGames();
 const targets = [];
 const seenSlugs = new Set();
 for (const row of rows) {
-  if (!row.ign_url || !row.ign_url.includes('ign.com')) continue;
+  const sourceUrl = getSources(row).find((source) => source.site === 'ign')?.url ?? '';
+  if (!sourceUrl || !sourceUrl.includes('ign.com')) continue;
   if (seenSlugs.has(row.slug)) continue;
   seenSlugs.add(row.slug);
   targets.push(row);
@@ -200,18 +203,18 @@ for (const row of targets) {
     continue;
   }
   try {
-    const {status, page} = await fetchPage(row.ign_url);
+    const {status, page} = await fetchPage(sourceUrl);
     if (!page) {
       failed += 1;
-      console.log(`FAIL  ${row.slug} | HTTP ${status} | no article body | ${row.ign_url}`);
+      console.log(`FAIL  ${row.slug} | HTTP ${status} | no article body | ${sourceUrl}`);
       continue;
     }
     await writeFile(outPath, renderMarkdown(row, page), 'utf8');
     written += 1;
-    console.log(`OK    ${row.slug} | ${page.review?.score ?? '-'}/10 | ${row.ign_url}`);
+    console.log(`OK    ${row.slug} | ${page.review?.score ?? '-'}/10 | ${sourceUrl}`);
   } catch (error) {
     failed += 1;
-    console.log(`ERROR ${row.slug} | ${error.message} | ${row.ign_url}`);
+    console.log(`ERROR ${row.slug} | ${error.message} | ${sourceUrl}`);
   }
   await new Promise((resolveDelay) => setTimeout(resolveDelay, delayMs));
 }

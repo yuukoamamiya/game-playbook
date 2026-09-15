@@ -6,6 +6,14 @@ import styles from './index.module.css';
 
 type SortOrder = 'score' | 'year';
 
+type MediaSource = {
+  site: string;
+  kind: string;
+  language: string;
+  score: number | null;
+  url: string;
+};
+
 type GameRecord = {
   slug: string;
   title: string;
@@ -14,10 +22,7 @@ type GameRecord = {
   releaseYear: number | null;
   genre: string;
   metacriticUrl: string;
-  ignScore: number | null;
-  ignUrl: string;
-  gamespotScore: number | null;
-  gamespotUrl: string;
+  sources: MediaSource[];
   hasTranslation: boolean;
 };
 
@@ -39,21 +44,38 @@ function mergeGames(records: GameRecord[]): CatalogGame[] {
     existing.score = Math.max(existing.score, game.score);
     existing.releaseYear ??= game.releaseYear;
     existing.metacriticUrl ||= game.metacriticUrl;
-    existing.ignScore ??= game.ignScore;
-    existing.ignUrl ||= game.ignUrl;
-    existing.gamespotScore ??= game.gamespotScore;
-    existing.gamespotUrl ||= game.gamespotUrl;
+    for (const source of game.sources) {
+      if (!existing.sources.some((item) => item.site === source.site && item.url === source.url)) {
+        existing.sources.push(source);
+      }
+    }
     existing.hasTranslation ||= game.hasTranslation;
   }
 
   return [...merged.values()];
 }
 
-function ExternalReviewLink({label, url, score}: {label: string; url: string; score: number | null}) {
-  if (!url) return null;
+const mediaLabels: Record<string, string> = {
+  ign: 'IGN',
+  gamespot: 'GS',
+  pcgamer: 'PC Gamer',
+  eurogamer: 'Eurogamer',
+  nintendolife: 'Nintendo Life',
+  rockpapershotgun: 'RPS',
+  rpgsite: 'RPG Site',
+  adventuregamers: 'Adventure Gamers',
+  nintendoworldreport: 'NWR',
+  famitsu: 'Fami通',
+  unwinnable: 'Unwinnable',
+};
+
+function ExternalReviewLink({source}: {source: MediaSource}) {
+  if (!source.url) return null;
+  const label = mediaLabels[source.site] ?? source.site;
+  const score = source.score == null ? '' : ` ${source.score}`;
   return (
-    <a href={url} target="_blank" rel="noreferrer">
-      {label}{score ? ` ${score}` : ''} ↗
+    <a href={source.url} target="_blank" rel="noreferrer">
+      {label}{score} ↗
     </a>
   );
 }
@@ -122,9 +144,10 @@ export default function Home(): React.ReactNode {
                     </h3>
                     <p>{game.releaseYear || '年份待补'} · {game.platforms.join(' · ')}</p>
                     <div className={styles.reviewLinks}>
-                      <ExternalReviewLink label="MC" url={game.metacriticUrl} score={game.score} />
-                      <ExternalReviewLink label="IGN" url={game.ignUrl} score={game.ignScore} />
-                      <ExternalReviewLink label="GS" url={game.gamespotUrl} score={game.gamespotScore} />
+                      <a href={game.metacriticUrl} target="_blank" rel="noreferrer">MC {game.score} ↗</a>
+                      {game.sources.map((source) => (
+                        <ExternalReviewLink key={`${source.site}:${source.url}`} source={source} />
+                      ))}
                     </div>
                   </div>
                 </article>

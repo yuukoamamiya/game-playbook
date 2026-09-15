@@ -1,19 +1,20 @@
 import fs from 'node:fs/promises';
 import {ProxyAgent, fetch} from 'undici';
 import {readGames, writeGames} from './data-store.mjs';
+import {addSource, hasSource} from './media-sources.mjs';
 
 const userAgent = 'Mozilla/5.0 (compatible; GamePlaybookResearch/1.0)';
 const proxyUrl = process.env.GAME_PLAYBOOK_HTTP_PROXY || 'http://127.0.0.1:10809';
 const dispatcher = new ProxyAgent(proxyUrl);
 
 const media = [
-  {key: 'pcgamer', field: 'pcgamer_url', domain: 'pcgamer.com', label: 'PC Gamer'},
-  {key: 'eurogamer', field: 'eurogamer_url', domain: 'eurogamer.net', label: 'Eurogamer'},
-  {key: 'nintendolife', field: 'nintendolife_url', domain: 'nintendolife.com', label: 'Nintendo Life'},
-  {key: 'rockpapershotgun', field: 'rockpapershotgun_url', domain: 'rockpapershotgun.com', label: 'Rock Paper Shotgun'},
-  {key: 'rpgsite', field: 'rpgsite_url', domain: 'rpgsite.net', label: 'RPG Site'},
-  {key: 'adventuregamers', field: 'adventuregamers_url', domain: 'adventuregamers.com', base: 'adventuregamers.com', label: 'Adventure Gamers'},
-  {key: 'nintendoworldreport', field: 'nintendoworldreport_url', domain: 'nintendoworldreport.com', base: 'www.nintendoworldreport.com', listing: 'https://www.nintendoworldreport.com/review/', label: 'Nintendo World Report'},
+  {key: 'pcgamer', domain: 'pcgamer.com', label: 'PC Gamer'},
+  {key: 'eurogamer', domain: 'eurogamer.net', label: 'Eurogamer'},
+  {key: 'nintendolife', domain: 'nintendolife.com', label: 'Nintendo Life'},
+  {key: 'rockpapershotgun', domain: 'rockpapershotgun.com', label: 'Rock Paper Shotgun'},
+  {key: 'rpgsite', domain: 'rpgsite.net', label: 'RPG Site'},
+  {key: 'adventuregamers', domain: 'adventuregamers.com', base: 'adventuregamers.com', label: 'Adventure Gamers'},
+  {key: 'nintendoworldreport', domain: 'nintendoworldreport.com', base: 'www.nintendoworldreport.com', listing: 'https://www.nintendoworldreport.com/review/', label: 'Nintendo World Report'},
 ];
 
 const excludedWords = /\b(preview|previews|hands[- ]?on|impressions|news|guide|guides|walkthrough|trailer|video|feature|interview|tips|wiki|攻略|新闻|预览|试玩|deal|sale|best games|release date|patch notes|update|review roundup|movie review|film review|tv review|after[- ]further[- ]review|wrap[- ]up|discussion|online[- ]slots|rave reviews|where['’]?s our review|ai[- ]generated|metacritic|world[- ]of[- ]mods|mod|review[- ]bomb|bombed|being review|mixed steam reviews|steam reviews|working on|translation|on[- ]the[- ]way|quality issues)\b/i;
@@ -284,7 +285,7 @@ const stats = Object.fromEntries(selectedMedia.map((target) => [target.key, {fou
 for (let rowIndex = start; rowIndex < end; rowIndex += 1) {
   const row = rows[rowIndex];
   const pending = selectedMedia.filter((target) => {
-    if (row[target.field]) {
+    if (hasSource(row, target.key)) {
       stats[target.key].skipped += 1;
       return false;
     }
@@ -304,7 +305,7 @@ for (let rowIndex = start; rowIndex < end; rowIndex += 1) {
       console.log(`ERROR | ${row.slug} | ${target.label} | ${error.message}`);
     } else if (result) {
       stats[target.key].found += 1;
-      if (!dryRun) row[target.field] = result.url;
+      if (!dryRun) addSource(row, {site: target.key, kind: 'review', language: 'en', score: null, url: result.url});
       console.log(`FOUND | ${row.slug} | ${target.label} | ${result.url}`);
     } else {
       stats[target.key].notFound += 1;

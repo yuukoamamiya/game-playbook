@@ -1,5 +1,6 @@
 import {ProxyAgent, fetch} from 'undici';
 import {readGames, writeGames} from './data-store.mjs';
+import {getSources} from './media-sources.mjs';
 
 const userAgent = 'Mozilla/5.0 (compatible; GamePlaybookResearch/1.0)';
 const proxyUrl = process.env.GAME_PLAYBOOK_HTTP_PROXY || 'http://127.0.0.1:10809';
@@ -56,7 +57,6 @@ function parseGames(html, platform, page) {
 
 const existing = await readGames();
 const existingByTitlePlatform = new Map(existing.map((row) => [`${row.title}::${row.platform}`, row]));
-const reviewUrlFields = ['pcgamer_url', 'eurogamer_url', 'nintendolife_url', 'rockpapershotgun_url', 'rpgsite_url', 'adventuregamers_url', 'nintendoworldreport_url'];
 const collected = [];
 
 for (const platform of platforms) {
@@ -75,14 +75,10 @@ const rows = [...unique.values()].map((game) => {
   const row = {
     ...old,
     ...game,
-    ign_score: old.ign_score ?? null,
-    ign_url: old.ign_url ?? '',
-    gamespot_score: old.gamespot_score ?? null,
-    gamespot_url: old.gamespot_url ?? '',
-    content_status: old.content_status || (old.ign_url || old.gamespot_url ? 'links-collected' : 'metacritic-must-play'),
+    sources: getSources(old),
+    content_status: old.content_status || (getSources(old).length ? 'links-collected' : 'metacritic-must-play'),
     notes: old.notes || `Metacritic Must-Play；平台：${game.platform}；来源页第${game.page}页`,
   };
-  for (const field of reviewUrlFields) row[field] ??= '';
   return row;
 });
 

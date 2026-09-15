@@ -3,6 +3,7 @@ import {resolve, dirname} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {tmpdir} from 'node:os';
 import {readGames, writeGames} from './data-store.mjs';
+import {addSource, hasSource} from './media-sources.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const cacheDir = resolve(tmpdir(), 'ign-sitemap-cache');
@@ -124,7 +125,7 @@ const rows = await readGames();
 
 const report = [];
 for (const row of rows) {
-  if (row.ign_url) continue;
+  if (hasSource(row, 'ign')) continue;
   const cand = candidates(row.title);
   report.push({slug: row.slug, title: row.title, cand});
 }
@@ -152,13 +153,13 @@ if (write) {
   };
   let filled = 0;
   for (const row of rows) {
-    if (row.ign_url) continue;
+    if (hasSource(row, 'ign')) continue;
     const slug = row.slug;
     if (exclude.has(slug)) continue;
-    if (overrides[slug]) { row.ign_url = overrides[slug]; filled += 1; continue; }
+    if (overrides[slug]) { addSource(row, {site: 'ign', kind: 'review', language: 'en', score: null, url: overrides[slug]}); filled += 1; continue; }
     const best = candidates(row.title)[0];
-    if (best && best.extra.length === 0 && best.score >= 15) { row.ign_url = best.url; filled += 1; }
+    if (best && best.extra.length === 0 && best.score >= 15) { addSource(row, {site: 'ign', kind: 'review', language: 'en', score: null, url: best.url}); filled += 1; }
   }
   await writeGames(rows);
-  console.error(`wrote ign_url for ${filled} rows`);
+  console.error(`wrote IGN sources for ${filled} rows`);
 }

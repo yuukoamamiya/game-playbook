@@ -9,10 +9,6 @@ must_play: true
 release_year: 2024
 genre: RPG
 metacritic_url: https://www.metacritic.com/
-ign_score:
-ign_url:
-gamespot_score:
-gamespot_url:
 content_status: links-only
 translation_status: translated
 source_file: content/reviews/en/game-slug.md
@@ -34,10 +30,17 @@ source_file: content/reviews/en/game-slug.md
 
 </ReviewTab>
 
+<ReviewTab site="unwinnable" label="Unwinnable">
+
+这里填写文化评论或专题的中文译文；没有译文时留空或写“待补”，标签页会自动隐藏。
+
+</ReviewTab>
+
 </ReviewTabs>
 
 <!--
 组件会自动识别哪些媒体有译文：只有内容非空（且不含“待补”）的 <ReviewTab> 才会显示。
 新增媒体只需再加一个 <ReviewTab site="…" label="…">，无需改组件或脚本。
 媒体清单由 npm run generate-data 生成的 src/generated/reviews.json 决定。
+媒体来源、文章类型、语言、评分和原文链接统一维护在 data/metacritic-games.json 的 sources 数组中；同一媒体可以有多篇文章。
 -->

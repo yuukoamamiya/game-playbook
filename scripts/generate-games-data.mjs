@@ -1,6 +1,7 @@
 import {readdir, readFile, writeFile} from 'node:fs/promises';
 import {dirname, resolve} from 'node:path';
 import {fileURLToPath} from 'node:url';
+import {getSources} from './media-sources.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const dataPath = resolve(root, 'data/metacritic-games.json');
@@ -66,12 +67,7 @@ const games = rows
       releaseYear: numberValue(row.release_year),
       genre: row.genre,
       metacriticUrl: row.metacritic_url,
-      ignScore: numberValue(row.ign_score),
-      ignUrl: row.ign_url,
-      gamespotScore: numberValue(row.gamespot_score),
-      gamespotUrl: row.gamespot_url,
-      famitsuUrls: Array.isArray(row.famitsu_urls) ? row.famitsu_urls : [],
-      unwinnableUrls: Array.isArray(row.unwinnable_urls) ? row.unwinnable_urls : [],
+      sources: getSources(row).map((source) => ({...source, score: numberValue(source.score)})),
       contentStatus: row.content_status || 'links-only',
       hasTranslation: Boolean(translation),
       translationStatus: translation?.status || 'pending',
