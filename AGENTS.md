@@ -313,3 +313,10 @@ node scripts/collect-additional-review-links.mjs 80 84
 - 合并后的总数、中文译文数和当前显示数均按去重后的游戏计算；数据层仍保留每个平台独立记录，不修改 Metacritic 原始平台数据。
 - 本轮首页改动后 `npm run typecheck` 已通过；按约定未运行本地生产构建，待用户在 Cloudflare Pages 上预览确认视觉效果。
 - 最终差异检查通过；当前生成数据为 189 条平台记录、182 个去重后的游戏，首页合并后不再重复显示 7 条跨平台重复记录。
+
+## 2026-09-15 GitHub 发布与下一步
+
+- 首页合并平台记录、稳定滚动条占位、Unwinnable/法米通数据字段及生成校验逻辑已提交并推送到 `origin/main`。
+- 发布提交：`1030935`（`Refine catalog merging and media data`）。Cloudflare Pages 应会根据 GitHub 推送自动触发构建；本地没有运行生产构建。
+- 下一步优先在 Cloudflare Pages 预览环境确认首页筛选宽度和合并卡片的视觉效果；若显示符合预期，再继续采集 4Gamer.net（无 sitemap，需站内搜索/搜索引擎）和法米通历史文章。
+- 新增媒体链接继续先落到 JSON 交换层；媒体数量继续增加前，优先把现有固定媒体字段逐步统一到 `sources: [{site, kind, language, score, url}]`，再接入首页的通用媒体链接展示。
