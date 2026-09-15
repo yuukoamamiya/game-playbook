@@ -71,6 +71,7 @@ static/img/reviews/           游戏页图片，当前随仓库发布
 - 不要把英文正文、Cookie、API key、抓取凭据或个人隐私写进 JSON。
 - 不确定的评分、版本、文章归属或 URL 宁可留空，不要猜测或使用搜索结果页代替文章页。
 - `src/generated/*.json` 由 `npm run generate-data` 生成，禁止手工维护。
+- `content_status` / `translation_status` 是文档 frontmatter 里的状态标记，常见取值：`links-only`（只有链接）、`metacritic-filtered`（仅 Metacritic 筛选入库）、`translated`（已有中文译文）。`npm run validate-data` 会校验主数据 JSON 的结构与字段（不改写文件）；具体校验项见 `scripts/validate-games-data.mjs`。
 
 ### 英文来源与中文公开页
 
@@ -112,7 +113,8 @@ theatlantic, gamestudies
 ### 英文来源抓取现状（2026-09-15）
 
 - `content/reviews/en/<slug>.md`：IGN 正文（137 篇）。
-- `content/reviews/en/<slug>/<site>.md`：GameSpot（148）、Eurogamer（83）、Rock Paper Shotgun（52）、RPG Site（30）、RPGamer（14）、4Gamer（3）、The CRPG Addict（1）、Adventure Gamers（1）。
+- `content/reviews/en/<slug>/<site>.md`（同一媒体多篇写作 `<site>-<key>.md`）：GameSpot 148、Eurogamer 约 79、Rock Paper Shotgun 约 48、RPG Site 约 29、Game Studies 21、RPGamer 约 14、4Gamer 3、ToDiGRA 3、Jesper Juul 2、The Atlantic 1、The CRPG Addict 1、Games and Culture 1。
+- 数量为文件级近似值，会随采集/清理漂移；**以仓库实测为准**（`ls content/reviews/en/*/<site>.md | wc -l`）。
 - 抓取脚本 `scripts/collect-media-reviews.mjs`（按站点规则提取，用 curl 绕过 TLS 指纹拦截；`node scripts/collect-media-reviews.mjs <site...>` 可只跑指定站点）。
 - RPGamer 只能走浏览器（Windows schannel TLS 握手失败），已用 `browsermcp` 抓完。
 - 4Gamer 是日文站，正文含少量页头标记噪声。
@@ -194,19 +196,16 @@ git diff --check
 
 ## 当前待办
 
-- **进行中**：核查学术期刊 **Games and Culture**、**Games: Research and Practice**（ACM）、**ToDiGRA**（Digital Games Research Association）里是否有可对应本目录游戏的论文，有则按 Game Studies 同样流程收录（抓正文 → 写 `content/reviews/en/<slug>/<site>.md` → 补 `<ReviewTab>` → 翻译）。
-  - ToDiGRA：已完成，收录 3 篇（Minecraft ×2、The Last of Us ×1）。
-  - Games and Culture（SAGE）：已完成第一轮，收录 1 篇开放获取（Undertale）；其余多为付费墙，需逐篇确认开放获取再收。
-  - Games: Research and Practice（ACM）：已完成，无匹配文章。
-- 完成图片 Cloudflare Worker 代理方案：明确 Worker 路由、GitHub 源地址、缓存键和失效策略。
+- 学术期刊核查（**第一轮已完成，用户决定不再继续**）：ToDiGRA 收 3 篇（Minecraft ×2、The Last of Us ×1）；Games and Culture（SAGE）收 1 篇开放获取（Undertale），其余多为付费墙、不再收；Games: Research and Practice（ACM）无匹配文章。
+- 完成图片 Cloudflare Worker 代理方案：明确 Worker 路由、GitHub 源地址、缓存键和失效策略。图片存于 `static/img/reviews/<slug>.jpg`（每个 slug 一张头图），Worker 上线前不要删除仓库内图片。
 - 继续补充已收录游戏的媒体入口，但必须逐篇核对，不把自动匹配候选直接落库。
-- IGN / GameSpot 侧还有新平台（GBA/NDS/3DS）等约 27 个游戏没有公开页（Codex 抓取失败，用户要求先留空，最后再回头看）。
+- IGN / GameSpot 侧还有新平台（GBA/NDS/3DS）等约 27 个游戏没有公开页（Codex 抓取失败，用户要求先留空，最后再回头看）。`data/metacritic-games.json` 有 182 个去重游戏，`docs/games/*.mdx` 目前约 156 个，差额主要就是这些未建页游戏。
 - 6 个空 GameSpot 标签页（`big-walk`、`dave-the-diver`、`half-life-2-episode-two`、`satisfactory`、`the-witcher-3-wild-hunt`、`valheim`，CSV/JSON 里无对应 `gamespot_url`）组件会自动隐藏，可选清理。
 - 若数据结构、收录范围、版本规则或部署方式发生变化，先更新本文件，再继续修改代码或数据。
 
 ### 媒体英文源与译文现状（2026-09-15）
 
-- 已抓英文源并翻译进标签页：IGN 137、GameSpot 148、Eurogamer 78、Rock Paper Shotgun 47、RPG Site 28、RPGamer 11、Game Studies 21、Jesper Juul 2、The Atlantic 1、4Gamer 1、The CRPG Addict 1。
+- 已抓英文源并翻译进标签页（约数）：IGN 约 137、GameSpot 148、Eurogamer 约 79、Rock Paper Shotgun 约 48、RPG Site 约 29、Game Studies 21、RPGamer 约 14、ToDiGRA 3、Jesper Juul 2、The Atlantic 1、4Gamer 1、The CRPG Addict 1、Games and Culture 1。
 - 已移除 PC Gamer（用户不需要）；`indienova` 已因版权风险撤回。
 - 抓取脚本：`scripts/collect-media-reviews.mjs`（按站点规则，curl 抓取）；`scripts/add-media-tabs.mjs`（给文档补媒体标签页占位）；`scripts/collect-ign-reviews.mjs` / `collect-ign-images.mjs`（IGN 正文与头图）。
 
