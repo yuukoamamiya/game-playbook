@@ -65,8 +65,13 @@ const mediaLabels: Record<string, string> = {
   rpgsite: 'RPG Site',
   adventuregamers: 'Adventure Gamers',
   nintendoworldreport: 'NWR',
+  '4gamer': '4Gamer.net',
   famitsu: 'Fami通',
   unwinnable: 'Unwinnable',
+  rpgamer: 'RPGamer',
+  crpgaddict: 'CRPG Addict',
+  aftermath: 'Aftermath',
+  radicalphilosophy: 'Radical Philosophy',
 };
 
 function ExternalReviewLink({source}: {source: MediaSource}) {

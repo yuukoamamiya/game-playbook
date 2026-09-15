@@ -87,6 +87,12 @@ export const mediaLabels = {
   rpgsite: 'RPG Site',
   adventuregamers: 'Adventure Gamers',
   nintendoworldreport: 'Nintendo World Report',
+  '4gamer': '4Gamer.net',
   famitsu: 'Fami通',
   unwinnable: 'Unwinnable',
+  rpgamer: 'RPGamer',
+  crpgaddict: 'The CRPG Addict',
+  aftermath: 'Aftermath',
+  radicalphilosophy: 'Radical Philosophy',
+  jesperjuul: 'Jesper Juul',
 };
