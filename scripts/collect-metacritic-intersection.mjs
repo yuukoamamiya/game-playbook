@@ -7,9 +7,8 @@ const platforms = [
   {slug: 'nintendo-switch', label: 'Nintendo Switch'},
   {slug: 'nintendo-switch-2', label: 'Nintendo Switch 2'},
   {slug: 'game-boy-advance', label: 'Game Boy Advance'},
-  {slug: 'super-nintendo', label: 'Super Nintendo'},
   {slug: 'nintendo-ds', label: 'Nintendo DS'},
-  {slug: 'nintendo-3ds', label: 'Nintendo 3DS'},
+  {slug: '3ds', label: '3DS'},
 ];
 
 function decodeHtml(value) {

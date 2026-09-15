@@ -9,7 +9,7 @@
 当前收录条件：
 
 - 必须带有 Metacritic Must-Play 标记。
-- 当前平台范围为 PC、Nintendo Switch、Nintendo Switch 2；后续继续检查 Game Boy Advance、Super Nintendo、Nintendo DS、Nintendo 3DS。
+- 当前平台范围为 PC、Nintendo Switch、Nintendo Switch 2；后续继续检查 Game Boy Advance、Nintendo DS、3DS。Metacritic 当前平台列表没有 SFC/SNES，不要把全平台回退页误当作 SFC 数据。
 
 不要擅自放宽或改变这些条件。若需要改变，先在对话中说明影响。
 
@@ -257,6 +257,6 @@ node scripts/collect-additional-review-links.mjs 80 84
 - JSON 使用稳定对象字段：数值为 number、`must_play` 为 boolean、缺失数值为 `null`，并保留推荐媒体 URL 字段；`scripts/data-store.mjs` 统一负责读写。
 - `npm run validate-data` 会检查字段、类型、重复的 `slug + platform` 和 URL 形状；当前 164 条记录通过校验。
 - 网站本身不需要运行时数据库。Docusaurus/Cloudflare Pages 是静态构建，构建时从 JSON 生成 `src/generated/games.json` 即可；SQLite 暂不引入。
-- 收录规则已改为 `must_play=true`，MC 分数只用于展示和排序，不再要求 ≥90。`scripts/collect-metacritic-intersection.mjs` 已预留 PC、Nintendo Switch、Nintendo Switch 2、Game Boy Advance、Super Nintendo、Nintendo DS、Nintendo 3DS；运行抓取前仍需逐个平台确认 Metacritic 的实际路径和结果。
+- 收录规则已改为 `must_play=true`，MC 分数只用于展示和排序，不再要求 ≥90。`scripts/collect-metacritic-intersection.mjs` 已确认并使用 PC、Nintendo Switch、Nintendo Switch 2、Game Boy Advance、Nintendo DS、3DS 的实际路径；Metacritic 当前没有 SFC/SNES 平台页。
 - 首页已移除“按平台找到想玩的游戏，再按评分或出版年份浏览。”和每个条目下的“中文译文已收录”。GameSpot 评分从 `content/reviews/en/<slug>/gamespot.md` 的 frontmatter 回填到 JSON，当前 153 条 GameSpot 链接有评分。
 - 本次验证：`npm run validate-data`、`npm run generate-data`、`npm run typecheck` 通过；未运行本地生产构建、未提交或推送。
