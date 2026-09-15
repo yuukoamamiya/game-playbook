@@ -935,6 +935,11 @@
       "id": "gamestudies-rendle-pasternack",
       "site": "gamestudies",
       "label": "Game Studies · Elden Ring"
+    },
+    {
+      "id": "crpgaddict-briefs",
+      "site": "crpgaddict",
+      "label": "The CRPG Addict · Elden Ring 随想"
     }
   ],
   "empire-total-war": [
@@ -2719,6 +2724,26 @@
       "id": "gamestudies",
       "site": "gamestudies",
       "label": "Game Studies"
+    },
+    {
+      "id": "crpgaddict-skyrim-break",
+      "site": "crpgaddict",
+      "label": "The CRPG Addict · Skyrim Break"
+    },
+    {
+      "id": "crpgaddict-one-more",
+      "site": "crpgaddict",
+      "label": "The CRPG Addict · One More Skyrim Posting"
+    },
+    {
+      "id": "crpgaddict-midgame",
+      "site": "crpgaddict",
+      "label": "The CRPG Addict · Mid-Game Review"
+    },
+    {
+      "id": "crpgaddict-hate",
+      "site": "crpgaddict",
+      "label": "The CRPG Addict · What I Hate Most"
     }
   ],
   "the-last-of-us-part-ii-remastered": [
