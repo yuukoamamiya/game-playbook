@@ -80,6 +80,13 @@
         "language": "en",
         "score": null,
         "url": "https://unwinnable.com/2022/12/14/why-legend-of-zelda-breath-of-the-wild-is-worth-any-video-gamers-time/"
+      },
+      {
+        "site": "gamestudies",
+        "kind": "essay",
+        "language": "en",
+        "score": null,
+        "url": "https://gamestudies.org/2103/articles/hutchinson"
       }
     ],
     "contentStatus": "links-collected",
@@ -142,18 +149,18 @@
         "url": "https://www.gamespot.com/reviews/half-life-2-review/1900-6113062/"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/games/fps/half-life-2-review-uk/"
-      },
-      {
         "site": "eurogamer",
-        "kind": "review",
+        "kind": "feature",
         "language": "en",
         "score": null,
         "url": "https://www.eurogamer.net/half-life-2-episode-two-review"
+      },
+      {
+        "site": "jesperjuul",
+        "kind": "essay",
+        "language": "en",
+        "score": null,
+        "url": "https://www.jesperjuul.net/ludologist/2004/11/27/half-life-2-the-good-and-the-bad/"
       }
     ],
     "contentStatus": "links-collected",
@@ -187,7 +194,7 @@
       },
       {
         "site": "eurogamer",
-        "kind": "review",
+        "kind": "feature",
         "language": "en",
         "score": null,
         "url": "https://www.eurogamer.net/wheres-our-baldurs-gate-3-review"
@@ -235,13 +242,6 @@
         "language": "en",
         "score": 9.5,
         "url": "https://www.gamespot.com/reviews/the-orange-box-review/1900-6180730/"
-      },
-      {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/the-orange-box-review/"
       }
     ],
     "contentStatus": "links-collected",
@@ -330,6 +330,13 @@
         "language": "en",
         "score": null,
         "url": "https://unwinnable.com/2025/11/05/forgiving-and-forgetting-bioshock/"
+      },
+      {
+        "site": "gamestudies",
+        "kind": "essay",
+        "language": "en",
+        "score": null,
+        "url": "https://gamestudies.org/1401/articles/lizardi"
       }
     ],
     "contentStatus": "links-collected",
@@ -429,13 +436,6 @@
         "url": "https://www.gamespot.com/reviews/portal-2-review/1900-6309133/"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/portal-2-review/"
-      },
-      {
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
@@ -478,13 +478,6 @@
         "language": "en",
         "score": 10,
         "url": "https://www.gamespot.com/reviews/hades-2-review-witching-hours/1900-6418231/"
-      },
-      {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/games/action/hades-2-review/"
       },
       {
         "site": "eurogamer",
@@ -611,6 +604,20 @@
         "language": "en",
         "score": null,
         "url": "https://unwinnable.com/2023/03/22/the-environmental-horror-of-elden-ring-161/"
+      },
+      {
+        "site": "gamestudies",
+        "kind": "essay",
+        "language": "en",
+        "score": null,
+        "url": "https://gamestudies.org/2501/articles/mateusz_felczak"
+      },
+      {
+        "site": "gamestudies",
+        "kind": "essay",
+        "language": "en",
+        "score": null,
+        "url": "https://gamestudies.org/2501/articles/rendle_pasternack"
       }
     ],
     "contentStatus": "links-collected",
@@ -678,13 +685,6 @@
         "language": "en",
         "score": 10,
         "url": "https://www.gamespot.com/reviews/hades-2-review-witching-hours/1900-6418231/"
-      },
-      {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/games/action/hades-2-review/"
       },
       {
         "site": "eurogamer",
@@ -768,13 +768,6 @@
         "url": "https://www.gamespot.com/reviews/persona-5-royal-review-hearts-of-gold/1900-6417444/"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/persona-5-royal-review/"
-      },
-      {
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
@@ -804,7 +797,7 @@
       },
       {
         "site": "rpgamer",
-        "kind": "review",
+        "kind": "feature",
         "language": "en",
         "score": null,
         "url": "https://rpgamer.com/2022/10/persona-5-royal-switch-impression/"
@@ -877,13 +870,6 @@
         "url": "https://www.gamespot.com/reviews/the-elder-scrolls-iv-oblivion-review/1900-6146661/"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/games/the-elder-scrolls/the-elder-scrolls-iv-oblivion-review/"
-      },
-      {
         "site": "rpgsite",
         "kind": "review",
         "language": "en",
@@ -954,6 +940,13 @@
         "language": "en",
         "score": 9,
         "url": "https://www.gamespot.com/reviews/the-elder-scrolls-v-skyrim-review/1900-6344618/"
+      },
+      {
+        "site": "gamestudies",
+        "kind": "essay",
+        "language": "en",
+        "score": null,
+        "url": "https://gamestudies.org/2003/articles/bjorkelo"
       }
     ],
     "contentStatus": "links-collected",
@@ -986,15 +979,8 @@
         "url": "https://www.gamespot.com/reviews/bioshock-infinite-review/1900-6405506/"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/bioshock-infinite-burial-at-sea-episode-two-review/"
-      },
-      {
         "site": "eurogamer",
-        "kind": "review",
+        "kind": "feature",
         "language": "en",
         "score": null,
         "url": "https://www.eurogamer.net/bioshock-infinite-burial-at-sea-episode-two-review"
@@ -1118,6 +1104,13 @@
         "language": "en",
         "score": 9,
         "url": "https://www.gamespot.com/reviews/mass-effect-2-review/1900-6246931/"
+      },
+      {
+        "site": "gamestudies",
+        "kind": "essay",
+        "language": "en",
+        "score": null,
+        "url": "https://gamestudies.org/1803/articles/youngblood"
       }
     ],
     "contentStatus": "links-collected",
@@ -1210,13 +1203,6 @@
         "url": "https://www.gamespot.com/reviews/ori-and-the-will-of-the-wisps-review/1900-6417425/"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/ori-and-the-will-of-the-wisps-review/"
-      },
-      {
         "site": "rockpapershotgun",
         "kind": "review",
         "language": "en",
@@ -1252,13 +1238,6 @@
         "language": "en",
         "score": 9,
         "url": "https://www.gamespot.com/reviews/half-life-alyx-review-catch-these-hands/1900-6417437/"
-      },
-      {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/half-life-alyx-review/"
       },
       {
         "site": "eurogamer",
@@ -1305,13 +1284,6 @@
         "url": "https://www.gamespot.com/reviews/hades-review-the-long-hard-road-out-of-hell/1900-6417568/"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/hades-review/"
-      },
-      {
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
@@ -1334,7 +1306,7 @@
       },
       {
         "site": "rockpapershotgun",
-        "kind": "review",
+        "kind": "feature",
         "language": "en",
         "score": null,
         "url": "https://www.rockpapershotgun.com/early-access-review-hades"
@@ -1370,13 +1342,6 @@
         "url": "https://www.gamespot.com/reviews/hades-review-the-long-hard-road-out-of-hell/1900-6417568/"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/hades-review/"
-      },
-      {
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
@@ -1399,7 +1364,7 @@
       },
       {
         "site": "rockpapershotgun",
-        "kind": "review",
+        "kind": "feature",
         "language": "en",
         "score": null,
         "url": "https://www.rockpapershotgun.com/early-access-review-hades"
@@ -1435,13 +1400,6 @@
         "url": "https://www.gamespot.com/reviews/red-dead-redemption-2-review-wild-wild-west/1900-6417019/"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/red-dead-redemption-2-review/"
-      },
-      {
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
@@ -1454,6 +1412,13 @@
         "language": "en",
         "score": null,
         "url": "https://unwinnable.com/2020/06/25/wrestling-giants-morality-and-player-character-relationships-in-red-dead-redemption-2/"
+      },
+      {
+        "site": "gamestudies",
+        "kind": "essay",
+        "language": "en",
+        "score": null,
+        "url": "https://gamestudies.org/2403/articles/bello"
       }
     ],
     "contentStatus": "metacritic-filtered",
@@ -1507,6 +1472,20 @@
         "language": "en",
         "score": 9.5,
         "url": "https://www.gamespot.com/reviews/world-of-warcraft-review/1900-6114072/"
+      },
+      {
+        "site": "gamestudies",
+        "kind": "essay",
+        "language": "en",
+        "score": null,
+        "url": "https://gamestudies.org/1201/articles/gibbs_martin"
+      },
+      {
+        "site": "gamestudies",
+        "kind": "essay",
+        "language": "en",
+        "score": null,
+        "url": "https://gamestudies.org/0801/articles/karlsen"
       }
     ],
     "contentStatus": "metacritic-filtered",
@@ -1569,13 +1548,6 @@
         "url": "https://www.gamespot.com/reviews/divinity-original-sin-2-review/1900-6416769/"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/divinity-original-sin-2-review/"
-      },
-      {
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
@@ -1591,7 +1563,7 @@
       },
       {
         "site": "rpgsite",
-        "kind": "review",
+        "kind": "feature",
         "language": "en",
         "score": null,
         "url": "https://www.rpgsite.net/review/7663-divinity-original-sin-ii-definitive-edition-console-review"
@@ -1632,13 +1604,6 @@
         "language": "en",
         "score": 10,
         "url": "https://www.gamespot.com/reviews/divinity-original-sin-2-review/1900-6416769/"
-      },
-      {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/divinity-original-sin-2-review/"
       },
       {
         "site": "eurogamer",
@@ -1692,13 +1657,6 @@
         "url": "https://www.gamespot.com/reviews/minecraft-review/1900-6346734/"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/minecraft-review/"
-      },
-      {
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
@@ -1707,7 +1665,7 @@
       },
       {
         "site": "rockpapershotgun",
-        "kind": "review",
+        "kind": "feature",
         "language": "en",
         "score": null,
         "url": "https://www.rockpapershotgun.com/minecraft-review"
@@ -1718,6 +1676,20 @@
         "language": "en",
         "score": null,
         "url": "https://unwinnable.com/2024/05/03/minecraft-menagerie/"
+      },
+      {
+        "site": "gamestudies",
+        "kind": "essay",
+        "language": "en",
+        "score": null,
+        "url": "https://gamestudies.org/1901/articles/lobo"
+      },
+      {
+        "site": "gamestudies",
+        "kind": "essay",
+        "language": "en",
+        "score": null,
+        "url": "https://gamestudies.org/1802/articles/gallagher"
       }
     ],
     "contentStatus": "metacritic-filtered",
@@ -1788,10 +1760,17 @@
       },
       {
         "site": "eurogamer",
-        "kind": "review",
+        "kind": "feature",
         "language": "en",
         "score": null,
         "url": "https://www.eurogamer.net/grand-theft-auto-3-10-year-anniversary-edition-review-review"
+      },
+      {
+        "site": "gamestudies",
+        "kind": "essay",
+        "language": "en",
+        "score": null,
+        "url": "https://gamestudies.org/0401/galloway/"
       }
     ],
     "contentStatus": "metacritic-filtered",
@@ -1974,13 +1953,6 @@
         "url": "https://www.gamespot.com/reviews/god-of-war-review-out-with-the-old-in-with-the-new/1900-6416893/"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/god-of-war-pc-review/"
-      },
-      {
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
@@ -2143,13 +2115,6 @@
         "url": "https://www.gamespot.com/reviews/metaphor-refantazio-review-everybody-wants-to-rule-the-world/1900-6418297/"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/games/rpg/metaphor-refantazio-review/"
-      },
-      {
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
@@ -2245,13 +2210,6 @@
         "url": "https://www.gamespot.com/reviews/undertale-review-nintendo-switch-update/1900-6416315/"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/undertale-review/"
-      },
-      {
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
@@ -2310,15 +2268,8 @@
         "url": "https://www.gamespot.com/reviews/age-of-empires-ii-the-age-of-kings-review/1900-2537995/"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/age-of-empires-2-definitive-edition-review/"
-      },
-      {
         "site": "eurogamer",
-        "kind": "review",
+        "kind": "feature",
         "language": "en",
         "score": null,
         "url": "https://www.eurogamer.net/age-of-empires-2-hd-review"
@@ -2352,13 +2303,6 @@
         "language": "en",
         "score": 9,
         "url": "https://www.gamespot.com/reviews/street-fighter-6-review-battle-hardened/1900-6418073/"
-      },
-      {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/street-fighter-6-review/"
       },
       {
         "site": "eurogamer",
@@ -2405,13 +2349,6 @@
         "url": "https://www.gamespot.com/reviews/team-fortress-2-review/1900-6415650/"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/team-fortress-2-review/"
-      },
-      {
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
@@ -2420,7 +2357,7 @@
       },
       {
         "site": "rockpapershotgun",
-        "kind": "review",
+        "kind": "feature",
         "language": "en",
         "score": null,
         "url": "https://www.rockpapershotgun.com/team-fortress-2s-gun-mettle-review"
@@ -2558,6 +2495,20 @@
         "language": "en",
         "score": null,
         "url": "https://www.radicalphilosophy.com/article/playing-the-code"
+      },
+      {
+        "site": "gamestudies",
+        "kind": "essay",
+        "language": "en",
+        "score": null,
+        "url": "https://gamestudies.org/0401/galloway/"
+      },
+      {
+        "site": "gamestudies",
+        "kind": "essay",
+        "language": "en",
+        "score": null,
+        "url": "https://gamestudies.org/0601/articles/griebel"
       }
     ],
     "contentStatus": "metacritic-filtered",
@@ -2650,13 +2601,6 @@
         "url": "https://www.gamespot.com/reviews/resident-evil-requiem-review-two-headed-mutant/1900-6418464/"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/games/resident-evil/resident-evil-requiem-review/"
-      },
-      {
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
@@ -2706,13 +2650,6 @@
         "language": "en",
         "score": 9,
         "url": "https://www.gamespot.com/reviews/call-of-duty-4-modern-warfare-review/1900-6182402/"
-      },
-      {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/call-of-duty-modern-warfare-review/"
       },
       {
         "site": "eurogamer",
@@ -2796,13 +2733,6 @@
         "language": "en",
         "score": 9,
         "url": "https://www.gamespot.com/reviews/celeste-review-more-than-just-a-great-platformer/1900-6416843/"
-      },
-      {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/celeste-review/"
       },
       {
         "site": "eurogamer",
@@ -3251,15 +3181,8 @@
         "url": "https://www.gamespot.com/reviews/batman-arkham-asylum-review/1900-6215975/"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/games/action/a-huge-discount-to-batman-arkham-asylum-the-superlative-superhero-game-with-over-47-000-overwhelmingly-positive-reviews-on-steam-is-the-halloween-gaming-treat-ive-been-waiting-for/"
-      },
-      {
         "site": "eurogamer",
-        "kind": "review",
+        "kind": "feature",
         "language": "en",
         "score": null,
         "url": "https://www.eurogamer.net/games-of-2009-batman-arkham-asylum-review"
@@ -3295,15 +3218,8 @@
         "url": "https://www.gamespot.com/reviews/batman-arkham-city-review/1900-6339933/"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/batman-arkham-city-review/"
-      },
-      {
         "site": "eurogamer",
-        "kind": "review",
+        "kind": "feature",
         "language": "en",
         "score": null,
         "url": "https://www.eurogamer.net/batman-arkham-city-harley-quinns-revenge-review"
@@ -3429,13 +3345,6 @@
         "url": "https://www.gamespot.com/reviews/spelunky-2-review-snakes-on-a-2d-plane/1900-6417567/"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/spelunky-2-review/"
-      },
-      {
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
@@ -3481,14 +3390,14 @@
       },
       {
         "site": "eurogamer",
-        "kind": "review",
+        "kind": "feature",
         "language": "en",
         "score": null,
         "url": "https://www.eurogamer.net/fallout-3-operation-anchorage-review"
       },
       {
         "site": "rockpapershotgun",
-        "kind": "review",
+        "kind": "feature",
         "language": "en",
         "score": null,
         "url": "https://www.rockpapershotgun.com/attack-of-the-fallout-3-reviews"
@@ -3520,6 +3429,20 @@
         "language": "en",
         "score": null,
         "url": "https://rpgamer.com/review/fallout-3-review/"
+      },
+      {
+        "site": "gamestudies",
+        "kind": "essay",
+        "language": "en",
+        "score": null,
+        "url": "https://gamestudies.org/0902/articles/schulzke"
+      },
+      {
+        "site": "gamestudies",
+        "kind": "essay",
+        "language": "en",
+        "score": null,
+        "url": "https://gamestudies.org/1802/articles/mcclancy"
       }
     ],
     "contentStatus": "metacritic-filtered",
@@ -3589,13 +3512,6 @@
         "url": "https://www.gamespot.com/reviews/clair-obscur-expedition-33-review-light-and-shadow/1900-6418358/"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/games/rpg/clair-obscur-expedition-33-review/"
-      },
-      {
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
@@ -3647,13 +3563,6 @@
         "url": "https://www.gamespot.com/reviews/dark-souls-2-review-a-newcomer-in-drangleic/1900-6415748/"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/dark-souls-2-crown-of-the-ivory-king-review/"
-      },
-      {
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
@@ -3696,13 +3605,6 @@
         "language": "en",
         "score": 10,
         "url": "https://www.gamespot.com/reviews/disco-elysium-the-final-cut-review-pure-dynamite/1900-6417354/"
-      },
-      {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/disco-elysium-review/"
       },
       {
         "site": "eurogamer",
@@ -3770,13 +3672,6 @@
         "url": "https://www.gamespot.com/reviews/forza-horizon-5-review-its-about-four-wheeled-family/1900-6417778/"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/forza-horizon-5-review/"
-      },
-      {
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
@@ -3821,15 +3716,8 @@
         "url": "https://www.gamespot.com/reviews/street-fighter-iv-review/1900-6204782/"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/ultra-street-fighter-iv-review/"
-      },
-      {
         "site": "eurogamer",
-        "kind": "review",
+        "kind": "feature",
         "language": "en",
         "score": null,
         "url": "https://www.eurogamer.net/ultra-street-fighter-4-review"
@@ -3863,13 +3751,6 @@
         "language": "en",
         "score": 9,
         "url": "https://www.gamespot.com/reviews/hollow-knight-silksong-review-an-unforgettable-climb/1900-6418415/"
-      },
-      {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/games/action/hollow-knight-silksong-review/"
       },
       {
         "site": "eurogamer",
@@ -3917,7 +3798,7 @@
       },
       {
         "site": "rockpapershotgun",
-        "kind": "review",
+        "kind": "feature",
         "language": "en",
         "score": null,
         "url": "https://www.rockpapershotgun.com/pc-gamer-dragon-age-origins-review"
@@ -4041,13 +3922,6 @@
         "url": "https://www.gamespot.com/reviews/inside-review/1900-6416458/"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/inside-review/"
-      },
-      {
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
@@ -4159,13 +4033,6 @@
         "url": "https://www.gamespot.com/reviews/crusader-kings-3-review-pass-the-duchy/1900-6417551/"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/crusader-kings-3-review/"
-      },
-      {
         "site": "rockpapershotgun",
         "kind": "review",
         "language": "en",
@@ -4231,6 +4098,20 @@
         "language": "en",
         "score": 9,
         "url": "https://www.gamespot.com/reviews/overwatch-review/1900-6416439/"
+      },
+      {
+        "site": "gamestudies",
+        "kind": "essay",
+        "language": "en",
+        "score": null,
+        "url": "https://gamestudies.org/2203/articles/valisalo_ruotsalainen"
+      },
+      {
+        "site": "gamestudies",
+        "kind": "essay",
+        "language": "en",
+        "score": null,
+        "url": "https://gamestudies.org/2501/articles/chaz_evans"
       }
     ],
     "contentStatus": "metacritic-filtered",
@@ -4261,13 +4142,6 @@
         "language": "en",
         "score": 7,
         "url": "https://www.gamespot.com/reviews/death-stranding-2-review-tied-up/1900-6418377/"
-      },
-      {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/games/action/death-stranding-2-on-the-beach-review/"
       },
       {
         "site": "eurogamer",
@@ -4361,7 +4235,7 @@
       },
       {
         "site": "eurogamer",
-        "kind": "review",
+        "kind": "feature",
         "language": "en",
         "score": null,
         "url": "https://www.eurogamer.net/tom-clancys-splinter-cell-3d-review"
@@ -4395,13 +4269,6 @@
         "language": "en",
         "score": 8,
         "url": "https://www.gamespot.com/reviews/tekken-8-review-the-heat-of-battle/1900-6418169/"
-      },
-      {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/tekken-8-review/"
       },
       {
         "site": "eurogamer",
@@ -4522,13 +4389,6 @@
         "language": "en",
         "score": 9.3,
         "url": "https://www.gamespot.com/reviews/the-operative-no-one-lives-forever-review/1900-2652466/"
-      },
-      {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/no-one-lives-forever-review/"
       }
     ],
     "contentStatus": "metacritic-filtered",
@@ -4584,13 +4444,6 @@
         "url": "https://www.ign.com/articles/satisfactory-review"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/games/sim/satisfactory-review/"
-      },
-      {
         "site": "rockpapershotgun",
         "kind": "review",
         "language": "en",
@@ -4635,13 +4488,6 @@
         "url": "https://www.gamespot.com/reviews/dishonored-review/1900-6397794/"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/games/action/dishonored-review-2012/"
-      },
-      {
         "site": "unwinnable",
         "kind": "essay",
         "language": "en",
@@ -4670,20 +4516,6 @@
         "language": "en",
         "score": 9,
         "url": "https://www.gamespot.com/reviews/planescape-torment-review/1900-2535119/"
-      },
-      {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/planescape-torment-review/"
-      },
-      {
-        "site": "rockpapershotgun",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.rockpapershotgun.com/torment-tides-of-numenera-review-for-planescape-veterans"
       }
     ],
     "contentStatus": "metacritic-filtered",
@@ -4746,13 +4578,6 @@
         "url": "https://www.gamespot.com/reviews/dragon-quest-xi-review-nintendo-switch-definitive/1900-6416969/"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/dragon-quest-11-echoes-of-an-elusive-age-review/"
-      },
-      {
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
@@ -4802,13 +4627,6 @@
         "language": "en",
         "score": 9.3,
         "url": "https://www.gamespot.com/reviews/battlefield-2-review/1900-6127831/"
-      },
-      {
-        "site": "eurogamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.eurogamer.net/battlefield-bad-company-2-vietnam-review"
       }
     ],
     "contentStatus": "metacritic-filtered",
@@ -4839,13 +4657,6 @@
         "language": "en",
         "score": 9.4,
         "url": "https://www.gamespot.com/reviews/freespace-2-review/1900-2538608/"
-      },
-      {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/freespace-2-review-january-2000-us-edition/"
       }
     ],
     "contentStatus": "links-collected",
@@ -4871,13 +4682,6 @@
         "url": "https://www.gamespot.com/reviews/the-longest-journey-review/1900-2594178/"
       },
       {
-        "site": "adventuregamers",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://adventuregamers.com/article/dreamfall_the_longest_journey"
-      },
-      {
         "site": "unwinnable",
         "kind": "essay",
         "language": "en",
@@ -4900,13 +4704,6 @@
     "genre": "",
     "metacriticUrl": "https://www.metacritic.com/game/against-the-storm/",
     "sources": [
-      {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/against-the-storm-review/"
-      },
       {
         "site": "eurogamer",
         "kind": "review",
@@ -4957,13 +4754,6 @@
         "language": "en",
         "score": null,
         "url": "https://www.ign.com/articles/big-walk-review"
-      },
-      {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/games/puzzle/big-walk-review/"
       },
       {
         "site": "eurogamer",
@@ -5139,13 +4929,6 @@
         "url": "https://www.gamespot.com/reviews/ufo-50-review-space-shuttle-discovery/1900-6418288/"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/games/action/ufo-50-review/"
-      },
-      {
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
@@ -5250,13 +5033,6 @@
         "url": "https://www.gamespot.com/reviews/ori-and-the-blind-forest-review/1900-6416053/"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/ori-and-the-blind-forest-review/"
-      },
-      {
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
@@ -5299,6 +5075,13 @@
         "language": "en",
         "score": null,
         "url": "https://www.eurogamer.net/half-life-2-episode-two-review"
+      },
+      {
+        "site": "jesperjuul",
+        "kind": "essay",
+        "language": "en",
+        "score": null,
+        "url": "https://www.jesperjuul.net/ludologist/2007/11/16/half-life-2-episode-two-stats/"
       }
     ],
     "contentStatus": "metacritic-filtered",
@@ -5331,18 +5114,11 @@
         "url": "https://www.gamespot.com/reviews/portal-review/1900-6190126/"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
+        "site": "gamestudies",
+        "kind": "essay",
         "language": "en",
         "score": null,
-        "url": "https://www.pcgamer.com/bridge-constructor-portal-review/"
-      },
-      {
-        "site": "rockpapershotgun",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.rockpapershotgun.com/bridge-constructor-portal-review"
+        "url": "https://gamestudies.org/1202/articles/the_algorithmic_experience"
       }
     ],
     "contentStatus": "metacritic-filtered",
@@ -5463,13 +5239,6 @@
         "url": "https://www.gamespot.com/reviews/onimusha-way-of-the-sword-review/"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/games/action/onimusha-way-of-the-sword-review/"
-      },
-      {
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
@@ -5512,13 +5281,6 @@
         "language": "en",
         "score": 9.3,
         "url": "https://www.gamespot.com/reviews/black-and-white-review/1900-2702884/"
-      },
-      {
-        "site": "eurogamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.eurogamer.net/pokemon-black-and-white-review"
       }
     ],
     "contentStatus": "metacritic-filtered",
@@ -5549,13 +5311,6 @@
         "language": "en",
         "score": 9,
         "url": "https://www.gamespot.com/reviews/guild-wars-2-review/1900-6396275/"
-      },
-      {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/games/mmo/guild-wars-2-review-2012/"
       },
       {
         "site": "eurogamer",
@@ -5600,13 +5355,6 @@
         "language": "en",
         "score": 8,
         "url": "https://www.gamespot.com/reviews/forza-horizon-6-review-dopamine-highway/1900-6418489/"
-      },
-      {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/games/racing/forza-horizon-6-review/"
       },
       {
         "site": "eurogamer",
@@ -5672,6 +5420,13 @@
         "language": "en",
         "score": null,
         "url": "https://unwinnable.com/2020/05/07/finding-meaning-in-animal-crossings-weird-ass-world/"
+      },
+      {
+        "site": "theatlantic",
+        "kind": "essay",
+        "language": "en",
+        "score": null,
+        "url": "https://www.theatlantic.com/family/archive/2020/04/animal-crossing-isnt-escapist-its-political/610012/"
       }
     ],
     "contentStatus": "links-collected",
@@ -5741,15 +5496,8 @@
         "url": "https://www.gamespot.com/reviews/hollow-knight-review-an-exceptional-adventure/1900-6416972/"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/hollow-knight-review/"
-      },
-      {
         "site": "rockpapershotgun",
-        "kind": "review",
+        "kind": "feature",
         "language": "en",
         "score": null,
         "url": "https://www.rockpapershotgun.com/hollow-knight-review"
@@ -5797,13 +5545,6 @@
         "language": "en",
         "score": 9,
         "url": "https://www.gamespot.com/reviews/hollow-knight-silksong-review-an-unforgettable-climb/1900-6418415/"
-      },
-      {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/games/action/hollow-knight-silksong-review/"
       },
       {
         "site": "eurogamer",
@@ -5873,13 +5614,6 @@
         "url": "https://www.gamespot.com/reviews/bayonetta-review/1900-6244865/"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/bayonetta-review/"
-      },
-      {
         "site": "unwinnable",
         "kind": "essay",
         "language": "en",
@@ -5922,13 +5656,6 @@
         "language": "en",
         "score": 8.9,
         "url": "https://www.gamespot.com/reviews/the-sims-2-review/1900-6107280/"
-      },
-      {
-        "site": "eurogamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.eurogamer.net/the-sims-2-castaway-review"
       }
     ],
     "contentStatus": "metacritic-filtered",
@@ -5959,13 +5686,6 @@
         "language": "en",
         "score": 8.5,
         "url": "https://www.gamespot.com/reviews/world-of-warcraft-cataclysm-review/1900-6285551/"
-      },
-      {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/world-of-warcraft-cataclysm-review/"
       },
       {
         "site": "eurogamer",
@@ -6010,13 +5730,6 @@
         "language": "en",
         "score": 9,
         "url": "https://www.gamespot.com/reviews/persona-4-golden-review-stay-golden/1900-6400482/"
-      },
-      {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/persona-4-golden-review/"
       },
       {
         "site": "eurogamer",
@@ -6091,13 +5804,6 @@
         "url": "https://www.ign.com/articles/dave-the-diver-review"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/games/action/dave-the-diver-in-the-jungle-review/"
-      },
-      {
         "site": "4gamer",
         "kind": "feature",
         "language": "ja",
@@ -6135,15 +5841,8 @@
         "url": "https://www.gamespot.com/reviews/shogun-2-total-war-review/1900-6304519/"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/total-war-shogun-2-review-224/"
-      },
-      {
         "site": "eurogamer",
-        "kind": "review",
+        "kind": "feature",
         "language": "en",
         "score": null,
         "url": "https://www.eurogamer.net/total-war-shogun-2-fall-of-the-samurai-review"
@@ -6170,34 +5869,6 @@
         "language": "en",
         "score": 8.2,
         "url": "https://www.gamespot.com/reviews/deus-ex-review/1900-2595408/"
-      },
-      {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/games/action/the-outstanding-deus-ex-human-revolution-a-94-rated-game-with-over-22k-very-positive-reviews-is-now-cheaper-than-a-cup-of-coffee/"
-      },
-      {
-        "site": "eurogamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.eurogamer.net/deus-ex-mankind-divided-review"
-      },
-      {
-        "site": "rockpapershotgun",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.rockpapershotgun.com/deus-ex-mankind-divided-pc-review"
-      },
-      {
-        "site": "rpgsite",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.rpgsite.net/review/4959-deus-ex-mankind-divided-review"
       },
       {
         "site": "unwinnable",
@@ -6237,15 +5908,8 @@
         "url": "https://www.gamespot.com/reviews/deus-ex-human-revolution-review/1900-6330172/"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/games/action/the-outstanding-deus-ex-human-revolution-a-94-rated-game-with-over-22k-very-positive-reviews-is-now-cheaper-than-a-cup-of-coffee/"
-      },
-      {
         "site": "eurogamer",
-        "kind": "review",
+        "kind": "feature",
         "language": "en",
         "score": null,
         "url": "https://www.eurogamer.net/deus-ex-human-revolution-directors-cut-review"
@@ -6259,7 +5923,7 @@
       },
       {
         "site": "rpgsite",
-        "kind": "review",
+        "kind": "feature",
         "language": "en",
         "score": null,
         "url": "https://www.rpgsite.net/review/3252-deus-ex-human-revolution-directors-cut-review"
@@ -6339,13 +6003,6 @@
         "url": "https://www.gamespot.com/reviews/resident-evil-requiem-review-two-headed-mutant/1900-6418464/"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/games/resident-evil/resident-evil-requiem-review/"
-      },
-      {
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
@@ -6397,13 +6054,6 @@
         "url": "https://www.gamespot.com/reviews/split-fiction-review-it-takes-pew-pew/1900-6418341/"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/games/adventure/split-fiction-review/"
-      },
-      {
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
@@ -6446,13 +6096,6 @@
         "language": "en",
         "score": 8,
         "url": "https://www.gamespot.com/reviews/the-stanley-parable-ultra-deluxe-review-a-sequel-in-all-but-name/1900-6417868/"
-      },
-      {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/the-stanley-parable-ultra-deluxe-review/"
       },
       {
         "site": "rockpapershotgun",
@@ -6552,13 +6195,6 @@
         "url": "https://www.gamespot.com/reviews/mina-the-hollower-surpasses-the-greatness-of-shovel-knight/"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/games/action/mina-the-hollower-review/"
-      },
-      {
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
@@ -6617,13 +6253,6 @@
         "url": "https://www.gamespot.com/reviews/mina-the-hollower-surpasses-the-greatness-of-shovel-knight/"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/games/action/mina-the-hollower-review/"
-      },
-      {
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
@@ -6680,13 +6309,6 @@
         "language": "en",
         "score": 9,
         "url": "https://www.gamespot.com/reviews/hi-fi-rush-review-good-vibes-only/1900-6418023/"
-      },
-      {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/hi-fi-rush-review/"
       },
       {
         "site": "eurogamer",
@@ -6815,7 +6437,7 @@
       },
       {
         "site": "eurogamer",
-        "kind": "review",
+        "kind": "feature",
         "language": "en",
         "score": null,
         "url": "https://www.eurogamer.net/grand-theft-auto-iv-the-ballad-of-gay-tony-review"
@@ -6856,13 +6478,6 @@
         "language": "en",
         "score": 10,
         "url": "https://www.gamespot.com/reviews/into-the-breach-advanced-edition-review-a-mechanized-masterpiece/1900-6416865/"
-      },
-      {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/into-the-breach-review/"
       },
       {
         "site": "eurogamer",
@@ -6907,13 +6522,6 @@
         "language": "en",
         "score": 9,
         "url": "https://www.gamespot.com/reviews/balatro-review-one-more-blind/1900-6418192/"
-      },
-      {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/balatro-review/"
       },
       {
         "site": "eurogamer",
@@ -6997,13 +6605,6 @@
         "url": "https://www.gamespot.com/reviews/sea-of-stars-review-playing-with-power/1900-6418113/"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/sea-of-stars-review/"
-      },
-      {
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
@@ -7053,13 +6654,6 @@
         "language": "en",
         "score": null,
         "url": "https://www.ign.com/articles/valheim-early-access-review"
-      },
-      {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/games/survival-crafting/valheim-review/"
       }
     ],
     "contentStatus": "metacritic-filtered",
@@ -7136,13 +6730,6 @@
         "url": "https://www.gamespot.com/reviews/god-of-war-ragnarok-review-blood-sweat-and-tyrs/1900-6417993/"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/games/action/god-of-war-ragnarok-pc-review/"
-      },
-      {
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
@@ -7185,13 +6772,6 @@
         "language": "en",
         "score": 9,
         "url": "https://www.gamespot.com/reviews/shin-megami-tensei-v-vengeance-review/1900-6418241/"
-      },
-      {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/games/rpg/shin-megami-tensei-5-vengeance-review-paradise-comes-to-pc/"
       },
       {
         "site": "rpgsite",
@@ -7261,11 +6841,18 @@
         "url": "https://www.gamespot.com/reviews/the-last-of-us-part-2-spoilerfree-review/1900-6417483/"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
+        "site": "gamestudies",
+        "kind": "essay",
         "language": "en",
         "score": null,
-        "url": "https://www.pcgamer.com/games/action/the-last-of-us-part-2-remastered-review/"
+        "url": "https://gamestudies.org/2203/articles/banfi"
+      },
+      {
+        "site": "gamestudies",
+        "kind": "essay",
+        "language": "en",
+        "score": null,
+        "url": "https://gamestudies.org/2101/articles/reay"
       }
     ],
     "contentStatus": "metacritic-filtered",
@@ -7433,25 +7020,11 @@
         "url": "https://www.gamespot.com/reviews/dota-2-review/1900-6411615/"
       },
       {
-        "site": "pcgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.pcgamer.com/dota-2-review/"
-      },
-      {
         "site": "eurogamer",
-        "kind": "review",
+        "kind": "feature",
         "language": "en",
         "score": null,
         "url": "https://www.eurogamer.net/valve-responds-to-chinese-players-review-bombing-dota-2-after-racist-taunts"
-      },
-      {
-        "site": "rockpapershotgun",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.rockpapershotgun.com/dota-underlords-review-2"
       }
     ],
     "contentStatus": "metacritic-filtered",

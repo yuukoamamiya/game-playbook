@@ -39,13 +39,19 @@ async function readTranslations() {
       path: `docs/games/${file}`,
     });
 
-    const entries = [...source.matchAll(/<ReviewTab\s+site="([^"]+)"\s+label="([^"]+)">([\s\S]*?)<\/ReviewTab>/g)]
-      .filter((entry) => {
-        const content = entry[3];
-        const cjk = (content.match(/[\u4e00-\u9fff]/g) ?? []).length;
-        return !/待补/.test(content) && cjk >= 30;
+    const entries = [...source.matchAll(/<ReviewTab\b([^>]*)>([\s\S]*?)<\/ReviewTab>/g)]
+      .map((match) => {
+        const attrs = match[1];
+        const site = (attrs.match(/site="([^"]+)"/) ?? [])[1] ?? '';
+        const label = (attrs.match(/label="([^"]+)"/) ?? [])[1] ?? '';
+        const id = (attrs.match(/id="([^"]+)"/) ?? [])[1] ?? site;
+        return {id, site, label, content: match[2]};
       })
-      .map((entry) => ({site: entry[1], label: entry[2]}));
+      .filter((entry) => {
+        const cjk = (entry.content.match(/[\u4e00-\u9fff]/g) ?? []).length;
+        return entry.id && !/待补/.test(entry.content) && cjk >= 30;
+      })
+      .map(({id, site, label}) => ({id, site, label}));
     if (entries.length) media.set(slug, entries);
   }
 

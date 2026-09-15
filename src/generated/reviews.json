@@ -1,1432 +1,2682 @@
 {
   "age-of-empires-ii-the-age-of-kings": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
     }
   ],
   "animal-crossing-new-horizons": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "theatlantic",
+      "site": "theatlantic",
+      "label": "The Atlantic"
     }
   ],
   "animal-well": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
     }
   ],
   "balatro": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
     }
   ],
   "baldurs-gate-3": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
+    },
+    {
+      "id": "rpgsite",
+      "site": "rpgsite",
+      "label": "RPG Site"
     }
   ],
   "baldurs-gate-ii-shadows-of-amn": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "baldurs-gate": [
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "batman-arkham-asylum": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
     }
   ],
   "batman-arkham-city": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
     }
   ],
   "battlefield-2": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "bayonetta-2": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
     }
   ],
   "bayonetta": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "big-walk": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
     }
   ],
   "bioshock-infinite": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
     }
   ],
   "bioshock": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
+    },
+    {
+      "id": "gamestudies",
+      "site": "gamestudies",
+      "label": "Game Studies"
     }
   ],
   "black-and-white": [
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "blue-prince": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
     }
   ],
   "call-of-duty-4-modern-warfare": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
     }
   ],
   "call-of-duty": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "celeste": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
     }
   ],
   "chicory-a-colorful-tale": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
     }
   ],
   "clair-obscur-expedition-33": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
+    },
+    {
+      "id": "rpgsite",
+      "site": "rpgsite",
+      "label": "RPG Site"
     }
   ],
   "company-of-heroes": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "crusader-kings-iii": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
     }
   ],
   "crysis": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
     }
   ],
   "dark-souls-ii": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rpgsite",
+      "site": "rpgsite",
+      "label": "RPG Site"
     }
   ],
   "dave-the-diver": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     }
   ],
   "death-stranding-2-on-the-beach": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
     }
   ],
   "deus-ex-human-revolution": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
+    },
+    {
+      "id": "rpgsite",
+      "site": "rpgsite",
+      "label": "RPG Site"
     }
   ],
   "deus-ex": [
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "disco-elysium": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
+    },
+    {
+      "id": "rpgamer",
+      "site": "rpgamer",
+      "label": "RPGamer"
+    },
+    {
+      "id": "rpgsite",
+      "site": "rpgsite",
+      "label": "RPG Site"
     }
   ],
   "dishonored": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "divinity-original-sin-ii-definitive-edition": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
+    },
+    {
+      "id": "rpgsite",
+      "site": "rpgsite",
+      "label": "RPG Site"
     }
   ],
   "divinity-original-sin-ii": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
+    },
+    {
+      "id": "rpgamer",
+      "site": "rpgamer",
+      "label": "RPGamer"
+    },
+    {
+      "id": "rpgsite",
+      "site": "rpgsite",
+      "label": "RPG Site"
     }
   ],
   "donkey-kong-bananza": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
     }
   ],
   "dota-2": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
     }
   ],
   "dragon-age-origins": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
+    },
+    {
+      "id": "rpgamer",
+      "site": "rpgamer",
+      "label": "RPGamer"
+    },
+    {
+      "id": "rpgsite",
+      "site": "rpgsite",
+      "label": "RPG Site"
     }
   ],
   "dragon-quest-xi-s-echoes-of-an-elusive-age": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rpgamer",
+      "site": "rpgamer",
+      "label": "RPGamer"
+    },
+    {
+      "id": "rpgsite",
+      "site": "rpgsite",
+      "label": "RPG Site"
     }
   ],
   "elden-ring-shadow-of-the-erdtree": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
+    },
+    {
+      "id": "rpgsite",
+      "site": "rpgsite",
+      "label": "RPG Site"
     }
   ],
   "elden-ring-tarnished-edition": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "elden-ring": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "gamestudies",
+      "site": "gamestudies",
+      "label": "Game Studies"
+    },
+    {
+      "id": "gamestudies-rendle-pasternack",
+      "site": "gamestudies",
+      "label": "Game Studies · Elden Ring"
     }
   ],
   "empire-total-war": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
     }
   ],
   "fallout-3": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
+    },
+    {
+      "id": "rpgamer",
+      "site": "rpgamer",
+      "label": "RPGamer"
+    },
+    {
+      "id": "rpgsite",
+      "site": "rpgsite",
+      "label": "RPG Site"
+    },
+    {
+      "id": "gamestudies",
+      "site": "gamestudies",
+      "label": "Game Studies"
+    },
+    {
+      "id": "gamestudies-mcclancy",
+      "site": "gamestudies",
+      "label": "Game Studies · Fallout 3"
     }
   ],
   "final-fantasy-vii-rebirth": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "rpgsite",
+      "site": "rpgsite",
+      "label": "RPG Site"
     }
   ],
   "final-fantasy-xiv-endwalker": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "rpgsite",
+      "site": "rpgsite",
+      "label": "RPG Site"
     }
   ],
   "final-fantasy-xiv-shadowbringers": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "forza-horizon-5": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
     }
   ],
   "forza-horizon-6": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
     }
   ],
   "freedom-force": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "freespace-2": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "galactic-civilizations-ii-dark-avatar": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "galactic-civilizations-ii-twilight-of-the-arnor": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "god-of-war-ragnarok": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
     }
   ],
   "god-of-war": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
     }
   ],
   "grand-theft-auto-iii": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "gamestudies",
+      "site": "gamestudies",
+      "label": "Game Studies"
     }
   ],
   "grand-theft-auto-iv": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
     }
   ],
   "grand-theft-auto-san-andreas": [
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "grand-theft-auto-v": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
     }
   ],
   "grand-theft-auto-vice-city": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "grim-fandango": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "gtr-2": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "guild-wars-2": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rpgsite",
+      "site": "rpgsite",
+      "label": "RPG Site"
     }
   ],
   "hades-ii": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
+    },
+    {
+      "id": "rpgsite",
+      "site": "rpgsite",
+      "label": "RPG Site"
     }
   ],
   "hades": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
+    },
+    {
+      "id": "rpgsite",
+      "site": "rpgsite",
+      "label": "RPG Site"
     }
   ],
   "half-life-2-episode-two": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "jesperjuul",
+      "site": "jesperjuul",
+      "label": "Jesper Juul"
     }
   ],
   "half-life-2": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "jesperjuul",
+      "site": "jesperjuul",
+      "label": "Jesper Juul"
     }
   ],
   "half-life-alyx": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
     }
   ],
   "half-life": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "hi-fi-rush": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
     }
   ],
   "hollow-knight-silksong": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
     }
   ],
   "hollow-knight": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
     }
   ],
   "homeworld": [
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "inside": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
     }
   ],
   "into-the-breach": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
     }
   ],
   "mario-kart-8-deluxe": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
     }
   ],
   "mass-effect-2": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "gamestudies",
+      "site": "gamestudies",
+      "label": "Game Studies"
     }
   ],
   "medal-of-honor-allied-assault": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "metaphor-refantazio": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
+    },
+    {
+      "id": "rpgamer",
+      "site": "rpgamer",
+      "label": "RPGamer"
+    },
+    {
+      "id": "rpgsite",
+      "site": "rpgsite",
+      "label": "RPG Site"
     }
   ],
   "metroid-prime-remastered": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     }
   ],
   "microsoft-flight-simulator": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "mina-the-hollower": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rpgsite",
+      "site": "rpgsite",
+      "label": "RPG Site"
     }
   ],
   "minecraft": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
+    },
+    {
+      "id": "gamestudies",
+      "site": "gamestudies",
+      "label": "Game Studies"
+    },
+    {
+      "id": "gamestudies-gallagher",
+      "site": "gamestudies",
+      "label": "Game Studies · Minecraft"
     }
   ],
   "neverwinter-nights": [
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "nhl-2001": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "no-one-lives-forever-2-a-spy-in-h-a-r-m-s-way": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "onimusha-way-of-the-sword": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rpgsite",
+      "site": "rpgsite",
+      "label": "RPG Site"
     }
   ],
   "ori-and-the-blind-forest-definitive-edition": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
     }
   ],
   "ori-and-the-will-of-the-wisps": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
     }
   ],
   "overwatch-2016": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "gamestudies",
+      "site": "gamestudies",
+      "label": "Game Studies"
+    },
+    {
+      "id": "gamestudies-chaz-evans",
+      "site": "gamestudies",
+      "label": "Game Studies · Overwatch (2016)"
     }
   ],
   "persona-4-golden": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
+    },
+    {
+      "id": "rpgamer",
+      "site": "rpgamer",
+      "label": "RPGamer"
+    },
+    {
+      "id": "rpgsite",
+      "site": "rpgsite",
+      "label": "RPG Site"
     }
   ],
   "persona-5-royal": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rpgamer",
+      "site": "rpgamer",
+      "label": "RPGamer"
+    },
+    {
+      "id": "rpgsite",
+      "site": "rpgsite",
+      "label": "RPG Site"
     }
   ],
   "planescape-torment": [
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "portal-2": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
     }
   ],
   "portal": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "gamestudies",
+      "site": "gamestudies",
+      "label": "Game Studies"
     }
   ],
   "red-dead-redemption-2": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "gamestudies",
+      "site": "gamestudies",
+      "label": "Game Studies"
     }
   ],
   "resident-evil-4": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "resident-evil-requiem": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
     }
   ],
   "rome-total-war": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "satisfactory": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
     }
   ],
   "sea-of-stars": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
+    },
+    {
+      "id": "rpgamer",
+      "site": "rpgamer",
+      "label": "RPGamer"
+    },
+    {
+      "id": "rpgsite",
+      "site": "rpgsite",
+      "label": "RPG Site"
     }
   ],
   "shin-megami-tensei-v-vengeance": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "rpgsite",
+      "site": "rpgsite",
+      "label": "RPG Site"
     }
   ],
   "shovel-knight-treasure-trove": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "sid-meiers-alpha-centauri": [
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "sid-meiers-civilization-iii": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "sid-meiers-civilization-iv": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "sid-meiers-civilization-v": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
     }
   ],
   "silent-hunter-iii": [
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "slay-the-princess": [
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "4gamer",
+      "site": "4gamer",
+      "label": "4Gamer.net"
+    },
+    {
+      "id": "rpgsite",
+      "site": "rpgsite",
+      "label": "RPG Site"
     }
   ],
   "sonic-mania-plus": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "spelunky-2": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
     }
   ],
   "split-fiction": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
     }
   ],
   "star-wars-knights-of-the-old-republic": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "starcraft-ii-wings-of-liberty": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
     }
   ],
   "street-fighter-6": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
     }
   ],
   "street-fighter-iv": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
     }
   ],
   "super-mario-bros-wonder": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
     }
   ],
   "super-mario-odyssey": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
     }
   ],
   "super-smash-bros-ultimate": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "system-shock-2": [
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "team-fortress-2": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
     }
   ],
   "tekken-8": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
     }
   ],
   "tetris-effect-connected": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
     }
   ],
   "the-chronicles-of-riddick-escape-from-butcher-bay": [
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "the-elder-scrolls-iv-oblivion": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "crpgaddict",
+      "site": "crpgaddict",
+      "label": "The CRPG Addict"
+    },
+    {
+      "id": "rpgamer",
+      "site": "rpgamer",
+      "label": "RPGamer"
+    },
+    {
+      "id": "rpgsite",
+      "site": "rpgsite",
+      "label": "RPG Site"
     }
   ],
   "the-elder-scrolls-v-skyrim": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "gamestudies",
+      "site": "gamestudies",
+      "label": "Game Studies"
     }
   ],
   "the-last-of-us-part-ii-remastered": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "gamestudies",
+      "site": "gamestudies",
+      "label": "Game Studies"
+    },
+    {
+      "id": "gamestudies-reay",
+      "site": "gamestudies",
+      "label": "Game Studies · The Last of Us Part II Remastered"
     }
   ],
   "the-legend-of-zelda-breath-of-the-wild-nintendo": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "the-legend-of-zelda-breath-of-the-wild": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rpgsite",
+      "site": "rpgsite",
+      "label": "RPG Site"
+    },
+    {
+      "id": "gamestudies",
+      "site": "gamestudies",
+      "label": "Game Studies"
     }
   ],
   "the-legend-of-zelda-tears-of-the-kingdom-nintendo": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "the-legend-of-zelda-tears-of-the-kingdom": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rpgsite",
+      "site": "rpgsite",
+      "label": "RPG Site"
     }
   ],
   "the-longest-journey": [
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "the-operative-no-one-lives-forever": [
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "the-orange-box": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "the-sims-2": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "the-sims": [
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "gamestudies",
+      "site": "gamestudies",
+      "label": "Game Studies · 社会现实主义"
+    },
+    {
+      "id": "gamestudies-griebel",
+      "site": "gamestudies",
+      "label": "Game Studies · 自我投射"
     }
   ],
   "the-stanley-parable-ultra-deluxe": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "the-witcher-3-wild-hunt-blood-and-wine": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "the-witcher-3-wild-hunt": [
     {
-      "site": "ign",
-      "label": "IGN"
-    }
-  ],
-  "thief-the-dark-project": [
-    {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rpgamer",
+      "site": "rpgamer",
+      "label": "RPGamer"
+    }
+  ],
+  "thief-the-dark-project": [
+    {
+      "id": "ign",
+      "site": "ign",
+      "label": "IGN"
+    },
+    {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "tiger-woods-pga-tour-2005": [
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "tom-clancys-splinter-cell-chaos-theory": [
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "tom-clancys-splinter-cell": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
     }
   ],
   "tony-hawks-pro-skater-2": [
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "tony-hawks-pro-skater-3": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "total-war-shogun-2": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
     }
   ],
   "ufo-50": [
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
     }
   ],
   "undertale": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
     }
   ],
   "unreal-tournament-2004": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "valheim": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     }
   ],
   "warcraft-iii-reign-of-chaos": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
     }
   ],
   "world-of-goo": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
     },
     {
+      "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
     }
   ],
   "world-of-warcraft-cataclysm": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
+    },
+    {
+      "id": "gamespot",
+      "site": "gamespot",
+      "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rpgsite",
+      "site": "rpgsite",
+      "label": "RPG Site"
     }
   ],
   "world-of-warcraft-the-burning-crusade": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
+    },
+    {
+      "id": "gamespot",
+      "site": "gamespot",
+      "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
     }
   ],
   "world-of-warcraft-wrath-of-the-lich-king": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
+    },
+    {
+      "id": "gamespot",
+      "site": "gamespot",
+      "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
     }
   ],
   "world-of-warcraft": [
     {
+      "id": "ign",
       "site": "ign",
       "label": "IGN"
+    },
+    {
+      "id": "gamespot",
+      "site": "gamespot",
+      "label": "GameSpot"
+    },
+    {
+      "id": "gamestudies",
+      "site": "gamestudies",
+      "label": "Game Studies"
+    },
+    {
+      "id": "gamestudies-karlsen",
+      "site": "gamestudies",
+      "label": "Game Studies · World of Warcraft"
     }
   ]
 }

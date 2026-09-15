@@ -1,0 +1,70 @@
+---
+slug: "red-dead-redemption-2"
+source_title: "Red Dead Redemption 2 review - a peerless open world, and a story in the shadow of its predecessor"
+source_url: "https://www.eurogamer.net/red-dead-redemption-2-review-9"
+source_site: eurogamer
+review_score: 4
+review_score_text: ""
+author: "Martin Robinson"
+published: "2019-11-05"
+---
+
+# Red Dead Redemption 2 review - a peerless open world, and a story in the shadow of its predecessor — eurogamer Review
+
+- Source: [eurogamer](https://www.eurogamer.net/red-dead-redemption-2-review-9)
+- Author: Martin Robinson
+- Published: 2019-11-05
+- Score: 4
+
+An astounding open world unlikely to be rivalled until well into the next gen, saddled by a throughline from the last.
+  As Rockstar gives Red Dead Redemption 2 a belated release on PC, we're republishing our original review of its grand western adventure. We'll have more on the PC version in the coming days from Digital Foundry, and if you're playing and need a hand head to our extensive  Red Dead Redemption 2 walkthrough.
+
+ It's one of those cute ironies that  Rockstar Games , most famous for the virtual cityscapes of the Grand Theft Auto series, would create what many consider its masterpiece when working with the dust and dirt of the wilds. When it launched in 2010, the open-world western Red Dead Redemption was as refreshing as a chill blast of mountain air: a bucolic, melancholy counterpoint to the madcap urban caricature of GTA. And so it's fitting that the sequel, Red Dead Redemption 2, makes its greatest strides in its world.
+
+## Red Dead Redemption 2
+
+-  Developer:  Rockstar Games
+
+-  Publisher:  Rockstar Games
+
+-  Platform:  Reviewed on PS4
+
+-  Availability:  Out now on Xbox One, PC and PS4
+
+ This is a vast, staggeringly detailed open world. You could get out a virtual ruler to proclaim it Rockstar's biggest yet, or count every single NPC, line of dialogue, rock, tree and outhouse and say it's the developer's densest, but I'll leave all that for someone else. What I will say is that this is Rockstar's broadest canvas since  Grand Theft Auto: San Andreas , quite possibly even more so, with what no longer feels like a take on a single city or state but practically an entire country.
+
+ There are the heights of Amorino, hidden under knee-deep snow, the flats of New Hanover, the bayous of Lemoyne, the opulent metropolis of Saint Denis, and the clipped greens of West Elizabeth. It's a map that offers Rockstar's take on the sights and sounds of late 19th-century New Orleans through to South Carolina, from Indiana to Iowa and plenty more besides - a forged snapshot of an America forever lost that is utterly convincing.
+
+ It's those thousands of small details that do the convincing: the way the oil shimmers on the surface of the water that sits outside the factories of chilly Annesburg, the cold stare and silence that meets you when you drag your scruffy frame through the saloon doors of the more cultured Saint Denis, the lamps that flicker across the midnight quiet in the town of Rhodes. It's the way it'll make a keen botanist of you, admiring the Spanish moss that hangs from the bald cypress of the bayou, the pines up in the mountains or the white oaks down on the plains, all shifting beautifully in the breeze. Even before you get to the fauna that lies underneath, it's a world that feels alive.
+
+ It's in the way you'll see that weather build overhead, thick crops of cloud rolling in over the expanse of country - from most vantage points the horizon is thrillingly distant, the sky so vast above it all - while meticulously studied cloud formations swirl together. The craft that's gone into Red Dead Redemption 2's world - painstaking, expensive and  arguably at too great a human cost  - is evident in every frame.
+
+ And it's enriched by an artistry and technical excellence that's just as evident. If the original Red Dead Redemption leaned heavily on celluloid depictions of the west, then its follow-up is much more painterly in tone. The landscapes of 19th-century artist Albert Bierstadt are one noted influence, those thick oils impressively mirrored in Red Dead Redemption 2's own textures; in the dawn or dusk of certain days, there's a richness to the light that would make Turner blush, veering, at times, towards a certain impressionism in the diffuse light.
+
+ Red Dead Redemption 2 is a world of vivid textures, too. There's the thick mud you brawl in along the main strip of Valentine, the town where your adventures start, the coarse leather of a coat you've crafted from the wildlife you're free to hunt down, or just the taut hide of your horse that ferries you from place to place. It's a world you have a tangible place in, thanks to Rockstar's use once again of Euphoria animation technology that sees you stumble, sprint and collide with objects in the world, grounding you in it. Impressively - and somewhat cruelly - that extends to your horse now too, an aggressive trot into a tree trunk proving just as grisly as any of GTA's more violent moments.
+
+ That physicality, brilliantly, extends to your inventory system. Kill a deer and to take it back to your camp you'll sling it on the back of your horse for the ride home, watching its soft belly jostle in time with the canter. The same philosophy extends to the weapons you take with you, picked up from your horse and slung over your back. It's a smart way of grounding you even further in Red Dead Redemption 2's world, even if - in what becomes something of a recurring theme - that elegance isn't met by the deeper design, where an overly fussy rotary selection system has you all fingers and thumbs when performing even the most perfunctory task.
+
+ That philosophy can be effective, though. Red Dead Redemption 2's world leaves an impact on your avatar, the pointedly gritty wilds muddying your horse's hide and your clothes until you either brush your ride down and pay to use a bathhouse or incur the disgust and disdain of those around you. That dirt will clog up your arsenal as well, requiring you to clean your guns lest they lose their potency. It's part of that same busywork - very engaging busywork, mind - in which you can maintain the length of your hair and beard or let it grow unruly, can choose to pomade it in the morning or cover it with your favourite hat (which you may well lose in a fight if you're not careful - though thankfully you can pick up anyone else's in its place), or you can get thin or fat depending on whether you overindulge in the food you're required to eat in order to maintain your stamina core.
+
+ This is a neat idea - and another with tinges of the maximalist Grand Theft Auto: San Andreas - that's again undone by muddiness of execution. In Red Dead Redemption 2, you have health and endurance that are governed by cores, which dictate how rapidly radial meters fill, which are also there for your horse and pop up on your mini-map intermittently and... if I sound confused, it's because after over 60 hours I still am, and those systems remain fuzzy throughout. Perhaps it's just the game's proximity to  The Legend of Zelda: Breath of the Wild , where similar systems are crystal clear and hard-baked into the experience (in another similarity that's fluffed here, your choice of clothing has an impact - if you're not dressed appropriately in cold climates, for example, you'll shiver and your meters will take a hit). Red Dead Redemption 2's take seems inelegant, inconsequential and - both thankfully and damningly - easy to ignore.
+
+ But Red Dead Redemption 2 wears its RPG trappings lightly, and wilfully so - it's happy, you sense, to take on a little fuzziness in order to sidestep fussiness, streamlining systems in order to keep you grounded in its world. That same approach is evident in your encounters - you can interact with every single non-player character, though your verbs are limited to simple interactions such as 'greet', 'callout', 'antagonise' or 'defuse'. There's always 'shoot' too, of course - something which is a bit too easy to do given a context-sensitive control system that, bewilderingly and fatally for some poor bystanders, occasionally has the button you draw your weapon with as the very same which you use to pull the trigger. In a game of often impeccable detail, it's a strange oversight.
+
+ Red Dead Redemption 2's best stories, as ever in a Rockstar game, are to be found in the margins, the very best to be scribbled yourself. Sometimes that's just picking up on environmental details and connecting the dots - the gold prospector that sifts through their haul in the middle of a river, or maybe something even more sinister as you pick up the trail of a serial killer. Or maybe it's losing yourself in an epic hunt - there are almost 200 species here, each lovingly realised for you to shoot and skin and scalp - or stopping to help a stranger in one of the seemingly endless incidental encounters.
+
+ Rockstar has its own tale that it wants to tell here, of course, and here there's a disconnect, and a friction, from a game that wants to impress that upon you - sometimes aggressively, boorishly so. Red Dead Redemption 2 is set in 1899, some 12 years before the original and when the American west was properly wild. If the first game was about how one outlaw dealt with being outmoded and pushed to extinction as 20th-century civilisation took hold and the country was tamed, then the sequel shows the process of that taming, in all its violence and turmoil. You're Arthur Morgan, veteran of the same group of outlaws that you hunt down as John Marston in the original game, chased across the land as they teeter on the edge of their own extinction.
+
+ Morgan is a less fleshed-out creation than John Marston, though that's possibly by design - those small choices you're afforded enable you to build your own reading of him. Whether you push him towards sainthood or villainy, he's never quite as compelling, either, and as a result it's hard to get a grasp on what exactly Red Dead Redemption 2 is about. Whereas the first game was about the taming of the wilds, and of one man trying to tame himself alongside them, by drawing the clock back 10 years the sequel feels like a story in stasis.
+
+ Partly it's about family, and loyalty, and that is backed up by one of Red Dead Redemption 2's most effective systems. Your gang's camp - which shifts across the map along with the story - is an upgradeable base, where you can invest as little or as much as you please, those choices reflected not only in appearances but also in how others react to you. There's a beautiful loop, when you're first establishing it, of heading out into the wilds for your own adventures then heading back with the spoils slung over the back of your horse ready to be cut up and placed in a stew for your comrades, and it's all told with those same outstanding incidentals you find elsewhere. One night there might be a party that breaks out when your gang is flourishing; the next morning, you'll wake up to a sea of heavy heads and hangovers.
+
+ Such revelry is responsible for Red Dead Redemption 2's standout mission, a night on the tiles that shows how Rockstar's narrative skills have taken an unlikely yet highly welcome influence; it's the first use of in-game jump cuts I can recall since Blendo Games' 30 Flights of Loving, and when matched with Rockstar's own bawdy style and lavish production it's every bit as effective as you hoped it would be. Elsewhere, though, Red Dead Redemption 2 struggles to find a place for you as it tells its own story; the main missions stick too rigidly to the aging template of heading out to a point while characters chat amongst themselves, and when you get there, too often all you're allowed to do is perform a handful of quick-time events and engage in the inevitable shootout.
+
+ Red Dead Redemption was always the more cinematic cousin to Grand Theft Auto, though it's only in the sequel that that cinema threatens to get in the way. There's an influence from  Naughty Dog  in the main missions that, when it pays off, can be spectacular - an explosive train chase, or a bar brawl told with exquisitely heavy animations - but one that can just as readily come apart at the seams. In a game that otherwise promises freedom, it's doubly frustrating to fail a mission for not being able to find the marks to trigger the next cinematic, or to reach your target in a chase only for it to magically teleport out of reach.
+
+ Maybe that disappointment is down to how Morgan's story isn't the measure of Marston's, and how Red Dead Redemption 2 is too eager to fall back on the same story beats and ape the same moments. One direct lift, towards the second half of the game, simply underlines how this sequel lacks the grace of its predecessor, in the tale it tells at least. The 60 hours it takes to see Morgan's story through to the end can be a slog, then, but it's the next 60 where you'll find Red Dead Redemption 2's real grace, when you're away from the straitjacket of Rockstar's own story, where the world can breathe and its true potential is realised (and where, in an act of incredible generosity, that world opens up).
+
+ It's been eight years since the last Red Dead Redemption, and five since the release of  Grand Theft Auto 5  - time that you can see and feel in every delicately crafted inch of a game of this scope and scale, yet time in which we've been spoilt by the likes of The Witcher 3 and The Legend of Zelda: Breath of the Wild. Rockstar's writers can't quite match the humanity and purpose of the former, nor can its designers match the integrity of the latter.
+
+ It offers something else besides, though: a richness, detail and technical prowess that is breathtaking, and peerless. Is this Rockstar's greatest game, a new masterpiece alongside the original? There are one too many caveats, and one too many flaws at its heart, to leave me totally convinced. Is this its richest, most beautiful open world? Of that there's not a single doubt.

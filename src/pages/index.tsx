@@ -58,7 +58,6 @@ function mergeGames(records: GameRecord[]): CatalogGame[] {
 const mediaLabels: Record<string, string> = {
   ign: 'IGN',
   gamespot: 'GS',
-  pcgamer: 'PC Gamer',
   eurogamer: 'Eurogamer',
   nintendolife: 'Nintendo Life',
   rockpapershotgun: 'RPS',
@@ -72,6 +71,8 @@ const mediaLabels: Record<string, string> = {
   crpgaddict: 'CRPG Addict',
   aftermath: 'Aftermath',
   radicalphilosophy: 'Radical Philosophy',
+  theatlantic: 'The Atlantic',
+  gamestudies: 'Game Studies',
 };
 
 function ExternalReviewLink({source}: {source: MediaSource}) {

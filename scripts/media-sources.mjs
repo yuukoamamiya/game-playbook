@@ -1,7 +1,6 @@
 const legacyMedia = [
   {site: 'ign', kind: 'review', language: 'en', scoreField: 'ign_score', urlField: 'ign_url'},
   {site: 'gamespot', kind: 'review', language: 'en', scoreField: 'gamespot_score', urlField: 'gamespot_url'},
-  {site: 'pcgamer', kind: 'review', language: 'en', urlField: 'pcgamer_url'},
   {site: 'eurogamer', kind: 'review', language: 'en', urlField: 'eurogamer_url'},
   {site: 'nintendolife', kind: 'review', language: 'en', urlField: 'nintendolife_url'},
   {site: 'rockpapershotgun', kind: 'review', language: 'en', urlField: 'rockpapershotgun_url'},
@@ -80,7 +79,6 @@ export function addSource(row, source) {
 export const mediaLabels = {
   ign: 'IGN',
   gamespot: 'GameSpot',
-  pcgamer: 'PC Gamer',
   eurogamer: 'Eurogamer',
   nintendolife: 'Nintendo Life',
   rockpapershotgun: 'Rock Paper Shotgun',
@@ -95,4 +93,6 @@ export const mediaLabels = {
   aftermath: 'Aftermath',
   radicalphilosophy: 'Radical Philosophy',
   jesperjuul: 'Jesper Juul',
+  theatlantic: 'The Atlantic',
+  gamestudies: 'Game Studies',
 };

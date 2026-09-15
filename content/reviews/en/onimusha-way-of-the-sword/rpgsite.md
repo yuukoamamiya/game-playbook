@@ -1,0 +1,61 @@
+---
+slug: "onimusha-way-of-the-sword"
+source_title: "Onimusha: Way of the Sword Review"
+source_url: "https://www.rpgsite.net/review/21251-onimusha-way-of-the-sword-review"
+source_site: rpgsite
+review_score: 9
+review_score_text: ""
+author: "Hayes Madsen"
+published: "2026-08-31"
+---
+
+# Onimusha: Way of the Sword Review — rpgsite Review
+
+- Source: [rpgsite](https://www.rpgsite.net/review/21251-onimusha-way-of-the-sword-review)
+- Author: Hayes Madsen
+- Published: 2026-08-31
+- Score: 9
+
+Onimusha: Way of the Sword   might just have some of the best boss battles I've ever encountered in a video game, right up there with the likes of  Metal Gear Rising: Revengeance  or  Kingdom Hearts II . Each one is masterfully orchestrated and singularly thrilling, like the climax of an action film strung out across an entire 20-hour experience. And the rest of the game around those boss fights equally has a lot to love as well, with fantastic characters that fill out a rich world steeped in real Japanese mythology and myth. While there's a bit of fluff tacked on in the side activities, Way of the Sword is a new masterpiece of action games and Capcom's best game of the year so far — and that's really saying something. 
+
+  Advertisement. Keep scrolling for more       It's been a whopping 20 years since the release of the last Onimusha game (not including remasters), and for all purposes, Way of the Sword functions as a complete reboot of the franchise. The story is almost entirely disconnected from past games, outside of similar themes and ideas, and the gameplay has been overhauled to fall more in line with character action games and a touch of open-zone exploration. It's a pretty drastic reimagining of Onimusha, honestly, but despite that, the game manages to nail some of the integral elements that have made the series what it is. Every single Onimusha game has diverged widely in terms of design, from the first game being straight up  Resident Evil  with a sword, to the third game feeling more like  Devil May Cry  with a wild time-traveling storyline featuring Jean Reno (yes, the actor). 
+
+ For Way of the Sword, there's a fairly stark horror theme that permeates the entire game, and it's done quite well. While Musashi does have a few allies, this is a game about a single swordsman facing down one unspeakable horror after another, and struggling to retain his own humanity along the way. That vibe translates to the game's combat system, which feels methodical and demanding, and evolves into something truly spectacular as you unlock an array of options. 
+
+ Taking place in the Edo period, Way of the Sword follows the legendary real-life wandering samurai Miyamoto Musashi. Locked in a deadly duel with his rival Ganryu, the pair are ambushed by horrifying creatures called Genma. Mercilessly slaughtered and sent to hell, the pair are brought back by a mysterious force and given Oni Gauntlets, powerful devices that enhance their strength by absorbing souls. Musashi finds himself in the thick of a fight to save the world from the forces of hell by fighting off the Genma and absorbing their souls, while Ganryu takes the exact opposite path, slaughtering innocent people to build his strength. 
+
+ I wouldn't say past Onimusha games have had poor stories, but they were more delightful camp than anything. In Way of the Sword, however, storytelling is an enormous focus, both in terms of worldbuilding and complex character arcs. Musashi himself is an utterly lovable protagonist, a bit of a bumbling fool in every regard except his swordsmanship, but an inherently kind soul who groans and complains every time someone asks him for help, but does it nonetheless. I actually find Musashi a particular highlight of this game, and his likeness is based on legendary Japanese actor Toshiro Mifune, who even played the character Musashi in the Samurai Trilogy.
+
+ Mifune's likeness is honestly astounding here; the actor's facial tics have been recreated exactly, and the sheer personality instilled in the character through facial animations, as well as the vocal performances, is incredible. Given that Capcom worked closely with Mifune's estate, and this is an almost exact performance of what the actor has done before, Way of the Sword feels more like honoring the late actor instead of being exploitative. 
+
+  Advertisement. Keep scrolling for more       This is easily one of the best uses of the RE Engine we've seen yet, especially in terms of character animations. There are also genuinely a few enemy designs in this game that are so grotesque, and rendered in such detail, that it made me physically shudder. Equally, there's a lot of impressive vistas and genuinely gorgeous nature, especially as Musashi clears the "corruption" across the city and starts to return things to normal. It's a bit similar to Capcom's Kunitsu-Gami, in how the oppressive greyscale world gets returned to vibrance and life.
+
+ Musashi is the beating heart of the game, a charming weirdo that fills the horrifying, nightmare-filled Kyoto with brevity, but there are a bunch of supporting elements around him that make Way of the Sword's world and narrative memorable. Juxtaposed against Musashi is his rival Ganryu, a sort of foil that pops up repeatedly throughout the game, and a truly eccentric weirdo that plays wonderfully off the more stoic protagonist. A handful of supporting characters assist Musashi along the way, but in particular, I really love Okuni, who's historically the creator of Kabuki. Her arc is incredibly compelling, filled with emotional scenes, and she fits nicely as a sort of sidekick. 
+
+ But the other element here is how well Way of the Sword uses real mythology, local myths, and legends from across Kyoto. While it's woven into the main story, these myths are also given great detail in readables and collectibles. For example, as you explore Kyoto, you can save Lion Dogs, which lead to rewards, but each one also gives you a different myth or legend to read in the menu. And these are given enormous detail, not just a few lines, but actual, entire paragraphs and pages. It's all entirely optional, but there's so much rich backdrop given to the world, if you choose to pursue it. 
+
+ Those myths also set the stage for the game's enemies, the Genma, and the way the combat system plays out. Every enemy in the game is some kind of warped, grotesque chimera of humans or other animals. The power of the Oni gauntlet gives Musashi the ability to stand against the monsters, upping his strength and giving you access to an array of different weapons and abilities. But the core of the combat system is deliberately focused on swordplay and dueling,  and mastering Musashi's basic moveset. 
+
+ To keep things simple, you essentially have four basic moves: light attack, heavy attack, deflect, and dodge. On top of that, both you and enemies have a health gauge and a stamina gauge, and if the stamina gauge is depleted, it opens up a hugely damaging attack. Way of the Sword's combat heavily emphasizes timing and a sort of rhythmic approach to combat. Deflecting at the exact right moments makes clashing swords light up in a shower of sparks and briefly stagger the enemy. Hitting the attack button at the exact right moment lets you use the Onimusha series' iconic Issen attack, instantly slashing the enemy in two. Issens are incredibly hard to time right, but you can use them against any enemy in the game, even bosses. There's a fantastic sort of cinematic flair to every combat encounter, brought to the front by really dynamic animations and special effects, making battles often feel like film set pieces. 
+
+ The ebb and flow of dueling is where Way of the Sword shines, and the game then adds onto it with Oni Weapons that each have a distinct attack and gauge, like a spear that whips up a whirlwind all around you, or a pair of hammers that bashes huge portions of the stamina gauge off. Across the game, you'll also unlock an array of new abilities that tie into both your exploration and combat abilities — Oni Agility lets you run on walls, but also lets you unlock a rapid recovery move where Musashi instantly leaps up after being knocked down. 
+
+ In terms of the general structure of the game, Way of the Sword is split into sort of two halves: hand-designed story levels and an open zone area where you can explore and tackle side quests, search for treasure, and more. This central Kyoto area is absolutely crammed with secrets and things to discover, as well as new side quests that pop up across the 20- 30 hours. These sidequests are vital for levelling up Musashi's equipment and skills, but also where a lot of the game's myths and lore are explored through "Mysteries" missions. These more story-based side quests are universally great, but there's a whole section of other "Encounter" type missions that are little more than generic filler. The pacing stays quick and snappy in those main story missions and Mysteries, but I wish some of the extra side content felt more meaningful, beyond just busy ways to get upgrade materials. 
+
+  Advertisement. Keep scrolling for more       Based on the demo, I know a lot of people had worries about Way of the Sword's difficulty, and I'm happy to report that it's absolutely a non-issue in the full game. While combat does start remarkably easy, there's a very noticeable rise across the entire game, with difficulty deliberately ramping up. And this is especially true in the game's bombastic boss battles, which are where the best elements of Way of the Sword truly shine through. 
+
+ Every single boss battle in the game feels like an event, and each boss has hugely unique movesets and abilities that you'll need to adjust and react to. One boss might have lightning spheres that pop out of his attacks, making you dodge lightning strikes on top of basic attacks. Another is a sort of chimera with a snake tail, demanding that you dodge instead of parry if you really want to be effective. The multiple times you fight Ganryu are special highlights, each one feeling like a dramatic one-on-one duel to the death. 
+
+ These boss battles are where all of your skills are put to the test, if you've mastered parrying, dodging, how to effectively use your Oni Armaments, and more. Certain sub-bosses do get reused across the game, but all of the major story bosses are easily highlights of the game, dramatic showdowns where the combat system utterly sings, and there are some truly jaw-dropping moments in terms of scale late in the game. 
+
+ There's a clear level of ambition in Way of the Sword that's astounding, and something I never would have expected from the revival of something like Onimusha, a series that remained fairly niche throughout the years in the grand scheme of things. It's remarkable how well the horror and action elements of the game come together, while the general vibe and quirky off-the-wall weirdness and smart use of real history of the series remains baked in. These quirky little details come to life in many of the game's quiet moments and side stories, while the main story beats keep up a big and bombastic pacing. And it's ultimately that dichotomy that I think really makes Onimusha stand out. 
+
+ Yes, you've got plenty of intense, nail-biting character action. But alongside that, you also get a genuinely well-paced and engaging story, and a rich and complex world rife with real-world details you can dig into. In the best way, Way of the Sword feels like a golden era action movie, perfectly treading that line between pulse-pounding and emotionally evocative. Musashi is an all-timer of a hero that's immediately likable from the very first frame you see him, following in the footsteps of countless other Capcom protagonists.
+
+ It's hard to imagine how this could be a stronger comeback for Onimusha, and in an already incredible year for Capcom, I can't believe that I'm saying Onimusha: Way of the Sword easily sits at the top of the mountain.
+
+         9
+
+         Versions tested: PS5. Onimsusha: Way of the Sword is also available on Xbox Series X|S, Nintendo Switch 2, and PC.
+
+         Disclaimer: A copy of this game was provided to RPG Site by the publisher.

@@ -92,9 +92,10 @@ static/img/reviews/           游戏页图片，当前随仓库发布
 当前使用的媒体 `site` 标识包括：
 
 ```text
-ign, gamespot, pcgamer, eurogamer, rockpapershotgun, rpgsite,
+ign, gamespot, eurogamer, rockpapershotgun, rpgsite,
 adventuregamers, nintendoworldreport, 4gamer, famitsu, unwinnable,
-rpgamer, crpgaddict, aftermath, radicalphilosophy, jesperjuul
+rpgamer, crpgaddict, aftermath, radicalphilosophy, jesperjuul,
+theatlantic, gamestudies
 ```
 
 新增媒体时：
@@ -104,7 +105,36 @@ rpgamer, crpgaddict, aftermath, radicalphilosophy, jesperjuul
 3. 若有中文译文，在对应 MDX 的 `<ReviewTabs>` 中增加 `<ReviewTab site="…" label="…">`。`ReviewTabs` 组件通常不需要改。
 4. 若有英文源，放入 `content/reviews/en/`，并在对应标签页保留来源链接。
 
-组件根据 `src/generated/reviews.json` 判断哪些标签有实际译文：只有包含足够中文内容且不含“待补”的标签才显示；只有一个媒体时不显示标签栏。
+**同一媒体多篇文章**：再加一个 `<ReviewTab>`，但必须给它唯一的 `id`，例如 `<ReviewTab id="gamestudies-griebel" site="gamestudies" label="Game Studies · 自我投射">`；`id` 缺省时等于 `site`。英文源相应写成 `content/reviews/en/<slug>/<site>-<key>.md`（`<key>` 区分同站点多篇）。`ReviewTabs` 用 `id`（而非 `site`）作为标签页唯一键。
+
+组件根据 `src/generated/reviews.json` 判断哪些标签有实际译文：只有包含足够中文内容且不含“待补”的标签才显示；只有一个媒体时不显示标签栏。译文里不要出现裸的 `{` `}`（MDX 会当成表达式导致构建失败），必要处用 `【】` 等替代。
+
+### 英文来源抓取现状（2026-09-15）
+
+- `content/reviews/en/<slug>.md`：IGN 正文（137 篇）。
+- `content/reviews/en/<slug>/<site>.md`：GameSpot（148）、Eurogamer（83）、Rock Paper Shotgun（52）、RPG Site（30）、RPGamer（14）、4Gamer（3）、The CRPG Addict（1）、Adventure Gamers（1）。
+- 抓取脚本 `scripts/collect-media-reviews.mjs`（按站点规则提取，用 curl 绕过 TLS 指纹拦截；`node scripts/collect-media-reviews.mjs <site...>` 可只跑指定站点）。
+- RPGamer 只能走浏览器（Windows schannel TLS 握手失败），已用 `browsermcp` 抓完。
+- 4Gamer 是日文站，正文含少量页头标记噪声。
+- **PC Gamer 已移除**：用户确认不需要该媒体；英文源、`sources`、映射与本文档均已清除。
+- **Retro Gamer / Time Extension 无可用评测**：Retro Gamer 现挂在 `gamesradar.com/retrogamer/`，线上只有新闻/专题、没有评测存档；Time Extension 用浏览器可访问（已枚举全部 247 篇评测，绝大多数是硬件/模拟器），但没有任何一篇对应本目录游戏。
+- 其余媒体（Unwinnable、Fami通、Aftermath、Radical Philosophy、Jesper Juul）目前只有链接，未抓正文。
+
+### 学者文化评论（2026-09-15 补充）
+
+- **Ian Bogost**：收录《The Quiet Revolution of Animal Crossing》（The Atlantic）→ `animal-crossing-new-horizons`（`site: theatlantic`）。他的其他游戏文章多为泛论或对应目录外作品。
+- **Alexander Galloway**：`radicalphilosophy` 的《Playing the Code》（主要讨论《文明》，已挂到 civilization-iii / alpha-centauri / the-sims / unreal-tournament-1999）；新收录《Social Realism in Gaming》（Game Studies 2004）→ `the-sims`、`grand-theft-auto-iii`（`site: gamestudies`）。他的《Warcraft and Utopia》在 CTheory 只有 PDF，暂未收录。
+- **Game Studies 期刊**：用 `scripts/collect-media-reviews.mjs` 的 gamestudies 规则，从期刊归档（344 篇）里挑出针对本目录具体游戏的论文并翻译，已收录 **21 篇**（`kind: essay`），覆盖 Portal、BioShock、The Last of Us Part II、The Sims、Elden Ring、Overwatch、World of Warcraft、Minecraft、Breath of the Wild、Red Dead Redemption 2、Fallout 3、Mass Effect 2、Skyrim 等；其中 Elden Ring、Fallout 3、Minecraft、Overwatch、The Last of Us Part II、The Sims、World of Warcraft 各有 2 篇。**同一游戏同一媒体可以有多篇**：每篇一个 `<ReviewTab>`，用独立的 `id` 区分（见上节）。
+- **Jesper Juul**：除已有的《GTA IV and Philip Glass》，新收录《Half-Life 2, the Good and the Bad》《Half-Life 2: Episode Two Stats》（The Ludologist）→ `half-life-2`、`half-life-2-episode-two`（`site: jesperjuul`）。
+- **Slavoj Žižek**：未找到针对本目录任一游戏的文化评论（只有泛论与访谈），暂不收录。
+- 新站点：`theatlantic`（The Atlantic）、`gamestudies`（Game Studies）；抓取规则见 `scripts/collect-media-reviews.mjs`。
+
+### 评测与评论的收录精度
+
+- `kind: review` 必须精准对应当前收录的那一款游戏：**不能**是别的游戏、DLC/资料片、重制版或增强版。
+- `kind: feature` / `kind: essay` 是文化评论，可以放宽：允许讨论重制版、皇家版、威力加强版、不同平台版，甚至同系列相邻作品。
+- 2026-09-15 复查时发现早期媒体采集有错配，已处理：删除 10 条错配到**别的游戏**的评测（如 `black-and-white|eurogamer` 实为宝可梦黑白、`deus-ex|*` 实为《人类分裂》、`portal|rockpapershotgun` 实为《桥构传送门》等），并把 24 条 DLC/版本/非评测来源从 `review` 改为 `feature`。清理脚本：`scripts/cleanup-mismatched-sources.mjs`。
+- 其余媒体的 `kind` 仍可能有误，后续补充或复查时按上述精度规则核对。
 
 ## 推荐工作流
 
@@ -155,10 +185,18 @@ git diff --check
 
 ## 当前待办
 
+- **进行中**：核查学术期刊 **Games and Culture**、**Games: Research and Practice**（ACM）、**ToDiGRA**（Digital Games Research Association）里是否有可对应本目录游戏的论文，有则按 Game Studies 同样流程收录（抓正文 → 写 `content/reviews/en/<slug>/<site>.md` → 补 `<ReviewTab>` → 翻译）。
 - 完成图片 Cloudflare Worker 代理方案：明确 Worker 路由、GitHub 源地址、缓存键和失效策略。
 - 继续补充已收录游戏的媒体入口，但必须逐篇核对，不把自动匹配候选直接落库。
-- 继续完成已有英文来源对应的中文译文；空的媒体标签页可以保留，组件会自动隐藏，也可以在确认后清理。
+- IGN / GameSpot 侧还有新平台（GBA/NDS/3DS）等约 27 个游戏没有公开页（Codex 抓取失败，用户要求先留空，最后再回头看）。
+- 6 个空 GameSpot 标签页（`big-walk`、`dave-the-diver`、`half-life-2-episode-two`、`satisfactory`、`the-witcher-3-wild-hunt`、`valheim`，CSV/JSON 里无对应 `gamespot_url`）组件会自动隐藏，可选清理。
 - 若数据结构、收录范围、版本规则或部署方式发生变化，先更新本文件，再继续修改代码或数据。
+
+### 媒体英文源与译文现状（2026-09-15）
+
+- 已抓英文源并翻译进标签页：IGN 137、GameSpot 148、Eurogamer 78、Rock Paper Shotgun 47、RPG Site 28、RPGamer 11、Game Studies 21、Jesper Juul 2、The Atlantic 1、4Gamer 1、The CRPG Addict 1。
+- 已移除 PC Gamer（用户不需要）；`indienova` 已因版权风险撤回。
+- 抓取脚本：`scripts/collect-media-reviews.mjs`（按站点规则，curl 抓取）；`scripts/add-media-tabs.mjs`（给文档补媒体标签页占位）；`scripts/collect-ign-reviews.mjs` / `collect-ign-images.mjs`（IGN 正文与头图）。
 
 ## Git 与交接规则
 
