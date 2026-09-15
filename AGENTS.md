@@ -4,13 +4,12 @@
 
 ## 项目目标
 
-这是一个个人使用的 Docusaurus 游戏档案库，用来筛选和阅读 Metacritic 高分游戏，并集中保存 IGN 与 GameSpot 的评测入口和中文译文。
+这是一个个人使用的 Docusaurus 游戏档案库，用来筛选和阅读带有 Metacritic Must-Play 标记的游戏，并集中保存 IGN 与 GameSpot 的评测入口和中文译文。
 
 当前收录条件：
 
-- Metacritic 总分不低于 90。
 - 必须带有 Metacritic Must-Play 标记。
-- 平台范围为 PC、Nintendo Switch、Nintendo Switch 2。
+- 当前平台范围为 PC、Nintendo Switch、Nintendo Switch 2；后续继续检查 Game Boy Advance、Super Nintendo、Nintendo DS、Nintendo 3DS。
 
 不要擅自放宽或改变这些条件。若需要改变，先在对话中说明影响。
 
@@ -19,17 +18,19 @@
 仓库中的内容分为三层，不要混用：
 
 ```text
-data/metacritic-games.csv     抓取与 AI 之间交换数据的中间层
+data/metacritic-games.json    抓取与 AI 之间交换数据的唯一主数据层
 content/reviews/en/           英文评测资料，仅供 AI 翻译和整理
 docs/games/                   网站前台公开的中文译文与媒体评测页
 ```
 
-### `data/metacritic-games.csv`
+### `data/metacritic-games.json`
 
 - 保存游戏元数据、Metacritic 分数、Must-Play 状态、平台和评测链接。
-- 是方便多个 AI 之间交换和批量处理的中间层。
-- 不要把英文评测正文写进 CSV。
+- 使用 JSON 数组而不是 CSV，避免列数错位；分数使用数字、Must-Play 使用布尔值、缺失数值使用 `null`。
+- 这是方便多个 AI 之间交换和批量处理的唯一主数据层；网站构建时从它生成 `src/generated/games.json`。
+- 不要把英文评测正文写进 JSON。
 - 除非用户明确要求，不要擅自修改已有评分或伪造链接。
+- 运行 `npm run validate-data` 检查必填字段、类型、重复 slug 和 URL 形状。
 
 ### `content/reviews/en/`
 
@@ -45,7 +46,7 @@ docs/games/                   网站前台公开的中文译文与媒体评测�
 - 不保存个人备注，也不把英文评测原文作为公开正文。
 - 每个游戏页面使用媒体标签页切换 IGN、GameSpot 等来源。
 - 每个公开游戏文档使用 `docs/games/_template.mdx` 的 frontmatter 结构。
-- 文档的 `slug` 必须与 CSV 中对应游戏的 `slug` 一致。
+- 文档的 `slug` 必须与 JSON 中对应游戏的 `slug` 一致。
 - 只有存在对应中文文档时，首页才显示“中文译文已收录”并提供站内链接。
 
 ## 新增媒体评测
@@ -96,22 +97,22 @@ docs/games/                   网站前台公开的中文译文与媒体评测�
 
 ### 让首页也支持新媒体
 
-当前 CSV 和首页为了方便最初的 IGN / GameSpot 数据，使用了固定字段。新增媒体后，必须同步修改以下位置，不能只改游戏页：
+当前 JSON 为了兼容已有资料，保留了 `ign_url`、`gamespot_url` 及推荐媒体 URL 字段。新增媒体后，必须同步修改以下位置，不能只改游戏页：
 
-1. `data/metacritic-games.csv`：增加该媒体的评分和链接字段，例如 `eurogamer_score`、`eurogamer_url`；已有行没有数据时留空。
+1. `data/metacritic-games.json`：增加该媒体的评分和链接字段，例如 `eurogamer_score`、`eurogamer_url`；已有记录没有数据时使用 `null` 或空字符串。
 2. `scripts/generate-games-data.mjs`：把新字段转成生成数据中的媒体记录。推荐逐步统一为 `reviews: [{site, score, url}]`，不要继续在首页组件里增加越来越多的单独字段。
 3. `src/pages/index.tsx`：将固定的 IGN / GS 链接改为遍历 `reviews`，这样新媒体会自动出现在所有有链接的游戏卡片上。
 4. `docs/games/_template.mdx`：补充新媒体的 `<ReviewTab>` 示例，或保留清晰的“可继续添加标签页”说明。
 5. 若新媒体有英文源资料，按 `<slug>/<site>.md` 保存，并在对应标签页写中文译文；不要把英文源目录接入 Docusaurus。
 6. 重新运行 `npm run generate-data` 和 `npm run typecheck`，检查首页链接和文档标签数量。
 
-当媒体数量超过两个时，优先先完成 `reviews` 数组化，再添加更多媒体。不要在 `GameRecord`、CSV 映射和 JSX 中重复堆叠 `xxxUrl` / `xxxScore` / `xxxLink` 字段。
+当媒体数量超过两个时，优先先完成 `reviews` 数组化，再添加更多媒体。不要在 `GameRecord`、JSON 映射和 JSX 中重复堆叠 `xxxUrl` / `xxxScore` / `xxxLink` 字段。
 
 ## 推荐工作流
 
 处理一款新游戏时按以下顺序：
 
-1. 确认它在 CSV 中满足 `metacritic_score >= 90` 且 `must_play=true`。
+1. 确认它在 JSON 中满足 `must_play=true`；MC 分数只作为展示和排序字段，不再作为收录门槛。
 2. 补充 Metacritic、IGN 和 GameSpot 链接；找不到的链接留空并在 `notes` 说明。
 3. 将英文评测资料放入 `content/reviews/en/<slug>.md`。
 4. 用 AI 将英文资料翻译或整理为中文，写入 `docs/games/<slug>.mdx`。
@@ -128,7 +129,7 @@ docs/games/                   网站前台公开的中文译文与媒体评测�
 - Node.js：20 或更高版本。
 - `npm run build` 会先执行 `npm run generate-data`，再进行 Docusaurus 构建。
 - 用户明确要求由 Cloudflare Pages 构建；除非用户要求，不执行本地生产构建。
-- `src/generated/games.json` 是生成文件，不要手工维护内容；应修改 CSV、公开文档或生成脚本后重新生成。
+- `src/generated/games.json` 是生成文件，不要手工维护内容；应修改 JSON、公开文档或生成脚本后重新生成。
 
 ## 待办事项
 
@@ -157,14 +158,16 @@ docs/games/                   网站前台公开的中文译文与媒体评测�
 
 至少确认以下事项：
 
-- CSV 记录仍满足 MC 90+ 与 Must-Play 交集条件。
+- JSON 记录都带有 Must-Play 标记；MC 分数可以低于 90，但仍用于排序和展示。
 - 英文资料位于 `content/reviews/en/`，不在 `docs/` 下。
 - `docs/games/` 公开文档只展示中文译文和必要的来源链接。
 - 生成数据只包含游戏元数据和译文状态，不读取英文评测正文。
-- 新增媒体时，确认游戏页标签、英文源文件、CSV 字段、生成数据和首页链接没有脱节。
+- 新增媒体时，确认游戏页标签、英文源文件、JSON 字段、生成数据和首页链接没有脱节。
 - `npm run generate-data` 成功。
 - `npm run typecheck` 成功。
 - 没有未经用户要求的 Git 提交、推送、生产发布或本地生产构建。
+
+> 下面的 2026-09-14 和 2026-09-15 交接内容属于迁移前历史记录；其中提及 CSV 的地方不再适用于当前数据层。
 
 ## 2026-09-14 评测媒体链接采集交接
 
@@ -223,7 +226,7 @@ node scripts/collect-additional-review-links.mjs 80 84
 ### 进行中 / 待办
 
 1. **GameSpot 译文（仅剩 4 篇）**：`world-of-warcraft`、`world-of-warcraft-cataclysm`、`world-of-warcraft-the-burning-crusade`、`world-of-warcraft-wrath-of-the-lich-king`。方法：读 `content/reviews/en/<slug>/gamespot.md` → 翻成中文 → 替换 `docs/games/<slug>.mdx` 里 `<ReviewTab site="gamespot" label="GameSpot">` 的“GameSpot 中文译文待补。”占位。
-2. **6 篇无 GameSpot 源的占位**：`big-walk`、`dave-the-diver`、`half-life-2-episode-two`、`satisfactory`、`the-witcher-3-wild-hunt`、`valheim` 的 GameSpot 标签页仍是“待补”，但它们没有 `gamespot.md`（CSV 里也没有 `gamespot_url`）。组件会自动隐藏该标签页，页面不受影响；如要整洁可手动删掉这几个空的 `<ReviewTab site="gamespot">` 块。
+2. **6 篇无 GameSpot 源的占位**：`big-walk`、`dave-the-diver`、`half-life-2-episode-two`、`satisfactory`、`the-witcher-3-wild-hunt`、`valheim` 的 GameSpot 标签页仍是“待补”，但它们没有 `gamespot.md`（JSON 里也没有 `gamespot_url`）。组件会自动隐藏该标签页，页面不受影响；如要整洁可手动删掉这几个空的 `<ReviewTab site="gamespot">` 块。
 3. **页内图片（已放弃）**：用户曾要求采集评测页内的图片（跳过视频），但 IGN 的图在 JS 懒加载的 slideshow 里、GameSpot 的图在快照里只暴露文件名，`browsermcp` 又不支持 `javascript:`/`view-source:`、也没有取 HTML/eval 的工具，**当前工具链无法提取页内图片 URL**。用户 2026-09-15 决定放弃，不再采集页内图；每页仅保留 IGN 头图（`static/img/reviews/<slug>.jpg`）。若日后要做，可加装支持 `evaluate_script` 的 MCP（如 `chrome-devtools-mcp`）或本地 Playwright。
 5. **仍未找到链接**（站内确实没有，保留空白）：
    - IGN 缺 22 条：`bayonetta-plus-bayonetta-2`、`chained-echoes`、`homeworld`、`sid-meiers-alpha-centauri`、`system-shock-2`、`the-sims`、`splinter-cell-chaos-theory`、`unreal-tournament-1999`、`against-the-storm`、`baldurs-gate`、`neverwinter-nights`、`planescape-torment`、`the-longest-journey`、`no-one-lives-forever`、`tiger-woods-pga-tour-2005`、`tony-hawks-pro-skater-2`、`ufo-50`、`black-and-white`、`deus-ex`、`silent-hunter-iii`、`slay-the-princess`、`riddick-butcher-bay`。
@@ -233,7 +236,7 @@ node scripts/collect-additional-review-links.mjs 80 84
 ## 2026-09-15 最终复核与发布交接
 
 - 用户确认保留现有自动媒体标签页机制；同一游戏继续使用一个页面，媒体数量可扩展。
-- 已复核 `data/metacritic-games.csv`：164 条记录、21 列，每行字段数一致；所有记录仍满足 `metacritic_score >= 90` 且 `must_play=true`。
+- 已复核迁移前的 CSV 并生成 `data/metacritic-games.json`：当前 164 条记录、每个平台组合无重复；所有记录带有 `must_play=true`。
 - 本次只检查既有链接，不再抓取新的评测正文。新增媒体 URL 中发现并清空 8 个明确误匹配字段（涉及 9 条记录）：Blue Prince 汇总文、Animal Well 汇总文、Resident Evil 4 旧版/高清版、Satisfactory Early Access、Tony Hawk's Pro Skater HD（两条）以及 Hades Early Access（两条记录）。
 - 清理后保留可确认的推荐媒体 URL；Nintendo Life 与 Nintendo World Report 仍可为空，不用猜测链接补齐。
 - GameSpot 仍有 4 篇英文源待翻译：`world-of-warcraft`、`world-of-warcraft-cataclysm`、`world-of-warcraft-the-burning-crusade`、`world-of-warcraft-wrath-of-the-lich-king`。另有 6 个没有 GameSpot URL/英文源的空标签页，组件会自动隐藏：`big-walk`、`dave-the-diver`、`half-life-2-episode-two`、`satisfactory`、`the-witcher-3-wild-hunt`、`valheim`。
@@ -247,3 +250,13 @@ node scripts/collect-additional-review-links.mjs 80 84
 - `scripts/collect-ign-images.mjs`：抓 IGN 配图到 `static/img/reviews/` 并插图（`--force` 覆盖）。
 - `scripts/wrap-review-tabs.mjs`：把旧文档包进 `<ReviewTabs>`（一次性迁移）。
 - `scripts/normalize-review-tabs.mjs`：旧的标签页清理脚本，已被组件机制取代。
+
+## 2026-09-16 数据层与首页复核
+
+- AI 与抓取工具的交换层已从 `data/metacritic-games.csv` 迁移为 `data/metacritic-games.json`；CSV 已删除，不再作为主数据源。
+- JSON 使用稳定对象字段：数值为 number、`must_play` 为 boolean、缺失数值为 `null`，并保留推荐媒体 URL 字段；`scripts/data-store.mjs` 统一负责读写。
+- `npm run validate-data` 会检查字段、类型、重复的 `slug + platform` 和 URL 形状；当前 164 条记录通过校验。
+- 网站本身不需要运行时数据库。Docusaurus/Cloudflare Pages 是静态构建，构建时从 JSON 生成 `src/generated/games.json` 即可；SQLite 暂不引入。
+- 收录规则已改为 `must_play=true`，MC 分数只用于展示和排序，不再要求 ≥90。`scripts/collect-metacritic-intersection.mjs` 已预留 PC、Nintendo Switch、Nintendo Switch 2、Game Boy Advance、Super Nintendo、Nintendo DS、Nintendo 3DS；运行抓取前仍需逐个平台确认 Metacritic 的实际路径和结果。
+- 首页已移除“按平台找到想玩的游戏，再按评分或出版年份浏览。”和每个条目下的“中文译文已收录”。GameSpot 评分从 `content/reviews/en/<slug>/gamespot.md` 的 frontmatter 回填到 JSON，当前 153 条 GameSpot 链接有评分。
+- 本次验证：`npm run validate-data`、`npm run generate-data`、`npm run typecheck` 通过；未运行本地生产构建、未提交或推送。

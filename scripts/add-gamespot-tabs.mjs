@@ -1,8 +1,8 @@
 import {readFile, writeFile, readdir, access} from 'node:fs/promises';
 import {resolve} from 'node:path';
+import {readGames} from './data-store.mjs';
 
 const root = 'D:/Documents/GitHub/Game';
-const csvPath = resolve(root, 'data/metacritic-games.csv');
 const enDir = resolve(root, 'content/reviews/en');
 const docDir = resolve(root, 'docs/games');
 
@@ -34,7 +34,7 @@ function parseCsv(text) {
 const q = (v) => `"${String(v ?? '').replaceAll('\\', '\\\\').replaceAll('"', '\\"')}"`;
 const num = (v) => (v !== '' && Number.isFinite(Number(v)) ? Number(v) : '');
 
-const rows = parseCsv(await readFile(csvPath, 'utf8'));
+const rows = await readGames();
 const bySlug = new Map();
 for (const row of rows) {
   if (!bySlug.has(row.slug)) bySlug.set(row.slug, []);
@@ -67,7 +67,7 @@ for (const slug of gsFiles) {
   }
 
   const group = bySlug.get(slug);
-  if (!group) { console.log(`NO_CSV ${slug}`); continue; }
+  if (!group) { console.log(`NO_DATA ${slug}`); continue; }
   const row = group[0];
   const platforms = [...new Set(group.map((r) => r.platform))];
   let notes = row.notes;

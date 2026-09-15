@@ -1,7 +1,7 @@
 import fs from 'node:fs/promises';
 import {ProxyAgent, fetch} from 'undici';
+import {readGames, writeGames} from './data-store.mjs';
 
-const csvPath = new URL('../data/metacritic-games.csv', import.meta.url);
 const userAgent = 'Mozilla/5.0 (compatible; GamePlaybookResearch/1.0)';
 const proxyUrl = process.env.GAME_PLAYBOOK_HTTP_PROXY || 'http://127.0.0.1:10809';
 const dispatcher = new ProxyAgent(proxyUrl);
@@ -272,23 +272,7 @@ async function findReview(target, title) {
   return {result: await findReviewFromSitemap(target, title)};
 }
 
-function serialize(fields, rows) {
-  return `${[fields.join(','), ...rows.map((row) => fields.map((field) => csvCell(row[field])).join(','))].join('\n')}\n`;
-}
-
-const text = await fs.readFile(csvPath, 'utf8');
-const lines = text.split(/\r?\n/).filter(Boolean);
-const originalFields = parseCsvLine(lines[0]);
-const existingRows = lines.slice(1).map((line) => {
-  const values = parseCsvLine(line);
-  return Object.fromEntries(originalFields.map((field, index) => [field, values[index] ?? '']));
-});
-const mediaFields = new Set(media.map((target) => target.field));
-const fields = [
-  ...originalFields.filter((field) => !mediaFields.has(field)),
-  ...media.map((target) => target.field),
-];
-const rows = existingRows.map((row) => Object.fromEntries(fields.map((field) => [field, row[field] ?? ''])));
+const rows = await readGames();
 
 const start = Math.max(0, Number(process.argv[2] ?? 0));
 const limit = Math.max(0, Number(process.argv[3] ?? rows.length - start));
@@ -327,7 +311,7 @@ for (let rowIndex = start; rowIndex < end; rowIndex += 1) {
       console.log(`NOT_FOUND | ${row.slug} | ${target.label}`);
     }
   }
-  if (!dryRun) await fs.writeFile(csvPath, serialize(fields, rows), 'utf8');
+  if (!dryRun) await writeGames(rows);
 }
 
 console.log(JSON.stringify({rows: `${start + 1}-${end}`, dryRun, stats}, null, 2));

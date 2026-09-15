@@ -1,9 +1,9 @@
-import {mkdir, readFile, writeFile, access} from 'node:fs/promises';
+import {mkdir, writeFile, access} from 'node:fs/promises';
 import {dirname, resolve} from 'node:path';
 import {fileURLToPath} from 'node:url';
+import {readGames} from './data-store.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const csvPath = resolve(root, 'data/metacritic-games.csv');
 const outDir = resolve(root, 'content/reviews/en');
 const userAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36';
 const force = process.argv.includes('--force');
@@ -177,7 +177,7 @@ function renderMarkdown(row, page) {
 }
 
 await mkdir(outDir, {recursive: true});
-const rows = parseCsv(await readFile(csvPath, 'utf8'));
+const rows = await readGames();
 
 const targets = [];
 const seenSlugs = new Set();

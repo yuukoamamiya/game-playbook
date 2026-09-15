@@ -7,6 +7,7 @@
     "start": "docusaurus start",
     "build": "npm run generate-data && docusaurus build",
     "generate-data": "node scripts/generate-games-data.mjs",
+    "validate-data": "node scripts/validate-games-data.mjs",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",

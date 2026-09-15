@@ -1,6 +1,4 @@
-import fs from 'node:fs/promises';
-
-const csvPath = new URL('../data/metacritic-games.csv', import.meta.url);
+import {dataPath, readGames, writeGames} from './data-store.mjs';
 const userAgent = 'Mozilla/5.0 (compatible; GamePlaybookResearch/1.0)';
 
 function parseCsvLine(line) {
@@ -101,10 +99,7 @@ async function findReview(domain, title) {
   return { query, result: chooseReview(parseSearchResults(html, domain, section), title) };
 }
 
-const text = await fs.readFile(csvPath, 'utf8');
-const lines = text.split(/\r?\n/).filter(Boolean);
-const fields = parseCsvLine(lines[0]);
-const rows = lines.slice(1).map((line) => Object.fromEntries(fields.map((field, index) => [field, parseCsvLine(line)[index] ?? ''])));
+const rows = await readGames();
 const start = Number(process.argv[2] ?? 0);
 const limit = Number(process.argv[3] ?? rows.length - start);
 const end = Math.min(rows.length, start + limit);
@@ -131,10 +126,8 @@ for (const row of rows.slice(start, end)) {
     }
   }
   if (row.ign_url || row.gamespot_url) row.content_status = 'links-collected';
-  const checkpoint = [fields.join(','), ...rows.map((item) => fields.map((field) => csvCell(item[field])).join(',')), ''].join('\n');
-  await fs.writeFile(csvPath, checkpoint, 'utf8');
+  await writeGames(rows);
 }
 
-const output = [fields.join(','), ...rows.map((row) => fields.map((field) => csvCell(row[field])).join(',')), ''].join('\n');
-await fs.writeFile(csvPath, output, 'utf8');
-console.log(`Updated ${changed} review links in ${csvPath.pathname} (rows ${start + 1}-${end})`);
+await writeGames(rows);
+console.log(`Updated ${changed} review links in ${dataPath} (rows ${start + 1}-${end})`);

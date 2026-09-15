@@ -3,50 +3,10 @@ import {dirname, resolve} from 'node:path';
 import {fileURLToPath} from 'node:url';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const csvPath = resolve(root, 'data/metacritic-games.csv');
+const dataPath = resolve(root, 'data/metacritic-games.json');
 const docsPath = resolve(root, 'docs/games');
 const outputPath = resolve(root, 'src/generated/games.json');
 const reviewsPath = resolve(root, 'src/generated/reviews.json');
-
-function parseCsv(text) {
-  const rows = [];
-  let row = [];
-  let value = '';
-  let quoted = false;
-
-  for (let index = 0; index < text.length; index += 1) {
-    const char = text[index];
-    const next = text[index + 1];
-
-    if (char === '"' && quoted && next === '"') {
-      value += '"';
-      index += 1;
-    } else if (char === '"') {
-      quoted = !quoted;
-    } else if (char === ',' && !quoted) {
-      row.push(value);
-      value = '';
-    } else if ((char === '\n' || char === '\r') && !quoted) {
-      if (char === '\r' && next === '\n') index += 1;
-      row.push(value);
-      if (row.some((cell) => cell !== '')) rows.push(row);
-      row = [];
-      value = '';
-    } else {
-      value += char;
-    }
-  }
-
-  if (value || row.length > 0) {
-    row.push(value);
-    if (row.some((cell) => cell !== '')) rows.push(row);
-  }
-
-  const [header = [], ...records] = rows;
-  return records.map((record) => Object.fromEntries(
-    header.map((name, index) => [name, record[index] ?? '']),
-  ));
-}
 
 function field(frontmatter, name) {
   const match = frontmatter.match(new RegExp(`^${name}:\\s*(.*)$`, 'm'));
@@ -91,10 +51,10 @@ async function readTranslations() {
   return {translations, media};
 }
 
-const rows = parseCsv(await readFile(csvPath, 'utf8'));
+const rows = JSON.parse(await readFile(dataPath, 'utf8'));
 const {translations, media} = await readTranslations();
 const games = rows
-  .filter((row) => row.must_play.toLowerCase() === 'true' && numberValue(row.metacritic_score) >= 90)
+  .filter((row) => row.must_play === true || String(row.must_play).toLowerCase() === 'true')
   .map((row) => {
     const translation = translations.get(row.slug);
     return {

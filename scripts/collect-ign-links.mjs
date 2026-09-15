@@ -2,9 +2,9 @@ import {readFile, writeFile, mkdir} from 'node:fs/promises';
 import {resolve, dirname} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {tmpdir} from 'node:os';
+import {readGames, writeGames} from './data-store.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const csvPath = resolve(root, 'data/metacritic-games.csv');
 const cacheDir = resolve(tmpdir(), 'ign-sitemap-cache');
 const userAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36';
 const write = process.argv.includes('--write');
@@ -120,17 +120,13 @@ function candidates(title) {
   return [...byUrl.values()].sort((a, b) => b.score - a.score).slice(0, 3);
 }
 
-const rows = parseCsv(await readFile(csvPath, 'utf8'));
-const header = rows[0];
-const slugIdx = header.indexOf('slug');
-const titleIdx = header.indexOf('title');
-const ignIdx = header.indexOf('ign_url');
+const rows = await readGames();
 
 const report = [];
-for (const row of rows.slice(1)) {
-  if (row[ignIdx]) continue;
-  const cand = candidates(row[titleIdx]);
-  report.push({slug: row[slugIdx], title: row[titleIdx], cand});
+for (const row of rows) {
+  if (row.ign_url) continue;
+  const cand = candidates(row.title);
+  report.push({slug: row.slug, title: row.title, cand});
 }
 
 let confident = 0;
@@ -156,14 +152,14 @@ if (write) {
     'grand-theft-auto-iii': 'https://www.ign.com/articles/grand-theft-auto-iii-the-legacy-review',
   };
   let filled = 0;
-  for (const row of rows.slice(1)) {
-    if (row[ignIdx]) continue;
-    const slug = row[slugIdx];
+  for (const row of rows) {
+    if (row.ign_url) continue;
+    const slug = row.slug;
     if (exclude.has(slug)) continue;
-    if (overrides[slug]) { row[ignIdx] = overrides[slug]; filled += 1; continue; }
-    const best = candidates(row[titleIdx])[0];
-    if (best && best.extra.length === 0 && best.score >= 15) { row[ignIdx] = best.url; filled += 1; }
+    if (overrides[slug]) { row.ign_url = overrides[slug]; filled += 1; continue; }
+    const best = candidates(row.title)[0];
+    if (best && best.extra.length === 0 && best.score >= 15) { row.ign_url = best.url; filled += 1; }
   }
-  await writeFile(csvPath, `${rows.map((r) => r.map(csvCell).join(',')).join('\n')}\n`, 'utf8');
+  await writeGames(rows);
   console.error(`wrote ign_url for ${filled} rows`);
 }

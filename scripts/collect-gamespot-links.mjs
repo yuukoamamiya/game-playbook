@@ -2,9 +2,9 @@ import {readFile, writeFile, readdir} from 'node:fs/promises';
 import {resolve, dirname} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {tmpdir} from 'node:os';
+import {readGames, writeGames} from './data-store.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const csvPath = resolve(root, 'data/metacritic-games.csv');
 const corpusDir = resolve(tmpdir(), 'opencode');
 const write = process.argv.includes('--write');
 
@@ -82,14 +82,12 @@ function candidates(title) {
   return scored.slice(0, 3);
 }
 
-const rows = parseCsv(await readFile(csvPath, 'utf8'));
-const h = rows[0];
-const si = h.indexOf('slug'), ti = h.indexOf('title'), gi = h.indexOf('gamespot_url');
+const rows = await readGames();
 
 const report = [];
-for (const row of rows.slice(1)) {
-  if (row[gi]) continue;
-  report.push({slug: row[si], title: row[ti], cand: candidates(row[ti])});
+for (const row of rows) {
+  if (row.gamespot_url) continue;
+  report.push({slug: row.slug, title: row.title, cand: candidates(row.title)});
 }
 
 let good = 0, miss = 0;
@@ -116,14 +114,14 @@ if (write) {
     'the-last-of-us-part-ii-remastered': 'https://www.gamespot.com/reviews/the-last-of-us-part-2-spoilerfree-review/1900-6417483/',
   };
   let filled = 0;
-  for (const row of rows.slice(1)) {
-    if (row[gi]) continue;
-    const slug = row[si];
+  for (const row of rows) {
+    if (row.gamespot_url) continue;
+    const slug = row.slug;
     if (exclude.has(slug)) continue;
-    if (overrides[slug]) { row[gi] = overrides[slug]; filled += 1; continue; }
-    const best = candidates(row[ti])[0];
-    if (best && best.extras === 0 && best.prefixLen === best.titleLen) { row[gi] = best.url; filled += 1; }
+    if (overrides[slug]) { row.gamespot_url = overrides[slug]; filled += 1; continue; }
+    const best = candidates(row.title)[0];
+    if (best && best.extras === 0 && best.prefixLen === best.titleLen) { row.gamespot_url = best.url; filled += 1; }
   }
-  await writeFile(csvPath, `${rows.map((r) => r.map(csvCell).join(',')).join('\n')}\n`, 'utf8');
+  await writeGames(rows);
   console.error(`wrote gamespot_url for ${filled} rows`);
 }

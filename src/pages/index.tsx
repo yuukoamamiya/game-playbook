@@ -52,7 +52,6 @@ export default function Home(): React.ReactNode {
         <header className={styles.header}>
           <div className={styles.kicker}>GAME PLAYBOOK</div>
           <h1>游戏橱窗</h1>
-          <p>按平台找到想玩的游戏，再按评分或出版年份浏览。</p>
         </header>
 
         <section className={styles.summary} aria-label="游戏统计">
@@ -93,7 +92,6 @@ export default function Home(): React.ReactNode {
                       ) : game.title}
                     </h3>
                     <p>{game.releaseYear || '年份待补'} · {game.platform}</p>
-                    {game.hasTranslation && <div className={styles.translationReady}>中文译文已收录</div>}
                     <div className={styles.reviewLinks}>
                       <ExternalReviewLink label="MC" url={game.metacriticUrl} score={game.score} />
                       <ExternalReviewLink label="IGN" url={game.ignUrl} score={game.ignScore} />
