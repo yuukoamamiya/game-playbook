@@ -21,6 +21,7 @@
   --docusaurus-highlighted-code-line-bg: rgba(47, 125, 85, .1);
 }
 
+html { scrollbar-gutter: stable; }
 html, body { background: var(--ifm-background-color); }
 .navbar { border-bottom: 1px solid var(--ifm-color-emphasis-200); }
 .navbar__title { font-family: var(--ifm-font-family-monospace); font-size: 13px; letter-spacing: .04em; }

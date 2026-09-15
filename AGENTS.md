@@ -51,7 +51,7 @@ docs/games/                   网站前台公开的中文译文与媒体评测�
 
 ## 新增媒体评测
 
-一个游戏继续只使用一个公开页面。不同媒体的译文放在同一页面的标签页中，不要为同一游戏复制出 `ign`、`gamespot` 等多个 Docusaurus 页面。
+一个游戏继续只使用一个公开页面。不同媒体的译文放在同一页面的标签页中，不要为同一游戏复制出 `ign`、`gamespot` 等多个 Docusaurus 页面。收入的内容不局限于传统评测，也可以是与该游戏明确相关的文化评论、专题文章或评分资料。
 
 ### 只增加某个游戏页的媒体标签
 
@@ -82,6 +82,7 @@ docs/games/                   网站前台公开的中文译文与媒体评测�
 - 判定依据是构建时生成的 `src/generated/reviews.json`：`scripts/generate-games-data.mjs` 会扫描每个页面的 `<ReviewTab>` 块，把有实际译文的媒体写进该文件。组件 `src/components/ReviewTabs.tsx`（经 `src/theme/MDXComponents.tsx` 全局注册）读取它决定渲染哪些标签页。
 - 因此新增媒体**不需要**改组件或脚本，只要在该游戏页补一个 `<ReviewTab>` 并写译文；重新运行 `npm run generate-data` 后标签页会自动出现。
 - 页面里若出现“待补”占位内容，请保持空占位，组件会自动隐藏该标签页。
+- 文化评论和专题文章可以作为正式内容收入，不要求存在媒体评分；标签应明确区分“评测”“文化评论”“专题”或“评分资料”。不要为了凑覆盖率收入与具体游戏无关的新闻、榜单、攻略或宣传稿。
 
 示例：
 
@@ -100,7 +101,7 @@ docs/games/                   网站前台公开的中文译文与媒体评测�
 当前 JSON 为了兼容已有资料，保留了 `ign_url`、`gamespot_url` 及推荐媒体 URL 字段。新增媒体后，必须同步修改以下位置，不能只改游戏页：
 
 1. `data/metacritic-games.json`：增加该媒体的评分和链接字段，例如 `eurogamer_score`、`eurogamer_url`；已有记录没有数据时使用 `null` 或空字符串。
-2. `scripts/generate-games-data.mjs`：把新字段转成生成数据中的媒体记录。推荐逐步统一为 `reviews: [{site, score, url}]`，不要继续在首页组件里增加越来越多的单独字段。
+2. `scripts/generate-games-data.mjs`：把新字段转成生成数据中的媒体记录。推荐逐步统一为 `sources: [{site, kind, language, score, url}]`，其中 `kind` 可为 `review`、`essay`、`feature` 或 `score`；不要继续在首页组件里增加越来越多的单独字段。现有 `reviews` 命名仅作为兼容历史实现。
 3. `src/pages/index.tsx`：将固定的 IGN / GS 链接改为遍历 `reviews`，这样新媒体会自动出现在所有有链接的游戏卡片上。
 4. `docs/games/_template.mdx`：补充新媒体的 `<ReviewTab>` 示例，或保留清晰的“可继续添加标签页”说明。
 5. 若新媒体有英文源资料，按 `<slug>/<site>.md` 保存，并在对应标签页写中文译文；不要把英文源目录接入 Docusaurus。
@@ -255,8 +256,60 @@ node scripts/collect-additional-review-links.mjs 80 84
 
 - AI 与抓取工具的交换层已从 `data/metacritic-games.csv` 迁移为 `data/metacritic-games.json`；CSV 已删除，不再作为主数据源。
 - JSON 使用稳定对象字段：数值为 number、`must_play` 为 boolean、缺失数值为 `null`，并保留推荐媒体 URL 字段；`scripts/data-store.mjs` 统一负责读写。
-- `npm run validate-data` 会检查字段、类型、重复的 `slug + platform` 和 URL 形状；当前 164 条记录通过校验。
+- `npm run validate-data` 会检查字段、类型、重复的 `slug + platform` 和 URL 形状；当前 189 条记录通过校验。
 - 网站本身不需要运行时数据库。Docusaurus/Cloudflare Pages 是静态构建，构建时从 JSON 生成 `src/generated/games.json` 即可；SQLite 暂不引入。
 - 收录规则已改为 `must_play=true`，MC 分数只用于展示和排序，不再要求 ≥90。`scripts/collect-metacritic-intersection.mjs` 已确认并使用 PC、Nintendo Switch、Nintendo Switch 2、Game Boy Advance、Nintendo DS、3DS 的实际路径；Metacritic 当前没有 SFC/SNES 平台页。
 - 首页已移除“按平台找到想玩的游戏，再按评分或出版年份浏览。”和每个条目下的“中文译文已收录”。GameSpot 评分从 `content/reviews/en/<slug>/gamespot.md` 的 frontmatter 回填到 JSON，当前 153 条 GameSpot 链接有评分。
 - 本次验证：`npm run validate-data`、`npm run generate-data`、`npm run typecheck` 通过；未运行本地生产构建、未提交或推送。
+
+## 2026-09-16 Metacritic 扩展采集
+
+- 当前收录门槛：Metacritic 页面带有 Must-Play 标记即可，MC 分数不再设置 90 分下限；分数仍用于首页显示和排序。
+- 已确认可用的平台路径：`pc`、`nintendo-switch`、`nintendo-switch-2`、`game-boy-advance`、`nintendo-ds`、`3ds`。
+- 不要使用 `super-nintendo` 或 `snes`：这些路径虽然可能返回 HTTP 200，但页面会回退为全平台榜单，Metacritic 当前没有 SFC/SNES 平台筛选。
+- 采集命令为 `node scripts/collect-metacritic-intersection.mjs`，脚本默认使用 `http://127.0.0.1:10809`；也可以通过 `GAME_PLAYBOOK_HTTP_PROXY` 覆盖代理地址。
+- 采集脚本会替换 JSON 中的候选游戏集合，同时只按精确的 `title + platform` 保留已有 IGN、GameSpot、推荐媒体 URL 和内容状态，避免跨平台误继承。采集完成后必须依次运行 `npm run validate-data`、`npm run generate-data`、`npm run typecheck`。
+- 本次采集已完成：PC 130、Nintendo Switch 25、Nintendo Switch 2 9、Game Boy Advance 14、Nintendo DS 6、3DS 5，共 189 条。新增的 GBA、NDS、3DS 条目暂不继承其他平台的媒体链接，需后续单独核对。
+- 本次采集后仍有 176 条 GameSpot URL（其中 153 条已有评分）、153 条 IGN URL；当前平台页返回的 Must-Play 条目最低分为 90，但 90 分不是收录条件。
+- 本次采集后的 `npm run validate-data`、`npm run generate-data`、`npm run typecheck` 均已通过；尚未提交或推送本轮采集结果。
+
+## 2026-09-15 新增平台评测入口补采
+
+- 已对新增的 GBA、Nintendo DS、3DS 条目运行 IGN 与 GameSpot 评测入口匹配；只写入评测 URL，不抓取正文，也不改动 Metacritic 分数或 Must-Play 状态。
+- 当前 JSON 共 189 条：IGN URL 153 条，GameSpot URL 176 条（其中 153 条已有评分）。新增平台的 IGN/GameSpot 链接分别为 12/25、23/25；无法确认的链接保留为空。
+- IGN 采集脚本中的 `grand-theft-auto-san-andreas` 误匹配例外已移除；该条目的 IGN URL 保持为空，因为候选文章不是游戏评测。
+- GameSpot 的同名复刻/多平台评测优先保留站点地图匹配到的游戏评测入口；若无法确认具体版本，不要凭标题相似度手工补链。
+- 之后重新运行 Metacritic 采集时，GBA、Nintendo DS、3DS 的已有媒体链接也会按精确的标题+平台保留；不要改回按 slug 跨平台继承。
+- 本轮变更尚未提交或推送。交付前运行 `npm run validate-data`、`npm run generate-data`、`npm run typecheck`，确认后再由用户决定是否发布。
+- 已于本轮再次执行完整分页复核：脚本不是测试采样，而是从第 1 页持续抓取到空页；PC 共 7 页（130 条），Nintendo Switch 共 2 页（25 条），Nintendo Switch 2/GBA/NDS/3DS 各 1 页（9/14/6/5 条），合计 189 条 Must-Play。
+
+## 2026-09-15 BrowserMCP 与文化媒体链接采集
+
+- BrowserMCP 已配置到 Codex 全局 MCP，并已确认连接到用户配置的浏览器标签页；可以读取此前被内置浏览器拦截的 Unwinnable 站点地图。
+- 当前下一步是从 Unwinnable 的文章站点地图中，为现有 189 条 Must-Play 游戏匹配明确相关的评测、文化评论或专题 URL。
+- 只采集文章入口 URL，不抓取正文；必须人工或规则复核文章确实对应具体游戏，不能仅凭相似词或站点地图顺序猜测。
+- 本轮新增媒体链接应写入 `data/metacritic-games.json`，不恢复 CSV 主数据层；如新增媒体字段，需同步更新数据校验、生成数据和首页的可扩展媒体结构。
+- Unwinnable 完成后再依次处理 4Gamer.net、法米通、RPG Site/RPGFan、Rock Paper Shotgun；Paste Magazine 仍因 Cloudflare 直接阻断而暂缓。
+- Unwinnable 站点地图初筛已完成：`post-sitemap.xml` 至 `post-sitemap8.xml` 共读取 7,357 个文章 URL；按游戏标题与 URL slug 的规则得到 62 个候选游戏，但其中含有同词误匹配，当前没有写入 JSON。
+- 初筛结果必须逐条确认文章标题和内容确实指向具体游戏后才能落库；尤其要排除新闻、预告、攻略、续作/重制版错配和普通词误匹配。
+- 本轮已逐页复核并确认 27 个 Unwinnable 文章 URL，涉及 25 个游戏 slug；内容类型以文化评论/专题为主，也包含少量评测性质长文。`Hades`、`Mina the Hollower`、`Resident Evil Requiem` 等跨平台记录按相同游戏同步关联。
+- Unwinnable 允许一款游戏关联多篇文章，因此使用可扩展的 `unwinnable_urls` 数组，而不是单一字符串字段；数组中的链接必须是已复核的文章入口。
+- 已明确排除：同名词误匹配、新闻/预告/攻略、只谈续作或其他版本的文章，以及无法确认与收录游戏直接相关的 URL。
+- 已落库 27 个唯一 Unwinnable URL，覆盖 28 条平台记录；现有 189 条游戏记录和 IGN/GameSpot/推荐媒体字段未改变。`unwinnable_urls` 当前作为交换层字段，尚未接入首页展示或译文标签页。
+- 后续若要在网站前台展示 Unwinnable，优先把它转换为通用 `sources: [{site, kind, language, score, url}]` 结构，并让生成数据和首页遍历媒体；不要继续增加更多固定的 `xxx_url` 展示分支。
+- 4Gamer.net 的 `/sitemap.xml` 已确认 404，`robots.txt` 也未声明 sitemap；法米通 `robots.txt` 声明了 `sitemap.xml` 和 `newsSitemap.xml`。BrowserMCP 直接打开法米通 XML 会超时/不可自动化，但通过现有本机代理读取响应头确认可访问，后续可用代理读取 XML 内容。
+- 法米通 `sitemap.xml` 是索引，`newsSitemap.xml` 当前仅提供 90 篇最新文章且没有可用的历史分页；通过代理读取 XML 并逐页确认后，仅将一篇明确对应现有目录的《UNDERTALE》作品专题加入 `famitsu_urls`。原版《Persona 5》十周年文章因目录只有《Persona 5 Royal》而未关联，避免版本错配。
+- 本轮数据层校验已通过：`npm run validate-data` 成功，JSON 仍为 189 条记录；当前校验脚本仍检查既有 21 个稳定字段，`famitsu_urls` 与 `unwinnable_urls` 作为新增的可选数组字段保留，后续接入通用来源结构时再统一校验。
+- 版本匹配规则已明确：媒体没有皇家版、重制版或增强版的对应文章时，允许将原版文章关联到当前收录的对应版本；若该媒体存在明确的对应版本文章，则优先使用对应版本，不得无条件混用原版链接。
+- 按用户补充规则，法米通《Persona 5》十周年专题已关联到 `persona-5-royal`；该例仅因当前法米通未发现 Royal 专属文章。此前误以为版本不匹配的判断已撤销。
+- 修复新增法米通字段后的 JSON 逗号问题，`npm run validate-data` 重新通过。
+- 已更新 `scripts/generate-games-data.mjs`，生成数据现在保留每条记录的 `famitsuUrls` 与 `unwinnableUrls` 数组；`npm run generate-data` 已成功执行。首页暂未展示这两类链接，避免在翻译内容尚未准备好时增加前台噪音。
+- `npm run typecheck` 已通过；本轮未运行本地生产构建，仍由 Cloudflare Pages 负责构建。
+
+## 2026-09-15 首页平台筛选与重复条目
+
+- 首页布局增加 `scrollbar-gutter: stable`，并将游戏卡片网格列设置为 `minmax(0, 1fr)`，避免筛选结果改变导致滚动条出现/消失时页面宽度跳动，也避免长标题撑开网格。
+- 首页渲染前按 `slug` 合并平台记录；“全部平台”只显示一张卡片，平台以 `PC · Nintendo Switch` 形式合并展示。选择具体平台时先筛选原始平台记录，再按 slug 合并，因此该平台的 MC 分数和媒体链接优先保留。
+- 合并后的总数、中文译文数和当前显示数均按去重后的游戏计算；数据层仍保留每个平台独立记录，不修改 Metacritic 原始平台数据。
+- 本轮首页改动后 `npm run typecheck` 已通过；按约定未运行本地生产构建，待用户在 Cloudflare Pages 上预览确认视觉效果。
+- 最终差异检查通过；当前生成数据为 189 条平台记录、182 个去重后的游戏，首页合并后不再重复显示 7 条跨平台重复记录。

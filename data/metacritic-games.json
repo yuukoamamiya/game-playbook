@@ -1,5 +1,608 @@
 [
   {
+    "slug": "the-legend-of-zelda-ocarina-of-time-3d",
+    "title": "The Legend of Zelda: Ocarina of Time 3D",
+    "platform": "3DS",
+    "metacritic_score": 94,
+    "must_play": true,
+    "release_year": 2011,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/the-legend-of-zelda-ocarina-of-time-3d/",
+    "page": 1,
+    "ign_score": null,
+    "ign_url": "https://www.ign.com/articles/2011/06/17/the-legend-of-zelda-ocarina-of-time-3d-review",
+    "gamespot_score": null,
+    "gamespot_url": "https://www.gamespot.com/reviews/the-legend-of-zelda-ocarina-of-time-3d-review/1900-6320103/",
+    "content_status": "metacritic-must-play",
+    "notes": "Metacritic Must-Play；平台：3DS；来源页第1页",
+    "pcgamer_url": "",
+    "eurogamer_url": "",
+    "nintendolife_url": "",
+    "rockpapershotgun_url": "",
+    "rpgsite_url": "",
+    "adventuregamers_url": "",
+    "nintendoworldreport_url": ""
+  },
+  {
+    "slug": "fire-emblem-awakening",
+    "title": "Fire Emblem: Awakening",
+    "platform": "3DS",
+    "metacritic_score": 92,
+    "must_play": true,
+    "release_year": 2013,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/fire-emblem-awakening/",
+    "page": 1,
+    "ign_score": null,
+    "ign_url": "https://www.ign.com/articles/2013/01/30/fire-emblem-awakening-review",
+    "gamespot_score": null,
+    "gamespot_url": "https://www.gamespot.com/reviews/fire-emblem-awakening-review/1900-6403250/",
+    "content_status": "metacritic-must-play",
+    "notes": "Metacritic Must-Play；平台：3DS；来源页第1页",
+    "pcgamer_url": "",
+    "eurogamer_url": "",
+    "nintendolife_url": "",
+    "rockpapershotgun_url": "",
+    "rpgsite_url": "",
+    "adventuregamers_url": "",
+    "nintendoworldreport_url": ""
+  },
+  {
+    "slug": "the-legend-of-zelda-a-link-between-worlds",
+    "title": "The Legend of Zelda: A Link Between Worlds",
+    "platform": "3DS",
+    "metacritic_score": 91,
+    "must_play": true,
+    "release_year": 2013,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/the-legend-of-zelda-a-link-between-worlds/",
+    "page": 1,
+    "ign_score": null,
+    "ign_url": "https://www.ign.com/articles/2013/11/14/the-legend-of-zelda-a-link-between-worlds-review",
+    "gamespot_score": null,
+    "gamespot_url": "https://www.gamespot.com/reviews/the-legend-of-zelda-a-link-between-worlds-review/1900-6415543/",
+    "content_status": "metacritic-must-play",
+    "notes": "Metacritic Must-Play；平台：3DS；来源页第1页",
+    "pcgamer_url": "",
+    "eurogamer_url": "",
+    "nintendolife_url": "",
+    "rockpapershotgun_url": "",
+    "rpgsite_url": "",
+    "adventuregamers_url": "",
+    "nintendoworldreport_url": ""
+  },
+  {
+    "slug": "pushmo",
+    "title": "Pushmo",
+    "platform": "3DS",
+    "metacritic_score": 90,
+    "must_play": true,
+    "release_year": 2011,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/pushmo/",
+    "page": 1,
+    "ign_score": null,
+    "ign_url": "https://www.ign.com/articles/2011/12/08/pushmo-review",
+    "gamespot_score": null,
+    "gamespot_url": "https://www.gamespot.com/reviews/pushmo-review/1900-6348267/",
+    "content_status": "metacritic-must-play",
+    "notes": "Metacritic Must-Play；平台：3DS；来源页第1页",
+    "pcgamer_url": "",
+    "eurogamer_url": "",
+    "nintendolife_url": "",
+    "rockpapershotgun_url": "",
+    "rpgsite_url": "",
+    "adventuregamers_url": "",
+    "nintendoworldreport_url": ""
+  },
+  {
+    "slug": "super-mario-3d-land",
+    "title": "Super Mario 3D Land",
+    "platform": "3DS",
+    "metacritic_score": 90,
+    "must_play": true,
+    "release_year": 2011,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/super-mario-3d-land/",
+    "page": 1,
+    "ign_score": null,
+    "ign_url": "https://www.ign.com/articles/2011/11/09/super-mario-3d-land-review",
+    "gamespot_score": null,
+    "gamespot_url": "https://www.gamespot.com/reviews/super-mario-3d-land-review/1900-6344529/",
+    "content_status": "metacritic-must-play",
+    "notes": "Metacritic Must-Play；平台：3DS；来源页第1页",
+    "pcgamer_url": "",
+    "eurogamer_url": "",
+    "nintendolife_url": "",
+    "rockpapershotgun_url": "",
+    "rpgsite_url": "",
+    "adventuregamers_url": "",
+    "nintendoworldreport_url": ""
+  },
+  {
+    "slug": "the-legend-of-zelda-a-link-to-the-past-four-swords",
+    "title": "The Legend of Zelda: A Link to the Past / Four Swords",
+    "platform": "Game Boy Advance",
+    "metacritic_score": 95,
+    "must_play": true,
+    "release_year": 2002,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/the-legend-of-zelda-a-link-to-the-past-four-swords/",
+    "page": 1,
+    "ign_score": null,
+    "ign_url": "",
+    "gamespot_score": null,
+    "gamespot_url": "",
+    "content_status": "metacritic-must-play",
+    "notes": "Metacritic Must-Play；平台：Game Boy Advance；来源页第1页",
+    "pcgamer_url": "",
+    "eurogamer_url": "",
+    "nintendolife_url": "",
+    "rockpapershotgun_url": "",
+    "rpgsite_url": "",
+    "adventuregamers_url": "",
+    "nintendoworldreport_url": ""
+  },
+  {
+    "slug": "tony-hawks-pro-skater-2",
+    "title": "Tony Hawk's Pro Skater 2",
+    "platform": "Game Boy Advance",
+    "metacritic_score": 95,
+    "must_play": true,
+    "release_year": 2001,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/tony-hawks-pro-skater-2/",
+    "page": 1,
+    "ign_score": null,
+    "ign_url": "",
+    "gamespot_score": null,
+    "gamespot_url": "https://www.gamespot.com/reviews/tony-hawks-pro-skater-2-review/1900-2630641/",
+    "content_status": "metacritic-must-play",
+    "notes": "Metacritic Must-Play；平台：Game Boy Advance；来源页第1页",
+    "pcgamer_url": "",
+    "eurogamer_url": "",
+    "nintendolife_url": "",
+    "rockpapershotgun_url": "",
+    "rpgsite_url": "",
+    "adventuregamers_url": "",
+    "nintendoworldreport_url": ""
+  },
+  {
+    "slug": "super-mario-advance-4-super-mario-bros-3",
+    "title": "Super Mario Advance 4: Super Mario Bros. 3",
+    "platform": "Game Boy Advance",
+    "metacritic_score": 94,
+    "must_play": true,
+    "release_year": 2003,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/super-mario-advance-4-super-mario-bros-3/",
+    "page": 1,
+    "ign_score": null,
+    "ign_url": "",
+    "gamespot_score": null,
+    "gamespot_url": "https://www.gamespot.com/reviews/super-mario-advance-4-super-mario-bros-3/1900-6077002/",
+    "content_status": "metacritic-must-play",
+    "notes": "Metacritic Must-Play；平台：Game Boy Advance；来源页第1页",
+    "pcgamer_url": "",
+    "eurogamer_url": "",
+    "nintendolife_url": "",
+    "rockpapershotgun_url": "",
+    "rpgsite_url": "",
+    "adventuregamers_url": "",
+    "nintendoworldreport_url": ""
+  },
+  {
+    "slug": "mario-kart-super-circuit",
+    "title": "Mario Kart: Super Circuit",
+    "platform": "Game Boy Advance",
+    "metacritic_score": 93,
+    "must_play": true,
+    "release_year": 2001,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/mario-kart-super-circuit/",
+    "page": 1,
+    "ign_score": null,
+    "ign_url": "",
+    "gamespot_score": null,
+    "gamespot_url": "https://www.gamespot.com/reviews/mario-kart-super-circuit-review/1900-2808115/",
+    "content_status": "metacritic-must-play",
+    "notes": "Metacritic Must-Play；平台：Game Boy Advance；来源页第1页",
+    "pcgamer_url": "",
+    "eurogamer_url": "",
+    "nintendolife_url": "",
+    "rockpapershotgun_url": "",
+    "rpgsite_url": "",
+    "adventuregamers_url": "",
+    "nintendoworldreport_url": ""
+  },
+  {
+    "slug": "advance-wars",
+    "title": "Advance Wars",
+    "platform": "Game Boy Advance",
+    "metacritic_score": 92,
+    "must_play": true,
+    "release_year": 2001,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/advance-wars/",
+    "page": 1,
+    "ign_score": null,
+    "ign_url": "",
+    "gamespot_score": null,
+    "gamespot_url": "https://www.gamespot.com/reviews/advance-wars-review/1900-2811574/",
+    "content_status": "metacritic-must-play",
+    "notes": "Metacritic Must-Play；平台：Game Boy Advance；来源页第1页",
+    "pcgamer_url": "",
+    "eurogamer_url": "",
+    "nintendolife_url": "",
+    "rockpapershotgun_url": "",
+    "rpgsite_url": "",
+    "adventuregamers_url": "",
+    "nintendoworldreport_url": ""
+  },
+  {
+    "slug": "final-fantasy-vi",
+    "title": "Final Fantasy VI",
+    "platform": "Game Boy Advance",
+    "metacritic_score": 92,
+    "must_play": true,
+    "release_year": 2007,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/final-fantasy-vi/",
+    "page": 1,
+    "ign_score": null,
+    "ign_url": "",
+    "gamespot_score": null,
+    "gamespot_url": "",
+    "content_status": "metacritic-must-play",
+    "notes": "Metacritic Must-Play；平台：Game Boy Advance；来源页第1页",
+    "pcgamer_url": "",
+    "eurogamer_url": "",
+    "nintendolife_url": "",
+    "rockpapershotgun_url": "",
+    "rpgsite_url": "",
+    "adventuregamers_url": "",
+    "nintendoworldreport_url": "",
+    "unwinnable_urls": [
+      "https://unwinnable.com/2020/06/04/final-fantasy-vis-nightmares-in-the-round/"
+    ]
+  },
+  {
+    "slug": "metroid-fusion",
+    "title": "Metroid Fusion",
+    "platform": "Game Boy Advance",
+    "metacritic_score": 92,
+    "must_play": true,
+    "release_year": 2002,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/metroid-fusion/",
+    "page": 1,
+    "ign_score": null,
+    "ign_url": "https://www.ign.com/articles/2002/11/12/metroid-fusion-review",
+    "gamespot_score": null,
+    "gamespot_url": "https://www.gamespot.com/reviews/metroid-fusion-review/1900-2897729/",
+    "content_status": "metacritic-must-play",
+    "notes": "Metacritic Must-Play；平台：Game Boy Advance；来源页第1页",
+    "pcgamer_url": "",
+    "eurogamer_url": "",
+    "nintendolife_url": "",
+    "rockpapershotgun_url": "",
+    "rpgsite_url": "",
+    "adventuregamers_url": "",
+    "nintendoworldreport_url": ""
+  },
+  {
+    "slug": "super-mario-world-super-mario-advance-2",
+    "title": "Super Mario World: Super Mario Advance 2",
+    "platform": "Game Boy Advance",
+    "metacritic_score": 92,
+    "must_play": true,
+    "release_year": 2002,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/super-mario-world-super-mario-advance-2/",
+    "page": 1,
+    "ign_score": null,
+    "ign_url": "https://www.ign.com/articles/2002/02/11/super-mario-world-super-mario-advance-2-review",
+    "gamespot_score": null,
+    "gamespot_url": "https://www.gamespot.com/reviews/super-mario-world-super-mario-advance-2-review/1900-2847297/",
+    "content_status": "metacritic-must-play",
+    "notes": "Metacritic Must-Play；平台：Game Boy Advance；来源页第1页",
+    "pcgamer_url": "",
+    "eurogamer_url": "",
+    "nintendolife_url": "",
+    "rockpapershotgun_url": "",
+    "rpgsite_url": "",
+    "adventuregamers_url": "",
+    "nintendoworldreport_url": ""
+  },
+  {
+    "slug": "castlevania-aria-of-sorrow",
+    "title": "Castlevania: Aria of Sorrow",
+    "platform": "Game Boy Advance",
+    "metacritic_score": 91,
+    "must_play": true,
+    "release_year": 2003,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/castlevania-aria-of-sorrow/",
+    "page": 1,
+    "ign_score": null,
+    "ign_url": "",
+    "gamespot_score": null,
+    "gamespot_url": "https://www.gamespot.com/reviews/castlevania-aria-of-sorrow-review/1900-6026640/",
+    "content_status": "metacritic-must-play",
+    "notes": "Metacritic Must-Play；平台：Game Boy Advance；来源页第1页",
+    "pcgamer_url": "",
+    "eurogamer_url": "",
+    "nintendolife_url": "",
+    "rockpapershotgun_url": "",
+    "rpgsite_url": "",
+    "adventuregamers_url": "",
+    "nintendoworldreport_url": ""
+  },
+  {
+    "slug": "castlevania-circle-of-the-moon",
+    "title": "Castlevania: Circle of the Moon",
+    "platform": "Game Boy Advance",
+    "metacritic_score": 91,
+    "must_play": true,
+    "release_year": 2001,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/castlevania-circle-of-the-moon/",
+    "page": 1,
+    "ign_score": null,
+    "ign_url": "",
+    "gamespot_score": null,
+    "gamespot_url": "https://www.gamespot.com/reviews/castlevania-circle-of-the-moon-review/1900-2770559/",
+    "content_status": "metacritic-must-play",
+    "notes": "Metacritic Must-Play；平台：Game Boy Advance；来源页第1页",
+    "pcgamer_url": "",
+    "eurogamer_url": "",
+    "nintendolife_url": "",
+    "rockpapershotgun_url": "",
+    "rpgsite_url": "",
+    "adventuregamers_url": "",
+    "nintendoworldreport_url": ""
+  },
+  {
+    "slug": "golden-sun",
+    "title": "Golden Sun",
+    "platform": "Game Boy Advance",
+    "metacritic_score": 91,
+    "must_play": true,
+    "release_year": 2001,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/golden-sun/",
+    "page": 1,
+    "ign_score": null,
+    "ign_url": "",
+    "gamespot_score": null,
+    "gamespot_url": "https://www.gamespot.com/reviews/golden-sun-review/1900-2824028/",
+    "content_status": "metacritic-must-play",
+    "notes": "Metacritic Must-Play；平台：Game Boy Advance；来源页第1页",
+    "pcgamer_url": "",
+    "eurogamer_url": "",
+    "nintendolife_url": "",
+    "rockpapershotgun_url": "",
+    "rpgsite_url": "",
+    "adventuregamers_url": "",
+    "nintendoworldreport_url": ""
+  },
+  {
+    "slug": "yoshis-island-super-mario-advance-3",
+    "title": "Yoshi's Island: Super Mario Advance 3",
+    "platform": "Game Boy Advance",
+    "metacritic_score": 91,
+    "must_play": true,
+    "release_year": 2002,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/yoshis-island-super-mario-advance-3/",
+    "page": 1,
+    "ign_score": null,
+    "ign_url": "",
+    "gamespot_score": null,
+    "gamespot_url": "https://www.gamespot.com/reviews/yoshis-island-super-mario-advance-3-review/1900-2882007/",
+    "content_status": "metacritic-must-play",
+    "notes": "Metacritic Must-Play；平台：Game Boy Advance；来源页第1页",
+    "pcgamer_url": "",
+    "eurogamer_url": "",
+    "nintendolife_url": "",
+    "rockpapershotgun_url": "",
+    "rpgsite_url": "",
+    "adventuregamers_url": "",
+    "nintendoworldreport_url": ""
+  },
+  {
+    "slug": "mario-and-luigi-superstar-saga",
+    "title": "Mario & Luigi: Superstar Saga",
+    "platform": "Game Boy Advance",
+    "metacritic_score": 90,
+    "must_play": true,
+    "release_year": 2003,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/mario-and-luigi-superstar-saga/",
+    "page": 1,
+    "ign_score": null,
+    "ign_url": "",
+    "gamespot_score": null,
+    "gamespot_url": "https://www.gamespot.com/reviews/mario-and-luigi-superstar-saga/1900-6083876/",
+    "content_status": "metacritic-must-play",
+    "notes": "Metacritic Must-Play；平台：Game Boy Advance；来源页第1页",
+    "pcgamer_url": "",
+    "eurogamer_url": "",
+    "nintendolife_url": "",
+    "rockpapershotgun_url": "",
+    "rpgsite_url": "",
+    "adventuregamers_url": "",
+    "nintendoworldreport_url": ""
+  },
+  {
+    "slug": "tony-hawks-pro-skater-3",
+    "title": "Tony Hawk's Pro Skater 3",
+    "platform": "Game Boy Advance",
+    "metacritic_score": 90,
+    "must_play": true,
+    "release_year": 2002,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/tony-hawks-pro-skater-3/",
+    "page": 1,
+    "ign_score": null,
+    "ign_url": "https://www.ign.com/articles/2002/04/05/tony-hawk-pro-skater-3-review",
+    "gamespot_score": null,
+    "gamespot_url": "https://www.gamespot.com/reviews/tony-hawks-pro-skater-3-review/1900-2820972/",
+    "content_status": "metacritic-must-play",
+    "notes": "Metacritic Must-Play；平台：Game Boy Advance；来源页第1页",
+    "pcgamer_url": "",
+    "eurogamer_url": "",
+    "nintendolife_url": "",
+    "rockpapershotgun_url": "",
+    "rpgsite_url": "",
+    "adventuregamers_url": "",
+    "nintendoworldreport_url": ""
+  },
+  {
+    "slug": "grand-theft-auto-chinatown-wars",
+    "title": "Grand Theft Auto: Chinatown Wars",
+    "platform": "Nintendo DS",
+    "metacritic_score": 93,
+    "must_play": true,
+    "release_year": 2009,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/grand-theft-auto-chinatown-wars/",
+    "page": 1,
+    "ign_score": null,
+    "ign_url": "https://www.ign.com/articles/2009/10/20/grand-theft-auto-chinatown-wars-review",
+    "gamespot_score": null,
+    "gamespot_url": "https://www.gamespot.com/reviews/grand-theft-auto-chinatown-wars-review/1900-6206274/",
+    "content_status": "metacritic-must-play",
+    "notes": "Metacritic Must-Play；平台：Nintendo DS；来源页第1页",
+    "pcgamer_url": "",
+    "eurogamer_url": "",
+    "nintendolife_url": "",
+    "rockpapershotgun_url": "",
+    "rpgsite_url": "",
+    "adventuregamers_url": "",
+    "nintendoworldreport_url": ""
+  },
+  {
+    "slug": "chrono-trigger",
+    "title": "Chrono Trigger",
+    "platform": "Nintendo DS",
+    "metacritic_score": 92,
+    "must_play": true,
+    "release_year": 2008,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/chrono-trigger/",
+    "page": 1,
+    "ign_score": null,
+    "ign_url": "https://www.ign.com/articles/2011/05/25/chrono-trigger-review",
+    "gamespot_score": null,
+    "gamespot_url": "https://www.gamespot.com/reviews/chrono-trigger-review/1900-6201545/",
+    "content_status": "metacritic-must-play",
+    "notes": "Metacritic Must-Play；平台：Nintendo DS；来源页第1页",
+    "pcgamer_url": "",
+    "eurogamer_url": "",
+    "nintendolife_url": "",
+    "rockpapershotgun_url": "",
+    "rpgsite_url": "",
+    "adventuregamers_url": "",
+    "nintendoworldreport_url": ""
+  },
+  {
+    "slug": "mario-kart-ds",
+    "title": "Mario Kart DS",
+    "platform": "Nintendo DS",
+    "metacritic_score": 91,
+    "must_play": true,
+    "release_year": 2005,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/mario-kart-ds/",
+    "page": 1,
+    "ign_score": null,
+    "ign_url": "",
+    "gamespot_score": null,
+    "gamespot_url": "https://www.gamespot.com/reviews/mario-kart-ds-review/1900-6139765/",
+    "content_status": "metacritic-must-play",
+    "notes": "Metacritic Must-Play；平台：Nintendo DS；来源页第1页",
+    "pcgamer_url": "",
+    "eurogamer_url": "",
+    "nintendolife_url": "",
+    "rockpapershotgun_url": "",
+    "rpgsite_url": "",
+    "adventuregamers_url": "",
+    "nintendoworldreport_url": ""
+  },
+  {
+    "slug": "advance-wars-dual-strike",
+    "title": "Advance Wars: Dual Strike",
+    "platform": "Nintendo DS",
+    "metacritic_score": 90,
+    "must_play": true,
+    "release_year": 2005,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/advance-wars-dual-strike/",
+    "page": 1,
+    "ign_score": null,
+    "ign_url": "",
+    "gamespot_score": null,
+    "gamespot_url": "https://www.gamespot.com/reviews/advance-wars-dual-strike-review/1900-6131573/",
+    "content_status": "metacritic-must-play",
+    "notes": "Metacritic Must-Play；平台：Nintendo DS；来源页第1页",
+    "pcgamer_url": "",
+    "eurogamer_url": "",
+    "nintendolife_url": "",
+    "rockpapershotgun_url": "",
+    "rpgsite_url": "",
+    "adventuregamers_url": "",
+    "nintendoworldreport_url": ""
+  },
+  {
+    "slug": "mario-and-luigi-bowsers-inside-story",
+    "title": "Mario & Luigi: Bowser's Inside Story",
+    "platform": "Nintendo DS",
+    "metacritic_score": 90,
+    "must_play": true,
+    "release_year": 2009,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/mario-and-luigi-bowsers-inside-story/",
+    "page": 1,
+    "ign_score": null,
+    "ign_url": "https://www.ign.com/articles/2009/10/21/mario-luigi-bowsers-inside-story-au-review",
+    "gamespot_score": null,
+    "gamespot_url": "https://www.gamespot.com/reviews/mario-and-luigi-bowsers-inside-story/1900-6226786/",
+    "content_status": "metacritic-must-play",
+    "notes": "Metacritic Must-Play；平台：Nintendo DS；来源页第1页",
+    "pcgamer_url": "",
+    "eurogamer_url": "",
+    "nintendolife_url": "",
+    "rockpapershotgun_url": "",
+    "rpgsite_url": "",
+    "adventuregamers_url": "",
+    "nintendoworldreport_url": ""
+  },
+  {
+    "slug": "the-legend-of-zelda-phantom-hourglass",
+    "title": "The Legend of Zelda: Phantom Hourglass",
+    "platform": "Nintendo DS",
+    "metacritic_score": 90,
+    "must_play": true,
+    "release_year": 2007,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/the-legend-of-zelda-phantom-hourglass/",
+    "page": 1,
+    "ign_score": null,
+    "ign_url": "https://www.ign.com/articles/2007/10/10/the-legend-of-zelda-phantom-hourglass-au-review",
+    "gamespot_score": null,
+    "gamespot_url": "https://www.gamespot.com/reviews/the-legend-of-zelda-phantom-hourglass-review/1900-6180182/",
+    "content_status": "metacritic-must-play",
+    "notes": "Metacritic Must-Play；平台：Nintendo DS；来源页第1页",
+    "pcgamer_url": "",
+    "eurogamer_url": "",
+    "nintendolife_url": "",
+    "rockpapershotgun_url": "",
+    "rpgsite_url": "",
+    "adventuregamers_url": "",
+    "nintendoworldreport_url": ""
+  },
+  {
     "slug": "super-mario-odyssey",
     "title": "Super Mario Odyssey",
     "platform": "Nintendo Switch",
@@ -20,7 +623,11 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "unwinnable_urls": [
+      "https://unwinnable.com/2023/03/22/the-environmental-horror-of-elden-ring-161/"
+    ],
+    "page": 1
   },
   {
     "slug": "the-legend-of-zelda-breath-of-the-wild",
@@ -43,7 +650,11 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "https://www.rpgsite.net/review/5346-the-legend-of-zelda-breath-of-the-wild-review",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "unwinnable_urls": [
+      "https://unwinnable.com/2022/12/14/why-legend-of-zelda-breath-of-the-wild-is-worth-any-video-gamers-time/"
+    ],
+    "page": 1
   },
   {
     "slug": "the-legend-of-zelda-tears-of-the-kingdom",
@@ -66,7 +677,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "https://www.rpgsite.net/review/14176-the-legend-of-zelda-tears-of-the-kingdom-review",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 1
   },
   {
     "slug": "metroid-prime-remastered",
@@ -89,7 +701,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 1
   },
   {
     "slug": "persona-5-royal",
@@ -112,7 +725,14 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "https://www.rpgsite.net/review/9556-persona-5-royal-review",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "famitsu_urls": [
+      "https://www.famitsu.com/article/202609/87181"
+    ],
+    "unwinnable_urls": [
+      "https://unwinnable.com/2020/07/07/the-120-hour-goodbye-persona-5-royal/"
+    ],
+    "page": 1
   },
   {
     "slug": "tetris-effect-connected",
@@ -135,7 +755,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 1
   },
   {
     "slug": "divinity-original-sin-ii-definitive-edition",
@@ -158,7 +779,8 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/divinity-original-sin-2-review",
     "rpgsite_url": "https://www.rpgsite.net/review/7663-divinity-original-sin-ii-definitive-edition-console-review",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 1
   },
   {
     "slug": "hades",
@@ -181,7 +803,11 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "https://www.rpgsite.net/review/10265-hades-review",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "unwinnable_urls": [
+      "https://unwinnable.com/2020/09/01/hades/"
+    ],
+    "page": 1
   },
   {
     "slug": "ori-and-the-will-of-the-wisps",
@@ -204,7 +830,8 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/ori-and-the-will-of-the-wisps-pc-review",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 1
   },
   {
     "slug": "super-smash-bros-ultimate",
@@ -227,7 +854,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 1
   },
   {
     "slug": "bayonetta-2",
@@ -250,7 +878,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 1
   },
   {
     "slug": "celeste",
@@ -273,7 +902,8 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/celeste-review",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 1
   },
   {
     "slug": "mario-kart-8-deluxe",
@@ -296,7 +926,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 1
   },
   {
     "slug": "super-mario-bros-wonder",
@@ -319,7 +950,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 1
   },
   {
     "slug": "dragon-quest-xi-s-echoes-of-an-elusive-age",
@@ -342,7 +974,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "https://www.rpgsite.net/review/7652-dragon-quest-xi-echoes-of-an-elusive-age-review",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 1
   },
   {
     "slug": "inside",
@@ -365,7 +998,8 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/inside-review-pc",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 1
   },
   {
     "slug": "shovel-knight-treasure-trove",
@@ -388,7 +1022,11 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "unwinnable_urls": [
+      "https://unwinnable.com/2026/06/02/requiem-for-a-nightmare-the-dissonance-of-resident-evil-9/"
+    ],
+    "page": 2
   },
   {
     "slug": "sonic-mania-plus",
@@ -411,7 +1049,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 1
   },
   {
     "slug": "animal-crossing-new-horizons",
@@ -434,7 +1073,12 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "unwinnable_urls": [
+      "https://unwinnable.com/2020/04/02/animal-crossing-and-queer-agency/",
+      "https://unwinnable.com/2020/05/07/finding-meaning-in-animal-crossings-weird-ass-world/"
+    ],
+    "page": 2
   },
   {
     "slug": "bayonetta-plus-bayonetta-2",
@@ -457,7 +1101,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 2
   },
   {
     "slug": "chained-echoes",
@@ -480,7 +1125,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "https://www.rpgsite.net/review/14174-chained-echoes-review",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 2
   },
   {
     "slug": "hollow-knight",
@@ -503,7 +1149,12 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/hollow-knight-review",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "unwinnable_urls": [
+      "https://unwinnable.com/2017/10/25/the-ecstatic-solitude-of-hollow-knight/",
+      "https://unwinnable.com/2017/06/29/cartography-is-hollow-knights-greatest-reward/"
+    ],
+    "page": 2
   },
   {
     "slug": "ori-and-the-blind-forest-definitive-edition",
@@ -526,7 +1177,8 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/ori-and-the-blind-forest-definitive-edition-review",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 2
   },
   {
     "slug": "persona-4-golden",
@@ -549,7 +1201,8 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/persona-4-golden-review",
     "rpgsite_url": "https://www.rpgsite.net/review/3111-persona-4-golden-review",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 2
   },
   {
     "slug": "sea-of-stars",
@@ -572,7 +1225,8 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/sea-of-stars-review",
     "rpgsite_url": "https://www.rpgsite.net/review/14764-sea-of-stars-review",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 2
   },
   {
     "slug": "hades-ii",
@@ -595,7 +1249,8 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/hades-2-10-review",
     "rpgsite_url": "https://www.rpgsite.net/review/18504-hades-ii-review",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 1
   },
   {
     "slug": "the-legend-of-zelda-tears-of-the-kingdom-nintendo",
@@ -618,7 +1273,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 1
   },
   {
     "slug": "the-legend-of-zelda-breath-of-the-wild-nintendo",
@@ -641,7 +1297,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 1
   },
   {
     "slug": "donkey-kong-bananza",
@@ -664,7 +1321,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 1
   },
   {
     "slug": "hollow-knight-silksong",
@@ -687,7 +1345,8 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/hollow-knight-silksong-review",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 1
   },
   {
     "slug": "elden-ring-tarnished-edition",
@@ -710,7 +1369,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 1
   },
   {
     "slug": "mina-the-hollower",
@@ -733,7 +1393,11 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "https://www.rpgsite.net/review/20442-mina-the-hollower-review",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "unwinnable_urls": [
+      "https://unwinnable.com/2026/07/31/my-toxic-relationship-with-mina-the-hollowers-giant-hammer/"
+    ],
+    "page": 1
   },
   {
     "slug": "onimusha-way-of-the-sword",
@@ -756,7 +1420,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "https://www.rpgsite.net/review/21251-onimusha-way-of-the-sword-review",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 1
   },
   {
     "slug": "resident-evil-requiem",
@@ -779,7 +1444,11 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/resident-evil-requiem-review-a-cathartic-cross-breed-of-creeps-and-carnage",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "unwinnable_urls": [
+      "https://unwinnable.com/2026/06/02/requiem-for-a-nightmare-the-dissonance-of-resident-evil-9/"
+    ],
+    "page": 1
   },
   {
     "slug": "baldurs-gate-3",
@@ -802,7 +1471,8 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/baldurs-gate-3-review",
     "rpgsite_url": "https://www.rpgsite.net/review/14610-baldurs-gate-3-review",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 1
   },
   {
     "slug": "bioshock",
@@ -825,7 +1495,11 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/review-bioshock-ultra-geek-edition",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "unwinnable_urls": [
+      "https://unwinnable.com/2025/11/05/forgiving-and-forgetting-bioshock/"
+    ],
+    "page": 1
   },
   {
     "slug": "grand-theft-auto-v",
@@ -848,7 +1522,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 1
   },
   {
     "slug": "half-life",
@@ -871,7 +1546,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 1
   },
   {
     "slug": "half-life-2",
@@ -894,7 +1570,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 1
   },
   {
     "slug": "the-orange-box",
@@ -917,7 +1594,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 1
   },
   {
     "slug": "baldurs-gate-ii-shadows-of-amn",
@@ -940,7 +1618,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 1
   },
   {
     "slug": "portal-2",
@@ -963,7 +1642,8 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/review-portal-2",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 1
   },
   {
     "slug": "bioshock-infinite",
@@ -986,7 +1666,8 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/bioshock-infinite-pc-review",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 1
   },
   {
     "slug": "elden-ring",
@@ -1009,7 +1690,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 1
   },
   {
     "slug": "grand-theft-auto-vice-city",
@@ -1032,7 +1714,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 1
   },
   {
     "slug": "grim-fandango",
@@ -1055,7 +1738,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 1
   },
   {
     "slug": "hades-ii",
@@ -1078,7 +1762,8 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/hades-2-10-review",
     "rpgsite_url": "https://www.rpgsite.net/review/18504-hades-ii-review",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 1
   },
   {
     "slug": "mass-effect-2",
@@ -1101,7 +1786,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 1
   },
   {
     "slug": "sid-meiers-civilization-iv",
@@ -1124,7 +1810,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 1
   },
   {
     "slug": "the-elder-scrolls-iv-oblivion",
@@ -1147,7 +1834,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "https://www.rpgsite.net/review/2773-elder-scrolls-iv-oblivion-review",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 1
   },
   {
     "slug": "the-elder-scrolls-v-skyrim",
@@ -1170,7 +1858,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 1
   },
   {
     "slug": "company-of-heroes",
@@ -1193,7 +1882,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 1
   },
   {
     "slug": "divinity-original-sin-ii",
@@ -1216,7 +1906,8 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/divinity-original-sin-2-review",
     "rpgsite_url": "https://www.rpgsite.net/review/7663-divinity-original-sin-ii-definitive-edition-console-review",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 2
   },
   {
     "slug": "god-of-war",
@@ -1239,7 +1930,11 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/god-of-war-pc-review",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "unwinnable_urls": [
+      "https://unwinnable.com/2018/05/02/the-meaninglessness-of-maturity-in-god-of-war/"
+    ],
+    "page": 2
   },
   {
     "slug": "grand-theft-auto-iii",
@@ -1262,7 +1957,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 2
   },
   {
     "slug": "grand-theft-auto-san-andreas",
@@ -1285,7 +1981,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 2
   },
   {
     "slug": "hades",
@@ -1308,7 +2005,11 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "https://www.rpgsite.net/review/10265-hades-review",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "unwinnable_urls": [
+      "https://unwinnable.com/2020/09/01/hades/"
+    ],
+    "page": 2
   },
   {
     "slug": "half-life-alyx",
@@ -1331,7 +2032,8 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/half-life-alyx-review",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 2
   },
   {
     "slug": "homeworld",
@@ -1354,7 +2056,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 2
   },
   {
     "slug": "minecraft",
@@ -1377,7 +2080,11 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/minecraft-review",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "unwinnable_urls": [
+      "https://unwinnable.com/2024/05/03/minecraft-menagerie/"
+    ],
+    "page": 2
   },
   {
     "slug": "red-dead-redemption-2",
@@ -1400,7 +2107,11 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "unwinnable_urls": [
+      "https://unwinnable.com/2020/06/25/wrestling-giants-morality-and-player-character-relationships-in-red-dead-redemption-2/"
+    ],
+    "page": 2
   },
   {
     "slug": "star-wars-knights-of-the-old-republic",
@@ -1423,7 +2134,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 2
   },
   {
     "slug": "starcraft-ii-wings-of-liberty",
@@ -1446,7 +2158,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 2
   },
   {
     "slug": "the-witcher-3-wild-hunt",
@@ -1469,7 +2182,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 1
   },
   {
     "slug": "unreal-tournament-2004",
@@ -1492,7 +2206,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 2
   },
   {
     "slug": "world-of-warcraft",
@@ -1515,7 +2230,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 2
   },
   {
     "slug": "age-of-empires-ii-the-age-of-kings",
@@ -1538,7 +2254,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 3
   },
   {
     "slug": "blue-prince",
@@ -1561,7 +2278,8 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/blue-prince-review",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 2
   },
   {
     "slug": "call-of-duty-4-modern-warfare",
@@ -1584,7 +2302,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 2
   },
   {
     "slug": "elden-ring-shadow-of-the-erdtree",
@@ -1607,7 +2326,8 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/elden-ring-shadow-of-the-erdtree-review",
     "rpgsite_url": "https://www.rpgsite.net/review/15971-elden-ring-shadow-of-the-erdtree-review",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 3
   },
   {
     "slug": "final-fantasy-xiv-endwalker",
@@ -1630,7 +2350,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "https://www.rpgsite.net/review/12179-final-fantasy-xiv-endwalker-review",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 3
   },
   {
     "slug": "galactic-civilizations-ii-twilight-of-the-arnor",
@@ -1653,7 +2374,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 3
   },
   {
     "slug": "metaphor-refantazio",
@@ -1676,7 +2398,8 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/metaphor-refantazio-review",
     "rpgsite_url": "https://www.rpgsite.net/review/16407-metaphor-refantazio-review",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 3
   },
   {
     "slug": "resident-evil-requiem",
@@ -1699,7 +2422,8 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/resident-evil-requiem-review-a-cathartic-cross-breed-of-creeps-and-carnage",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 2
   },
   {
     "slug": "rome-total-war",
@@ -1722,7 +2446,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 3
   },
   {
     "slug": "sid-meiers-alpha-centauri",
@@ -1745,7 +2470,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 3
   },
   {
     "slug": "street-fighter-6",
@@ -1768,7 +2494,8 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/street-fighter-6-review",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 2
   },
   {
     "slug": "system-shock-2",
@@ -1791,7 +2518,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 3
   },
   {
     "slug": "team-fortress-2",
@@ -1814,7 +2542,8 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/team-fortress-2s-gun-mettle-review",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 3
   },
   {
     "slug": "the-sims",
@@ -1837,7 +2566,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 2
   },
   {
     "slug": "the-witcher-3-wild-hunt-blood-and-wine",
@@ -1860,7 +2590,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 3
   },
   {
     "slug": "thief-the-dark-project",
@@ -1883,7 +2614,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 3
   },
   {
     "slug": "tom-clancys-splinter-cell-chaos-theory",
@@ -1906,7 +2638,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 3
   },
   {
     "slug": "undertale",
@@ -1929,7 +2662,14 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/undertale-review",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "famitsu_urls": [
+      "https://www.famitsu.com/article/202609/87183"
+    ],
+    "unwinnable_urls": [
+      "https://unwinnable.com/2015/12/22/how-undertale-broke-the-internet/"
+    ],
+    "page": 3
   },
   {
     "slug": "unreal-tournament-1999",
@@ -1952,7 +2692,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 3
   },
   {
     "slug": "warcraft-iii-reign-of-chaos",
@@ -1975,7 +2716,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 2
   },
   {
     "slug": "against-the-storm",
@@ -1998,7 +2740,11 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/against-the-storm-review",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "unwinnable_urls": [
+      "https://unwinnable.com/2022/11/29/against-the-storm-against-randomness-against-the-inevitable/"
+    ],
+    "page": 3
   },
   {
     "slug": "baldurs-gate",
@@ -2021,7 +2767,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 4
   },
   {
     "slug": "batman-arkham-asylum",
@@ -2044,7 +2791,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 4
   },
   {
     "slug": "batman-arkham-city",
@@ -2067,7 +2815,11 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "unwinnable_urls": [
+      "https://unwinnable.com/2017/02/27/heres-the-thing-making-peace-with-resident-evil-4/"
+    ],
+    "page": 5
   },
   {
     "slug": "battlefield-2",
@@ -2090,7 +2842,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 4
   },
   {
     "slug": "big-walk",
@@ -2113,7 +2866,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 4
   },
   {
     "slug": "call-of-duty",
@@ -2136,7 +2890,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 5
   },
   {
     "slug": "clair-obscur-expedition-33",
@@ -2159,7 +2914,8 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/clair-obscur-expedition-33-review",
     "rpgsite_url": "https://www.rpgsite.net/review/17273-clair-obscur-expedition-33-review",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 5
   },
   {
     "slug": "crusader-kings-iii",
@@ -2182,7 +2938,8 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/crusader-kings-3-review",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 4
   },
   {
     "slug": "crysis",
@@ -2205,7 +2962,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 4
   },
   {
     "slug": "dark-souls-ii",
@@ -2228,7 +2986,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "https://www.rpgsite.net/review/3390-dark-souls-ii-review",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 5
   },
   {
     "slug": "death-stranding-2-on-the-beach",
@@ -2251,7 +3010,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 5
   },
   {
     "slug": "disco-elysium",
@@ -2274,7 +3034,11 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/disco-elysium-review",
     "rpgsite_url": "https://www.rpgsite.net/review/10993-disco-elysium-the-final-cut-review",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "unwinnable_urls": [
+      "https://unwinnable.com/2022/04/14/in-disco-elysium-cops-arent-community/"
+    ],
+    "page": 5
   },
   {
     "slug": "dishonored",
@@ -2297,7 +3061,11 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "unwinnable_urls": [
+      "https://unwinnable.com/2017/08/01/the-tangled-mess-that-is-dishonoreds-morality/"
+    ],
+    "page": 3
   },
   {
     "slug": "dragon-age-origins",
@@ -2320,7 +3088,8 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/pc-gamer-dragon-age-origins-review",
     "rpgsite_url": "https://www.rpgsite.net/review/2894-dragon-age-origins-review",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 5
   },
   {
     "slug": "fallout-3",
@@ -2343,7 +3112,11 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/attack-of-the-fallout-3-reviews",
     "rpgsite_url": "https://www.rpgsite.net/review/2829-fallout-3-review",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "unwinnable_urls": [
+      "https://unwinnable.com/2019/11/22/fallout-3-the-outer-worlds-and-the-megaton-problem/"
+    ],
+    "page": 5
   },
   {
     "slug": "forza-horizon-5",
@@ -2366,7 +3139,8 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/forza-horizon-5-review",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 4
   },
   {
     "slug": "freespace-2",
@@ -2389,7 +3163,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 4
   },
   {
     "slug": "galactic-civilizations-ii-dark-avatar",
@@ -2412,7 +3187,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 4
   },
   {
     "slug": "medal-of-honor-allied-assault",
@@ -2435,7 +3211,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 3
   },
   {
     "slug": "microsoft-flight-simulator",
@@ -2458,7 +3235,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 3
   },
   {
     "slug": "neverwinter-nights",
@@ -2481,7 +3259,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 5
   },
   {
     "slug": "no-one-lives-forever-2-a-spy-in-h-a-r-m-s-way",
@@ -2504,7 +3283,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 5
   },
   {
     "slug": "overwatch-2016",
@@ -2527,7 +3307,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 4
   },
   {
     "slug": "planescape-torment",
@@ -2550,7 +3331,8 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/torment-tides-of-numenera-review-for-planescape-veterans",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 5
   },
   {
     "slug": "resident-evil-4",
@@ -2573,7 +3355,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 5
   },
   {
     "slug": "satisfactory",
@@ -2596,7 +3379,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 5
   },
   {
     "slug": "spelunky-2",
@@ -2619,7 +3403,8 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/spelunky-2-review-a-worthy-successor-to-a-classic",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 5
   },
   {
     "slug": "street-fighter-iv",
@@ -2642,7 +3427,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 5
   },
   {
     "slug": "tekken-8",
@@ -2665,7 +3451,8 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/tekken-8-review",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 4
   },
   {
     "slug": "the-longest-journey",
@@ -2688,7 +3475,11 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "https://adventuregamers.com/article/dreamfall_the_longest_journey",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "unwinnable_urls": [
+      "https://unwinnable.com/2018/02/09/longest-journey/"
+    ],
+    "page": 4
   },
   {
     "slug": "the-operative-no-one-lives-forever",
@@ -2711,7 +3502,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 4
   },
   {
     "slug": "tiger-woods-pga-tour-2005",
@@ -2734,7 +3526,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 4
   },
   {
     "slug": "tom-clancys-splinter-cell",
@@ -2757,7 +3550,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 4
   },
   {
     "slug": "tony-hawks-pro-skater-2",
@@ -2780,7 +3574,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 4
   },
   {
     "slug": "ufo-50",
@@ -2803,7 +3598,11 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/ufo-50-review",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "unwinnable_urls": [
+      "https://unwinnable.com/2024/12/10/ufo-50-serves-perfect-slices-of-nostalgia/"
+    ],
+    "page": 3
   },
   {
     "slug": "world-of-warcraft-the-burning-crusade",
@@ -2826,7 +3625,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 4
   },
   {
     "slug": "world-of-warcraft-wrath-of-the-lich-king",
@@ -2849,7 +3649,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 3
   },
   {
     "slug": "animal-well",
@@ -2872,7 +3673,8 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/animal-well-review",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 5
   },
   {
     "slug": "balatro",
@@ -2895,7 +3697,8 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/balatro-review",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 5
   },
   {
     "slug": "bayonetta",
@@ -2918,7 +3721,11 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "unwinnable_urls": [
+      "https://unwinnable.com/2025/06/03/is-bayonetta-more-than-sacrilegious-brawling/"
+    ],
+    "page": 7
   },
   {
     "slug": "black-and-white",
@@ -2941,7 +3748,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 6
   },
   {
     "slug": "chicory-a-colorful-tale",
@@ -2964,7 +3772,8 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/chicory-a-colorful-tale-review",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 7
   },
   {
     "slug": "dave-the-diver",
@@ -2987,7 +3796,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 6
   },
   {
     "slug": "deus-ex",
@@ -3010,7 +3820,11 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/deus-ex-mankind-divided-pc-review",
     "rpgsite_url": "https://www.rpgsite.net/review/4959-deus-ex-mankind-divided-review",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "unwinnable_urls": [
+      "https://unwinnable.com/2019/03/26/replaying-deus-ex-19-years-later-113/"
+    ],
+    "page": 6
   },
   {
     "slug": "deus-ex-human-revolution",
@@ -3033,7 +3847,8 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/review-deus-ex-human-revolution",
     "rpgsite_url": "https://www.rpgsite.net/review/3252-deus-ex-human-revolution-directors-cut-review",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 7
   },
   {
     "slug": "dota-2",
@@ -3056,7 +3871,8 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/dota-underlords-review-2",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 7
   },
   {
     "slug": "empire-total-war",
@@ -3079,7 +3895,8 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/eurokerthunked-empire-total-war-review",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 7
   },
   {
     "slug": "final-fantasy-vii-rebirth",
@@ -3102,7 +3919,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "https://www.rpgsite.net/review/15493-final-fantasy-vii-rebirth-review",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 6
   },
   {
     "slug": "final-fantasy-xiv-shadowbringers",
@@ -3125,7 +3943,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 5
   },
   {
     "slug": "forza-horizon-6",
@@ -3148,7 +3967,8 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/forza-horizon-6-review-the-king-is-dead-long-live-the-drift-king",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 7
   },
   {
     "slug": "freedom-force",
@@ -3171,7 +3991,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 7
   },
   {
     "slug": "god-of-war-ragnarok",
@@ -3194,7 +4015,8 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/god-of-war-ragnarok-review",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 7
   },
   {
     "slug": "grand-theft-auto-iv",
@@ -3217,7 +4039,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 7
   },
   {
     "slug": "gtr-2",
@@ -3240,7 +4063,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 7
   },
   {
     "slug": "guild-wars-2",
@@ -3263,7 +4087,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "https://www.rpgsite.net/review/3154-guild-wars-2-review",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 7
   },
   {
     "slug": "half-life-2-episode-two",
@@ -3286,7 +4111,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 6
   },
   {
     "slug": "hi-fi-rush",
@@ -3309,7 +4135,11 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/hi-fi-rush-review",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "unwinnable_urls": [
+      "https://unwinnable.com/2023/07/21/in-hi-fi-rush-style-is-substance-165/"
+    ],
+    "page": 6
   },
   {
     "slug": "hollow-knight-silksong",
@@ -3332,7 +4162,8 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/hollow-knight-silksong-review",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 6
   },
   {
     "slug": "into-the-breach",
@@ -3355,7 +4186,8 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/into-the-breach-ftl-sequel-review",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 7
   },
   {
     "slug": "mina-the-hollower",
@@ -3378,7 +4210,11 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "https://www.rpgsite.net/review/20442-mina-the-hollower-review",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "unwinnable_urls": [
+      "https://unwinnable.com/2026/07/31/my-toxic-relationship-with-mina-the-hollowers-giant-hammer/"
+    ],
+    "page": 6
   },
   {
     "slug": "nhl-2001",
@@ -3401,7 +4237,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 6
   },
   {
     "slug": "portal",
@@ -3424,7 +4261,8 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/bridge-constructor-portal-review",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 6
   },
   {
     "slug": "shin-megami-tensei-v-vengeance",
@@ -3447,7 +4285,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "https://www.rpgsite.net/review/15881-shin-megami-tensei-v-vengeance-review",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 6
   },
   {
     "slug": "sid-meiers-civilization-iii",
@@ -3470,7 +4309,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 6
   },
   {
     "slug": "sid-meiers-civilization-v",
@@ -3493,7 +4333,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 7
   },
   {
     "slug": "silent-hunter-iii",
@@ -3516,7 +4357,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 7
   },
   {
     "slug": "slay-the-princess",
@@ -3539,7 +4381,11 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "https://www.rpgsite.net/review/16512-slay-the-princess-the-pristine-cut-review",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "unwinnable_urls": [
+      "https://unwinnable.com/2024/04/26/slay-the-princess-again-and-again-and-again/"
+    ],
+    "page": 6
   },
   {
     "slug": "split-fiction",
@@ -3562,7 +4408,8 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/split-fiction-review",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 6
   },
   {
     "slug": "the-chronicles-of-riddick-escape-from-butcher-bay",
@@ -3585,7 +4432,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 6
   },
   {
     "slug": "the-last-of-us-part-ii-remastered",
@@ -3608,7 +4456,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 7
   },
   {
     "slug": "the-sims-2",
@@ -3631,7 +4480,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 5
   },
   {
     "slug": "the-stanley-parable-ultra-deluxe",
@@ -3654,7 +4504,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 7
   },
   {
     "slug": "tony-hawks-pro-skater-3",
@@ -3677,7 +4528,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 6
   },
   {
     "slug": "total-war-shogun-2",
@@ -3700,7 +4552,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 7
   },
   {
     "slug": "valheim",
@@ -3723,7 +4576,8 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 7
   },
   {
     "slug": "world-of-goo",
@@ -3746,7 +4600,8 @@
     "rockpapershotgun_url": "https://www.rockpapershotgun.com/world-exclusive-world-of-goo-review",
     "rpgsite_url": "",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 6
   },
   {
     "slug": "world-of-warcraft-cataclysm",
@@ -3769,6 +4624,7 @@
     "rockpapershotgun_url": "",
     "rpgsite_url": "https://www.rpgsite.net/review/2974-world-of-warcraft-cataclysm-review",
     "adventuregamers_url": "",
-    "nintendoworldreport_url": ""
+    "nintendoworldreport_url": "",
+    "page": 5
   }
 ]

@@ -1,7 +1,9 @@
-import {fetch} from 'undici';
+import {ProxyAgent, fetch} from 'undici';
 import {readGames, writeGames} from './data-store.mjs';
 
 const userAgent = 'Mozilla/5.0 (compatible; GamePlaybookResearch/1.0)';
+const proxyUrl = process.env.GAME_PLAYBOOK_HTTP_PROXY || 'http://127.0.0.1:10809';
+const dispatcher = new ProxyAgent(proxyUrl);
 const platforms = [
   {slug: 'pc', label: 'PC'},
   {slug: 'nintendo-switch', label: 'Nintendo Switch'},
@@ -22,7 +24,7 @@ function decodeHtml(value) {
 
 async function fetchPage(platform, page) {
   const url = `https://www.metacritic.com/browse/game/${platform.slug}/all/all-time/metascore/?page=${page}`;
-  const response = await fetch(url, {headers: {'User-Agent': userAgent}});
+  const response = await fetch(url, {dispatcher, headers: {'User-Agent': userAgent}});
   if (!response.ok) throw new Error(`Metacritic returned ${response.status} for ${url}`);
   return {url, html: await response.text()};
 }
@@ -54,7 +56,7 @@ function parseGames(html, platform, page) {
 
 const existing = await readGames();
 const existingByTitlePlatform = new Map(existing.map((row) => [`${row.title}::${row.platform}`, row]));
-const existingBySlug = new Map(existing.map((row) => [row.slug, row]));
+const reviewUrlFields = ['pcgamer_url', 'eurogamer_url', 'nintendolife_url', 'rockpapershotgun_url', 'rpgsite_url', 'adventuregamers_url', 'nintendoworldreport_url'];
 const collected = [];
 
 for (const platform of platforms) {
@@ -69,8 +71,8 @@ for (const platform of platforms) {
 
 const unique = new Map(collected.map((game) => [`${game.platform}:${game.slug}`, game]));
 const rows = [...unique.values()].map((game) => {
-  const old = existingByTitlePlatform.get(`${game.title}::${game.platform}`) ?? existingBySlug.get(game.slug) ?? {};
-  return {
+  const old = existingByTitlePlatform.get(`${game.title}::${game.platform}`) ?? {};
+  const row = {
     ...old,
     ...game,
     ign_score: old.ign_score ?? null,
@@ -80,6 +82,8 @@ const rows = [...unique.values()].map((game) => {
     content_status: old.content_status || (old.ign_url || old.gamespot_url ? 'links-collected' : 'metacritic-must-play'),
     notes: old.notes || `Metacritic Must-Play；平台：${game.platform}；来源页第${game.page}页`,
   };
+  for (const field of reviewUrlFields) row[field] ??= '';
+  return row;
 });
 
 rows.sort((left, right) => left.platform.localeCompare(right.platform) || right.metacritic_score - left.metacritic_score || left.title.localeCompare(right.title));

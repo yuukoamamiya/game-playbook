@@ -148,7 +148,6 @@ if (write) {
     'thief-the-dark-project': 'https://www.ign.com/articles/1998/12/12/thief-the-dark-project',
     'final-fantasy-xiv-shadowbringers': 'https://www.ign.com/articles/2019/07/12/ffxiv-shadowbringers-review',
     'overwatch-2016': 'https://www.ign.com/articles/2016/05/28/overwatch-review',
-    'grand-theft-auto-san-andreas': 'https://www.ign.com/articles/2015/05/27/san-andreas-review',
     'grand-theft-auto-iii': 'https://www.ign.com/articles/grand-theft-auto-iii-the-legacy-review',
   };
   let filled = 0;

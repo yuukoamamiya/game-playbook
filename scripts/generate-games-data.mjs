@@ -70,6 +70,8 @@ const games = rows
       ignUrl: row.ign_url,
       gamespotScore: numberValue(row.gamespot_score),
       gamespotUrl: row.gamespot_url,
+      famitsuUrls: Array.isArray(row.famitsu_urls) ? row.famitsu_urls : [],
+      unwinnableUrls: Array.isArray(row.unwinnable_urls) ? row.unwinnable_urls : [],
       contentStatus: row.content_status || 'links-only',
       hasTranslation: Boolean(translation),
       translationStatus: translation?.status || 'pending',

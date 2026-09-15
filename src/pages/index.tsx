@@ -21,6 +21,34 @@ type GameRecord = {
   hasTranslation: boolean;
 };
 
+type CatalogGame = Omit<GameRecord, 'platform'> & {
+  platforms: string[];
+};
+
+function mergeGames(records: GameRecord[]): CatalogGame[] {
+  const merged = new Map<string, CatalogGame>();
+
+  for (const game of records) {
+    const existing = merged.get(game.slug);
+    if (!existing) {
+      merged.set(game.slug, {...game, platforms: [game.platform]});
+      continue;
+    }
+
+    if (!existing.platforms.includes(game.platform)) existing.platforms.push(game.platform);
+    existing.score = Math.max(existing.score, game.score);
+    existing.releaseYear ??= game.releaseYear;
+    existing.metacriticUrl ||= game.metacriticUrl;
+    existing.ignScore ??= game.ignScore;
+    existing.ignUrl ||= game.ignUrl;
+    existing.gamespotScore ??= game.gamespotScore;
+    existing.gamespotUrl ||= game.gamespotUrl;
+    existing.hasTranslation ||= game.hasTranslation;
+  }
+
+  return [...merged.values()];
+}
+
 function ExternalReviewLink({label, url, score}: {label: string; url: string; score: number | null}) {
   if (!url) return null;
   return (
@@ -35,10 +63,11 @@ export default function Home(): React.ReactNode {
   const [platform, setPlatform] = useState('全部平台');
   const [sortOrder, setSortOrder] = useState<SortOrder>('score');
   const platforms = ['全部平台', ...Array.from(new Set(games.map((game) => game.platform)))];
-  const translatedCount = games.filter((game) => game.hasTranslation).length;
+  const catalogGames = useMemo(() => mergeGames(games), [games]);
+  const translatedCount = catalogGames.filter((game) => game.hasTranslation).length;
 
-  const visibleGames = useMemo(() => games
-    .filter((game) => platform === '全部平台' || game.platform === platform)
+  const visibleGames = useMemo(() => mergeGames(games
+    .filter((game) => platform === '全部平台' || game.platform === platform))
     .sort((left, right) => {
       if (sortOrder === 'year') {
         return (right.releaseYear ?? 0) - (left.releaseYear ?? 0) || right.score - left.score;
@@ -55,7 +84,7 @@ export default function Home(): React.ReactNode {
         </header>
 
         <section className={styles.summary} aria-label="游戏统计">
-          <div><strong>{games.length}</strong><span>收录游戏</span></div>
+          <div><strong>{catalogGames.length}</strong><span>收录游戏</span></div>
           <div><strong>{translatedCount}</strong><span>已有中文译文</span></div>
           <div><strong>{visibleGames.length}</strong><span>当前显示</span></div>
         </section>
@@ -83,7 +112,7 @@ export default function Home(): React.ReactNode {
           {visibleGames.length > 0 ? (
             <div className={styles.gameGrid}>
               {visibleGames.map((game) => (
-                <article className={styles.gameCard} key={`${game.slug}-${game.platform}`}>
+                <article className={styles.gameCard} key={game.slug}>
                   <div className={styles.score}>{game.score}</div>
                   <div className={styles.gameInfo}>
                     <h3>
@@ -91,7 +120,7 @@ export default function Home(): React.ReactNode {
                         <Link to={`/docs/games/${game.slug}`}>{game.title}</Link>
                       ) : game.title}
                     </h3>
-                    <p>{game.releaseYear || '年份待补'} · {game.platform}</p>
+                    <p>{game.releaseYear || '年份待补'} · {game.platforms.join(' · ')}</p>
                     <div className={styles.reviewLinks}>
                       <ExternalReviewLink label="MC" url={game.metacriticUrl} score={game.score} />
                       <ExternalReviewLink label="IGN" url={game.ignUrl} score={game.ignScore} />

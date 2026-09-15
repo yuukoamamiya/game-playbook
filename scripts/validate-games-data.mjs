@@ -7,6 +7,7 @@ const required = [
   'rockpapershotgun_url', 'rpgsite_url', 'adventuregamers_url', 'nintendoworldreport_url',
 ];
 const urlFields = required.filter((field) => field.endsWith('_url'));
+const urlArrayFields = ['famitsu_urls', 'unwinnable_urls'];
 const games = await readGames();
 const records = new Set();
 const errors = [];
@@ -22,6 +23,16 @@ for (const [index, game] of games.entries()) {
   }
   for (const field of urlFields) {
     if (game[field] && !/^https?:\/\//.test(game[field])) errors.push(`row ${index + 1}: invalid URL in ${field}`);
+  }
+  for (const field of urlArrayFields) {
+    if (!(field in game)) continue;
+    if (!Array.isArray(game[field])) {
+      errors.push(`row ${index + 1}: ${field} must be an array`);
+      continue;
+    }
+    for (const url of game[field]) {
+      if (typeof url !== 'string' || !/^https?:\/\//.test(url)) errors.push(`row ${index + 1}: invalid URL in ${field}`);
+    }
   }
 }
 
