@@ -127,7 +127,15 @@ theatlantic, gamestudies
 - **Game Studies 期刊**：用 `scripts/collect-media-reviews.mjs` 的 gamestudies 规则，从期刊归档（344 篇）里挑出针对本目录具体游戏的论文并翻译，已收录 **21 篇**（`kind: essay`），覆盖 Portal、BioShock、The Last of Us Part II、The Sims、Elden Ring、Overwatch、World of Warcraft、Minecraft、Breath of the Wild、Red Dead Redemption 2、Fallout 3、Mass Effect 2、Skyrim 等；其中 Elden Ring、Fallout 3、Minecraft、Overwatch、The Last of Us Part II、The Sims、World of Warcraft 各有 2 篇。**同一游戏同一媒体可以有多篇**：每篇一个 `<ReviewTab>`，用独立的 `id` 区分（见上节）。
 - **Jesper Juul**：除已有的《GTA IV and Philip Glass》，新收录《Half-Life 2, the Good and the Bad》《Half-Life 2: Episode Two Stats》（The Ludologist）→ `half-life-2`、`half-life-2-episode-two`（`site: jesperjuul`）。
 - **Slavoj Žižek**：未找到针对本目录任一游戏的文化评论（只有泛论与访谈），暂不收录。
-- 新站点：`theatlantic`（The Atlantic）、`gamestudies`（Game Studies）；抓取规则见 `scripts/collect-media-reviews.mjs`。
+- **ToDiGRA**（Digital Games Research Association）：期刊全文只有 PDF，用 `pdftotext` 提取正文后收录，已收 3 篇：Minecraft ×2、The Last of Us ×1（`site: todigra`，`kind: essay`）。
+- **Games and Culture**（SAGE）、**Games: Research and Practice**（ACM）：站点对 curl 返回 403，需要浏览器或代理才能枚举/抓取，尚未收录。
+- 新站点：`theatlantic`（The Atlantic）、`gamestudies`（Game Studies）、`todigra`（ToDiGRA）；抓取规则见 `scripts/collect-media-reviews.mjs`。
+
+### MDX 构建注意
+
+- 译文里不要出现裸的 `{` `}`（MDX 当表达式）；用 `【】` 替代。
+- 不要用 `<http://…>` 自动链接（MDX v3 不支持，会当 JSX 报错）；用 `[文字](url)`。
+- 改完文档后如需验证，跑一次 `npm run build`（产物 `build/` 用完删掉）。
 
 ### 评测与评论的收录精度
 
@@ -186,6 +194,8 @@ git diff --check
 ## 当前待办
 
 - **进行中**：核查学术期刊 **Games and Culture**、**Games: Research and Practice**（ACM）、**ToDiGRA**（Digital Games Research Association）里是否有可对应本目录游戏的论文，有则按 Game Studies 同样流程收录（抓正文 → 写 `content/reviews/en/<slug>/<site>.md` → 补 `<ReviewTab>` → 翻译）。
+  - ToDiGRA：已完成，收录 3 篇（Minecraft ×2、The Last of Us ×1）。
+  - Games and Culture（SAGE）、Games: Research and Practice（ACM）：curl 403，需浏览器/代理才能继续。
 - 完成图片 Cloudflare Worker 代理方案：明确 Worker 路由、GitHub 源地址、缓存键和失效策略。
 - 继续补充已收录游戏的媒体入口，但必须逐篇核对，不把自动匹配候选直接落库。
 - IGN / GameSpot 侧还有新平台（GBA/NDS/3DS）等约 27 个游戏没有公开页（Codex 抓取失败，用户要求先留空，最后再回头看）。

@@ -73,6 +73,7 @@ const mediaLabels: Record<string, string> = {
   radicalphilosophy: 'Radical Philosophy',
   theatlantic: 'The Atlantic',
   gamestudies: 'Game Studies',
+  todigra: 'ToDiGRA',
 };
 
 function ExternalReviewLink({source}: {source: MediaSource}) {

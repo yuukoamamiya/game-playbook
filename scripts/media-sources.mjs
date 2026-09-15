@@ -95,4 +95,5 @@ export const mediaLabels = {
   jesperjuul: 'Jesper Juul',
   theatlantic: 'The Atlantic',
   gamestudies: 'Game Studies',
+  todigra: 'ToDiGRA',
 };

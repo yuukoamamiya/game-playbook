@@ -16,6 +16,7 @@ const labels = {
   theatlantic: 'The Atlantic',
   jesperjuul: 'Jesper Juul',
   gamestudies: 'Game Studies',
+  todigra: 'ToDiGRA',
 };
 
 async function exists(p) { try { await access(p); return true; } catch { return false; } }
@@ -40,7 +41,8 @@ for (const slug of slugs) {
     if (!labels[site]) continue;
     const id = key;
     if (next.includes(`id="${id}"`)) continue;
-    if (id === site && next.includes(`site="${site}"`)) continue;
+    const legacy = id === site && new RegExp(`<ReviewTab(?![^>]*\\bid=)[^>]*\\bsite="${site}"`).test(next);
+    if (legacy) continue;
     const title = ((fm.match(/^source_title:\s*(.*)$/m) ?? [])[1] ?? '').trim().replace(/^['"]|['"]$/g, '');
     const label = id === site ? labels[site] : `${labels[site]} · ${title.slice(0, 40)}`;
     const block = `<ReviewTab id="${id}" site="${site}" label="${label}">\n\n${labels[site]} 中文译文待补。\n\n</ReviewTab>\n\n`;

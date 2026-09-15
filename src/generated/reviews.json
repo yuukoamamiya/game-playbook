@@ -1516,6 +1516,16 @@
       "id": "gamestudies-gallagher",
       "site": "gamestudies",
       "label": "Game Studies · Minecraft"
+    },
+    {
+      "id": "todigra-editors-of-play",
+      "site": "todigra",
+      "label": "ToDiGRA · Editors of Play: The Scripts and Practic"
+    },
+    {
+      "id": "todigra",
+      "site": "todigra",
+      "label": "ToDiGRA"
     }
   ],
   "neverwinter-nights": [
@@ -2259,6 +2269,11 @@
       "id": "gamestudies-reay",
       "site": "gamestudies",
       "label": "Game Studies · The Last of Us Part II Remastered"
+    },
+    {
+      "id": "todigra",
+      "site": "todigra",
+      "label": "ToDiGRA"
     }
   ],
   "the-legend-of-zelda-breath-of-the-wild-nintendo": [

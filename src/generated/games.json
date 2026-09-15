@@ -1690,6 +1690,20 @@
         "language": "en",
         "score": null,
         "url": "https://gamestudies.org/1802/articles/gallagher"
+      },
+      {
+        "site": "todigra",
+        "kind": "essay",
+        "language": "en",
+        "score": null,
+        "url": "https://todigra.org/index.php/todigra/article/view/1750"
+      },
+      {
+        "site": "todigra",
+        "kind": "essay",
+        "language": "en",
+        "score": null,
+        "url": "https://todigra.org/index.php/todigra/article/view/1724"
       }
     ],
     "contentStatus": "metacritic-filtered",
@@ -6853,6 +6867,13 @@
         "language": "en",
         "score": null,
         "url": "https://gamestudies.org/2101/articles/reay"
+      },
+      {
+        "site": "todigra",
+        "kind": "essay",
+        "language": "en",
+        "score": null,
+        "url": "https://todigra.org/index.php/todigra/article/view/1772"
       }
     ],
     "contentStatus": "metacritic-filtered",
