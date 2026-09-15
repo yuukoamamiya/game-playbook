@@ -32,6 +32,20 @@
         "language": "ja",
         "score": null,
         "url": "https://www.4gamer.net/games/113/G011358/20110722077/"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/26859/the-legend-of-zelda-ocarina-of-time-3d-nintendo-3ds"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/the-legend-of-zelda-ocarina-of-time-3d-review"
       }
     ]
   },
@@ -75,6 +89,27 @@
         "language": "en",
         "score": null,
         "url": "https://rpgamer.com/review/fire-emblem-awakening-review/"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/33177/fire-emblem-awakening-nintendo-3ds"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/fire-emblem-awakening-review"
+      },
+      {
+        "site": "rpgsite",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.rpgsite.net/review/3124-fire-emblem-awakening-and-the-spirit-of-the-classics"
       }
     ]
   },
@@ -111,6 +146,20 @@
         "language": "ja",
         "score": null,
         "url": "https://www.4gamer.net/games/212/G021244/20130615013/"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/35972/the-legend-of-zelda-a-link-between-worlds-nintendo-3ds"
+      },
+      {
+        "site": "rpgsite",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.rpgsite.net/review/3188-the-legend-of-zelda-a-link-between-worlds-review"
       }
     ]
   },
@@ -140,6 +189,13 @@
         "language": "en",
         "score": null,
         "url": "https://www.gamespot.com/reviews/pushmo-review/1900-6348267/"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/28656/pushmo-nintendo-3ds"
       }
     ]
   },
@@ -169,6 +225,20 @@
         "language": "en",
         "score": null,
         "url": "https://www.gamespot.com/reviews/super-mario-3d-land-review/1900-6344529/"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/28387/super-mario-3d-land-nintendo-3ds"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/super-mario-3d-land-review"
       }
     ]
   },
@@ -184,7 +254,36 @@
     "page": 1,
     "content_status": "metacritic-must-play",
     "notes": "Metacritic Must-Play；平台：Game Boy Advance；来源页第1页",
-    "sources": []
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2002/12/03/legend-of-zelda-a-link-to-the-past"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/the-legend-of-zelda-a-link-to-the-past-review/1900-2901300/"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/r-zelda3-gba"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/4040/the-legend-of-zelda-a-link-to-the-past--four-swords-game-boy-advance"
+      }
+    ]
   },
   {
     "slug": "tony-hawks-pro-skater-2",
@@ -227,6 +326,20 @@
         "language": "en",
         "score": null,
         "url": "https://www.gamespot.com/reviews/super-mario-advance-4-super-mario-bros-3/1900-6077002/"
+      },
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2003/10/15/super-mario-bros-3-super-mario-advance-4"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/4140/super-mario-advance-4-super-mario-bros-3-game-boy-advance"
       }
     ]
   },
@@ -249,6 +362,20 @@
         "language": "en",
         "score": null,
         "url": "https://www.gamespot.com/reviews/mario-kart-super-circuit-review/1900-2808115/"
+      },
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2001/08/29/mario-kart-super-circuit"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/3792/mario-kart-super-circuit-game-boy-advance"
       }
     ]
   },
@@ -271,6 +398,27 @@
         "language": "en",
         "score": null,
         "url": "https://www.gamespot.com/reviews/advance-wars-review/1900-2811574/"
+      },
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2001/09/10/advance-wars"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/r-advancewars"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/3803/advance-wars-game-boy-advance"
       }
     ]
   },
@@ -293,6 +441,34 @@
         "language": "en",
         "score": null,
         "url": "https://unwinnable.com/2020/06/04/final-fantasy-vis-nightmares-in-the-round/"
+      },
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2007/02/15/final-fantasy-vi-advance-review"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/final-fantasy-vi-advance-review"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/12623/final-fantasy-vi-advance-game-boy-advance"
+      },
+      {
+        "site": "rpgamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://rpgamer.com/review/final-fantasy-vi-advance-review/"
       }
     ]
   },
@@ -322,6 +498,20 @@
         "language": "en",
         "score": null,
         "url": "https://www.gamespot.com/reviews/metroid-fusion-review/1900-2897729/"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/r-metroidfusion-gba"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/3986/metroid-fusion-game-boy-advance"
       }
     ]
   },
@@ -351,6 +541,13 @@
         "language": "en",
         "score": null,
         "url": "https://www.gamespot.com/reviews/super-mario-world-super-mario-advance-2-review/1900-2847297/"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/3839/super-mario-world-super-mario-advance-2-game-boy-advance"
       }
     ]
   },
@@ -373,6 +570,20 @@
         "language": "en",
         "score": null,
         "url": "https://www.gamespot.com/reviews/castlevania-aria-of-sorrow-review/1900-6026640/"
+      },
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2003/05/05/castlevania-aria-of-sorrow"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/4092/castlevania-aria-of-sorrow-game-boy-advance"
       }
     ]
   },
@@ -395,6 +606,20 @@
         "language": "en",
         "score": null,
         "url": "https://www.gamespot.com/reviews/castlevania-circle-of-the-moon-review/1900-2770559/"
+      },
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2001/06/14/castlevania-circle-of-the-moon"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/3788/castlevania-circle-of-the-moon-game-boy-advance"
       }
     ]
   },
@@ -424,6 +649,27 @@
         "language": "ja",
         "score": null,
         "url": "https://www.famitsu.com/article/202608/82652"
+      },
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2001/11/10/golden-sun"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/r-goldensun-gba"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/3823/golden-sun-game-boy-advance"
       }
     ]
   },
@@ -446,6 +692,27 @@
         "language": "en",
         "score": null,
         "url": "https://www.gamespot.com/reviews/yoshis-island-super-mario-advance-3-review/1900-2882007/"
+      },
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2002/09/24/yoshis-island-super-mario-advance-3"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/r-yoshisisland-gba"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/3966/super-mario-advance-3-yoshis-island-game-boy-advance"
       }
     ]
   },
@@ -468,6 +735,27 @@
         "language": "en",
         "score": null,
         "url": "https://www.gamespot.com/reviews/mario-and-luigi-superstar-saga/1900-6083876/"
+      },
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2003/12/15/mario-luigi-superstar-saga"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/r-marioandluigi-gba"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/4154/mario-n-luigi-superstar-saga-game-boy-advance"
       }
     ]
   },
@@ -515,7 +803,7 @@
     "sources": [
       {
         "site": "ign",
-        "kind": "review",
+        "kind": "feature",
         "language": "en",
         "score": null,
         "url": "https://www.ign.com/articles/2009/10/20/grand-theft-auto-chinatown-wars-review"
@@ -533,6 +821,13 @@
         "language": "ja",
         "score": null,
         "url": "https://www.4gamer.net/games/094/G009489/20091029038/"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/18232/grand-theft-auto-chinatown-wars-nintendo-ds"
       }
     ]
   },
@@ -551,7 +846,7 @@
     "sources": [
       {
         "site": "ign",
-        "kind": "review",
+        "kind": "feature",
         "language": "en",
         "score": null,
         "url": "https://www.ign.com/articles/2011/05/25/chrono-trigger-review"
@@ -576,6 +871,27 @@
         "language": "en",
         "score": null,
         "url": "https://rpgamer.com/review/chrono-trigger-ds-review-3/"
+      },
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2008/11/20/chrono-trigger-ds-review"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/chrono-trigger-review"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/17445/chrono-trigger-nintendo-ds"
       }
     ]
   },
@@ -605,6 +921,27 @@
         "language": "ja",
         "score": null,
         "url": "https://www.famitsu.com/article/202512/59536"
+      },
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2005/11/12/mario-kart-ds"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/r-mariokart-ds"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/4450/mario-kart-ds-nintendo-ds"
       }
     ]
   },
@@ -627,6 +964,27 @@
         "language": "en",
         "score": null,
         "url": "https://www.gamespot.com/reviews/advance-wars-dual-strike-review/1900-6131573/"
+      },
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2005/08/19/advance-wars-dual-strike"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/r-advancewarsds-ds"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/4390/advance-wars-dual-strike-nintendo-ds"
       }
     ]
   },
@@ -656,6 +1014,27 @@
         "language": "en",
         "score": null,
         "url": "https://www.gamespot.com/reviews/mario-and-luigi-bowsers-inside-story/1900-6226786/"
+      },
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2009/09/10/mario-luigi-bowsers-inside-story-review"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/mario-and-luigi-bowsers-inside-story-review"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/20040/mario-n-luigi-bowsers-inside-story-nintendo-ds"
       }
     ]
   },
@@ -685,6 +1064,20 @@
         "language": "en",
         "score": null,
         "url": "https://www.gamespot.com/reviews/the-legend-of-zelda-phantom-hourglass-review/1900-6180182/"
+      },
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2007/09/25/the-legend-of-zelda-phantom-hourglass-review"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/14526/the-legend-of-zelda-phantom-hourglass-nintendo-ds"
       }
     ]
   },
@@ -1503,7 +1896,29 @@
     "content_status": "metacritic-filtered",
     "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第2页",
     "page": 2,
-    "sources": []
+    "sources": [
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/46470/bayonetta-switch-review"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/46468/bayonetta-2-switch-review"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/bayonetta-2-review"
+      }
+    ]
   },
   {
     "slug": "chained-echoes",
@@ -1531,6 +1946,13 @@
         "language": "en",
         "score": null,
         "url": "https://rpgamer.com/review/chained-echoes-review/"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/63269/chained-echoes-switch-review"
       }
     ]
   },
@@ -4157,6 +4579,13 @@
         "language": "en",
         "score": null,
         "url": "https://www.radicalphilosophy.com/article/playing-the-code"
+      },
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/1999/12/07/unreal-tournament-6"
       }
     ]
   },
@@ -4229,6 +4658,13 @@
         "language": "en",
         "score": null,
         "url": "https://aftermath.site/against-the-storm-is-a-really-good-city-builder"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/71504/against-the-storm-switch-review"
       }
     ]
   },

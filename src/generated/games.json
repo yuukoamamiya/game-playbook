@@ -537,6 +537,50 @@
     "translationPath": "docs/games/the-legend-of-zelda-tears-of-the-kingdom-nintendo.mdx"
   },
   {
+    "slug": "the-legend-of-zelda-a-link-to-the-past-four-swords",
+    "title": "塞尔达传说 众神的三角力量与四支剑",
+    "sourceTitle": "The Legend of Zelda: A Link to the Past / Four Swords",
+    "platform": "Game Boy Advance",
+    "score": 95,
+    "releaseYear": 2002,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/the-legend-of-zelda-a-link-to-the-past-four-swords/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2002/12/03/legend-of-zelda-a-link-to-the-past"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/the-legend-of-zelda-a-link-to-the-past-review/1900-2901300/"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/r-zelda3-gba"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/4040/the-legend-of-zelda-a-link-to-the-past--four-swords-game-boy-advance"
+      }
+    ],
+    "contentStatus": "metacritic-must-play",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/the-legend-of-zelda-a-link-to-the-past-four-swords.mdx"
+  },
+  {
     "slug": "tony-hawks-pro-skater-2",
     "title": "托尼·霍克职业滑板2",
     "sourceTitle": "Tony Hawk's Pro Skater 2",
@@ -558,21 +602,6 @@
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/tony-hawks-pro-skater-2.mdx"
-  },
-  {
-    "slug": "the-legend-of-zelda-a-link-to-the-past-four-swords",
-    "title": "The Legend of Zelda: A Link to the Past / Four Swords",
-    "sourceTitle": "The Legend of Zelda: A Link to the Past / Four Swords",
-    "platform": "Game Boy Advance",
-    "score": 95,
-    "releaseYear": 2002,
-    "genre": "",
-    "metacriticUrl": "https://www.metacritic.com/game/the-legend-of-zelda-a-link-to-the-past-four-swords/",
-    "sources": [],
-    "contentStatus": "metacritic-must-play",
-    "hasTranslation": false,
-    "translationStatus": "pending",
-    "translationPath": ""
   },
   {
     "slug": "elden-ring",
@@ -624,6 +653,43 @@
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/elden-ring.mdx"
+  },
+  {
+    "slug": "super-mario-advance-4-super-mario-bros-3",
+    "title": "超级马力欧A4 超级马力欧兄弟3",
+    "sourceTitle": "Super Mario Advance 4: Super Mario Bros. 3",
+    "platform": "Game Boy Advance",
+    "score": 94,
+    "releaseYear": 2003,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/super-mario-advance-4-super-mario-bros-3/",
+    "sources": [
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/super-mario-advance-4-super-mario-bros-3/1900-6077002/"
+      },
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2003/10/15/super-mario-bros-3-super-mario-advance-4"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/4140/super-mario-advance-4-super-mario-bros-3-game-boy-advance"
+      }
+    ],
+    "contentStatus": "metacritic-must-play",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/super-mario-advance-4-super-mario-bros-3.mdx"
   },
   {
     "slug": "tetris-effect-connected",
@@ -814,6 +880,57 @@
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/persona-5-royal.mdx"
+  },
+  {
+    "slug": "the-legend-of-zelda-ocarina-of-time-3d",
+    "title": "塞尔达传说 时之笛 3D",
+    "sourceTitle": "The Legend of Zelda: Ocarina of Time 3D",
+    "platform": "3DS",
+    "score": 94,
+    "releaseYear": 2011,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/the-legend-of-zelda-ocarina-of-time-3d/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2011/06/17/the-legend-of-zelda-ocarina-of-time-3d-review"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/the-legend-of-zelda-ocarina-of-time-3d-review/1900-6320103/"
+      },
+      {
+        "site": "4gamer",
+        "kind": "review",
+        "language": "ja",
+        "score": null,
+        "url": "https://www.4gamer.net/games/113/G011358/20110722077/"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/26859/the-legend-of-zelda-ocarina-of-time-3d-nintendo-3ds"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/the-legend-of-zelda-ocarina-of-time-3d-review"
+      }
+    ],
+    "contentStatus": "metacritic-must-play",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/the-legend-of-zelda-ocarina-of-time-3d.mdx"
   },
   {
     "slug": "the-legend-of-zelda-breath-of-the-wild-nintendo",
@@ -1119,66 +1236,6 @@
     "translationPath": "docs/games/mass-effect-2.mdx"
   },
   {
-    "slug": "super-mario-advance-4-super-mario-bros-3",
-    "title": "Super Mario Advance 4: Super Mario Bros. 3",
-    "sourceTitle": "Super Mario Advance 4: Super Mario Bros. 3",
-    "platform": "Game Boy Advance",
-    "score": 94,
-    "releaseYear": 2003,
-    "genre": "",
-    "metacriticUrl": "https://www.metacritic.com/game/super-mario-advance-4-super-mario-bros-3/",
-    "sources": [
-      {
-        "site": "gamespot",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.gamespot.com/reviews/super-mario-advance-4-super-mario-bros-3/1900-6077002/"
-      }
-    ],
-    "contentStatus": "metacritic-must-play",
-    "hasTranslation": false,
-    "translationStatus": "pending",
-    "translationPath": ""
-  },
-  {
-    "slug": "the-legend-of-zelda-ocarina-of-time-3d",
-    "title": "The Legend of Zelda: Ocarina of Time 3D",
-    "sourceTitle": "The Legend of Zelda: Ocarina of Time 3D",
-    "platform": "3DS",
-    "score": 94,
-    "releaseYear": 2011,
-    "genre": "",
-    "metacriticUrl": "https://www.metacritic.com/game/the-legend-of-zelda-ocarina-of-time-3d/",
-    "sources": [
-      {
-        "site": "ign",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.ign.com/articles/2011/06/17/the-legend-of-zelda-ocarina-of-time-3d-review"
-      },
-      {
-        "site": "gamespot",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.gamespot.com/reviews/the-legend-of-zelda-ocarina-of-time-3d-review/1900-6320103/"
-      },
-      {
-        "site": "4gamer",
-        "kind": "review",
-        "language": "ja",
-        "score": null,
-        "url": "https://www.4gamer.net/games/113/G011358/20110722077/"
-      }
-    ],
-    "contentStatus": "metacritic-must-play",
-    "hasTranslation": false,
-    "translationStatus": "pending",
-    "translationPath": ""
-  },
-  {
     "slug": "ori-and-the-will-of-the-wisps",
     "title": "奥日与精灵意志",
     "sourceTitle": "Ori and the Will of the Wisps",
@@ -1448,6 +1505,43 @@
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/homeworld.mdx"
+  },
+  {
+    "slug": "mario-kart-super-circuit",
+    "title": "马力欧卡丁车 超级赛道",
+    "sourceTitle": "Mario Kart: Super Circuit",
+    "platform": "Game Boy Advance",
+    "score": 93,
+    "releaseYear": 2001,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/mario-kart-super-circuit/",
+    "sources": [
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/mario-kart-super-circuit-review/1900-2808115/"
+      },
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2001/08/29/mario-kart-super-circuit"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/3792/mario-kart-super-circuit-game-boy-advance"
+      }
+    ],
+    "contentStatus": "metacritic-must-play",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/mario-kart-super-circuit.mdx"
   },
   {
     "slug": "world-of-warcraft",
@@ -1749,6 +1843,50 @@
     "translationPath": "docs/games/the-witcher-3-wild-hunt.mdx"
   },
   {
+    "slug": "grand-theft-auto-chinatown-wars",
+    "title": "侠盗猎车手 血战唐人街",
+    "sourceTitle": "Grand Theft Auto: Chinatown Wars",
+    "platform": "Nintendo DS",
+    "score": 93,
+    "releaseYear": 2009,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/grand-theft-auto-chinatown-wars/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "feature",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2009/10/20/grand-theft-auto-chinatown-wars-review"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/grand-theft-auto-chinatown-wars-review/1900-6206274/"
+      },
+      {
+        "site": "4gamer",
+        "kind": "review",
+        "language": "ja",
+        "score": null,
+        "url": "https://www.4gamer.net/games/094/G009489/20091029038/"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/18232/grand-theft-auto-chinatown-wars-nintendo-ds"
+      }
+    ],
+    "contentStatus": "metacritic-must-play",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/grand-theft-auto-chinatown-wars.mdx"
+  },
+  {
     "slug": "grand-theft-auto-iii",
     "title": "侠盗猎车手 III",
     "sourceTitle": "Grand Theft Auto III",
@@ -1994,66 +2132,6 @@
     "translationPath": "docs/games/god-of-war.mdx"
   },
   {
-    "slug": "grand-theft-auto-chinatown-wars",
-    "title": "Grand Theft Auto: Chinatown Wars",
-    "sourceTitle": "Grand Theft Auto: Chinatown Wars",
-    "platform": "Nintendo DS",
-    "score": 93,
-    "releaseYear": 2009,
-    "genre": "",
-    "metacriticUrl": "https://www.metacritic.com/game/grand-theft-auto-chinatown-wars/",
-    "sources": [
-      {
-        "site": "ign",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.ign.com/articles/2009/10/20/grand-theft-auto-chinatown-wars-review"
-      },
-      {
-        "site": "gamespot",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.gamespot.com/reviews/grand-theft-auto-chinatown-wars-review/1900-6206274/"
-      },
-      {
-        "site": "4gamer",
-        "kind": "review",
-        "language": "ja",
-        "score": null,
-        "url": "https://www.4gamer.net/games/094/G009489/20091029038/"
-      }
-    ],
-    "contentStatus": "metacritic-must-play",
-    "hasTranslation": false,
-    "translationStatus": "pending",
-    "translationPath": ""
-  },
-  {
-    "slug": "mario-kart-super-circuit",
-    "title": "Mario Kart: Super Circuit",
-    "sourceTitle": "Mario Kart: Super Circuit",
-    "platform": "Game Boy Advance",
-    "score": 93,
-    "releaseYear": 2001,
-    "genre": "",
-    "metacriticUrl": "https://www.metacritic.com/game/mario-kart-super-circuit/",
-    "sources": [
-      {
-        "site": "gamespot",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.gamespot.com/reviews/mario-kart-super-circuit-review/1900-2808115/"
-      }
-    ],
-    "contentStatus": "metacritic-must-play",
-    "hasTranslation": false,
-    "translationStatus": "pending",
-    "translationPath": ""
-  },
-  {
     "slug": "elden-ring-shadow-of-the-erdtree",
     "title": "艾尔登法环：黄金树幽影",
     "sourceTitle": "Elden Ring: Shadow of the Erdtree",
@@ -2200,6 +2278,43 @@
     "translationPath": "docs/games/super-mario-bros-wonder.mdx"
   },
   {
+    "slug": "super-mario-world-super-mario-advance-2",
+    "title": "超级马力欧A2 超级马力欧世界",
+    "sourceTitle": "Super Mario World: Super Mario Advance 2",
+    "platform": "Game Boy Advance",
+    "score": 92,
+    "releaseYear": 2002,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/super-mario-world-super-mario-advance-2/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2002/02/11/super-mario-world-super-mario-advance-2-review"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/super-mario-world-super-mario-advance-2-review/1900-2847297/"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/3839/super-mario-world-super-mario-advance-2-game-boy-advance"
+      }
+    ],
+    "contentStatus": "metacritic-must-play",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/super-mario-world-super-mario-advance-2.mdx"
+  },
+  {
     "slug": "undertale",
     "title": "传说之下",
     "sourceTitle": "Undertale",
@@ -2300,6 +2415,115 @@
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/age-of-empires-ii-the-age-of-kings.mdx"
+  },
+  {
+    "slug": "advance-wars",
+    "title": "高级战争",
+    "sourceTitle": "Advance Wars",
+    "platform": "Game Boy Advance",
+    "score": 92,
+    "releaseYear": 2001,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/advance-wars/",
+    "sources": [
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/advance-wars-review/1900-2811574/"
+      },
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2001/09/10/advance-wars"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/r-advancewars"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/3803/advance-wars-game-boy-advance"
+      }
+    ],
+    "contentStatus": "metacritic-must-play",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/advance-wars.mdx"
+  },
+  {
+    "slug": "fire-emblem-awakening",
+    "title": "火焰之纹章 觉醒",
+    "sourceTitle": "Fire Emblem: Awakening",
+    "platform": "3DS",
+    "score": 92,
+    "releaseYear": 2013,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/fire-emblem-awakening/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2013/01/30/fire-emblem-awakening-review"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/fire-emblem-awakening-review/1900-6403250/"
+      },
+      {
+        "site": "famitsu",
+        "kind": "feature",
+        "language": "ja",
+        "score": null,
+        "url": "https://www.famitsu.com/article/202604/71812"
+      },
+      {
+        "site": "rpgamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://rpgamer.com/review/fire-emblem-awakening-review/"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/33177/fire-emblem-awakening-nintendo-3ds"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/fire-emblem-awakening-review"
+      },
+      {
+        "site": "rpgsite",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.rpgsite.net/review/3124-fire-emblem-awakening-and-the-spirit-of-the-classics"
+      }
+    ],
+    "contentStatus": "metacritic-must-play",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/fire-emblem-awakening.mdx"
   },
   {
     "slug": "street-fighter-6",
@@ -2649,6 +2873,71 @@
     "translationPath": "docs/games/resident-evil-requiem.mdx"
   },
   {
+    "slug": "chrono-trigger",
+    "title": "时空之轮",
+    "sourceTitle": "Chrono Trigger",
+    "platform": "Nintendo DS",
+    "score": 92,
+    "releaseYear": 2008,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/chrono-trigger/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "feature",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2011/05/25/chrono-trigger-review"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/chrono-trigger-review/1900-6201545/"
+      },
+      {
+        "site": "famitsu",
+        "kind": "feature",
+        "language": "ja",
+        "score": null,
+        "url": "https://www.famitsu.com/article/202603/67922"
+      },
+      {
+        "site": "rpgamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://rpgamer.com/review/chrono-trigger-ds-review-3/"
+      },
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2008/11/20/chrono-trigger-ds-review"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/chrono-trigger-review"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/17445/chrono-trigger-nintendo-ds"
+      }
+    ],
+    "contentStatus": "metacritic-must-play",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/chrono-trigger.mdx"
+  },
+  {
     "slug": "call-of-duty-4-modern-warfare",
     "title": "使命召唤4：现代战争",
     "sourceTitle": "Call of Duty 4: Modern Warfare",
@@ -2843,6 +3132,36 @@
     "translationPath": "docs/games/sid-meiers-alpha-centauri.mdx"
   },
   {
+    "slug": "unreal-tournament-1999",
+    "title": "虚幻竞技场",
+    "sourceTitle": "Unreal Tournament (1999)",
+    "platform": "PC",
+    "score": 92,
+    "releaseYear": 1999,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/unreal-tournament-1999/",
+    "sources": [
+      {
+        "site": "radicalphilosophy",
+        "kind": "essay",
+        "language": "en",
+        "score": null,
+        "url": "https://www.radicalphilosophy.com/article/playing-the-code"
+      },
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/1999/12/07/unreal-tournament-6"
+      }
+    ],
+    "contentStatus": "metacritic-filtered",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/unreal-tournament-1999.mdx"
+  },
+  {
     "slug": "galactic-civilizations-ii-twilight-of-the-arnor",
     "title": "银河文明 II：阿诺的黄昏",
     "sourceTitle": "Galactic Civilizations II: Twilight of the Arnor",
@@ -2871,6 +3190,50 @@
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/galactic-civilizations-ii-twilight-of-the-arnor.mdx"
+  },
+  {
+    "slug": "metroid-fusion",
+    "title": "银河战士 融合",
+    "sourceTitle": "Metroid Fusion",
+    "platform": "Game Boy Advance",
+    "score": 92,
+    "releaseYear": 2002,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/metroid-fusion/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2002/11/12/metroid-fusion-review"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/metroid-fusion-review/1900-2897729/"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/r-metroidfusion-gba"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/3986/metroid-fusion-game-boy-advance"
+      }
+    ],
+    "contentStatus": "metacritic-must-play",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/metroid-fusion.mdx"
   },
   {
     "slug": "final-fantasy-xiv-endwalker",
@@ -2910,27 +3273,55 @@
     "translationPath": "docs/games/final-fantasy-xiv-endwalker.mdx"
   },
   {
-    "slug": "advance-wars",
-    "title": "Advance Wars",
-    "sourceTitle": "Advance Wars",
+    "slug": "final-fantasy-vi",
+    "title": "最终幻想VI",
+    "sourceTitle": "Final Fantasy VI",
     "platform": "Game Boy Advance",
     "score": 92,
-    "releaseYear": 2001,
+    "releaseYear": 2007,
     "genre": "",
-    "metacriticUrl": "https://www.metacritic.com/game/advance-wars/",
+    "metacriticUrl": "https://www.metacritic.com/game/final-fantasy-vi/",
     "sources": [
       {
-        "site": "gamespot",
+        "site": "unwinnable",
+        "kind": "essay",
+        "language": "en",
+        "score": null,
+        "url": "https://unwinnable.com/2020/06/04/final-fantasy-vis-nightmares-in-the-round/"
+      },
+      {
+        "site": "ign",
         "kind": "review",
         "language": "en",
         "score": null,
-        "url": "https://www.gamespot.com/reviews/advance-wars-review/1900-2811574/"
+        "url": "https://www.ign.com/articles/2007/02/15/final-fantasy-vi-advance-review"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/final-fantasy-vi-advance-review"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/12623/final-fantasy-vi-advance-game-boy-advance"
+      },
+      {
+        "site": "rpgamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://rpgamer.com/review/final-fantasy-vi-advance-review/"
       }
     ],
     "contentStatus": "metacritic-must-play",
-    "hasTranslation": false,
-    "translationStatus": "pending",
-    "translationPath": ""
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/final-fantasy-vi.mdx"
   },
   {
     "slug": "blue-prince",
@@ -2982,200 +3373,6 @@
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/blue-prince.mdx"
-  },
-  {
-    "slug": "chrono-trigger",
-    "title": "Chrono Trigger",
-    "sourceTitle": "Chrono Trigger",
-    "platform": "Nintendo DS",
-    "score": 92,
-    "releaseYear": 2008,
-    "genre": "",
-    "metacriticUrl": "https://www.metacritic.com/game/chrono-trigger/",
-    "sources": [
-      {
-        "site": "ign",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.ign.com/articles/2011/05/25/chrono-trigger-review"
-      },
-      {
-        "site": "gamespot",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.gamespot.com/reviews/chrono-trigger-review/1900-6201545/"
-      },
-      {
-        "site": "famitsu",
-        "kind": "feature",
-        "language": "ja",
-        "score": null,
-        "url": "https://www.famitsu.com/article/202603/67922"
-      },
-      {
-        "site": "rpgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://rpgamer.com/review/chrono-trigger-ds-review-3/"
-      }
-    ],
-    "contentStatus": "metacritic-must-play",
-    "hasTranslation": false,
-    "translationStatus": "pending",
-    "translationPath": ""
-  },
-  {
-    "slug": "final-fantasy-vi",
-    "title": "Final Fantasy VI",
-    "sourceTitle": "Final Fantasy VI",
-    "platform": "Game Boy Advance",
-    "score": 92,
-    "releaseYear": 2007,
-    "genre": "",
-    "metacriticUrl": "https://www.metacritic.com/game/final-fantasy-vi/",
-    "sources": [
-      {
-        "site": "unwinnable",
-        "kind": "essay",
-        "language": "en",
-        "score": null,
-        "url": "https://unwinnable.com/2020/06/04/final-fantasy-vis-nightmares-in-the-round/"
-      }
-    ],
-    "contentStatus": "metacritic-must-play",
-    "hasTranslation": false,
-    "translationStatus": "pending",
-    "translationPath": ""
-  },
-  {
-    "slug": "fire-emblem-awakening",
-    "title": "Fire Emblem: Awakening",
-    "sourceTitle": "Fire Emblem: Awakening",
-    "platform": "3DS",
-    "score": 92,
-    "releaseYear": 2013,
-    "genre": "",
-    "metacriticUrl": "https://www.metacritic.com/game/fire-emblem-awakening/",
-    "sources": [
-      {
-        "site": "ign",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.ign.com/articles/2013/01/30/fire-emblem-awakening-review"
-      },
-      {
-        "site": "gamespot",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.gamespot.com/reviews/fire-emblem-awakening-review/1900-6403250/"
-      },
-      {
-        "site": "famitsu",
-        "kind": "feature",
-        "language": "ja",
-        "score": null,
-        "url": "https://www.famitsu.com/article/202604/71812"
-      },
-      {
-        "site": "rpgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://rpgamer.com/review/fire-emblem-awakening-review/"
-      }
-    ],
-    "contentStatus": "metacritic-must-play",
-    "hasTranslation": false,
-    "translationStatus": "pending",
-    "translationPath": ""
-  },
-  {
-    "slug": "metroid-fusion",
-    "title": "Metroid Fusion",
-    "sourceTitle": "Metroid Fusion",
-    "platform": "Game Boy Advance",
-    "score": 92,
-    "releaseYear": 2002,
-    "genre": "",
-    "metacriticUrl": "https://www.metacritic.com/game/metroid-fusion/",
-    "sources": [
-      {
-        "site": "ign",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.ign.com/articles/2002/11/12/metroid-fusion-review"
-      },
-      {
-        "site": "gamespot",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.gamespot.com/reviews/metroid-fusion-review/1900-2897729/"
-      }
-    ],
-    "contentStatus": "metacritic-must-play",
-    "hasTranslation": false,
-    "translationStatus": "pending",
-    "translationPath": ""
-  },
-  {
-    "slug": "super-mario-world-super-mario-advance-2",
-    "title": "Super Mario World: Super Mario Advance 2",
-    "sourceTitle": "Super Mario World: Super Mario Advance 2",
-    "platform": "Game Boy Advance",
-    "score": 92,
-    "releaseYear": 2002,
-    "genre": "",
-    "metacriticUrl": "https://www.metacritic.com/game/super-mario-world-super-mario-advance-2/",
-    "sources": [
-      {
-        "site": "ign",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.ign.com/articles/2002/02/11/super-mario-world-super-mario-advance-2-review"
-      },
-      {
-        "site": "gamespot",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.gamespot.com/reviews/super-mario-world-super-mario-advance-2-review/1900-2847297/"
-      }
-    ],
-    "contentStatus": "metacritic-must-play",
-    "hasTranslation": false,
-    "translationStatus": "pending",
-    "translationPath": ""
-  },
-  {
-    "slug": "unreal-tournament-1999",
-    "title": "Unreal Tournament (1999)",
-    "sourceTitle": "Unreal Tournament (1999)",
-    "platform": "PC",
-    "score": 92,
-    "releaseYear": 1999,
-    "genre": "",
-    "metacriticUrl": "https://www.metacritic.com/game/unreal-tournament-1999/",
-    "sources": [
-      {
-        "site": "radicalphilosophy",
-        "kind": "essay",
-        "language": "en",
-        "score": null,
-        "url": "https://www.radicalphilosophy.com/article/playing-the-code"
-      }
-    ],
-    "contentStatus": "metacritic-filtered",
-    "hasTranslation": false,
-    "translationStatus": "pending",
-    "translationPath": ""
   },
   {
     "slug": "batman-arkham-asylum",
@@ -3305,6 +3502,50 @@
     "translationPath": "docs/games/shovel-knight-treasure-trove.mdx"
   },
   {
+    "slug": "yoshis-island-super-mario-advance-3",
+    "title": "超级马力欧A3 耀西岛",
+    "sourceTitle": "Yoshi's Island: Super Mario Advance 3",
+    "platform": "Game Boy Advance",
+    "score": 91,
+    "releaseYear": 2002,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/yoshis-island-super-mario-advance-3/",
+    "sources": [
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/yoshis-island-super-mario-advance-3-review/1900-2882007/"
+      },
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2002/09/24/yoshis-island-super-mario-advance-3"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/r-yoshisisland-gba"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/3966/super-mario-advance-3-yoshis-island-game-boy-advance"
+      }
+    ],
+    "contentStatus": "metacritic-must-play",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/yoshis-island-super-mario-advance-3.mdx"
+  },
+  {
     "slug": "donkey-kong-bananza",
     "title": "咚奇刚 蕉力全开",
     "sourceTitle": "Donkey Kong Bananza",
@@ -3384,6 +3625,131 @@
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/spelunky-2.mdx"
+  },
+  {
+    "slug": "castlevania-aria-of-sorrow",
+    "title": "恶魔城 晓月圆舞曲",
+    "sourceTitle": "Castlevania: Aria of Sorrow",
+    "platform": "Game Boy Advance",
+    "score": 91,
+    "releaseYear": 2003,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/castlevania-aria-of-sorrow/",
+    "sources": [
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/castlevania-aria-of-sorrow-review/1900-6026640/"
+      },
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2003/05/05/castlevania-aria-of-sorrow"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/4092/castlevania-aria-of-sorrow-game-boy-advance"
+      }
+    ],
+    "contentStatus": "metacritic-must-play",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/castlevania-aria-of-sorrow.mdx"
+  },
+  {
+    "slug": "castlevania-circle-of-the-moon",
+    "title": "恶魔城 月轮",
+    "sourceTitle": "Castlevania: Circle of the Moon",
+    "platform": "Game Boy Advance",
+    "score": 91,
+    "releaseYear": 2001,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/castlevania-circle-of-the-moon/",
+    "sources": [
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/castlevania-circle-of-the-moon-review/1900-2770559/"
+      },
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2001/06/14/castlevania-circle-of-the-moon"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/3788/castlevania-circle-of-the-moon-game-boy-advance"
+      }
+    ],
+    "contentStatus": "metacritic-must-play",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/castlevania-circle-of-the-moon.mdx"
+  },
+  {
+    "slug": "against-the-storm",
+    "title": "风暴之城",
+    "sourceTitle": "Against the Storm",
+    "platform": "PC",
+    "score": 91,
+    "releaseYear": 2023,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/against-the-storm/",
+    "sources": [
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/against-the-storm-review-a-perfectly-chaotic-city-builder"
+      },
+      {
+        "site": "rockpapershotgun",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.rockpapershotgun.com/against-the-storm-review"
+      },
+      {
+        "site": "unwinnable",
+        "kind": "essay",
+        "language": "en",
+        "score": null,
+        "url": "https://unwinnable.com/2022/11/29/against-the-storm-against-randomness-against-the-inevitable/"
+      },
+      {
+        "site": "aftermath",
+        "kind": "feature",
+        "language": "en",
+        "score": null,
+        "url": "https://aftermath.site/against-the-storm-is-a-really-good-city-builder"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/71504/against-the-storm-switch-review"
+      }
+    ],
+    "contentStatus": "metacritic-filtered",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/against-the-storm.mdx"
   },
   {
     "slug": "fallout-3",
@@ -3602,6 +3968,57 @@
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/dark-souls-ii.mdx"
+  },
+  {
+    "slug": "golden-sun",
+    "title": "黄金太阳",
+    "sourceTitle": "Golden Sun",
+    "platform": "Game Boy Advance",
+    "score": 91,
+    "releaseYear": 2001,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/golden-sun/",
+    "sources": [
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/golden-sun-review/1900-2824028/"
+      },
+      {
+        "site": "famitsu",
+        "kind": "feature",
+        "language": "ja",
+        "score": null,
+        "url": "https://www.famitsu.com/article/202608/82652"
+      },
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2001/11/10/golden-sun"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/r-goldensun-gba"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/3823/golden-sun-game-boy-advance"
+      }
+    ],
+    "contentStatus": "metacritic-must-play",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/golden-sun.mdx"
   },
   {
     "slug": "disco-elysium",
@@ -3845,6 +4262,57 @@
     "translationPath": "docs/games/dragon-age-origins.mdx"
   },
   {
+    "slug": "mario-kart-ds",
+    "title": "马力欧卡丁车DS",
+    "sourceTitle": "Mario Kart DS",
+    "platform": "Nintendo DS",
+    "score": 91,
+    "releaseYear": 2005,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/mario-kart-ds/",
+    "sources": [
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/mario-kart-ds-review/1900-6139765/"
+      },
+      {
+        "site": "famitsu",
+        "kind": "feature",
+        "language": "ja",
+        "score": null,
+        "url": "https://www.famitsu.com/article/202512/59536"
+      },
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2005/11/12/mario-kart-ds"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/r-mariokart-ds"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/4450/mario-kart-ds-nintendo-ds"
+      }
+    ],
+    "contentStatus": "metacritic-must-play",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/mario-kart-ds.mdx"
+  },
+  {
     "slug": "world-of-warcraft-the-burning-crusade",
     "title": "魔兽世界：燃烧的远征",
     "sourceTitle": "World of Warcraft: The Burning Crusade",
@@ -3991,6 +4459,57 @@
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/medal-of-honor-allied-assault.mdx"
+  },
+  {
+    "slug": "the-legend-of-zelda-a-link-between-worlds",
+    "title": "塞尔达传说 众神的三角力量2",
+    "sourceTitle": "The Legend of Zelda: A Link Between Worlds",
+    "platform": "3DS",
+    "score": 91,
+    "releaseYear": 2013,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/the-legend-of-zelda-a-link-between-worlds/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2013/11/14/the-legend-of-zelda-a-link-between-worlds-review"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/the-legend-of-zelda-a-link-between-worlds-review/1900-6415543/"
+      },
+      {
+        "site": "4gamer",
+        "kind": "feature",
+        "language": "ja",
+        "score": null,
+        "url": "https://www.4gamer.net/games/212/G021244/20130615013/"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/35972/the-legend-of-zelda-a-link-between-worlds-nintendo-3ds"
+      },
+      {
+        "site": "rpgsite",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.rpgsite.net/review/3188-the-legend-of-zelda-a-link-between-worlds-review"
+      }
+    ],
+    "contentStatus": "metacritic-must-play",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/the-legend-of-zelda-a-link-between-worlds.mdx"
   },
   {
     "slug": "resident-evil-4",
@@ -4716,50 +5235,6 @@
     "translationPath": "docs/games/the-longest-journey.mdx"
   },
   {
-    "slug": "against-the-storm",
-    "title": "Against the Storm",
-    "sourceTitle": "Against the Storm",
-    "platform": "PC",
-    "score": 91,
-    "releaseYear": 2023,
-    "genre": "",
-    "metacriticUrl": "https://www.metacritic.com/game/against-the-storm/",
-    "sources": [
-      {
-        "site": "eurogamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.eurogamer.net/against-the-storm-review-a-perfectly-chaotic-city-builder"
-      },
-      {
-        "site": "rockpapershotgun",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.rockpapershotgun.com/against-the-storm-review"
-      },
-      {
-        "site": "unwinnable",
-        "kind": "essay",
-        "language": "en",
-        "score": null,
-        "url": "https://unwinnable.com/2022/11/29/against-the-storm-against-randomness-against-the-inevitable/"
-      },
-      {
-        "site": "aftermath",
-        "kind": "feature",
-        "language": "en",
-        "score": null,
-        "url": "https://aftermath.site/against-the-storm-is-a-really-good-city-builder"
-      }
-    ],
-    "contentStatus": "metacritic-filtered",
-    "hasTranslation": false,
-    "translationStatus": "pending",
-    "translationPath": ""
-  },
-  {
     "slug": "big-walk",
     "title": "Big Walk",
     "sourceTitle": "Big Walk",
@@ -4788,149 +5263,6 @@
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/big-walk.mdx"
-  },
-  {
-    "slug": "castlevania-aria-of-sorrow",
-    "title": "Castlevania: Aria of Sorrow",
-    "sourceTitle": "Castlevania: Aria of Sorrow",
-    "platform": "Game Boy Advance",
-    "score": 91,
-    "releaseYear": 2003,
-    "genre": "",
-    "metacriticUrl": "https://www.metacritic.com/game/castlevania-aria-of-sorrow/",
-    "sources": [
-      {
-        "site": "gamespot",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.gamespot.com/reviews/castlevania-aria-of-sorrow-review/1900-6026640/"
-      }
-    ],
-    "contentStatus": "metacritic-must-play",
-    "hasTranslation": false,
-    "translationStatus": "pending",
-    "translationPath": ""
-  },
-  {
-    "slug": "castlevania-circle-of-the-moon",
-    "title": "Castlevania: Circle of the Moon",
-    "sourceTitle": "Castlevania: Circle of the Moon",
-    "platform": "Game Boy Advance",
-    "score": 91,
-    "releaseYear": 2001,
-    "genre": "",
-    "metacriticUrl": "https://www.metacritic.com/game/castlevania-circle-of-the-moon/",
-    "sources": [
-      {
-        "site": "gamespot",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.gamespot.com/reviews/castlevania-circle-of-the-moon-review/1900-2770559/"
-      }
-    ],
-    "contentStatus": "metacritic-must-play",
-    "hasTranslation": false,
-    "translationStatus": "pending",
-    "translationPath": ""
-  },
-  {
-    "slug": "golden-sun",
-    "title": "Golden Sun",
-    "sourceTitle": "Golden Sun",
-    "platform": "Game Boy Advance",
-    "score": 91,
-    "releaseYear": 2001,
-    "genre": "",
-    "metacriticUrl": "https://www.metacritic.com/game/golden-sun/",
-    "sources": [
-      {
-        "site": "gamespot",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.gamespot.com/reviews/golden-sun-review/1900-2824028/"
-      },
-      {
-        "site": "famitsu",
-        "kind": "feature",
-        "language": "ja",
-        "score": null,
-        "url": "https://www.famitsu.com/article/202608/82652"
-      }
-    ],
-    "contentStatus": "metacritic-must-play",
-    "hasTranslation": false,
-    "translationStatus": "pending",
-    "translationPath": ""
-  },
-  {
-    "slug": "mario-kart-ds",
-    "title": "Mario Kart DS",
-    "sourceTitle": "Mario Kart DS",
-    "platform": "Nintendo DS",
-    "score": 91,
-    "releaseYear": 2005,
-    "genre": "",
-    "metacriticUrl": "https://www.metacritic.com/game/mario-kart-ds/",
-    "sources": [
-      {
-        "site": "gamespot",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.gamespot.com/reviews/mario-kart-ds-review/1900-6139765/"
-      },
-      {
-        "site": "famitsu",
-        "kind": "feature",
-        "language": "ja",
-        "score": null,
-        "url": "https://www.famitsu.com/article/202512/59536"
-      }
-    ],
-    "contentStatus": "metacritic-must-play",
-    "hasTranslation": false,
-    "translationStatus": "pending",
-    "translationPath": ""
-  },
-  {
-    "slug": "the-legend-of-zelda-a-link-between-worlds",
-    "title": "The Legend of Zelda: A Link Between Worlds",
-    "sourceTitle": "The Legend of Zelda: A Link Between Worlds",
-    "platform": "3DS",
-    "score": 91,
-    "releaseYear": 2013,
-    "genre": "",
-    "metacriticUrl": "https://www.metacritic.com/game/the-legend-of-zelda-a-link-between-worlds/",
-    "sources": [
-      {
-        "site": "ign",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.ign.com/articles/2013/11/14/the-legend-of-zelda-a-link-between-worlds-review"
-      },
-      {
-        "site": "gamespot",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.gamespot.com/reviews/the-legend-of-zelda-a-link-between-worlds-review/1900-6415543/"
-      },
-      {
-        "site": "4gamer",
-        "kind": "feature",
-        "language": "ja",
-        "score": null,
-        "url": "https://www.4gamer.net/games/212/G021244/20130615013/"
-      }
-    ],
-    "contentStatus": "metacritic-must-play",
-    "hasTranslation": false,
-    "translationStatus": "pending",
-    "translationPath": ""
   },
   {
     "slug": "ufo-50",
@@ -4975,29 +5307,6 @@
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/ufo-50.mdx"
-  },
-  {
-    "slug": "yoshis-island-super-mario-advance-3",
-    "title": "Yoshi's Island: Super Mario Advance 3",
-    "sourceTitle": "Yoshi's Island: Super Mario Advance 3",
-    "platform": "Game Boy Advance",
-    "score": 91,
-    "releaseYear": 2002,
-    "genre": "",
-    "metacriticUrl": "https://www.metacritic.com/game/yoshis-island-super-mario-advance-3/",
-    "sources": [
-      {
-        "site": "gamespot",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.gamespot.com/reviews/yoshis-island-super-mario-advance-3-review/1900-2882007/"
-      }
-    ],
-    "contentStatus": "metacritic-must-play",
-    "hasTranslation": false,
-    "translationStatus": "pending",
-    "translationPath": ""
   },
   {
     "slug": "elden-ring-tarnished-edition",
@@ -5109,6 +5418,50 @@
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/half-life-2-episode-two.mdx"
+  },
+  {
+    "slug": "super-mario-3d-land",
+    "title": "超级马力欧 3D乐园",
+    "sourceTitle": "Super Mario 3D Land",
+    "platform": "3DS",
+    "score": 90,
+    "releaseYear": 2011,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/super-mario-3d-land/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2011/11/09/super-mario-3d-land-review"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/super-mario-3d-land-review/1900-6344529/"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/28387/super-mario-3d-land-nintendo-3ds"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/super-mario-3d-land-review"
+      }
+    ],
+    "contentStatus": "metacritic-must-play",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/super-mario-3d-land.mdx"
   },
   {
     "slug": "portal",
@@ -5234,6 +5587,50 @@
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/animal-well.mdx"
+  },
+  {
+    "slug": "advance-wars-dual-strike",
+    "title": "高级战争 双重打击",
+    "sourceTitle": "Advance Wars: Dual Strike",
+    "platform": "Nintendo DS",
+    "score": 90,
+    "releaseYear": 2005,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/advance-wars-dual-strike/",
+    "sources": [
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/advance-wars-dual-strike-review/1900-6131573/"
+      },
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2005/08/19/advance-wars-dual-strike"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/r-advancewarsds-ds"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/4390/advance-wars-dual-strike-nintendo-ds"
+      }
+    ],
+    "contentStatus": "metacritic-must-play",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/advance-wars-dual-strike.mdx"
   },
   {
     "slug": "onimusha-way-of-the-sword",
@@ -5655,6 +6052,138 @@
     "translationPath": "docs/games/bayonetta.mdx"
   },
   {
+    "slug": "bayonetta-plus-bayonetta-2",
+    "title": "猎天使魔女 + 猎天使魔女2",
+    "sourceTitle": "Bayonetta + Bayonetta 2",
+    "platform": "Nintendo Switch",
+    "score": 90,
+    "releaseYear": 2018,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/bayonetta-plus-bayonetta-2/",
+    "sources": [
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/46470/bayonetta-switch-review"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/46468/bayonetta-2-switch-review"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/bayonetta-2-review"
+      }
+    ],
+    "contentStatus": "metacritic-filtered",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/bayonetta-plus-bayonetta-2.mdx"
+  },
+  {
+    "slug": "mario-and-luigi-superstar-saga",
+    "title": "马力欧与路易吉RPG",
+    "sourceTitle": "Mario & Luigi: Superstar Saga",
+    "platform": "Game Boy Advance",
+    "score": 90,
+    "releaseYear": 2003,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/mario-and-luigi-superstar-saga/",
+    "sources": [
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/mario-and-luigi-superstar-saga/1900-6083876/"
+      },
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2003/12/15/mario-luigi-superstar-saga"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/r-marioandluigi-gba"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/4154/mario-n-luigi-superstar-saga-game-boy-advance"
+      }
+    ],
+    "contentStatus": "metacritic-must-play",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/mario-and-luigi-superstar-saga.mdx"
+  },
+  {
+    "slug": "mario-and-luigi-bowsers-inside-story",
+    "title": "马力欧与路易吉RPG3!!!",
+    "sourceTitle": "Mario & Luigi: Bowser's Inside Story",
+    "platform": "Nintendo DS",
+    "score": 90,
+    "releaseYear": 2009,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/mario-and-luigi-bowsers-inside-story/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2009/10/21/mario-luigi-bowsers-inside-story-au-review"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/mario-and-luigi-bowsers-inside-story/1900-6226786/"
+      },
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2009/09/10/mario-luigi-bowsers-inside-story-review"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/mario-and-luigi-bowsers-inside-story-review"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/20040/mario-n-luigi-bowsers-inside-story-nintendo-ds"
+      }
+    ],
+    "contentStatus": "metacritic-must-play",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/mario-and-luigi-bowsers-inside-story.mdx"
+  },
+  {
     "slug": "the-sims-2",
     "title": "模拟人生2",
     "sourceTitle": "The Sims 2",
@@ -5873,6 +6402,50 @@
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/total-war-shogun-2.mdx"
+  },
+  {
+    "slug": "the-legend-of-zelda-phantom-hourglass",
+    "title": "塞尔达传说 幻影沙漏",
+    "sourceTitle": "The Legend of Zelda: Phantom Hourglass",
+    "platform": "Nintendo DS",
+    "score": 90,
+    "releaseYear": 2007,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/the-legend-of-zelda-phantom-hourglass/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2007/10/10/the-legend-of-zelda-phantom-hourglass-au-review"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/the-legend-of-zelda-phantom-hourglass-review/1900-6180182/"
+      },
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2007/09/25/the-legend-of-zelda-phantom-hourglass-review"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/14526/the-legend-of-zelda-phantom-hourglass-nintendo-ds"
+      }
+    ],
+    "contentStatus": "metacritic-must-play",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/the-legend-of-zelda-phantom-hourglass.mdx"
   },
   {
     "slug": "deus-ex",
@@ -6130,6 +6703,80 @@
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/the-stanley-parable-ultra-deluxe.mdx"
+  },
+  {
+    "slug": "chained-echoes",
+    "title": "锁链回声",
+    "sourceTitle": "Chained Echoes",
+    "platform": "Nintendo Switch",
+    "score": 90,
+    "releaseYear": 2022,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/chained-echoes/",
+    "sources": [
+      {
+        "site": "rpgsite",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.rpgsite.net/review/14174-chained-echoes-review"
+      },
+      {
+        "site": "rpgamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://rpgamer.com/review/chained-echoes-review/"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/63269/chained-echoes-switch-review"
+      }
+    ],
+    "contentStatus": "metacritic-filtered",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/chained-echoes.mdx"
+  },
+  {
+    "slug": "pushmo",
+    "title": "推拉方块",
+    "sourceTitle": "Pushmo",
+    "platform": "3DS",
+    "score": 90,
+    "releaseYear": 2011,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/pushmo/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2011/12/08/pushmo-review"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/pushmo-review/1900-6348267/"
+      },
+      {
+        "site": "nintendoworldreport",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.nintendoworldreport.com/review/28656/pushmo-nintendo-3ds"
+      }
+    ],
+    "contentStatus": "metacritic-must-play",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/pushmo.mdx"
   },
   {
     "slug": "tony-hawks-pro-skater-3",
@@ -6956,74 +7603,6 @@
     "translationPath": "docs/games/final-fantasy-vii-rebirth.mdx"
   },
   {
-    "slug": "advance-wars-dual-strike",
-    "title": "Advance Wars: Dual Strike",
-    "sourceTitle": "Advance Wars: Dual Strike",
-    "platform": "Nintendo DS",
-    "score": 90,
-    "releaseYear": 2005,
-    "genre": "",
-    "metacriticUrl": "https://www.metacritic.com/game/advance-wars-dual-strike/",
-    "sources": [
-      {
-        "site": "gamespot",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.gamespot.com/reviews/advance-wars-dual-strike-review/1900-6131573/"
-      }
-    ],
-    "contentStatus": "metacritic-must-play",
-    "hasTranslation": false,
-    "translationStatus": "pending",
-    "translationPath": ""
-  },
-  {
-    "slug": "bayonetta-plus-bayonetta-2",
-    "title": "Bayonetta + Bayonetta 2",
-    "sourceTitle": "Bayonetta + Bayonetta 2",
-    "platform": "Nintendo Switch",
-    "score": 90,
-    "releaseYear": 2018,
-    "genre": "",
-    "metacriticUrl": "https://www.metacritic.com/game/bayonetta-plus-bayonetta-2/",
-    "sources": [],
-    "contentStatus": "metacritic-filtered",
-    "hasTranslation": false,
-    "translationStatus": "pending",
-    "translationPath": ""
-  },
-  {
-    "slug": "chained-echoes",
-    "title": "Chained Echoes",
-    "sourceTitle": "Chained Echoes",
-    "platform": "Nintendo Switch",
-    "score": 90,
-    "releaseYear": 2022,
-    "genre": "",
-    "metacriticUrl": "https://www.metacritic.com/game/chained-echoes/",
-    "sources": [
-      {
-        "site": "rpgsite",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.rpgsite.net/review/14174-chained-echoes-review"
-      },
-      {
-        "site": "rpgamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://rpgamer.com/review/chained-echoes-review/"
-      }
-    ],
-    "contentStatus": "metacritic-filtered",
-    "hasTranslation": false,
-    "translationStatus": "pending",
-    "translationPath": ""
-  },
-  {
     "slug": "dota-2",
     "title": "Dota 2",
     "sourceTitle": "Dota 2",
@@ -7091,59 +7670,6 @@
     "translationPath": "docs/games/gtr-2.mdx"
   },
   {
-    "slug": "mario-and-luigi-bowsers-inside-story",
-    "title": "Mario & Luigi: Bowser's Inside Story",
-    "sourceTitle": "Mario & Luigi: Bowser's Inside Story",
-    "platform": "Nintendo DS",
-    "score": 90,
-    "releaseYear": 2009,
-    "genre": "",
-    "metacriticUrl": "https://www.metacritic.com/game/mario-and-luigi-bowsers-inside-story/",
-    "sources": [
-      {
-        "site": "ign",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.ign.com/articles/2009/10/21/mario-luigi-bowsers-inside-story-au-review"
-      },
-      {
-        "site": "gamespot",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.gamespot.com/reviews/mario-and-luigi-bowsers-inside-story/1900-6226786/"
-      }
-    ],
-    "contentStatus": "metacritic-must-play",
-    "hasTranslation": false,
-    "translationStatus": "pending",
-    "translationPath": ""
-  },
-  {
-    "slug": "mario-and-luigi-superstar-saga",
-    "title": "Mario & Luigi: Superstar Saga",
-    "sourceTitle": "Mario & Luigi: Superstar Saga",
-    "platform": "Game Boy Advance",
-    "score": 90,
-    "releaseYear": 2003,
-    "genre": "",
-    "metacriticUrl": "https://www.metacritic.com/game/mario-and-luigi-superstar-saga/",
-    "sources": [
-      {
-        "site": "gamespot",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.gamespot.com/reviews/mario-and-luigi-superstar-saga/1900-6083876/"
-      }
-    ],
-    "contentStatus": "metacritic-must-play",
-    "hasTranslation": false,
-    "translationStatus": "pending",
-    "translationPath": ""
-  },
-  {
     "slug": "nhl-2001",
     "title": "NHL 2001",
     "sourceTitle": "NHL 2001",
@@ -7172,95 +7698,5 @@
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/nhl-2001.mdx"
-  },
-  {
-    "slug": "pushmo",
-    "title": "Pushmo",
-    "sourceTitle": "Pushmo",
-    "platform": "3DS",
-    "score": 90,
-    "releaseYear": 2011,
-    "genre": "",
-    "metacriticUrl": "https://www.metacritic.com/game/pushmo/",
-    "sources": [
-      {
-        "site": "ign",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.ign.com/articles/2011/12/08/pushmo-review"
-      },
-      {
-        "site": "gamespot",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.gamespot.com/reviews/pushmo-review/1900-6348267/"
-      }
-    ],
-    "contentStatus": "metacritic-must-play",
-    "hasTranslation": false,
-    "translationStatus": "pending",
-    "translationPath": ""
-  },
-  {
-    "slug": "super-mario-3d-land",
-    "title": "Super Mario 3D Land",
-    "sourceTitle": "Super Mario 3D Land",
-    "platform": "3DS",
-    "score": 90,
-    "releaseYear": 2011,
-    "genre": "",
-    "metacriticUrl": "https://www.metacritic.com/game/super-mario-3d-land/",
-    "sources": [
-      {
-        "site": "ign",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.ign.com/articles/2011/11/09/super-mario-3d-land-review"
-      },
-      {
-        "site": "gamespot",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.gamespot.com/reviews/super-mario-3d-land-review/1900-6344529/"
-      }
-    ],
-    "contentStatus": "metacritic-must-play",
-    "hasTranslation": false,
-    "translationStatus": "pending",
-    "translationPath": ""
-  },
-  {
-    "slug": "the-legend-of-zelda-phantom-hourglass",
-    "title": "The Legend of Zelda: Phantom Hourglass",
-    "sourceTitle": "The Legend of Zelda: Phantom Hourglass",
-    "platform": "Nintendo DS",
-    "score": 90,
-    "releaseYear": 2007,
-    "genre": "",
-    "metacriticUrl": "https://www.metacritic.com/game/the-legend-of-zelda-phantom-hourglass/",
-    "sources": [
-      {
-        "site": "ign",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.ign.com/articles/2007/10/10/the-legend-of-zelda-phantom-hourglass-au-review"
-      },
-      {
-        "site": "gamespot",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.gamespot.com/reviews/the-legend-of-zelda-phantom-hourglass-review/1900-6180182/"
-      }
-    ],
-    "contentStatus": "metacritic-must-play",
-    "hasTranslation": false,
-    "translationStatus": "pending",
-    "translationPath": ""
   }
 ]

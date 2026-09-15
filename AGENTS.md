@@ -8,7 +8,7 @@
 
 当前数据快照：
 
-- `data/metacritic-games.json`：189 条“游戏 × 平台”记录，182 个去重游戏。
+- `data/metacritic-games.json`：189 条“游戏 × 平台”记录，182 个去重游戏；`docs/games/*.mdx` 已覆盖全部 182 个游戏（外加 `_template.mdx`）。
 - 平台：PC、Nintendo Switch、Nintendo Switch 2、Game Boy Advance、Nintendo DS、3DS。
 - 收录条件：`must_play === true`；MC 分数只用于展示和排序，不再要求 ≥90。
 - Metacritic 当前没有可用的 SFC/SNES 平台筛选页；不要把全平台回退结果当作 SFC 数据。
@@ -198,14 +198,14 @@ git diff --check
 
 - 学术期刊核查（**第一轮已完成，用户决定不再继续**）：ToDiGRA 收 3 篇（Minecraft ×2、The Last of Us ×1）；Games and Culture（SAGE）收 1 篇开放获取（Undertale），其余多为付费墙、不再收；Games: Research and Practice（ACM）无匹配文章。
 - 完成图片 Cloudflare Worker 代理方案：明确 Worker 路由、GitHub 源地址、缓存键和失效策略。图片存于 `static/img/reviews/<slug>.jpg`（每个 slug 一张头图），Worker 上线前不要删除仓库内图片。
+- ~~新平台游戏补页~~（**已完成**）：27 个 GBA/NDS/3DS 等游戏已全部建页，主要用 Nintendo World Report（`nintendoworldreport`）补齐老任天堂游戏缺口。`mario-and-luigi-superstar-saga` 的 IGN 链接是纯视频评测页、无正文，该标签保持「待补」由组件自动隐藏。
 - 继续补充已收录游戏的媒体入口，但必须逐篇核对，不把自动匹配候选直接落库。
-- IGN / GameSpot 侧还有新平台（GBA/NDS/3DS）等约 27 个游戏没有公开页（Codex 抓取失败，用户要求先留空，最后再回头看）。`data/metacritic-games.json` 有 182 个去重游戏，`docs/games/*.mdx` 目前约 156 个，差额主要就是这些未建页游戏。
-- 6 个空 GameSpot 标签页（`big-walk`、`dave-the-diver`、`half-life-2-episode-two`、`satisfactory`、`the-witcher-3-wild-hunt`、`valheim`，CSV/JSON 里无对应 `gamespot_url`）组件会自动隐藏，可选清理。
+- 精度复查：`grand-theft-auto-chinatown-wars` 的 IGN 评测是 PSP 版、`chrono-trigger` 的 IGN 评测是 Wii VC 版，均已改为 `kind: feature`；如需 NDS 版评测可另找。
 - 若数据结构、收录范围、版本规则或部署方式发生变化，先更新本文件，再继续修改代码或数据。
 
 ### 媒体英文源与译文现状（2026-09-15）
 
-- 已抓英文源并翻译进标签页（约数）：IGN 约 137、GameSpot 148、Eurogamer 约 79、Rock Paper Shotgun 约 48、RPG Site 约 29、Game Studies 21、RPGamer 约 14、ToDiGRA 3、Jesper Juul 2、The Atlantic 1、4Gamer 1、The CRPG Addict 1、Games and Culture 1。
+- 已抓英文源并翻译进标签页（约数）：IGN 约 162、GameSpot 约 170、Eurogamer 约 94、Nintendo World Report 27、Rock Paper Shotgun 约 48、RPG Site 约 31、Game Studies 21、RPGamer 约 15、Fami通 4、4Gamer 4、ToDiGRA 3、Jesper Juul 2、Unwinnable 2、The Atlantic 1、The CRPG Addict 1、Games and Culture 1、Aftermath 1、Radical Philosophy 1。以 `src/generated/reviews.json` 为准。
 - 已移除 PC Gamer（用户不需要）；`indienova` 已因版权风险撤回。
 - 抓取脚本：`scripts/collect-media-reviews.mjs`（按站点规则，curl 抓取）；`scripts/add-media-tabs.mjs`（给文档补媒体标签页占位）；`scripts/collect-ign-reviews.mjs` / `collect-ign-images.mjs`（IGN 正文与头图）。
 

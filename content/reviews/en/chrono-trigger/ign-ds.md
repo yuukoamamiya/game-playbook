@@ -1,0 +1,35 @@
+---
+slug: "chrono-trigger"
+source_title: "Chrono Trigger DS Review"
+source_url: "https://www.ign.com/articles/2008/11/20/chrono-trigger-ds-review"
+source_site: ign
+review_score: 8.8
+review_score_text: ""
+author: "Mark Bozon"
+published: "2008-11-20"
+---
+
+# Chrono Trigger DS Review — IGN Review
+
+- Source: [ign](https://www.ign.com/articles/2008/11/20/chrono-trigger-ds-review)
+- Author: Mark Bozon
+- Published: 2008-11-20
+- Score: 8.8
+
+I've touched on the idea that there are two "Square Enix" companies out there and this is another perfect example of that.  On one hand, you've got the Final Fantasy III, Final Fantasy IV, The World Ends With You publisher mentality, where the company is aggressively remaking classic games, pushing original content, and cleaning up because of it.  On the other hand, you've got the still very successful, still very quality-driven publisher strategy, which games like Front Mission 1st , Dragon Quest IV, and the now Chrono Trigger remake take, using 95% of a game already finished (or a basic port away from), and then delivering it repackaged to a new crowd of gamers.  That doesn't stop these games from being any better quality-wise, but it certainly drops the incentive for returning buyers that have been with Square since the beginning, played it all before, and are now wondering why they're paying top dollar for a game they had over a decade back.
+
+ Case in point: Chrono Trigger DS.  It's a port of one of the greatest games of all time, adds more options and user-determined design elements based on touch, buttons, and so on, and it's also a game I can't make blanket statements about and recommend for 100% of the crowd out there.
+
+and for a Nintendo DS one.  It's animation, characters, and design have stood the test of time.">
+
+ Don't get me wrong.  If you haven't played Chrono Trigger before, are in the mood to play it again, or simply feel you need to own this one to support  Square's release of such an amazing game, by all means buy it.  Just know that most of what you'll find was either included on Super NES years back, or in the PSX Final Fantasy Chronicles seven years ago.  For this review we've done something special, as I played through the game again on DS, having already enjoyed the hell out of Chrono Trigger back on Super NES, but we've also got the opinion of someone that's never touched Chrono Trigger before in our "Another Take" section.  First off though, I'll give out my two cents.
+
+ Really what it comes down to is whether or not Chrono Trigger holds up on DS, both in the whole "adding touch and dual screen" side of things, and also in the fact that this is a game that came out in 1995.  It does.  It does in a bit, bit way.  This was, still is, and I'd imagine will forever be a game that stands the test of time, and given the platform it's a game that still stands out graphically, even now performing better than most 2D efforts on DS.  The storytelling is beautiful, the gameplay is turn-based and filled with both random battles and user-initiated ones, but the flow of it all is one that keeps things moving and entertaining throughout, and more than anything else it's just a game that feels amazingly alive, be it from tracking what players do and in what order to deliver a compelling court scene during the game, adding in race modes for future levels and a game kick-off festival to just run around in and enjoy.  It's all still just as captivating and touching as it was the first time I played it; a true gem of our industry.
+
+ And it's really more than just a "quick port" in the end.  Yes, you'll find the same art assets, character designs, animations, and effects, but there's also a much stronger script this time overall (impressive, since the original was so imaginative on its own), and a few added aspects of the game for players who have gone the distance with this one before.  The extra quests in the game connect extremely well, with of course of those acting as the 13th ending in the game; and it's a great one to be sure.  As far as the multiplayer arena goes, it's fun, but not something that's really needed, or the actual "multiplayer" experience we could have had with Chrono Trigger.  Training monsters and battling them with friends is a neat idea – though it's a shame that you'll only find local multiplayer, considering how simple the whole battle mechanic is in this game – and the tie-in between normal story mode cash and the rare items you can take back with you through the monster battling is a nice link, though again not a needed one.  A multiplayer co-op experience would have blown me away, and while that isn't what players are going to get with this very simple Monster Rancher meets Pokemon feel, it's still a fun, totally optional offering.
+
+ The biggest changes I found though in the game were just the ones centered around basic design, and it's great to see the Square Enix put control in the hands of the player.  You can change what screen battle info and stats show up on, remove touch functionality and use only buttons, change a whole slew of touch-based hotkeys, and then of course make all the original changes available on Super NES and PSX, such as speed of the game, active or wait battles, and the like.  I challenge players to go in there, see their options, and still be mad that they could or couldn't do a certain action, or have something displayed a certain way; it just satisfies every type of player.  You can even turn off the impressive hand-drawn cut scenes taken from the PSX version if you want.  I'm not sure why you'd ever want to do it, but it's in there.
+
+### Verdict
+
+There’s a reoccurring theme in Chrono Trigger DS, and it’s an important one for a game this historical.  The game is virtually unchanged in its core, having a new script re-write, but retaining the visuals, music, character designs, interface styles, and options of the source material.  At the same time, Square Enix also ensures that this is the definitive version of Chrono Trigger out there, as the game comes complete with every option you could ever want for touch vs. button control, two or single screen display, or game pacing and difficulty.  Where things should have been left the same, they were.  Where fixes or additions could be made, they have.  Yes it’s a $40 game for a title many of us have played until our thumbs were sore, and it’s unchanged in a lot of ways from what you played back in 1995 or in 2001, but it’s also just as captivating, imaginative, or well made now as it was then.  I could write volumes on this game, but it isn’t needed.   If you’ve never played Chrono Trigger before, buy this game.  If you’re a die-hard fan and want to support one of the greatest games of all time, buy this game.  If you’re having trouble validating a $40 purchase for what is ultimately the same game, it’s the wrong choice for you, and your cash is better spent elsewhere.  Any way you slice it though, Chrono Trigger is one of the greatest RPGs of all time, and it’s a game everyone – whether on DS, PSX, Super NES, or in the future – should play.

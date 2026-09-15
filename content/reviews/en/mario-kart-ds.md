@@ -1,0 +1,45 @@
+---
+slug: "mario-kart-ds"
+source_title: "Mario Kart DS"
+source_url: "https://www.ign.com/articles/2005/11/12/mario-kart-ds"
+source_site: ign
+review_score: 9.5
+review_score_text: ""
+author: "Craig Harris"
+published: "2005-11-12"
+---
+
+# Mario Kart DS — IGN Review
+
+- Source: [ign](https://www.ign.com/articles/2005/11/12/mario-kart-ds)
+- Author: Craig Harris
+- Published: 2005-11-12
+- Score: 9.5
+
+Nintendo's Mario Kart series is quite literally what started the character-racing genre back in 1992, and even after countless clones and copycats from other designers and publishers throughout the past 13 years the spotlight's always on the company to move the genre forward. There are high expectations from gamers whenever Nintendo announces a new game in the series, and that's exactly what's happening with Mario Kart DS. Nintendo's pulled out all the stops for this "next generation" Mario Kart sequel, and though it's a handheld game, there's nothing small about this design. There's absolutely not a doubt in my mind: Mario Kart DS is the greatest Mario Kart game ever, which, in turn, makes it the greatest Kart racer game ever created.
+
+ Mario Kart DS's production value is almost staggering. The development team worked an unbelievable amount of focus in nearly every aspect of this racing design, pushing a huge amount of effort in both the single player experience as well as the multiplayer competition. The gameplay depth is absolutely stunning -- Mario Kart DS is incredibly deep in features, so don't be surprised if you forget about some options because some other mode grabbed you by the crotch and refuses to let go. And that's a good thing.
+
+ The DS game admittedly has a lot to live up to, what with the game following only two years after the GameCube game that many people (myself included) believed that went too far away from the original game's feel. But this portable game brings the series back to the basics of what made the original Super Mario Kart so awesome, with the development team balancing and tweaking the gameplay so intricately that it's near impossible to find any hard fault with the design.
+
+ If you've missed any of the Mario Kart games in the series' past, shame on you. The series has never been about realistic racing, but that's its charm -- players still have to employ some proper racing skill and strategy, but the power-up element can throw off even the best driver. These power-ups are the gameplay's "equalizer;" there's nothing more humbling than taking a turtle shell up the tailpipe, or being knocked down to second from a well-positioned banana peel. Many companies have tried to best the classic Mario Kart design with their own take, but none have had the gameplay succeed as well as Nintendo.
+
+ Mario Kart DS is, at its core, the "best of the Mario Kart best." Nintendo's designers clearly took a good, long, hard look at what made each game in the series the classic Kart design the franchise has been known for. It's not just in the course designs, either; granted, half of the tracks in Mario Kart DS are "reprints" from the past Mario Kart games on the Super NES, N64, Game Boy Advance, and GameCube, but that's only half the nostalgia. The kart mechanics, handling, and techniques are a mishmash of elements from all games in the series, from the kart hopping of the SNES original to the powersliding and boosting from the GameCube sequel. As a result of this focus, the racing design of Mario Kart DS is remarkably tight and responsive with tons of strategy that are both apparent and hidden, and even with weeks out on the courses you still may find one or two techniques that'll take a few ticks off the clock.
+
+  The Nintendo DS hardware opens up even more strategy with its dual-display system. Those who practice glancing between both screens are rewarded and will usually come out ahead to those who ignore the lower screen cues. The touch screen is used to show a top-down view of the immediate area around the players' kart, which may seem gimmicky until you realize what this affords the racer. Players can see racers approaching from behind. They can catch a glimpse of hazards barreling down on them. They can see when an item may be an obstacle. The lower screen becomes absolutely integral to the Mario Kart design that it'll be hard to imagine the game without it when Nintendo works on the console sequel. All this is complimented with a 3D racing engine that pushes the bright and vivid visuals at a fast, silky smooth 60 frames per second.
+
+ Like every game in the Mario Kart series, racing is only half the game. The developers also take what they've created with the driving engine and move it into an arena-style deathmatch option for multiple players, affectionately titled "Battle Mode." Mario Kart fans are always divided into two camps: those that play Battle Mode, and those that do not. Battle Mode is not one of this reviewer's favorite pastimes in previous Mario Kart titles, but on the Nintendo DS it's opened up to something that must be experiencedeven if you've refused to play the mode in previous games of the series.
+
+ In fact, much of Mario Kart DS's lasting value is in its multiplayer focus. This DS title puts a ton of effort pushing the wireless functionality of the Nintendo DS system. Anyone with a system can jump into a network of eight players, even if they don't have a copy of the game. This single card multiplayer is full-featured but limited in which tracks and characters can be chosen, but outside of these two elements the experience is nearly identical to the fantastic multiple card multiplayer option.
+
+ Of course, one of the biggest selling points of Mario Kart DS: it's the first Mario Kart game to "officially" go online. Granted, Super Mario Kart and Mario Kart: Double Dash were jury-rigged to work in an online atmosphere back in the day, but Mario Kart DS is the first official full-fledged worldwide racing experience for the Nintendo franchise, and it works pretty darn well. Four player races on 20 of the 32 racing tracks will give the game tons more replay than the local multiplayer experience.
+
+  It's just hard to ignore just how limited the online presentation is. Players can't create their own match-ups easily, nor can they interact or chat with each other in or out of the races. No Battle Mode or Time Trial ghost data trading. Many of the strategies in the local races still apply in the Online mode, but some have been tweaked for technical reasons. Nintendo's first attempt at an online experience is certainly elegant for what it is, but there are a tremendous amount of limitations that affect how gamers compete within this environment. Playing online is a major component to the Mario Kart DS experience and a major reason why people will be scoring a copy. It's a great addition to the Mario Kart gameplay, but keep in mind that, due to time constraints, it's not all it could have been.
+
+ But even though the game has a huge focus on multiplayer, the designers don't ignore those who don't have anyone to immediately challenge. Along with the ability to play any race track with the computer opponents, solo players can also enjoy the Battle Mode and Shine Runner with computer controlled bots filling in the slots normally reserved for human opponents. On top of this, the developers flesh out the single player experience with a series of Missions, six worlds of eight missions with a very Super Mario-like boss battle to cap off each world. The missions range from "Drive through tires" to "Powerboost five times," but the challenges get so tough it may take you days to finish them all with the highest ranking.
+
+ The single player experience has been fleshed out with so many gameplay options it's easy to forget to mention them all -- the game's Time Trial mode, for example, opens up a ton of competition by recording Ghost Data for each track, as well as unlocking Programmer Ghost Data to see the best of the best, as well as giving players the ability to trade their Ghost Data wirelessly. Each game card has ten slots for your friend's best Ghost Data, which goes one step further by showing, on the lower screen, hash marks indicating what that person did in his run -- powersliding, powerboosting, and power-up uses are noted as ticks on the overhead view for player analysis. That's only a small example of the simplistic brilliance this sequel incorporates.
+
+### Verdict
+
+After experiencing Mario Kart DS, it's hard to imagine how Nintendo's going to improve on what they've done for this stunning portable rendition. There's so much gameplay and depth in this design, moreso than the series has ever had in the past. It's an amazingly addictive racer both in single and multiplayer modes, and even with the limitations of the online functions, it's impossible to avoid becoming addicted to the long distance Mario Kart match-ups. The only way to finish this review is just to say it: this is the greatest Mario Kart game ever developed, and is without a doubt the best DS game of 2005.
