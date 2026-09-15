@@ -6,6 +6,7 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const csvPath = resolve(root, 'data/metacritic-games.csv');
 const docsPath = resolve(root, 'docs/games');
 const outputPath = resolve(root, 'src/generated/games.json');
+const reviewsPath = resolve(root, 'src/generated/reviews.json');
 
 function parseCsv(text) {
   const rows = [];
@@ -62,6 +63,7 @@ async function readTranslations() {
     /\.mdx?$/.test(file) && !file.startsWith('_') && file !== 'index.md'
   ));
   const translations = new Map();
+  const media = new Map();
 
   for (const file of files) {
     const source = await readFile(resolve(docsPath, file), 'utf8');
@@ -75,13 +77,22 @@ async function readTranslations() {
       status: field(frontmatter, 'translation_status') || 'translated',
       path: `docs/games/${file}`,
     });
+
+    const entries = [...source.matchAll(/<ReviewTab\s+site="([^"]+)"\s+label="([^"]+)">([\s\S]*?)<\/ReviewTab>/g)]
+      .filter((entry) => {
+        const content = entry[3];
+        const cjk = (content.match(/[\u4e00-\u9fff]/g) ?? []).length;
+        return !/待补/.test(content) && cjk >= 30;
+      })
+      .map((entry) => ({site: entry[1], label: entry[2]}));
+    if (entries.length) media.set(slug, entries);
   }
 
-  return translations;
+  return {translations, media};
 }
 
 const rows = parseCsv(await readFile(csvPath, 'utf8'));
-const translations = await readTranslations();
+const {translations, media} = await readTranslations();
 const games = rows
   .filter((row) => row.must_play.toLowerCase() === 'true' && numberValue(row.metacritic_score) >= 90)
   .map((row) => {
@@ -108,3 +119,4 @@ const games = rows
 
 games.sort((a, b) => b.score - a.score || a.title.localeCompare(b.title));
 await writeFile(outputPath, `${JSON.stringify(games, null, 2)}\n`, 'utf8');
+await writeFile(reviewsPath, `${JSON.stringify(Object.fromEntries(media), null, 2)}\n`, 'utf8');

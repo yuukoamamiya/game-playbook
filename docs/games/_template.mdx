@@ -18,20 +18,26 @@ translation_status: translated
 source_file: content/reviews/en/game-slug.md
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 # 游戏中文名
 
-<Tabs groupId="review-source">
-  <TabItem value="ign" label="IGN">
+<ReviewTabs slug="game-slug">
+
+<ReviewTab site="ign" label="IGN">
 
 这里填写 IGN 评测的中文译文。
 
-  </TabItem>
-  <TabItem value="gamespot" label="GameSpot">
+</ReviewTab>
 
-这里填写 GameSpot 评测的中文译文。
+<ReviewTab site="gamespot" label="GameSpot">
 
-  </TabItem>
-</Tabs>
+这里填写 GameSpot 评测的中文译文；没有译文时留空或写“待补”，标签页会自动隐藏。
+
+</ReviewTab>
+
+</ReviewTabs>
+
+<!--
+组件会自动识别哪些媒体有译文：只有内容非空（且不含“待补”）的 <ReviewTab> 才会显示。
+新增媒体只需再加一个 <ReviewTab site="…" label="…">，无需改组件或脚本。
+媒体清单由 npm run generate-data 生成的 src/generated/reviews.json 决定。
+-->

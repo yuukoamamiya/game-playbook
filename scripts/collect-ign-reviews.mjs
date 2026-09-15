@@ -138,8 +138,10 @@ function renderMarkdown(row, page) {
   const review = page.review ?? {};
   const author = page.contributors?.[0]?.name ?? '';
   const published = (page.publishDate ?? '').slice(0, 10);
-  const imageUrl = page.image || page.primaryObject?.primaryImage?.url || '';
-  const imageFallback = page.primaryObject?.primaryImage?.url || '';
+  const isPlaceholder = (url) => /\/ign-\d+\.(?:jpe?g|png)/i.test(url);
+  const usableImage = (url) => (url && !isPlaceholder(url) ? url : '');
+  const imageUrl = usableImage(page.image) || usableImage(page.primaryObject?.primaryImage?.url) || '';
+  const imageFallback = usableImage(page.primaryObject?.primaryImage?.url) || '';
   let body = htmlToMarkdown(page.processedHtml);
 
   const verdictText = typeof review.verdict === 'string' ? htmlToMarkdown(review.verdict) : '';

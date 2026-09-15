@@ -105,7 +105,12 @@ async function processOne(file) {
     const marker = `/img/reviews/${slug}.jpg`;
     if (!doc.includes(marker)) {
       const title = (doc.match(/^#\s+(.*)$/m)?.[1] ?? slug).trim();
-      doc = doc.replace(/^(#\s+.*)$/m, `$1\n\n![${title} IGN 评测头图](${marker})`);
+      const imageLine = `![${title} IGN 评测头图](${marker})`;
+      if (/<ReviewTab\s+site="ign"/.test(doc)) {
+        doc = doc.replace(/(<ReviewTab\s+site="ign"[^>]*>)/, `$1\n\n${imageLine}`);
+      } else {
+        doc = doc.replace(/^(#\s+.*)$/m, `$1\n\n${imageLine}`);
+      }
       await writeFile(docPath, doc, 'utf8');
       stats.docsUpdated += 1;
     }

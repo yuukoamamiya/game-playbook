@@ -1,0 +1,69 @@
+---
+slug: "half-life-alyx"
+source_title: "Half-Life: Alyx"
+source_url: "https://www.ign.com/articles/half-life-alyx-review"
+source_site: IGN
+review_score: 10
+review_score_text: "masterpiece"
+author: "Dan Stapleton"
+published: "2020-03-23"
+image: "https://assets1.ignimgs.com/2020/03/21/halflifealyx-review-blogroll-1584751614745_160w.jpg?width=1280&format=jpg&auto=webp&quality=80"
+image_fallback: "https://assets1.ignimgs.com/2019/11/21/half-life-alyx-button-01a-1574361354485.jpg"
+---
+
+# Half-Life: Alyx — IGN Review
+
+- Source: [IGN](https://www.ign.com/articles/half-life-alyx-review)
+- Author: Dan Stapleton
+- Published: 2020-03-23
+- IGN score: 10/10 (masterpiece)
+
+One of the first things that struck me when I started playing Half-Life: Alyx was the dirt under Alyx Vance’s fingernails. It’s a simple thing, but it’s not often that you see that level of fine detail in a VR game. Usually, virtual hands are either low-detail ghostly apparitions or gloved. This grit also tells us something about this character, a scrappy survivor raised in the aftermath of the Seven-Hour War in which the alien Combine conquered Earth, and it quickly establishes that she isn’t as buttoned-down as that MIT-educated nerd Dr. Gordon Freeman. Subtle as it is, it sets the stage for the best VR shooter I’ve ever played by a mile – and one of the best in any perspective.
+
+The next thing that stood out, jarring me out of gazing at my hands like a first-time stoner, was probably the gigantic, 30-foot Strider leg that smashed down directly in front of me as it moved past, going about its business. That established, with great force, the immense scale of the mosquito-like alien tanks we first fought in Half-Life 2 – if you didn’t take them seriously as a threat before, it’s now impossible not to. The same otherworldly sound design that made the landscape of the gulag-like City 17 so memorable back in 2004 is in full effect here as well, and full-3D surround sound intensifies all of these recognizable pieces.
+
+Aside from the new perspective, Alyx feels very much like a traditional Half-Life game. It’s set up as a linear series of areas, starting with a normal City 17 neighborhood and then moving underground, through industrial areas like a distillery, high-tech Combine facilities, slimy alien nests, and more. Each chapter of the 15-hour campaign feels substantially different from the last, including one that relies heavily on an unkillable antagonist you have to work your way around, and some that are all but pitch black except for your wrist-mounted flashlight.
+
+Combat is a major part of the journey, but so is puzzle-solving. Some hacking puzzles pop up when you go to unlock various Combine technology. None of them are terribly complex – for instance, there’s a memory-matching game where you connect points on a holographic sphere and a very cool-looking one where you trace the path of electricity through a wall and rotate connectors in a power-flow puzzle – but all of them make heavy use of VR’s ability to work in three dimensions, and some of them actually get tricky when they scale up in the later levels. Disarming tripwire mines by tracing a path through rings as a burning fuse chases you – while being careful not to accidentally trip the mine with your hand – can get fairly intense.
+
+And then there's the environmental puzzles. In true Half-Life fashion, getting from point A to point B is often more complicated than it sounds. I’d sometimes wander around an area wondering if I’d hit a bug and an event that would open a path forward hadn’t triggered; I always felt like a goof a few minutes later when I figured out that the solution was a trick that’d been explicitly taught to me earlier, or was pretty clearly marked by a wire or something. It's all there, once you learn what kinds of cues to look for. All of this serves as a welcome cooldown and counterbalance to combat.
+
+> You should absolutely be up to date on the events of the series before you play Alyx.
+
+This may be a prequel story, taking place five years before Half-Life 2, but you should absolutely be up to date on the events of the series through Half-Life 2: Episode 2 before you play Alyx. (You’ve had 13 years – it's time.) Alyx’s quest starts out as a simple mission to rescue her father, Dr. Eli Vance, and turns into a heist to capture a Combine superweapon stashed inside a massive floating vault above City 17 – but of course, it’s not that simple. The ending is fantastic and a must-see for anyone who’s been invested in this story, and rest assured there are plenty of surprises you should avoid spoilers for.
+
+All the while your remote, lovably oblivious and blunt sidekick Russell (distinctively voiced by Rhys Darby) chatters away in your ear with some laugh-out-loud gags about vodka and sandwiches, among a great many other things. It’s a very similar brand of humor to what Valve gave us with Wheatly in Portal 2, although he’s not evil. Probably. His rapport with Alyx gives her a chance to shine as a character as well, allowing her to reveal her optimism about the future and naivete about the world before the invasion. Appropriately, Russ’ signal tends to be blocked out during the moodier, more horror-flavored moments, which lets Half-Life: Alyx create some fantastically spooky atmosphere.
+
+Detail is one of the things Valve does best. Environments look amazing. You can see the hairs on the legs of the bloodthirsty, turducken-sized head crabs as they leap at your face trying to eat your brain – although counting hairs is hardly the first of your concerns at a moment like that because animal instincts kick in and cause a jolt of panic. Healing stations squash a gross antlion grub in a vial and then inject its juices into your fingers through delicate robotic needles. Just about every poster or newspaper clipping you see up on a wall is fully written, either in English or Russian (I assume, anyway – I can’t read Russian). Smashing open a supply crate yields a shower of packing peanuts as well as items.
+
+> Your hands are real objects in the world that collide with everything.
+
+It’s remarkable, and so is the actual way you interact with all of these objects. Outside of Boneworks, I’ve never seen this level of physical interactivity in a VR world. Physics play a huge role because the vast majority of stuff that isn’t nailed down can be picked up and tossed around. Even better, your hands are real objects in the world that collide with everything realistically. Moves like sweeping your hand across a table to dramatically wipe everything off of it, pushing on a door – not its handle, but anywhere on it – to open it, and having to carefully move your hand between two bars in a fence instead of simply reaching through it like a ghost all make a huge, huge difference in establishing a feeling of presence in this world.
+
+> The Gravity Gloves elegantly turn a weakness into an empowering strength.
+
+In the beginning of Half-Life 2, Alyx equips Gordon Freeman with the Gravity Gun – but this is five years prior to those events. So here, Alyx straps on intricate Gravity Gloves that aren’t nearly as powerful as the gun, but are much more compact, always on-hand, and still extremely useful. Just point at any object you can see so it lights up, make a fist to grip it, and yank it toward you to send it satisfyingly flying your way so you can easily catch it out of the air. It’s the simplest of Jedi tricks but it works well after some practice. The secret here is that this is a clever way to cover up that moving around and bending down too much in VR is awkward and it’s much easier to bring objects to you than it is to move you to them. The gloves elegantly turn that weakness into an empowering strength.
+
+That said, there isn’t as much physics-based mayhem as I expected coming off of Half-Life 2. Unlike the Gravity Gun, your Gravity Gloves have no launch ability, only a pull, so you can’t bisect enemies with saw blades and the like. Grenades have to be tossed with your normal human arms. It all works fine but as someone who loves the Gravity Gun I couldn’t help but want that full power in my hands. Room has to be left for a sequel, I suppose.
+
+Instead, guns are your main instruments of defending yourself from lurching zombies, lunging headcrabs, dangling barnacle traps, armored Combine troopers, and worse. There are only three weapons (or five, counting grenades) in Half-Life: Alyx, but even the basic pistol you’re handed from the get-go has a powerful punch to it, and emptying a whole magazine into an interdimensional fascist feels awfully good. Keep in mind, though, that handling it, the shotgun, and the SMG are big adjustments if you’re not familiar with VR shooters and the more elaborate reloading procedures that are common when you’re holding a virtual gun in your hand.
+
+> Emptying a whole magazine into an interdimensional fascist feels awfully good.
+
+When you pull your pistol’s trigger until it goes click, pushing a button is only the first step: rather than completely reloading, it ejects the empty magazine. Then you reach over your shoulder with your other hand and grab a new one, jam it into the handle, and – before you can fire – pull back the slide to chamber a round. But wait! If you don’t fire that last round before reloading, you can eject the magazine and slam in a new one without having to chamber a new round, adding a bit of nuance to master. You also have to be wary of reloading before you’ve fired all the rounds from a magazine, since you’ll waste whatever’s left in there – and half-empty mags can’t be stored in your backpack.
+
+Upgrades from there change things up in meaningful ways. For instance, when you first get the shotgun it’s got awesome stopping power but it’s cumbersome, and you have to go through the reloading procedure of popping it open, inserting rounds, closing it (you can do this with a flick of your wrist if you want to be cool), and chambering a round every four shots. Upgrade that with the auto-loader, however, and you can slot six shells into the side and then hit a button to watch it mechanically load for you with an intricate animation. When you can blast away multiple times, the shotgun basically becomes a “delete enemy” button for anything at close range, which is why its ammo is relatively scarce.
+
+For the pistol, just increasing your ammo capacity is a big deal since it reduces the time spent reloading, which is when you’re at your most vulnerable. But it’s the laser sight that was the biggest game-changer for me: suddenly having pinpoint accuracy from the hip feels almost like a cheat mode after having to slowly and deliberately line up your shots using the iron sights or holosight to avoid wasting ammo until you can afford the expensive upgrade.
+
+> Valve’s level designers apparently delight in cleverly placing items.
+
+Gleaming pucks of resin (the currency you use to upgrade your weapons at special stations), ammunition, grenades, and health injectors are scattered throughout the levels, almost to a ridiculous degree. It’s a little immersion-breaking to find items even when they make no sense to be there – like, why would a pistol mag and a hand grenade be stashed in an office filing cabinet? – but it’s necessary given the large number of hits to the face Combine soldiers can take before we get that familiar flatline sound effect. Like an Easter egg hunt, many of these items are placed in plain sight and meant for everybody to find, but I found that careful exploration after clearing out an area was nearly always rewarded. Valve’s level designers apparently delight in cleverly placing items where they’re hidden from view if you’re walking through a level from beginning to end but very obvious when going backwards.
+
+My only issue with Half-Life: Alyx’s gunfights is that the heavily armored Combine soldier type can be boring to fight. They’re virtually always the last ones standing once you’ve taken out their smarter and more mobile escorts who throw grenades to force you out of cover, and that leaves you to simply plink away at them as they stand in the open until they start to spin up their miniguns. Then you take cover, wait for them to exhaust their magazine, and repeat until they fall down.
+
+Just like in previous Half-Life games, you have to move around a whole lot in Half-Life: Alyx, and there are several options that allow for everything from playing seated to room-scale immersion (and even a one-handed mode). As an individual blessed with a strong stomach and a coffee table I can move out of the way to create a decent-sized area, I played exclusively standing and moving, with the free movement controls instead of teleportation. With these, you can use the left thumbstick to walk around like you would in any first-person game, using the right thumbstick to make quick, 45-degree turns for when I didn’t want to get tangled up in the headset cord. You do have to “jump” gaps from time to time, but pulling down on the right stick lets you point at a target and release to teleport there as though you’d actually performed a feat of athleticism. That’s also useful for if you don’t want to crouch under barriers yourself (though that’s certainly an option) and for when you might get stuck on terrain.
+
+### Verdict
+
+Back when VR first became a real thing and we all started spitballing which game worlds we’d most like to be fully immersed in, Half-Life topped my list (tied with BioShock). It took a few years, but Half-Life: Alyx has more than realized that potential. With it, Valve has set a new bar for VR in interactivity, detail, and level design, showing what can happen when a world-class developer goes all-in on the new frontier of technology. In a lot of ways, it feels like a game from the future, and one that the rest of VR gaming will likely take a good long while to match, much less surpass.

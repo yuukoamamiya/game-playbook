@@ -1,0 +1,51 @@
+---
+slug: "balatro"
+source_title: "Balatro"
+source_url: "https://www.gamespot.com/reviews/balatro-review-one-more-blind/1900-6418192/"
+source_site: GameSpot
+review_score: 9
+review_score_text: "Superb"
+author: "Alessandro Barbosa"
+published: "2024-03-07"
+---
+
+# Balatro — GameSpot Review
+
+- Source: [GameSpot](https://www.gamespot.com/reviews/balatro-review-one-more-blind/1900-6418192/)
+- Author: Alessandro Barbosa
+- Published: March 7, 2024
+- GameSpot score: 9 / 10 — Superb
+
+Balatro's ingenious combination of poker and roguelite gameplay creates an intoxicating combination that's hard to pull away from.
+
+Poker has endured as a popular and immensely enjoyable card game because of how malleable it is. The purest form of poker is predominantly played in your hand, with you deciding on cards to discard and redraw in the hopes of creating a better hand than your opponents. Texas Hold'Em, by far the most popular variation on poker, eschews these rules by giving all players five shared cards on the table, and two cards in their hand to try and outwit other players with. A small change like this has a dramatic impact on how the game ultimately plays out, inviting the assumption that other small tweaks might have similar effects. Balatro operates directly in this space. It creates distinct scenarios through both deck building and randomization that force you to think about poker hands differently during short, captivating runs in its roguelite structure. It injects new life into the fundamental rules of poker without requiring any previous knowledge of the game, feeling deftly balanced for both newcomers and experts of the card game alike.
+
+Balatro is deceptively straightforward. Each round you play features a blind, which here is a total score you need to beat in order to progress. Each card has its own chip value, while different poker hands add on multipliers to the total score you hand tallies to. Play better hands with better cards, and you'll progress from the small blind to the big blind and ultimately a boss blind before the ante is raised and you're challenged to repeat the process with more challenging totals to topple. You're limited to a certain number of hands you can play during each round, as well as a limited amount of discard opportunities that let you toss away cards you don't want to use. A handy glossary makes the action approachable even if you're unfamiliar with the basics of poker, and the means to progress through each round aren't fundamentally rooted in a deep understanding of the odd differences between each hand.
+
+Knowing the odds of different poker hands and why you might want to pursue simple straights and flushes over the combination of the two will probably help initially in earlier rounds, but as you go on, Balatro exposes its random roguelite elements to great effect. Joker cards are Balatro's big modifiers, offering a suite of effects that can quickly define a build that will ultimately influence the theme of your run. The combination of a joker that adds multipliers for playing Club cards with another that rewards the use of only face cards (Kings, Queens, and Jacks) can turn otherwise simple flushes or straights into incredibly high-scoring hands--a strategy you may need to progress through more challenging blinds. Other jokers can be delightfully chaotic, like one that randomizes its multiplier each time you play a hand or another that consumes other joker cards and adds their value to its overall multiplier. The game quickly starts encouraging you to strategize around the jokers that you're given access to (each new one you purchase gets added to the pool of potential reappearances) and adjusting the hands you play around them in order to progress, making each run feel distinct in spite of the simple mechanics underpinning them.
+
+A shop that's available between rounds stocks jokers for you to purchase with money you earn based on your performance during each blind. In addition to jokers, there are a variety of different card types that can have an equally important impact on your run. Arcana cards are consumables that you can use for a variety of effects, many of which alter the nature of cards in your deck. Some might swap the house that a card belongs to or promote a card up a rank. Others can turn cards into different materials entirely. Glass cards provide higher multipliers when played but have a chance to shatter permanently, while steel cards have their rank and suit stripped but provide chip and multiplier bonuses. These are just a handful of examples, and knowing when to use certain Arcana cards is as important as knowing which to discard depending on the balance you've formed with your inventory of jokers.
+
+Planet cards provide more holistic changes, increasing the rank of particular poker hands which provide more chip and multiplier bonuses when you play them. Like Arcana cards, Spectral cards are consumable, but have much greater effects on your deck, sometimes altering numerous cards at a time at the expense of one, as an example. The combination of Arcana and Spectral cards, coupled with the effect of Planet cards, provides a deck-building element to Balatro that is engaging to interact with. It's far less involved than many other deckbuilder roguelites, especially when you consider that all deck construction is determined by randomization throughout each run, so it's more a system to complement your growing collection of potential joker pulls rather than the fundamental strategic element throughout each run.
+
+Each ante consists of three rounds: a small blind, a big blind, and a boss blind. The boss blind is the only one where the rules can be twisted and changed, with the modifier exposed at the start of each ante. This gives you the chance to acknowledge and prepare for the boss ahead, but the two blinds and their associated shops sometimes don't offer the tools for you to adequately change your build if you foresee a big challenge. Some bosses nerf entire suits, which can quickly end runs that depend on that for big scores. One particularly nasty one limits you to just playing a single hand, which has been the death of many of my own runs when appearing in early antes. You can opt to skip blinds (including the cash you might earn and a trip to the shop) in exchange for tokens that can, in some cases, completely change the boss modifier before you reach it) but given that this and, seemingly, the modifiers that bosses are assigned are completely random, it can be frustrating to have an otherwise great run ruined by what seems like rotten luck.
+
+But as much as any roguelite is rooted in random (but carefully calculated) luck, you can have runs where you feel virtually unstoppable. Each element, from jokers to Planet cards, has a substantial impact on both how you approach each new round and the scores you're able to obtain with single hands. They also force you to vary the way to play each run, as simply sticking to the same traditional poker hands will very quickly prevent you from reaching higher antes. A run where you focused on transforming all your cards into hearts and using jokers that rewarded the use of them could be followed by one where the emphasis is instead on playing just three cards with each hand, with a joker and Planet card both synergizing with that. Throw in a joker that allows you to complete straights with just four cards and another that lets you skip missing cards to create one and you've got a whole other avenue to try and beat the game's finale, the eighth ante. It is immensely satisfying to watch your score soar upwards as multiplier upon multiplier is added to each of your hands, with the scoreboard being set ablaze when you've conjured up a particularly gigantic one. But ultimately the variety keeps each of Balatro's runs surprisingly fresh given the simplicity of its underlying mechanics, urging you to take on another run immediately after you've completed one.
+
+Overall progression doesn't end once you've beaten the game's eighth ante either. Instead, you can continue onwards through an endless run and see just how far you can get, with each new ante getting exponentially more challenging to pass. As you unlock jokers, pass certain milestones, and use particular cards, you'll unlock additional decks that provide new starting parameters to experiment with. Some might be as simple as increasing the number of hands of discards at your disposal, while others activate abilities at the start of each run to help you predetermine what direction you can take it. Once you've completed Balatro with five different decks, a challenge tab unlocks that provides even more reasons to continue running through it. All of this is to say that Balatro provides enough reasons to stick with it for hours on end even after clearing it, making it a great game to both be continuously engaged with and one that you can return to periodically for a long time to come.
+
+Balatro ticks all the boxes for a roguelite that creates a feedback loop that's difficult to draw yourself away from. Its fundamentals are incredibly easy to understand, even if you're unfamiliar with poker, but the ways in which it works within the game's boundaries (and often breaks free from them) injects a level of depth to each hand to play that's both challenging and rewarding to continually engage with. It's a game that will melt away time as you hit play on one run after the next, with each defeat never stinging long enough to dissuade the possibility of victory on the next. While a handful of boss antes annoyingly end runs prematurely, they're nowhere near detrimental enough to take away from the immensely satisfying balance that Balatro strikes in every other aspect.
+
+### Review Verdict
+
+**Score: 9 / 10 — Superb**
+
+**The Good**
+
+- Deceptively simple with an incredible amount of depth that keeps runs fresh and exciting
+- Countless builds and competitive combinations to explore and unlock
+- Continuous rewards unlock new ways to approach runs that make it easy to keep coming back
+
+**The Bad**
+
+- Some boss modifiers are far trickier to work around than others, creating a jarring imbalance in a run

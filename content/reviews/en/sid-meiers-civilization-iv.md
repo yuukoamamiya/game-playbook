@@ -7,8 +7,8 @@ review_score: null
 review_score_text: ""
 author: "Robert 'Apache' Howarth"
 published: "2005-12-04"
-image: "https://assets-prd.ignimgs.com/2022/03/24/ign-1648155853734.jpg"
-image_fallback: "https://assets-prd.ignimgs.com/2022/03/24/ign-1648155853734.jpg"
+image: "https://assets-prd.ignimgs.com/2021/12/14/civ4-1639520294123.jpg"
+image_fallback: "https://assets-prd.ignimgs.com/2021/12/14/civ4-1639520294123.jpg"
 ---
 
 # Sid Meier's Civilization IV — IGN Review

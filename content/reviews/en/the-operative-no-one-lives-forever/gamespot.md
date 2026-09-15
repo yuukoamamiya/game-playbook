@@ -1,0 +1,45 @@
+---
+slug: "the-operative-no-one-lives-forever"
+source_title: "The Operative: No One Lives Forever"
+source_url: "https://www.gamespot.com/reviews/the-operative-no-one-lives-forever-review/1900-2652466/"
+source_site: GameSpot
+review_score: 9.3
+review_score_text: "Superb"
+author: "Erik Wolpaw"
+published: "2000-11-10"
+---
+
+# The Operative: No One Lives Forever — GameSpot Review
+
+- Source: [GameSpot](https://www.gamespot.com/reviews/the-operative-no-one-lives-forever-review/1900-2652466/)
+- Author: Erik Wolpaw
+- Published: November 10, 2000
+- GameSpot score: 9.3 / 10 — Superb
+
+> Just when it seemed as if first-person shooters had run out of ideas, along comes No One Lives Forever to reinvigorate the genre.
+
+Just when it seemed as if first-person shooters had run out of ideas, along comes No One Lives Forever to reinvigorate the genre. Two years after the release of Half-Life, a first-person shooter has finally arrived that's so stylish, so ingenious, so well written, so well acted, and otherwise so great that this review won't have to include the expression "it's no Half-Life" – except for right there. No One Lives Forever takes the impressive enemy artificial intelligence of Half-Life, the stealth features of Thief: The Dark Project, and the gadgetry of the console shooter GoldenEye 007 and then combines them all with a unique, colorful '60s setting and a great sense of humor. The resulting game's unrelenting inventiveness shows in virtually every aspect of its design.
+
+Although you might expect that it's somehow inspired by Austin Powers, No One Lives Forever's inspirations actually seem to be drawn simply from the same cultural well as the Mike Myers comedy. The game's plot is part Avengers and part Our Man Flint, with a little Dr. Goldfoot and the Girl Bombs thrown in for good measure. The story itself isn't especially engaging: The good guys, an international antiterrorist organization called UNITY, attempt to foil the world-domination plans of the bad guys, a mysteriously well-funded group of homicidal lunatics called H.A.R.M. But this simple plot acts as a framework on which the designers have strung a great number of brilliantly absurd details.
+
+Someone at Monolith had the bright idea to portray the cutscenes in the game using cinematic flair, rather than with bland camera angles typical of most games. By locking the camera down and framing each shot as if it really were from a movie, the designers have given the game a singular look that really sets it apart from the competition. The acting in No One Lives Forever is so good and the dialogue is often so sharp that it'll cast a pall over your memory of previous action games and might even ruin your experience with future shooters that are any less impressive.
+
+Thankfully, the gameplay in No One Lives Forever is every bit a match for the execution of its story. The game includes close to 60 levels spread over 15 diverse and often brightly lit and colorful environments. Expect to spend more than 20 hours finishing the single-player game. The action alternates between missions in which shooting at things is the primary goal and levels wherein the game's heroine, Cate Archer, must sneak undetected from one place to another. Some missions combine the two elements in surprising ways. True to the game's spy theme, stealth is always rewarded, even though it's not always strictly required. At the end of every level, you're ranked on your performance, and a large part of your score is based on remaining unseen.
+
+Unlike many other shooters before it, No One Lives Forever never settles into a boring routine. After a few more-standard shooting or sneaking sequences, the game always adds an interesting twist. It's a testament to the game's ingenuity that to describe the setting or action of many of the levels would spoil a lot of the fun of experiencing these sequences for the first time. But to give you some idea of what to expect, here's a description of just the very first mission. You must protect a clueless yet surly ambassador from assassins as he stumbles around the streets of Morocco. First you'll stand at a window and snipe enemies as they appear at various spots in a building across the street. Then you must sneak to another room, without alerting any civilians to your presence, where you set up a new sniper nest for another round of protecting the ambassador. Once you've finished this sequence, your room is besieged by a group of thugs, and a wild, close-quarters gunfight ensues. This is all in the first level of 60.
+
+Every gunfight in No One Lives Forever is very exciting thanks to the game's truly outstanding artificial intelligence for enemy characters. For starters, you won't ever witness an enemy running in place or bumping into things as in many other shooters. It's almost startling to realize just how much of an effect that one detail can have on your sense of immersion in the gameworld. But the developers have done much more than rectify that problem. Namely, your enemies actually appear to care whether or not they live or die. In large groups, they'll assault you head-on. But alone or in pairs, they'll often run for cover and then switch position if they notice you've moved. They'll knock furniture over to hide behind, they'll stoop down to investigate the bodies of their dead coworkers, and they'll even hunker down behind tables, stick their weapons over their heads, and spray suppressing gunfire blindly at you. The enemy behavior seems to be partially scripted, but replaying a battle using different tactics will often result in different enemy actions. What adds to the illusion that you're taking on real, live opponents is that you'll frequently sneak up on henchman engaged in long, often hilarious discussions to pass the time while going about their tedious jobs. These conversations range from a critical reevaluation of the Edsel to an argument over correlation versus causality as it relates to beer consumption among criminals. Delivered in a deadpan style that perfectly matches the dialogue, these ancillary conversations are one of the best parts of the game. You'll replay levels simply to hear dialogue you may have missed by alerting the guards to your presence.
+
+The motion-captured animation of the game's characters is also top-notch. Although there aren't a huge number of different character models, they're so well animated that they can express emotion through body language alone. And you'll notice other impressive details such as how enemies killed at the top of stairways will actually come tumbling down. It's true that the characters in No One Lives Forever don't take damage in so many ways as in Soldier of Fortune; you can't vivisect them into forty bloody pieces. But a single head shot will usually take an enemy down, and chest hits appear to be more damaging than targeting a limb, all of which is more than enough to reward accuracy over wild shooting.
+
+The graphics in No One Lives Forever are powered by the newest version of Monolith's Lithtech engine. It seems a little less technologically advanced than either the Unreal Tournament or Quake III Arena engines. There are no curved or reflective surfaces on display, and items you'll find throughout the game frequently appear blocky. But it's hardly an issue. Regardless of how many triangles the engine is spitting out, the art direction in No One Lives Forever is spectacular, and the graphics are colorful and always interesting. The game even saves and loads data quickly, unlike other recent Lithtech-engine games.
+
+The game's sound effects and '60s-era music are excellent as well. Different game actions have different themes, which actually segue from one piece to another without a jarring jump cut. It's a subtle effect that's one of many other features that make No One Lives Forever seem so polished.
+
+To live up to the single-player game, the multiplayer experience of No One Lives Forever would have to be pretty spectacular. In short, it's not, though there's nothing really wrong with it either. There's a built-in game finder, plenty of character models to choose from, four deathmatch levels, and six maps designed for a capture-the-flag variant called H.A.R.M. versus UNITY. The problem is that most of the elements that make the single-player game special – the acting, the dialogue, the sneaking, and the precisely orchestrated gun battles – are simply absent from the multiplayer game. However, the multiplayer mode does have a few interesting elements. For instance, motorcycles and snowmobiles are provided to help you traverse a couple of the larger maps. But ultimately, there isn't a lot to differentiate the multiplayer component of No One Lives Forever from that of most other shooters.
+
+Whatever minor problems or shortcomings there are in No One Lives Forever are dwarfed by the technical expertise and sheer creativity that went into it. The fact is that Monolith Productions has finally delivered an undeniably superlative action game.
+
+### Review Verdict
+
+**Score: 9.3 / 10 — Superb**
