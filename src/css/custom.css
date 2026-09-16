@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&display=swap');
-
 :root {
   --playbook-ink: #17201b;
   --ifm-color-primary: #2f7d55;
@@ -11,9 +9,9 @@
   --ifm-color-primary-lightest: #6ab98c;
   --ifm-background-color: #f4f4ef;
   --ifm-background-surface-color: #fbfbf8;
-  --ifm-font-family-base: 'DM Sans', system-ui, sans-serif;
-  --ifm-heading-font-family: 'DM Sans', system-ui, sans-serif;
-  --ifm-font-family-monospace: 'DM Mono', monospace;
+  --ifm-font-family-base: system-ui, -apple-system, 'Segoe UI', 'Noto Sans SC', 'Microsoft YaHei', sans-serif;
+  --ifm-heading-font-family: system-ui, -apple-system, 'Segoe UI', 'Noto Sans SC', 'Microsoft YaHei', sans-serif;
+  --ifm-font-family-monospace: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace;
   --ifm-code-font-size: 95%;
   --ifm-navbar-background-color: #f4f4ef;
   --ifm-navbar-shadow: none;

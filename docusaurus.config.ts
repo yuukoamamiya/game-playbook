@@ -35,7 +35,9 @@ const config: Config = {
       require.resolve('@easyops-cn/docusaurus-search-local'),
       {
         hashed: true,
-        language: ['zh', 'en'],
+        // The public archive is Chinese; avoid shipping the extra English stemmer
+        // and tokenizer in the search client and index.
+        language: ['zh'],
         indexBlog: false,
         highlightSearchTermsOnTargetPage: true,
       },
