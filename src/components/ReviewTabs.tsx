@@ -33,7 +33,7 @@ export default function ReviewTabs({
   if (items.length === 1) return <>{items[0].props.children}</>;
 
   return (
-    <Tabs groupId="review-source" lazy>
+    <Tabs groupId="review-source">
       {items.map((child, index) => (
         <TabItem key={index} value={tabKey(child.props)} label={child.props.label}>
           {child.props.children}
