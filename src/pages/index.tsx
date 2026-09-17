@@ -8,6 +8,7 @@ type SortOrder = 'score' | 'year';
 
 type MediaSource = {
   site: string;
+  filter_group?: string;
   kind: string;
   language: string;
   score: number | null;
@@ -77,12 +78,8 @@ const mediaLabels: Record<string, string> = {
   gamesandculture: 'Games and Culture',
 };
 
-// These sources are currently individual scholars' articles; group them in the
-// filter while keeping their concrete publication labels on each game card.
-const scholarSites = new Set(['jesperjuul', 'theatlantic']);
-
 function mediaFilterKey(source: MediaSource): string {
-  return scholarSites.has(source.site) ? 'scholar' : source.site;
+  return source.filter_group || source.site;
 }
 
 function ExternalReviewLink({source}: {source: MediaSource}) {

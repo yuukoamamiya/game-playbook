@@ -27,6 +27,9 @@ for (const [index, game] of games.entries()) {
       for (const field of ['site', 'kind', 'language', 'url']) {
         if (typeof source?.[field] !== 'string' || !source[field]) errors.push(`${prefix}: missing ${field}`);
       }
+      if ('filter_group' in source && (typeof source.filter_group !== 'string' || !source.filter_group)) {
+        errors.push(`${prefix}: filter_group must be a non-empty string when present`);
+      }
       if (source?.url && !/^https?:\/\//.test(source.url)) errors.push(`${prefix}: invalid URL`);
       if (source?.score !== null && (typeof source?.score !== 'number' || !Number.isFinite(source.score))) errors.push(`${prefix}: score must be number or null`);
       const key = `${source?.site}::${source?.url}`;

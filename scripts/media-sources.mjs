@@ -22,13 +22,16 @@ export function normalizeSource(source) {
   const site = typeof source.site === 'string' ? source.site.trim().toLowerCase() : '';
   if (!site || !validUrl(url)) return null;
   const score = source.score == null || source.score === '' ? null : Number(source.score);
-  return {
+  const normalized = {
     site,
     kind: typeof source.kind === 'string' && source.kind ? source.kind : 'review',
     language: typeof source.language === 'string' && source.language ? source.language : 'en',
     score: Number.isFinite(score) ? score : null,
     url,
   };
+  const filterGroup = typeof source.filter_group === 'string' ? source.filter_group.trim() : '';
+  if (filterGroup) normalized.filter_group = filterGroup;
+  return normalized;
 }
 
 export function sourcesFromLegacy(row) {

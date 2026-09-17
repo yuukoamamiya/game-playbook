@@ -1719,6 +1719,7 @@
         "kind": "essay",
         "language": "en",
         "score": null,
+        "filter_group": "scholar",
         "url": "https://www.theatlantic.com/family/archive/2020/04/animal-crossing-isnt-escapist-its-political/610012/"
       }
     ]
@@ -2557,6 +2558,7 @@
         "kind": "essay",
         "language": "en",
         "score": null,
+        "filter_group": "scholar",
         "url": "https://www.jesperjuul.net/ludologist/2004/11/27/half-life-2-the-good-and-the-bad/"
       }
     ]
@@ -6396,6 +6398,7 @@
         "kind": "essay",
         "language": "en",
         "score": null,
+        "filter_group": "scholar",
         "url": "https://www.jesperjuul.net/ludologist/2007/03/30/gta-iv-and-philip-glass/"
       }
     ]
@@ -6504,6 +6507,7 @@
         "kind": "essay",
         "language": "en",
         "score": null,
+        "filter_group": "scholar",
         "url": "https://www.jesperjuul.net/ludologist/2007/11/16/half-life-2-episode-two-stats/"
       }
     ]

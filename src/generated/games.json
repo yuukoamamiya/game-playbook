@@ -160,7 +160,8 @@
         "kind": "essay",
         "language": "en",
         "score": null,
-        "url": "https://www.jesperjuul.net/ludologist/2004/11/27/half-life-2-the-good-and-the-bad/"
+        "url": "https://www.jesperjuul.net/ludologist/2004/11/27/half-life-2-the-good-and-the-bad/",
+        "filter_group": "scholar"
       }
     ],
     "contentStatus": "links-collected",
@@ -5278,7 +5279,8 @@
         "kind": "essay",
         "language": "en",
         "score": null,
-        "url": "https://www.jesperjuul.net/ludologist/2007/11/16/half-life-2-episode-two-stats/"
+        "url": "https://www.jesperjuul.net/ludologist/2007/11/16/half-life-2-episode-two-stats/",
+        "filter_group": "scholar"
       }
     ],
     "contentStatus": "metacritic-filtered",
@@ -5697,7 +5699,8 @@
         "kind": "essay",
         "language": "en",
         "score": null,
-        "url": "https://www.theatlantic.com/family/archive/2020/04/animal-crossing-isnt-escapist-its-political/610012/"
+        "url": "https://www.theatlantic.com/family/archive/2020/04/animal-crossing-isnt-escapist-its-political/610012/",
+        "filter_group": "scholar"
       }
     ],
     "contentStatus": "links-collected",
@@ -6896,7 +6899,8 @@
         "kind": "essay",
         "language": "en",
         "score": null,
-        "url": "https://www.jesperjuul.net/ludologist/2007/03/30/gta-iv-and-philip-glass/"
+        "url": "https://www.jesperjuul.net/ludologist/2007/03/30/gta-iv-and-philip-glass/",
+        "filter_group": "scholar"
       }
     ],
     "contentStatus": "metacritic-filtered",
