@@ -1,17 +1,42 @@
-# Playbook / 游戏档案库
+# Game Playbook / 游戏档案库
 
-一个用于记录、筛选和查询个人游戏体验的 Docusaurus 站点。
+一个个人使用的 Docusaurus 静态网站，用来整理带有 Metacritic Must-Play 标记的游戏，并集中展示媒体评测、文化评论和中文译文。
 
-## 内容存储位置
+网站按游戏页面组织内容。首页支持按游戏平台和媒体筛选，并显示 Metacritic、IGN、GameSpot、Eurogamer 等来源的评分和文章入口。
 
-- `data/metacritic-games.json`：抓取和不同 AI 之间交换数据的主中间层，使用 JSON 避免 CSV 列错位。
-- `data/metacritic-games.json` 中的媒体入口统一放在 `sources` 数组，每项记录站点、文章类型、语言、评分和 URL，同一媒体可有多篇文章。
-- `content/reviews/en/`：英文评测资料，仅供 AI 翻译使用；它位于 `docs/` 之外，不会发布到网站。
-- `docs/games/`：网站前台使用的中文译文，每款游戏一篇；页面内按媒体标签切换评测。
-- `docs/games/_template.mdx`：新增游戏文档时使用的模板。
-- `DESIGN.md`：给 AI 和后续维护者使用的视觉与内容规则。
-- `AGENTS.md`：跨 AI 协作、内容边界、验证和交接规则。
-- `TODO.md`：当前未完成的媒体正文、评分核对和其他维护事项。
+## 项目结构
+
+- `data/metacritic-games.json`：游戏 × 平台的主数据，以及统一放在 `sources` 数组中的媒体文章入口。
+- `src/generated/`：由主数据和英文来源生成的前台数据，不手工编辑。
+- `content/reviews/en/`：英文来源正文，仅用于翻译、摘要和核对，不会随网站公开发布。
+- `docs/games/`：公开的中文游戏页面，每个游戏一个页面，通过媒体标签切换译文。
+- `static/img/reviews-webp/`：游戏页面使用的头图。
+- `scripts/`：数据校验、生成、媒体采集和迁移脚本。
+- `DESIGN.md`：网站视觉和内容规则。
+- `AGENTS.md`：仓库结构、修改方式和协作约定。
+- `TODO.md`：当前尚未完成的文章正文、评分核对和其他维护事项。
+
+## 本地开发
+
+需要 Node.js 20 或更高版本。
+
+```bash
+npm install
+npm run start
+```
+
+打开终端显示的本地地址即可预览网站。
+
+常用检查命令：
+
+```bash
+npm run validate-data
+npm run generate-data
+npm run typecheck
+npm run build
+```
+
+修改数据、脚本或网站后，至少运行前三项；需要验证完整静态站点时再运行 `npm run build`。
 
 ## Cloudflare Pages
 
@@ -19,6 +44,6 @@
 
 - Build command：`npm run build`
 - Build output directory：`build`
-- Node.js version：`20` 或更高
+- Node.js：`20` 或更高版本
 
-站点配置和内容提交到 Git 后，由 Cloudflare Pages 自动构建发布。本地不需要执行生产构建。构建前会从 JSON 生成带有 Must-Play 标记的候选游戏数据，再根据 `docs/games/` 中是否存在对应译文标记状态。
+将改动推送到 GitHub 后，由 Cloudflare Pages 根据项目配置构建和发布网站。
