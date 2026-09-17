@@ -1,6 +1,6 @@
 # 待办事项
 
-以下清单记录当前数据快照中已经收录文章入口、但英文正文文件尚未对应收录的文章，以及其他尚未完成的维护工作。入口和文章是否重复按 URL 判断。更新时间：2026-09-17。
+以下清单记录当前数据快照中已经收录文章入口、但英文正文文件尚未对应收录的文章，以及其他尚未完成的维护工作。入口和文章是否重复按 URL 判断。本次检查发现 50 个唯一 URL（对应 54 条 source 记录；差额来自多个平台或版本复用同一 URL）。更新时间：2026-09-17。
 
 ## 已有入口但尚未采集英文正文
 
@@ -36,16 +36,30 @@ Unwinnable 已有入口，但目前整体仍需补采正文并制作中文译文
 
 ### 其他媒体
 
+RPGamer 的 5 个入口目前都没有对应英文正文文件；其中除一篇无数字评分的 Study Time 文章外，其余 4 篇的评分已经写入主数据，补正文时仍需核对实际版本。
+
 - **RPGamer（5 篇）**：`persona-5-royal` 的 [JRPG Study Time](https://rpgamer.com/2020/06/jrpg-study-time-persona-5-royal-is-a-tower-of-mechanics-that-never-topples/)、`persona-4-golden` 的 [PC review](https://rpgamer.com/review/persona-4-golden-pc-review/) 和 [review](https://rpgamer.com/review/persona-4-golden-review/)、`the-elder-scrolls-iv-oblivion` 的 [retroview](https://rpgamer.com/review/the-elder-scrolls-iv-oblivion-retroview/)、`fallout-3` 的 [review](https://rpgamer.com/review/fallout-3-review/)。
 - **Fami通（4 篇）**：`persona-5-royal` [文章](https://www.famitsu.com/article/202609/87181)、`persona-4-golden` [文章](https://www.famitsu.com/article/202606/77873)、`undertale` [文章](https://www.famitsu.com/article/202609/87183)、`bayonetta` [文章](https://www.famitsu.com/article/202510/55955)。
 - **4Gamer（5 篇）**：`mina-the-hollower` [文章](https://www.4gamer.net/games/616/G061640/20260612037/)、`onimusha-way-of-the-sword` [文章](https://www.4gamer.net/games/865/G086595/20260806038/)、`tekken-8` [文章](https://www.4gamer.net/games/657/G065722/20260518050/)、`balatro` [文章](https://www.4gamer.net/games/782/G078260/20250502023/)、`dave-the-diver` [文章](https://www.4gamer.net/games/635/G063598/20221118052/)。
-- **Aftermath（4 个入口，其中 1 篇已采集、3 篇待补）**：`against-the-storm` 的 [风暴之城文章](https://aftermath.site/against-the-storm-is-a-really-good-city-builder) 已有英文源 `content/reviews/en/against-the-storm/aftermath.md`；待补的是 `celeste` [文章](https://aftermath.site/celeste-speedrun-gdq-any-history-of-speedrunning)、`blue-prince` [文章](https://aftermath.site/blue-prince-impressions-review)、`balatro` [文章](https://aftermath.site/the-nerve-of-balatro-for-being-this-good)。
+- **Aftermath（3 篇待补）**：`celeste` [文章](https://aftermath.site/celeste-speedrun-gdq-any-history-of-speedrunning)、`blue-prince` [文章](https://aftermath.site/blue-prince-impressions-review)、`balatro` [文章](https://aftermath.site/the-nerve-of-balatro-for-being-this-good)。
 - **Rock Paper Shotgun（4 篇）**：`the-elder-scrolls-iv-oblivion` 的 [Have You Played](https://www.rockpapershotgun.com/have-you-played-the-elder-scrolls-iv-oblivion) 和 [十周年文章](https://www.rockpapershotgun.com/elder-scrolls-iv-oblivion-is-ten-years-old)、`satisfactory` [Early Access review](https://www.rockpapershotgun.com/satisfactory-review-early-access)、`the-stanley-parable-ultra-deluxe` [文章](https://www.rockpapershotgun.com/the-stanley-parable-ultra-deluxe-has-a-cursed-awareness-of-its-own-weird-culty-relevance)。
 - **Jesper Juul（1 篇）**：`grand-theft-auto-iv` — [GTA IV and Philip Glass](https://www.jesperjuul.net/ludologist/2007/03/30/gta-iv-and-philip-glass/)。
 - **IGN（2 篇）**：`mario-and-luigi-superstar-saga` [文章](https://www.ign.com/articles/2003/12/15/mario-luigi-superstar-saga)、`mina-the-hollower` [IGN 中国文章](https://www.ign.com.cn/mina-the-hollower/60328/ignwa-jue-zhe-mi-nuo-ping-ce-10-fen)。
 - **GameSpot（1 篇）**：`tony-hawks-pro-skater-3` — [文章](https://www.gamespot.com/reviews/tony-hawk-pro-skater-3-review/1900-2820972/)。
 
 Eurogamer 当前所有已收录入口都有对应英文源文件；其评分缺口另见下节。
+
+## 当前已确认有评分的媒体
+
+以下媒体的评分已经写入主数据，首页会显示在对应文章入口后面。括号内为当前数据中的带评分 source 条目数（同一文章被多个平台复用时会分别计数）：
+
+- **IGN（163）**
+- **GameSpot（177）**
+- **Eurogamer（92）**
+- **RPGamer（18）**
+- **RPG Site（34）**
+
+当前收录的 4Gamer、Fami通、Rock Paper Shotgun、Unwinnable、Aftermath 及学者个人文章，尚未在主数据中确认到可直接归入对应入口的数字评分；没有明确评分时不补猜测值。
 
 ## 评分待核对
 
