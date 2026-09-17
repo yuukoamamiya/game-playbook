@@ -56,6 +56,7 @@ function mergeGames(records: GameRecord[]): CatalogGame[] {
 }
 
 const mediaLabels: Record<string, string> = {
+  scholar: '学者',
   ign: 'IGN',
   gamespot: 'GS',
   eurogamer: 'Eurogamer',
@@ -69,11 +70,20 @@ const mediaLabels: Record<string, string> = {
   rpgamer: 'RPGamer',
   aftermath: 'Aftermath',
   radicalphilosophy: 'Radical Philosophy',
+  jesperjuul: 'Jesper Juul',
   theatlantic: 'The Atlantic',
   gamestudies: 'Game Studies',
   todigra: 'ToDiGRA',
   gamesandculture: 'Games and Culture',
 };
+
+// These sources are currently individual scholars' articles; group them in the
+// filter while keeping their concrete publication labels on each game card.
+const scholarSites = new Set(['jesperjuul', 'theatlantic']);
+
+function mediaFilterKey(source: MediaSource): string {
+  return scholarSites.has(source.site) ? 'scholar' : source.site;
+}
 
 function ExternalReviewLink({source}: {source: MediaSource}) {
   if (!source.url) return null;
@@ -94,19 +104,19 @@ export default function Home(): React.ReactNode {
   const platforms = ['全部平台', ...Array.from(new Set(games.map((game) => game.platform)))];
   const catalogGames = useMemo(() => mergeGames(games), [games]);
   const mediaOptions = ['全部媒体', ...Array.from(new Set(
-    catalogGames.flatMap((game) => game.sources.map((source) => source.site)),
+    catalogGames.flatMap((game) => game.sources.map(mediaFilterKey)),
   ))];
   const translatedCount = catalogGames.filter((game) => game.hasTranslation).length;
 
   const visibleGames = useMemo(() => mergeGames(games
     .filter((game) => platform === '全部平台' || game.platform === platform)
-    .filter((game) => media === '全部媒体' || game.sources.some((source) => source.site === media)))
+    .filter((game) => media === '全部媒体' || game.sources.some((source) => mediaFilterKey(source) === media)))
     .sort((left, right) => {
       if (sortOrder === 'year') {
         return (right.releaseYear ?? 0) - (left.releaseYear ?? 0) || right.score - left.score;
       }
       return right.score - left.score || (right.releaseYear ?? 0) - (left.releaseYear ?? 0);
-    }), [games, platform, sortOrder]);
+    }), [games, media, platform, sortOrder]);
 
   return (
     <Layout title="游戏橱窗" description="个人游戏评测档案">
