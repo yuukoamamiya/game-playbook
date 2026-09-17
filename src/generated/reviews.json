@@ -92,6 +92,16 @@
       "id": "theatlantic",
       "site": "theatlantic",
       "label": "The Atlantic"
+    },
+    {
+      "id": "unwinnable",
+      "site": "unwinnable",
+      "label": "Unwinnable"
+    },
+    {
+      "id": "unwinnable-2",
+      "site": "unwinnable",
+      "label": "Unwinnable · 2"
     }
   ],
   "animal-well": [
@@ -136,6 +146,16 @@
       "id": "rockpapershotgun",
       "site": "rockpapershotgun",
       "label": "Rock Paper Shotgun"
+    },
+    {
+      "id": "4gamer",
+      "site": "4gamer",
+      "label": "4Gamer.net"
+    },
+    {
+      "id": "aftermath",
+      "site": "aftermath",
+      "label": "Aftermath"
     }
   ],
   "baldurs-gate-3": [
@@ -257,6 +277,16 @@
       "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "famitsu",
+      "site": "famitsu",
+      "label": "Fami通"
+    },
+    {
+      "id": "unwinnable",
+      "site": "unwinnable",
+      "label": "Unwinnable"
     }
   ],
   "big-walk": [
@@ -313,6 +343,11 @@
       "id": "gamestudies",
       "site": "gamestudies",
       "label": "Game Studies"
+    },
+    {
+      "id": "unwinnable",
+      "site": "unwinnable",
+      "label": "Unwinnable"
     }
   ],
   "black-and-white": [
@@ -342,6 +377,11 @@
       "id": "rockpapershotgun",
       "site": "rockpapershotgun",
       "label": "Rock Paper Shotgun"
+    },
+    {
+      "id": "aftermath",
+      "site": "aftermath",
+      "label": "Aftermath"
     }
   ],
   "call-of-duty-4-modern-warfare": [
@@ -417,6 +457,11 @@
       "id": "rockpapershotgun",
       "site": "rockpapershotgun",
       "label": "Rock Paper Shotgun"
+    },
+    {
+      "id": "aftermath",
+      "site": "aftermath",
+      "label": "Aftermath"
     }
   ],
   "chained-echoes": [
@@ -580,6 +625,11 @@
       "id": "ign",
       "site": "ign",
       "label": "IGN"
+    },
+    {
+      "id": "4gamer",
+      "site": "4gamer",
+      "label": "4Gamer.net"
     }
   ],
   "death-stranding-2-on-the-beach": [
@@ -631,6 +681,11 @@
       "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "unwinnable",
+      "site": "unwinnable",
+      "label": "Unwinnable"
     }
   ],
   "disco-elysium": [
@@ -663,6 +718,11 @@
       "id": "rpgsite",
       "site": "rpgsite",
       "label": "RPG Site"
+    },
+    {
+      "id": "unwinnable",
+      "site": "unwinnable",
+      "label": "Unwinnable"
     }
   ],
   "dishonored": [
@@ -675,6 +735,11 @@
       "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "unwinnable",
+      "site": "unwinnable",
+      "label": "Unwinnable"
     }
   ],
   "divinity-original-sin-ii-definitive-edition": [
@@ -883,6 +948,11 @@
       "id": "gamestudies-rendle-pasternack",
       "site": "gamestudies",
       "label": "Game Studies · Elden Ring"
+    },
+    {
+      "id": "unwinnable",
+      "site": "unwinnable",
+      "label": "Unwinnable"
     }
   ],
   "empire-total-war": [
@@ -947,6 +1017,16 @@
       "id": "gamestudies-mcclancy",
       "site": "gamestudies",
       "label": "Game Studies · Fallout 3"
+    },
+    {
+      "id": "unwinnable",
+      "site": "unwinnable",
+      "label": "Unwinnable"
+    },
+    {
+      "id": "rpgamer-2",
+      "site": "rpgamer",
+      "label": "RPGamer · 2"
     }
   ],
   "final-fantasy-vi": [
@@ -1183,6 +1263,11 @@
       "id": "rockpapershotgun",
       "site": "rockpapershotgun",
       "label": "Rock Paper Shotgun"
+    },
+    {
+      "id": "unwinnable",
+      "site": "unwinnable",
+      "label": "Unwinnable"
     }
   ],
   "golden-sun": [
@@ -1261,6 +1346,11 @@
       "id": "eurogamer",
       "site": "eurogamer",
       "label": "Eurogamer"
+    },
+    {
+      "id": "jesperjuul",
+      "site": "jesperjuul",
+      "label": "Jesper Juul"
     }
   ],
   "grand-theft-auto-san-andreas": [
@@ -1397,6 +1487,11 @@
       "id": "rpgsite",
       "site": "rpgsite",
       "label": "RPG Site"
+    },
+    {
+      "id": "unwinnable",
+      "site": "unwinnable",
+      "label": "Unwinnable"
     }
   ],
   "half-life-2-episode-two": [
@@ -1492,6 +1587,11 @@
       "id": "rockpapershotgun",
       "site": "rockpapershotgun",
       "label": "Rock Paper Shotgun"
+    },
+    {
+      "id": "unwinnable",
+      "site": "unwinnable",
+      "label": "Unwinnable"
     }
   ],
   "hollow-knight-silksong": [
@@ -1531,6 +1631,16 @@
       "id": "rockpapershotgun",
       "site": "rockpapershotgun",
       "label": "Rock Paper Shotgun"
+    },
+    {
+      "id": "unwinnable",
+      "site": "unwinnable",
+      "label": "Unwinnable"
+    },
+    {
+      "id": "unwinnable-2",
+      "site": "unwinnable",
+      "label": "Unwinnable · 2"
     }
   ],
   "homeworld": [
@@ -1611,6 +1721,11 @@
       "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "ign",
+      "site": "ign",
+      "label": "IGN"
     },
     {
       "id": "eurogamer",
@@ -1786,6 +1901,16 @@
       "id": "rpgsite",
       "site": "rpgsite",
       "label": "RPG Site"
+    },
+    {
+      "id": "4gamer",
+      "site": "4gamer",
+      "label": "4Gamer.net"
+    },
+    {
+      "id": "unwinnable",
+      "site": "unwinnable",
+      "label": "Unwinnable"
     }
   ],
   "minecraft": [
@@ -1828,6 +1953,11 @@
       "id": "todigra",
       "site": "todigra",
       "label": "ToDiGRA"
+    },
+    {
+      "id": "unwinnable",
+      "site": "unwinnable",
+      "label": "Unwinnable"
     }
   ],
   "neverwinter-nights": [
@@ -1881,6 +2011,11 @@
       "id": "rpgsite",
       "site": "rpgsite",
       "label": "RPG Site"
+    },
+    {
+      "id": "4gamer",
+      "site": "4gamer",
+      "label": "4Gamer.net"
     }
   ],
   "ori-and-the-blind-forest-definitive-edition": [
@@ -1974,6 +2109,21 @@
       "id": "rpgsite",
       "site": "rpgsite",
       "label": "RPG Site"
+    },
+    {
+      "id": "famitsu",
+      "site": "famitsu",
+      "label": "Fami通"
+    },
+    {
+      "id": "rpgamer-2",
+      "site": "rpgamer",
+      "label": "RPGamer · 2"
+    },
+    {
+      "id": "rpgamer-3",
+      "site": "rpgamer",
+      "label": "RPGamer · 3"
     }
   ],
   "persona-5-royal": [
@@ -2001,6 +2151,21 @@
       "id": "rpgsite",
       "site": "rpgsite",
       "label": "RPG Site"
+    },
+    {
+      "id": "famitsu",
+      "site": "famitsu",
+      "label": "Fami通"
+    },
+    {
+      "id": "unwinnable",
+      "site": "unwinnable",
+      "label": "Unwinnable"
+    },
+    {
+      "id": "rpgamer-2",
+      "site": "rpgamer",
+      "label": "RPGamer · 2"
     }
   ],
   "planescape-torment": [
@@ -2081,6 +2246,11 @@
       "id": "gamestudies",
       "site": "gamestudies",
       "label": "Game Studies"
+    },
+    {
+      "id": "unwinnable",
+      "site": "unwinnable",
+      "label": "Unwinnable"
     }
   ],
   "resident-evil-4": [
@@ -2093,6 +2263,11 @@
       "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "unwinnable",
+      "site": "unwinnable",
+      "label": "Unwinnable"
     }
   ],
   "resident-evil-requiem": [
@@ -2115,6 +2290,11 @@
       "id": "rockpapershotgun",
       "site": "rockpapershotgun",
       "label": "Rock Paper Shotgun"
+    },
+    {
+      "id": "unwinnable",
+      "site": "unwinnable",
+      "label": "Unwinnable"
     }
   ],
   "rome-total-war": [
@@ -2139,6 +2319,11 @@
       "id": "rockpapershotgun",
       "site": "rockpapershotgun",
       "label": "Rock Paper Shotgun"
+    },
+    {
+      "id": "rockpapershotgun-2",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun · 2"
     }
   ],
   "sea-of-stars": [
@@ -2272,6 +2457,11 @@
       "id": "rpgsite",
       "site": "rpgsite",
       "label": "RPG Site"
+    },
+    {
+      "id": "unwinnable",
+      "site": "unwinnable",
+      "label": "Unwinnable"
     }
   ],
   "sonic-mania-plus": [
@@ -2534,6 +2724,11 @@
       "id": "rockpapershotgun",
       "site": "rockpapershotgun",
       "label": "Rock Paper Shotgun"
+    },
+    {
+      "id": "4gamer",
+      "site": "4gamer",
+      "label": "4Gamer.net"
     }
   ],
   "tetris-effect-connected": [
@@ -2580,6 +2775,21 @@
       "id": "rpgsite",
       "site": "rpgsite",
       "label": "RPG Site"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
+    },
+    {
+      "id": "rockpapershotgun-2",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun · 2"
+    },
+    {
+      "id": "rpgamer-2",
+      "site": "rpgamer",
+      "label": "RPGamer · 2"
     }
   ],
   "the-elder-scrolls-v-skyrim": [
@@ -2702,6 +2912,11 @@
       "id": "gamestudies",
       "site": "gamestudies",
       "label": "Game Studies"
+    },
+    {
+      "id": "unwinnable",
+      "site": "unwinnable",
+      "label": "Unwinnable"
     }
   ],
   "the-legend-of-zelda-ocarina-of-time-3d": [
@@ -2782,6 +2997,11 @@
       "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "unwinnable",
+      "site": "unwinnable",
+      "label": "Unwinnable"
     }
   ],
   "the-operative-no-one-lives-forever": [
@@ -2842,6 +3062,11 @@
       "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
     }
   ],
   "the-witcher-3-wild-hunt-blood-and-wine": [
@@ -2967,6 +3192,11 @@
       "id": "rockpapershotgun",
       "site": "rockpapershotgun",
       "label": "Rock Paper Shotgun"
+    },
+    {
+      "id": "unwinnable",
+      "site": "unwinnable",
+      "label": "Unwinnable"
     }
   ],
   "undertale": [
@@ -2994,6 +3224,16 @@
       "id": "gamesandculture",
       "site": "gamesandculture",
       "label": "Games and Culture"
+    },
+    {
+      "id": "famitsu",
+      "site": "famitsu",
+      "label": "Fami通"
+    },
+    {
+      "id": "unwinnable",
+      "site": "unwinnable",
+      "label": "Unwinnable"
     }
   ],
   "unreal-tournament-1999": [
