@@ -63,6 +63,17 @@ docs/agent-history.md            历史决策记录，不作为当前待办清�
 
 只需要入口时只保存并核对 URL，不抓取正文；需要翻译时再保存英文源并修改公开 MDX 页面。不要把搜索结果页、新闻、攻略、宣传稿或仅提到游戏的文章当作评测入口。
 
+### 采集英文正文
+
+正文用 `scripts/collect-media-reviews.mjs` 采集到 `content/reviews/en/`，只用于翻译和核对，不进入前台。脚本按站点配置正文边界，已知约束：
+
+- Unwinnable、Aftermath、Rock Paper Shotgun、Eurogamer、Game Studies、The Atlantic 直连会返回 403 或超时，在脚本里标记 `proxy: true`，需要本地代理（v2rayN）在运行。
+- Unwinnable 对并发请求会返回 Cloudflare 403，用 `--concurrency=1` 串行采集。
+- curl 不要加 `--ssl-no-revoke`，该参数会让 Cloudflare 拒绝请求。
+- curl 加代理仍取不到正文的页面（例如 RPGamer），改用浏览器 MCP（Browser MCP 扩展 + opencode 的 `browsermcp`）读取真实页面后再保存。
+
+同一媒体有多篇文章时，英文源文件名要能区分文章。采集后按「修改中文页面和翻译」把正文翻译进对应 `ReviewTab`。
+
 ### 修改中文页面和翻译
 
 复制 `docs/games/_template.mdx` 创建新页面，保持文件名与数据中的 `slug` 一致。页面只放中文译文、必要的原文链接和页面结构，不粘贴英文原文或个人备注。译文中的裸 `{`、`}` 会被 MDX 当成表达式，需改用中文括号或其他写法；不要使用 `<http://…>` 自动链接，使用普通 Markdown 链接。

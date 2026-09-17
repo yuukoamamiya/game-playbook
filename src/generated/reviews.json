@@ -279,11 +279,6 @@
       "label": "GameSpot"
     },
     {
-      "id": "famitsu",
-      "site": "famitsu",
-      "label": "Fami通"
-    },
-    {
       "id": "unwinnable",
       "site": "unwinnable",
       "label": "Unwinnable"
@@ -503,11 +498,6 @@
       "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
-    },
-    {
-      "id": "famitsu",
-      "site": "famitsu",
-      "label": "Fami通"
     },
     {
       "id": "rpgamer",
@@ -1109,11 +1099,6 @@
       "label": "GameSpot"
     },
     {
-      "id": "famitsu",
-      "site": "famitsu",
-      "label": "Fami通"
-    },
-    {
       "id": "rpgamer",
       "site": "rpgamer",
       "label": "RPGamer"
@@ -1275,11 +1260,6 @@
       "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
-    },
-    {
-      "id": "famitsu",
-      "site": "famitsu",
-      "label": "Fami通"
     },
     {
       "id": "ign",
@@ -1757,11 +1737,6 @@
       "label": "GameSpot"
     },
     {
-      "id": "famitsu",
-      "site": "famitsu",
-      "label": "Fami通"
-    },
-    {
       "id": "ign",
       "site": "ign",
       "label": "IGN"
@@ -1960,6 +1935,30 @@
       "label": "Unwinnable"
     }
   ],
+  "mother-2": [
+    {
+      "id": "ign",
+      "site": "ign",
+      "label": "IGN"
+    },
+    {
+      "id": "rpgfan",
+      "site": "rpgfan",
+      "label": "RPGFan"
+    }
+  ],
+  "mother-3": [
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rpgfan",
+      "site": "rpgfan",
+      "label": "RPGFan"
+    }
+  ],
   "neverwinter-nights": [
     {
       "id": "gamespot",
@@ -2111,11 +2110,6 @@
       "label": "RPG Site"
     },
     {
-      "id": "famitsu",
-      "site": "famitsu",
-      "label": "Fami通"
-    },
-    {
       "id": "rpgamer-2",
       "site": "rpgamer",
       "label": "RPGamer · 2"
@@ -2151,11 +2145,6 @@
       "id": "rpgsite",
       "site": "rpgsite",
       "label": "RPG Site"
-    },
-    {
-      "id": "famitsu",
-      "site": "famitsu",
-      "label": "Fami通"
     },
     {
       "id": "unwinnable",
@@ -3224,11 +3213,6 @@
       "id": "gamesandculture",
       "site": "gamesandculture",
       "label": "Games and Culture"
-    },
-    {
-      "id": "famitsu",
-      "site": "famitsu",
-      "label": "Fami通"
     },
     {
       "id": "unwinnable",

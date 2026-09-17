@@ -19,7 +19,7 @@ type GameRecord = {
   slug: string;
   title: string;
   platform: string;
-  score: number;
+  score: number | null;
   releaseYear: number | null;
   genre: string;
   metacriticUrl: string;
@@ -42,7 +42,8 @@ function mergeGames(records: GameRecord[]): CatalogGame[] {
     }
 
     if (!existing.platforms.includes(game.platform)) existing.platforms.push(game.platform);
-    existing.score = Math.max(existing.score, game.score);
+    const scores = [existing.score, game.score].filter((score): score is number => score != null);
+    existing.score = scores.length ? Math.max(...scores) : null;
     existing.releaseYear ??= game.releaseYear;
     existing.metacriticUrl ||= game.metacriticUrl;
     for (const source of game.sources) {
@@ -65,8 +66,8 @@ const mediaLabels: Record<string, string> = {
   rockpapershotgun: 'RPS',
   rpgsite: 'RPG Site',
   adventuregamers: 'Adventure Gamers',
+  rpgfan: 'RPGFan',
   '4gamer': '4Gamer.net',
-  famitsu: 'Fami通',
   unwinnable: 'Unwinnable',
   rpgamer: 'RPGamer',
   aftermath: 'Aftermath',
@@ -111,9 +112,10 @@ export default function Home(): React.ReactNode {
     .filter((game) => media === '全部媒体' || game.sources.some((source) => mediaFilterKey(source) === media)))
     .sort((left, right) => {
       if (sortOrder === 'year') {
-        return (right.releaseYear ?? 0) - (left.releaseYear ?? 0) || right.score - left.score;
+        return (right.releaseYear ?? 0) - (left.releaseYear ?? 0)
+          || (right.score ?? -1) - (left.score ?? -1);
       }
-      return right.score - left.score || (right.releaseYear ?? 0) - (left.releaseYear ?? 0);
+      return (right.score ?? -1) - (left.score ?? -1) || (right.releaseYear ?? 0) - (left.releaseYear ?? 0);
     }), [games, media, platform, sortOrder]);
 
   return (
@@ -162,7 +164,7 @@ export default function Home(): React.ReactNode {
             <div className={styles.gameGrid}>
               {visibleGames.map((game) => (
                 <article className={styles.gameCard} key={game.slug}>
-                  <div className={styles.score}>{game.score}</div>
+                  <div className={styles.score}>{game.score ?? '—'}</div>
                   <div className={styles.gameInfo}>
                     <h3>
                       {game.hasTranslation ? (
@@ -171,7 +173,9 @@ export default function Home(): React.ReactNode {
                     </h3>
                     <p>{game.releaseYear || '年份待补'} · {game.platforms.join(' · ')}</p>
                     <div className={styles.reviewLinks}>
-                      <a href={game.metacriticUrl} target="_blank" rel="noreferrer">MC {game.score} ↗</a>
+                      {game.metacriticUrl && game.score != null && (
+                        <a href={game.metacriticUrl} target="_blank" rel="noreferrer">MC {game.score} ↗</a>
+                      )}
                       {game.sources.map((source) => (
                         <ExternalReviewLink key={`${source.site}:${source.url}`} source={source} />
                       ))}

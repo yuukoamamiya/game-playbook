@@ -7,7 +7,7 @@ const legacyFields = [
   'ign_score', 'ign_url', 'gamespot_score', 'gamespot_url',
   'pcgamer_url', 'eurogamer_url', 'nintendolife_url', 'rockpapershotgun_url',
   'rpgsite_url', 'adventuregamers_url',
-  'famitsu_urls', 'unwinnable_urls',
+  'unwinnable_urls',
 ];
 
 const rows = await readGames();

@@ -70,13 +70,6 @@
         "url": "https://www.gamespot.com/reviews/fire-emblem-awakening-review/1900-6403250/"
       },
       {
-        "site": "famitsu",
-        "kind": "feature",
-        "language": "ja",
-        "score": null,
-        "url": "https://www.famitsu.com/article/202604/71812"
-      },
-      {
         "site": "rpgamer",
         "kind": "review",
         "language": "en",
@@ -546,13 +539,6 @@
         "url": "https://www.gamespot.com/reviews/golden-sun-review/1900-2824028/"
       },
       {
-        "site": "famitsu",
-        "kind": "feature",
-        "language": "ja",
-        "score": null,
-        "url": "https://www.famitsu.com/article/202608/82652"
-      },
-      {
         "site": "ign",
         "kind": "review",
         "language": "en",
@@ -733,13 +719,6 @@
         "url": "https://www.gamespot.com/reviews/chrono-trigger-review/1900-6201545/"
       },
       {
-        "site": "famitsu",
-        "kind": "feature",
-        "language": "ja",
-        "score": null,
-        "url": "https://www.famitsu.com/article/202603/67922"
-      },
-      {
         "site": "rpgamer",
         "kind": "review",
         "language": "en",
@@ -781,13 +760,6 @@
         "language": "en",
         "score": 9.2,
         "url": "https://www.gamespot.com/reviews/mario-kart-ds-review/1900-6139765/"
-      },
-      {
-        "site": "famitsu",
-        "kind": "feature",
-        "language": "ja",
-        "score": null,
-        "url": "https://www.famitsu.com/article/202512/59536"
       },
       {
         "site": "ign",
@@ -1118,13 +1090,6 @@
         "language": "en",
         "score": 10,
         "url": "https://www.rpgsite.net/review/9556-persona-5-royal-review"
-      },
-      {
-        "site": "famitsu",
-        "kind": "feature",
-        "language": "ja",
-        "score": null,
-        "url": "https://www.famitsu.com/article/202609/87181"
       },
       {
         "site": "unwinnable",
@@ -1893,13 +1858,6 @@
         "language": "en",
         "score": 10,
         "url": "https://www.rpgsite.net/review/3111-persona-4-golden-review"
-      },
-      {
-        "site": "famitsu",
-        "kind": "feature",
-        "language": "ja",
-        "score": null,
-        "url": "https://www.famitsu.com/article/202606/77873"
       },
       {
         "site": "rpgamer",
@@ -4339,13 +4297,6 @@
         "url": "https://www.rockpapershotgun.com/undertale-review"
       },
       {
-        "site": "famitsu",
-        "kind": "feature",
-        "language": "ja",
-        "score": null,
-        "url": "https://www.famitsu.com/article/202609/87183"
-      },
-      {
         "site": "unwinnable",
         "kind": "essay",
         "language": "en",
@@ -5935,13 +5886,6 @@
         "language": "en",
         "score": null,
         "url": "https://unwinnable.com/2025/06/03/is-bayonetta-more-than-sacrilegious-brawling/"
-      },
-      {
-        "site": "famitsu",
-        "kind": "feature",
-        "language": "ja",
-        "score": null,
-        "url": "https://www.famitsu.com/article/202510/55955"
       }
     ]
   },
@@ -7305,6 +7249,62 @@
         "language": "en",
         "score": 9,
         "url": "https://www.rpgsite.net/review/2974-world-of-warcraft-cataclysm-review"
+      }
+    ]
+  },
+  {
+    "slug": "mother-2",
+    "title": "MOTHER 2",
+    "platform": "Wii U",
+    "metacritic_score": 91,
+    "must_play": true,
+    "release_year": 2013,
+    "genre": "RPG",
+    "metacritic_url": "https://www.metacritic.com/game/earthbound/",
+    "content_status": "metacritic-must-play",
+    "notes": "手工补录；Metacritic Wii U 条目；中文名：地球冒险2",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": 9,
+        "url": "https://www.ign.com/articles/2013/07/24/earthbound-review"
+      },
+      {
+        "site": "rpgfan",
+        "kind": "review",
+        "language": "en",
+        "score": 8.8,
+        "url": "https://www.rpgfan.com/review/earthbound/"
+      }
+    ]
+  },
+  {
+    "slug": "mother-3",
+    "title": "Mother 3",
+    "platform": "Game Boy Advance",
+    "metacritic_score": null,
+    "must_play": true,
+    "release_year": 2006,
+    "genre": "RPG",
+    "metacritic_url": "",
+    "content_status": "manually-added",
+    "notes": "手工补录；未见可用 Metacritic 总分；中文名：地球冒险3",
+    "sources": [
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": 7,
+        "url": "https://www.eurogamer.net/mother-3-review"
+      },
+      {
+        "site": "rpgfan",
+        "kind": "review",
+        "language": "en",
+        "score": 9.3,
+        "url": "https://www.rpgfan.com/review/mother-3/"
       }
     ]
   }

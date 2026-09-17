@@ -51,9 +51,6 @@ export function sourcesFromLegacy(row) {
       url,
     });
   }
-  for (const url of Array.isArray(row.famitsu_urls) ? row.famitsu_urls : []) {
-    add({site: 'famitsu', kind: 'feature', language: 'ja', score: null, url});
-  }
   for (const url of Array.isArray(row.unwinnable_urls) ? row.unwinnable_urls : []) {
     add({site: 'unwinnable', kind: 'essay', language: 'en', score: null, url});
   }
@@ -86,8 +83,8 @@ export const mediaLabels = {
   rockpapershotgun: 'Rock Paper Shotgun',
   rpgsite: 'RPG Site',
   adventuregamers: 'Adventure Gamers',
+  rpgfan: 'RPGFan',
   '4gamer': '4Gamer.net',
-  famitsu: 'Fami通',
   unwinnable: 'Unwinnable',
   rpgamer: 'RPGamer',
   aftermath: 'Aftermath',

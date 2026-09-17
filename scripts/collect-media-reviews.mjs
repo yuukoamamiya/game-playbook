@@ -18,7 +18,7 @@ const PROXY = 'http://127.0.0.1:10809';
 // the local proxy (v2rayN); mark those with `proxy: true`. Avoid curl's
 // `--ssl-no-revoke` here: Cloudflare (e.g. Unwinnable) rejects that handshake.
 const SITES = {
-  eurogamer: { start: /<div class="article_body_content[^>]*>/, end: /<div[^>]*class="[^"]*read-next/, proxy: true },
+  eurogamer: { start: /<div class="article_body_content[^>]*>/, end: /<nav[^>]*class="[^"]*pagination|<div[^>]*class="[^"]*read-next|<footer/, proxy: true, paginate: { param: 'page', pattern: /of <span class="max">(\d+)<\/span>/ } },
   rockpapershotgun: { start: /<div class="article_body_content[^>]*>/, end: /<div[^>]*class="[^"]*read-next/, proxy: true },
   adventuregamers: { start: /<div class="[^"]*ag-content-area"/, end: /<footer/ },
   rpgsite: { start: /<div id="article-story"[^>]*>/, end: /<\/article>|<div[^>]*class="[^"]*(?:comments|related)/ },
@@ -28,11 +28,11 @@ const SITES = {
   '4gamer': { start: /<div\s+class="maintxt">/, end: /関連タイトル/ },
   unwinnable: { start: /<article[^>]*>[\s\S]*?<\/header>/, end: /<\w+[^>]*class="tnp-subscription-posts"|<\w+[^>]*class="entry-bottom"|<\w+[^>]*class="related-post/, proxy: true, delay: 1500, authorPattern: /rel="author"[^>]*>([^<]+)<\/a>/, strip: [/You feel compelled to support great writing…\s*/] },
   aftermath: { start: /<article[^>]*>/, end: /<\/article>/, proxy: true },
-  famitsu: { start: /<div class="ArticleDetailBody_articleBody__[^"]*"/, end: /<\w[^>]*class="ArticleDetailBody_(?:buttonList|pager)__|<\w[^>]*class="ArticleDetail_articleMainFooter__/ },
+  rpgfan: { start: /<div class="post-body post-text">/, end: /<hr\s*\/?>\s*<div class="grid-x small-12 scoreboard">/ },
   ign: {
     variants: [
       { host: /ign\.com\.cn$/, start: /<div[^>]*class="[^"]*article-body[^"]*"/, end: /<\/article>/ },
-      { start: /<div data-cy="article-content"/, end: /data-cy="comments-view-trigger"|data-cy="footer"/ },
+      { start: /<div data-cy="article-content"/, end: /<div data-pogo="sidebar"[^>]*><\/div>|data-cy="comments-view-trigger"|data-cy="footer"/ },
     ],
   },
 };
@@ -126,6 +126,19 @@ async function fetchHtml(url, useProxy) {
 
 async function exists(p) { try { await access(p); return true; } catch { return false; } }
 
+async function appendPages(url, config, html, body) {
+  const max = Number((html.match(config.paginate.pattern) ?? [])[1] ?? 1);
+  const sep = url.includes('?') ? '&' : '?';
+  for (let page = 2; page <= Math.min(max, 10); page += 1) {
+    const pageUrl = `${url}${sep}${config.paginate.param}=${page}`;
+    const pageBody = extractBody(await fetchHtml(pageUrl, config.proxy), config);
+    if (pageBody.length < 400) break;
+    body = `${body}\n\n${pageBody}`;
+    if (config.delay) await sleep(config.delay);
+  }
+  return body;
+}
+
 const args = process.argv.slice(2);
 const flag = (name) => {
   const hit = args.find((a) => a.startsWith(`--${name}=`));
@@ -172,7 +185,8 @@ async function processOne(t) {
     const config = siteConfig(t.site, t.url);
     const html = await fetchHtml(t.url, config.proxy);
     if (config.delay) await sleep(config.delay);
-    const body = extractBody(html, config);
+    let body = extractBody(html, config);
+    if (config.paginate) body = await appendPages(t.url, config, html, body);
     if (body.length < (config.minLength ?? 800)) throw new Error(`body too short (${body.length})`);
     const meta = jsonLdMeta(html);
     if (!meta.author && config.authorPattern) {
