@@ -142,7 +142,6 @@ for (const r of report) {
 console.error(`\nmissing ${report.length} | confident ${confident} | no-candidate ${none}`);
 
 if (write) {
-  const exclude = new Set(['bayonetta-plus-bayonetta-2']);
   const overrides = {
     'age-of-empires-ii-the-age-of-kings': 'https://www.ign.com/articles/1999/10/09/age-of-empires-ii-the-age-of-kings',
     'warcraft-iii-reign-of-chaos': 'https://www.ign.com/articles/2001/12/06/warcraft-iii-reign-of-chaos-3',
@@ -155,7 +154,6 @@ if (write) {
   for (const row of rows) {
     if (hasSource(row, 'ign')) continue;
     const slug = row.slug;
-    if (exclude.has(slug)) continue;
     if (overrides[slug]) { addSource(row, {site: 'ign', kind: 'review', language: 'en', score: null, url: overrides[slug]}); filled += 1; continue; }
     const best = candidates(row.title)[0];
     if (best && best.extra.length === 0 && best.score >= 15) { addSource(row, {site: 'ign', kind: 'review', language: 'en', score: null, url: best.url}); filled += 1; }

@@ -102,15 +102,11 @@ async function processOne(file) {
   const docPath = resolve(docDir, `${slug}.mdx`);
   if (await exists(docPath)) {
     let doc = await readFile(docPath, 'utf8');
-    const marker = `/img/reviews/${slug}.jpg`;
-    if (!doc.includes(marker)) {
+    const marker = new RegExp(`/img/reviews(?:-webp)?/${slug}\\.(?:jpg|webp)`);
+    if (!marker.test(doc)) {
       const title = (doc.match(/^#\s+(.*)$/m)?.[1] ?? slug).trim();
-      const imageLine = `![${title} IGN 评测头图](${marker})`;
-      if (/<ReviewTab\s+site="ign"/.test(doc)) {
-        doc = doc.replace(/(<ReviewTab\s+site="ign"[^>]*>)/, `$1\n\n${imageLine}`);
-      } else {
-        doc = doc.replace(/^(#\s+.*)$/m, `$1\n\n${imageLine}`);
-      }
+      const imageLine = `![${title} 游戏头图](/img/reviews/${slug}.jpg)`;
+      doc = doc.replace(/^(#\s+.*)$/m, `$1\n\n${imageLine}`);
       await writeFile(docPath, doc, 'utf8');
       stats.docsUpdated += 1;
     }

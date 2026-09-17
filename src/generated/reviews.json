@@ -14,11 +14,6 @@
       "id": "eurogamer",
       "site": "eurogamer",
       "label": "Eurogamer"
-    },
-    {
-      "id": "nintendoworldreport",
-      "site": "nintendoworldreport",
-      "label": "Nintendo World Report"
     }
   ],
   "advance-wars": [
@@ -36,11 +31,6 @@
       "id": "eurogamer",
       "site": "eurogamer",
       "label": "Eurogamer"
-    },
-    {
-      "id": "nintendoworldreport",
-      "site": "nintendoworldreport",
-      "label": "Nintendo World Report"
     }
   ],
   "against-the-storm": [
@@ -63,11 +53,6 @@
       "id": "aftermath",
       "site": "aftermath",
       "label": "Aftermath"
-    },
-    {
-      "id": "nintendoworldreport",
-      "site": "nintendoworldreport",
-      "label": "Nintendo World Report"
     }
   ],
   "age-of-empires-ii-the-age-of-kings": [
@@ -262,23 +247,6 @@
       "label": "Eurogamer"
     }
   ],
-  "bayonetta-plus-bayonetta-2": [
-    {
-      "id": "nintendoworldreport",
-      "site": "nintendoworldreport",
-      "label": "Nintendo World Report"
-    },
-    {
-      "id": "nintendoworldreport-2",
-      "site": "nintendoworldreport",
-      "label": "Nintendo World Report · 猎天使魔女2"
-    },
-    {
-      "id": "eurogamer",
-      "site": "eurogamer",
-      "label": "Eurogamer"
-    }
-  ],
   "bayonetta": [
     {
       "id": "ign",
@@ -415,11 +383,6 @@
       "id": "ign",
       "site": "ign",
       "label": "IGN"
-    },
-    {
-      "id": "nintendoworldreport",
-      "site": "nintendoworldreport",
-      "label": "Nintendo World Report"
     }
   ],
   "castlevania-circle-of-the-moon": [
@@ -432,11 +395,6 @@
       "id": "ign",
       "site": "ign",
       "label": "IGN"
-    },
-    {
-      "id": "nintendoworldreport",
-      "site": "nintendoworldreport",
-      "label": "Nintendo World Report"
     }
   ],
   "celeste": [
@@ -471,11 +429,6 @@
       "id": "rpgamer",
       "site": "rpgamer",
       "label": "RPGamer"
-    },
-    {
-      "id": "nintendoworldreport",
-      "site": "nintendoworldreport",
-      "label": "Nintendo World Report"
     }
   ],
   "chicory-a-colorful-tale": [
@@ -525,11 +478,6 @@
       "id": "eurogamer",
       "site": "eurogamer",
       "label": "Eurogamer"
-    },
-    {
-      "id": "nintendoworldreport",
-      "site": "nintendoworldreport",
-      "label": "Nintendo World Report"
     }
   ],
   "clair-obscur-expedition-33": [
@@ -935,11 +883,6 @@
       "id": "gamestudies-rendle-pasternack",
       "site": "gamestudies",
       "label": "Game Studies · Elden Ring"
-    },
-    {
-      "id": "crpgaddict-briefs",
-      "site": "crpgaddict",
-      "label": "The CRPG Addict · Elden Ring 随想"
     }
   ],
   "empire-total-war": [
@@ -1023,11 +966,6 @@
       "label": "Eurogamer"
     },
     {
-      "id": "nintendoworldreport",
-      "site": "nintendoworldreport",
-      "label": "Nintendo World Report"
-    },
-    {
       "id": "rpgamer",
       "site": "rpgamer",
       "label": "RPGamer"
@@ -1099,11 +1037,6 @@
       "id": "rpgamer",
       "site": "rpgamer",
       "label": "RPGamer"
-    },
-    {
-      "id": "nintendoworldreport",
-      "site": "nintendoworldreport",
-      "label": "Nintendo World Report"
     },
     {
       "id": "eurogamer",
@@ -1272,11 +1205,6 @@
       "id": "eurogamer",
       "site": "eurogamer",
       "label": "Eurogamer"
-    },
-    {
-      "id": "nintendoworldreport",
-      "site": "nintendoworldreport",
-      "label": "Nintendo World Report"
     }
   ],
   "grand-theft-auto-chinatown-wars": [
@@ -1294,11 +1222,6 @@
       "id": "4gamer",
       "site": "4gamer",
       "label": "4Gamer.net"
-    },
-    {
-      "id": "nintendoworldreport",
-      "site": "nintendoworldreport",
-      "label": "Nintendo World Report"
     }
   ],
   "grand-theft-auto-iii": [
@@ -1681,11 +1604,6 @@
       "id": "eurogamer",
       "site": "eurogamer",
       "label": "Eurogamer"
-    },
-    {
-      "id": "nintendoworldreport",
-      "site": "nintendoworldreport",
-      "label": "Nintendo World Report"
     }
   ],
   "mario-and-luigi-superstar-saga": [
@@ -1698,11 +1616,6 @@
       "id": "eurogamer",
       "site": "eurogamer",
       "label": "Eurogamer"
-    },
-    {
-      "id": "nintendoworldreport",
-      "site": "nintendoworldreport",
-      "label": "Nintendo World Report"
     }
   ],
   "mario-kart-8-deluxe": [
@@ -1742,11 +1655,6 @@
       "id": "eurogamer",
       "site": "eurogamer",
       "label": "Eurogamer"
-    },
-    {
-      "id": "nintendoworldreport",
-      "site": "nintendoworldreport",
-      "label": "Nintendo World Report"
     }
   ],
   "mario-kart-super-circuit": [
@@ -1759,11 +1667,6 @@
       "id": "ign",
       "site": "ign",
       "label": "IGN"
-    },
-    {
-      "id": "nintendoworldreport",
-      "site": "nintendoworldreport",
-      "label": "Nintendo World Report"
     }
   ],
   "mass-effect-2": [
@@ -1842,11 +1745,6 @@
       "id": "eurogamer",
       "site": "eurogamer",
       "label": "Eurogamer"
-    },
-    {
-      "id": "nintendoworldreport",
-      "site": "nintendoworldreport",
-      "label": "Nintendo World Report"
     }
   ],
   "metroid-prime-remastered": [
@@ -2161,11 +2059,6 @@
       "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
-    },
-    {
-      "id": "nintendoworldreport",
-      "site": "nintendoworldreport",
-      "label": "Nintendo World Report"
     }
   ],
   "red-dead-redemption-2": [
@@ -2517,11 +2410,6 @@
       "label": "GameSpot"
     },
     {
-      "id": "nintendoworldreport",
-      "site": "nintendoworldreport",
-      "label": "Nintendo World Report"
-    },
-    {
       "id": "eurogamer",
       "site": "eurogamer",
       "label": "Eurogamer"
@@ -2537,11 +2425,6 @@
       "id": "ign",
       "site": "ign",
       "label": "IGN"
-    },
-    {
-      "id": "nintendoworldreport",
-      "site": "nintendoworldreport",
-      "label": "Nintendo World Report"
     }
   ],
   "super-mario-bros-wonder": [
@@ -2588,11 +2471,6 @@
       "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
-    },
-    {
-      "id": "nintendoworldreport",
-      "site": "nintendoworldreport",
-      "label": "Nintendo World Report"
     }
   ],
   "super-smash-bros-ultimate": [
@@ -2694,11 +2572,6 @@
       "label": "GameSpot"
     },
     {
-      "id": "crpgaddict",
-      "site": "crpgaddict",
-      "label": "The CRPG Addict"
-    },
-    {
       "id": "rpgamer",
       "site": "rpgamer",
       "label": "RPGamer"
@@ -2724,26 +2597,6 @@
       "id": "gamestudies",
       "site": "gamestudies",
       "label": "Game Studies"
-    },
-    {
-      "id": "crpgaddict-skyrim-break",
-      "site": "crpgaddict",
-      "label": "The CRPG Addict · Skyrim Break"
-    },
-    {
-      "id": "crpgaddict-one-more",
-      "site": "crpgaddict",
-      "label": "The CRPG Addict · One More Skyrim Posting"
-    },
-    {
-      "id": "crpgaddict-midgame",
-      "site": "crpgaddict",
-      "label": "The CRPG Addict · Mid-Game Review"
-    },
-    {
-      "id": "crpgaddict-hate",
-      "site": "crpgaddict",
-      "label": "The CRPG Addict · What I Hate Most"
     }
   ],
   "the-last-of-us-part-ii-remastered": [
@@ -2790,11 +2643,6 @@
       "label": "4Gamer.net"
     },
     {
-      "id": "nintendoworldreport",
-      "site": "nintendoworldreport",
-      "label": "Nintendo World Report"
-    },
-    {
       "id": "rpgsite",
       "site": "rpgsite",
       "label": "RPG Site"
@@ -2815,11 +2663,6 @@
       "id": "eurogamer",
       "site": "eurogamer",
       "label": "Eurogamer"
-    },
-    {
-      "id": "nintendoworldreport",
-      "site": "nintendoworldreport",
-      "label": "Nintendo World Report"
     }
   ],
   "the-legend-of-zelda-breath-of-the-wild-nintendo": [
@@ -2878,11 +2721,6 @@
       "label": "4Gamer.net"
     },
     {
-      "id": "nintendoworldreport",
-      "site": "nintendoworldreport",
-      "label": "Nintendo World Report"
-    },
-    {
       "id": "eurogamer",
       "site": "eurogamer",
       "label": "Eurogamer"
@@ -2903,11 +2741,6 @@
       "id": "ign-2",
       "site": "ign",
       "label": "IGN · 2"
-    },
-    {
-      "id": "nintendoworldreport",
-      "site": "nintendoworldreport",
-      "label": "Nintendo World Report"
     }
   ],
   "the-legend-of-zelda-tears-of-the-kingdom-nintendo": [
@@ -3321,11 +3154,6 @@
       "id": "eurogamer",
       "site": "eurogamer",
       "label": "Eurogamer"
-    },
-    {
-      "id": "nintendoworldreport",
-      "site": "nintendoworldreport",
-      "label": "Nintendo World Report"
     }
   ]
 }

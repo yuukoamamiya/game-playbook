@@ -6,7 +6,6 @@ const legacyMedia = [
   {site: 'rockpapershotgun', kind: 'review', language: 'en', urlField: 'rockpapershotgun_url'},
   {site: 'rpgsite', kind: 'review', language: 'en', urlField: 'rpgsite_url'},
   {site: 'adventuregamers', kind: 'review', language: 'en', urlField: 'adventuregamers_url'},
-  {site: 'nintendoworldreport', kind: 'review', language: 'en', urlField: 'nintendoworldreport_url'},
 ];
 
 function validUrl(url) {
@@ -84,12 +83,10 @@ export const mediaLabels = {
   rockpapershotgun: 'Rock Paper Shotgun',
   rpgsite: 'RPG Site',
   adventuregamers: 'Adventure Gamers',
-  nintendoworldreport: 'Nintendo World Report',
   '4gamer': '4Gamer.net',
   famitsu: 'Fami通',
   unwinnable: 'Unwinnable',
   rpgamer: 'RPGamer',
-  crpgaddict: 'The CRPG Addict',
   aftermath: 'Aftermath',
   radicalphilosophy: 'Radical Philosophy',
   jesperjuul: 'Jesper Juul',

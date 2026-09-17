@@ -14,7 +14,6 @@ const media = [
   {key: 'rockpapershotgun', domain: 'rockpapershotgun.com', label: 'Rock Paper Shotgun'},
   {key: 'rpgsite', domain: 'rpgsite.net', label: 'RPG Site'},
   {key: 'adventuregamers', domain: 'adventuregamers.com', base: 'adventuregamers.com', label: 'Adventure Gamers'},
-  {key: 'nintendoworldreport', domain: 'nintendoworldreport.com', base: 'www.nintendoworldreport.com', listing: 'https://www.nintendoworldreport.com/review/', label: 'Nintendo World Report'},
 ];
 
 const excludedWords = /\b(preview|previews|hands[- ]?on|impressions|news|guide|guides|walkthrough|trailer|video|feature|interview|tips|wiki|攻略|新闻|预览|试玩|deal|sale|best games|release date|patch notes|update|review roundup|movie review|film review|tv review|after[- ]further[- ]review|wrap[- ]up|discussion|online[- ]slots|rave reviews|where['’]?s our review|ai[- ]generated|metacritic|world[- ]of[- ]mods|mod|review[- ]bomb|bombed|being review|mixed steam reviews|steam reviews|working on|translation|on[- ]the[- ]way|quality issues)\b/i;

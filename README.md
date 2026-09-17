@@ -11,6 +11,7 @@
 - `docs/games/_template.mdx`：新增游戏文档时使用的模板。
 - `DESIGN.md`：给 AI 和后续维护者使用的视觉与内容规则。
 - `AGENTS.md`：跨 AI 协作、内容边界、验证和交接规则。
+- `TODO.md`：当前未完成的媒体正文、评分核对和其他维护事项。
 
 ## Cloudflare Pages
 

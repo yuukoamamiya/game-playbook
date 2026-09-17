@@ -16,7 +16,6 @@ const only = process.argv.slice(2);
 const SITES = {
   eurogamer: { start: /<div class="article_body_content[^>]*>/, end: /<div[^>]*class="[^"]*read-next/ },
   rockpapershotgun: { start: /<div class="article_body_content[^>]*>/, end: /<div[^>]*class="[^"]*read-next/ },
-  crpgaddict: { start: /<div class='post-body[^']*'/, end: /<div class='post-footer/ },
   adventuregamers: { start: /<div class="[^"]*ag-content-area"/, end: /<footer/ },
   rpgsite: { start: /<div id="article-story"[^>]*>/, end: /<\/article>|<div[^>]*class="[^"]*(?:comments|related)/ },
   theatlantic: { start: /<section class="ArticleBody_root[^"]*"[^>]*>/, end: /<footer|class="ArticleBelow|class="ArticleFooter/ },

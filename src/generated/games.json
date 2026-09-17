@@ -27,7 +27,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 5,
         "url": "https://www.eurogamer.net/super-mario-odyssey-review-8"
       }
     ],
@@ -64,7 +64,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 5,
         "url": "https://www.eurogamer.net/the-legend-of-zelda-breath-of-the-wild-review-7"
       },
       {
@@ -277,7 +277,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 4,
         "url": "https://www.eurogamer.net/the-legend-of-zelda-tears-of-the-kingdom-review"
       },
       {
@@ -372,7 +372,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.eurogamer.net/grand-theft-auto-5-review"
       }
     ],
@@ -439,7 +439,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 10,
         "url": "https://www.eurogamer.net/portal-2-review"
       },
       {
@@ -483,7 +483,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 5,
         "url": "https://www.eurogamer.net/hades-2-review"
       },
       {
@@ -520,7 +520,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 10,
         "url": "https://www.ign.com/articles/the-legend-of-zelda-tears-of-the-kingdom-nintendo-switch-2-edition-review-update"
       },
       {
@@ -550,29 +550,22 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.7,
         "url": "https://www.ign.com/articles/2002/12/03/legend-of-zelda-a-link-to-the-past"
       },
       {
         "site": "gamespot",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.2,
         "url": "https://www.gamespot.com/reviews/the-legend-of-zelda-a-link-to-the-past-review/1900-2901300/"
       },
       {
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 10,
         "url": "https://www.eurogamer.net/r-zelda3-gba"
-      },
-      {
-        "site": "nintendoworldreport",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.nintendoworldreport.com/review/4040/the-legend-of-zelda-a-link-to-the-past--four-swords-game-boy-advance"
       }
     ],
     "contentStatus": "metacritic-must-play",
@@ -594,7 +587,7 @@
         "site": "gamespot",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.9,
         "url": "https://www.gamespot.com/reviews/tony-hawks-pro-skater-2-review/1900-2630641/"
       }
     ],
@@ -647,13 +640,6 @@
         "language": "en",
         "score": null,
         "url": "https://gamestudies.org/2501/articles/rendle_pasternack"
-      },
-      {
-        "site": "crpgaddict",
-        "kind": "essay",
-        "language": "en",
-        "score": null,
-        "url": "https://crpgaddict.blogspot.com/2023/02/brief-briefs-part-1-plus-some-notes-on.html"
       }
     ],
     "contentStatus": "links-collected",
@@ -675,22 +661,15 @@
         "site": "gamespot",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 8.9,
         "url": "https://www.gamespot.com/reviews/super-mario-advance-4-super-mario-bros-3/1900-6077002/"
       },
       {
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.5,
         "url": "https://www.ign.com/articles/2003/10/15/super-mario-bros-3-super-mario-advance-4"
-      },
-      {
-        "site": "nintendoworldreport",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.nintendoworldreport.com/review/4140/super-mario-advance-4-super-mario-bros-3-game-boy-advance"
       }
     ],
     "contentStatus": "metacritic-must-play",
@@ -763,7 +742,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 5,
         "url": "https://www.eurogamer.net/hades-2-review"
       },
       {
@@ -844,7 +823,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 3,
         "url": "https://www.eurogamer.net/persona-5-royal-review"
       },
       {
@@ -902,14 +881,14 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.5,
         "url": "https://www.ign.com/articles/2011/06/17/the-legend-of-zelda-ocarina-of-time-3d-review"
       },
       {
         "site": "gamespot",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 8.5,
         "url": "https://www.gamespot.com/reviews/the-legend-of-zelda-ocarina-of-time-3d-review/1900-6320103/"
       },
       {
@@ -920,17 +899,10 @@
         "url": "https://www.4gamer.net/games/113/G011358/20110722077/"
       },
       {
-        "site": "nintendoworldreport",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.nintendoworldreport.com/review/26859/the-legend-of-zelda-ocarina-of-time-3d-nintendo-3ds"
-      },
-      {
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 10,
         "url": "https://www.eurogamer.net/the-legend-of-zelda-ocarina-of-time-3d-review"
       }
     ],
@@ -953,7 +925,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 10,
         "url": "https://www.ign.com/articles/the-legend-of-zelda-breath-of-the-wild-nintendo-switch-2-edition-review-update"
       },
       {
@@ -999,13 +971,6 @@
         "language": "en",
         "score": null,
         "url": "https://www.rpgsite.net/review/2773-elder-scrolls-iv-oblivion-review"
-      },
-      {
-        "site": "crpgaddict",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://crpgaddict.blogspot.com/2011/03/game-1257-elder-scrolls-iv-oblivion.html"
       },
       {
         "site": "rpgamer",
@@ -1071,34 +1036,6 @@
         "language": "en",
         "score": null,
         "url": "https://gamestudies.org/2003/articles/bjorkelo"
-      },
-      {
-        "site": "crpgaddict",
-        "kind": "essay",
-        "language": "en",
-        "score": null,
-        "url": "https://crpgaddict.blogspot.com/2011/11/skyrim-break.html"
-      },
-      {
-        "site": "crpgaddict",
-        "kind": "essay",
-        "language": "en",
-        "score": null,
-        "url": "https://crpgaddict.blogspot.com/2011/11/one-more-skyrim-posting.html"
-      },
-      {
-        "site": "crpgaddict",
-        "kind": "essay",
-        "language": "en",
-        "score": null,
-        "url": "https://crpgaddict.blogspot.com/2011/11/skyrim-mid-game-review.html"
-      },
-      {
-        "site": "crpgaddict",
-        "kind": "essay",
-        "language": "en",
-        "score": null,
-        "url": "https://crpgaddict.blogspot.com/2012/01/what-i-hate-most-about-skyrim.html"
       }
     ],
     "contentStatus": "links-collected",
@@ -1134,7 +1071,7 @@
         "site": "eurogamer",
         "kind": "feature",
         "language": "en",
-        "score": null,
+        "score": 8,
         "url": "https://www.eurogamer.net/bioshock-infinite-burial-at-sea-episode-two-review"
       },
       {
@@ -1321,7 +1258,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 10,
         "url": "https://www.ign.com/articles/half-life-alyx-review"
       },
       {
@@ -1335,7 +1272,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 4,
         "url": "https://www.eurogamer.net/half-life-alyx-review-a-legend-returns-in-elegant-form"
       },
       {
@@ -1379,7 +1316,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 5,
         "url": "https://www.eurogamer.net/hades-review-of-myth-and-mayhem"
       },
       {
@@ -1437,7 +1374,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 5,
         "url": "https://www.eurogamer.net/hades-review-of-myth-and-mayhem"
       },
       {
@@ -1481,7 +1418,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 10,
         "url": "https://www.ign.com/articles/2018/10/25/red-dead-redemption-2-review"
       },
       {
@@ -1495,7 +1432,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 4,
         "url": "https://www.eurogamer.net/red-dead-redemption-2-review-9"
       },
       {
@@ -1555,22 +1492,15 @@
         "site": "gamespot",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 8.2,
         "url": "https://www.gamespot.com/reviews/mario-kart-super-circuit-review/1900-2808115/"
       },
       {
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.5,
         "url": "https://www.ign.com/articles/2001/08/29/mario-kart-super-circuit"
-      },
-      {
-        "site": "nintendoworldreport",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.nintendoworldreport.com/review/3792/mario-kart-super-circuit-game-boy-advance"
       }
     ],
     "contentStatus": "metacritic-must-play",
@@ -1592,7 +1522,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.1,
         "url": "https://www.ign.com/articles/2004/12/10/world-of-warcraft-review"
       },
       {
@@ -1666,7 +1596,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.6,
         "url": "https://www.ign.com/articles/2017/09/21/divinity-original-sin-2-review"
       },
       {
@@ -1680,7 +1610,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 5,
         "url": "https://www.eurogamer.net/divinity-original-sin-2-review"
       },
       {
@@ -1738,7 +1668,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 5,
         "url": "https://www.eurogamer.net/divinity-original-sin-2-review"
       },
       {
@@ -1775,7 +1705,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.ign.com/articles/2011/11/24/minecraft-review"
       },
       {
@@ -1789,7 +1719,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 10,
         "url": "https://www.eurogamer.net/minecraft-review"
       },
       {
@@ -1854,14 +1784,14 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.3,
         "url": "https://www.ign.com/articles/2015/05/12/the-witcher-3-the-wild-hunt-review"
       },
       {
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 5,
         "url": "https://www.eurogamer.net/the-witcher-3-wild-hunt-review"
       },
       {
@@ -1891,14 +1821,14 @@
         "site": "ign",
         "kind": "feature",
         "language": "en",
-        "score": null,
+        "score": 9.3,
         "url": "https://www.ign.com/articles/2009/10/20/grand-theft-auto-chinatown-wars-review"
       },
       {
         "site": "gamespot",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.5,
         "url": "https://www.gamespot.com/reviews/grand-theft-auto-chinatown-wars-review/1900-6206274/"
       },
       {
@@ -1907,13 +1837,6 @@
         "language": "ja",
         "score": null,
         "url": "https://www.4gamer.net/games/094/G009489/20091029038/"
-      },
-      {
-        "site": "nintendoworldreport",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.nintendoworldreport.com/review/18232/grand-theft-auto-chinatown-wars-nintendo-ds"
       }
     ],
     "contentStatus": "metacritic-must-play",
@@ -1949,7 +1872,7 @@
         "site": "eurogamer",
         "kind": "feature",
         "language": "en",
-        "score": null,
+        "score": 5,
         "url": "https://www.eurogamer.net/grand-theft-auto-3-10-year-anniversary-edition-review-review"
       },
       {
@@ -2002,7 +1925,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.ign.com/articles/2010/08/03/starcraft-ii-wings-of-liberty-review"
       },
       {
@@ -2016,7 +1939,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.eurogamer.net/starcraft-ii-wings-of-liberty-review"
       }
     ],
@@ -2039,7 +1962,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.ign.com/articles/2003/11/22/star-wars-knights-of-the-old-republic-review"
       },
       {
@@ -2069,7 +1992,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.4,
         "url": "https://www.ign.com/articles/2004/03/12/unreal-tournament-2004-review"
       },
       {
@@ -2099,7 +2022,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 7.3,
         "url": "https://www.ign.com/articles/2007/04/26/company-of-heroes-review"
       },
       {
@@ -2129,7 +2052,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 10,
         "url": "https://www.ign.com/articles/2018/04/12/god-of-war-review"
       },
       {
@@ -2143,7 +2066,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 4,
         "url": "https://www.eurogamer.net/god-of-war-review-astonishing-technological-craft-in-the-service-of-simple-pleasures"
       },
       {
@@ -2180,7 +2103,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 10,
         "url": "https://www.ign.com/articles/elden-ring-shadow-of-the-erdtree-dlc-review"
       },
       {
@@ -2194,7 +2117,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 3,
         "url": "https://www.eurogamer.net/elden-ring-shadow-of-the-erdtree-review"
       },
       {
@@ -2231,7 +2154,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.ign.com/articles/metaphor-refantazio-review"
       },
       {
@@ -2245,7 +2168,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 5,
         "url": "https://www.eurogamer.net/metaphor-refantazio-review"
       },
       {
@@ -2303,7 +2226,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 5,
         "url": "https://www.eurogamer.net/super-mario-bros-wonder-review"
       }
     ],
@@ -2326,22 +2249,15 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.3,
         "url": "https://www.ign.com/articles/2002/02/11/super-mario-world-super-mario-advance-2-review"
       },
       {
         "site": "gamespot",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.4,
         "url": "https://www.gamespot.com/reviews/super-mario-world-super-mario-advance-2-review/1900-2847297/"
-      },
-      {
-        "site": "nintendoworldreport",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.nintendoworldreport.com/review/3839/super-mario-world-super-mario-advance-2-game-boy-advance"
       }
     ],
     "contentStatus": "metacritic-must-play",
@@ -2363,7 +2279,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 10,
         "url": "https://www.ign.com/articles/2018/09/18/undertale-review"
       },
       {
@@ -2377,7 +2293,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 4,
         "url": "https://www.eurogamer.net/undertale-review"
       },
       {
@@ -2428,7 +2344,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 8.8,
         "url": "https://www.ign.com/articles/1999/10/09/age-of-empires-ii-the-age-of-kings"
       },
       {
@@ -2442,7 +2358,7 @@
         "site": "eurogamer",
         "kind": "feature",
         "language": "en",
-        "score": null,
+        "score": 5,
         "url": "https://www.eurogamer.net/age-of-empires-2-hd-review"
       }
     ],
@@ -2465,29 +2381,22 @@
         "site": "gamespot",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.1,
         "url": "https://www.gamespot.com/reviews/advance-wars-review/1900-2811574/"
       },
       {
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.9,
         "url": "https://www.ign.com/articles/2001/09/10/advance-wars"
       },
       {
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 10,
         "url": "https://www.eurogamer.net/r-advancewars"
-      },
-      {
-        "site": "nintendoworldreport",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.nintendoworldreport.com/review/3803/advance-wars-game-boy-advance"
       }
     ],
     "contentStatus": "metacritic-must-play",
@@ -2509,14 +2418,14 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.6,
         "url": "https://www.ign.com/articles/2013/01/30/fire-emblem-awakening-review"
       },
       {
         "site": "gamespot",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 8.5,
         "url": "https://www.gamespot.com/reviews/fire-emblem-awakening-review/1900-6403250/"
       },
       {
@@ -2534,17 +2443,10 @@
         "url": "https://rpgamer.com/review/fire-emblem-awakening-review/"
       },
       {
-        "site": "nintendoworldreport",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.nintendoworldreport.com/review/33177/fire-emblem-awakening-nintendo-3ds"
-      },
-      {
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 10,
         "url": "https://www.eurogamer.net/fire-emblem-awakening-review"
       },
       {
@@ -2574,7 +2476,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.ign.com/articles/street-fighter-6-review"
       },
       {
@@ -2588,7 +2490,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 4,
         "url": "https://www.eurogamer.net/street-fighter-6-review-social-silly-spectacular"
       },
       {
@@ -2618,7 +2520,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 8.9,
         "url": "https://www.ign.com/articles/2007/10/09/team-fortress-2-review"
       },
       {
@@ -2632,7 +2534,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 10,
         "url": "https://www.eurogamer.net/team-fortress-2-re-review"
       },
       {
@@ -2676,7 +2578,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.eurogamer.net/bayonetta-2-review"
       }
     ],
@@ -2699,7 +2601,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 7,
         "url": "https://www.ign.com/articles/total-war-rome-remastered-review"
       },
       {
@@ -2743,7 +2645,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 5,
         "url": "https://www.eurogamer.net/mario-kart-8-deluxe-review"
       }
     ],
@@ -2840,7 +2742,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 8.9,
         "url": "https://www.ign.com/articles/1998/12/12/thief-the-dark-project"
       },
       {
@@ -2884,7 +2786,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 5,
         "url": "https://www.eurogamer.net/resident-evil-requiem-review"
       },
       {
@@ -2921,14 +2823,14 @@
         "site": "ign",
         "kind": "feature",
         "language": "en",
-        "score": null,
+        "score": 10,
         "url": "https://www.ign.com/articles/2011/05/25/chrono-trigger-review"
       },
       {
         "site": "gamespot",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 8.5,
         "url": "https://www.gamespot.com/reviews/chrono-trigger-review/1900-6201545/"
       },
       {
@@ -2949,22 +2851,15 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 8.8,
         "url": "https://www.ign.com/articles/2008/11/20/chrono-trigger-ds-review"
       },
       {
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 10,
         "url": "https://www.eurogamer.net/chrono-trigger-review"
-      },
-      {
-        "site": "nintendoworldreport",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.nintendoworldreport.com/review/17445/chrono-trigger-nintendo-ds"
       }
     ],
     "contentStatus": "metacritic-must-play",
@@ -2986,7 +2881,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.4,
         "url": "https://www.ign.com/articles/2007/11/07/call-of-duty-4-modern-warfare-au-review"
       },
       {
@@ -3000,7 +2895,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.eurogamer.net/call-of-duty-4-modern-warfare-review"
       }
     ],
@@ -3083,7 +2978,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 4,
         "url": "https://www.eurogamer.net/celeste-review"
       },
       {
@@ -3120,7 +3015,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.ign.com/articles/2016/05/25/the-witcher-3-wild-hunt-blood-and-wine-review"
       },
       {
@@ -3187,7 +3082,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.6,
         "url": "https://www.ign.com/articles/1999/12/07/unreal-tournament-6"
       }
     ],
@@ -3210,7 +3105,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.1,
         "url": "https://www.ign.com/articles/2008/05/12/galactic-civilizations-ii-twilight-of-the-arnor-review"
       },
       {
@@ -3240,29 +3135,22 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.5,
         "url": "https://www.ign.com/articles/2002/11/12/metroid-fusion-review"
       },
       {
         "site": "gamespot",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 8.6,
         "url": "https://www.gamespot.com/reviews/metroid-fusion-review/1900-2897729/"
       },
       {
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.eurogamer.net/r-metroidfusion-gba"
-      },
-      {
-        "site": "nintendoworldreport",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.nintendoworldreport.com/review/3986/metroid-fusion-game-boy-advance"
       }
     ],
     "contentStatus": "metacritic-must-play",
@@ -3284,7 +3172,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.ign.com/articles/final-fantasy-xiv-endwalker-review-ffxiv"
       },
       {
@@ -3328,22 +3216,15 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.ign.com/articles/2007/02/15/final-fantasy-vi-advance-review"
       },
       {
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.eurogamer.net/final-fantasy-vi-advance-review"
-      },
-      {
-        "site": "nintendoworldreport",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.nintendoworldreport.com/review/12623/final-fantasy-vi-advance-game-boy-advance"
       },
       {
         "site": "rpgamer",
@@ -3372,7 +3253,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.ign.com/articles/blue-prince-review"
       },
       {
@@ -3386,7 +3267,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 5,
         "url": "https://www.eurogamer.net/blue-prince-review"
       },
       {
@@ -3423,7 +3304,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.3,
         "url": "https://www.ign.com/articles/2009/09/11/batman-arkham-asylum-review"
       },
       {
@@ -3460,7 +3341,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.5,
         "url": "https://www.ign.com/articles/2011/10/14/batman-arkham-city-review"
       },
       {
@@ -3474,7 +3355,7 @@
         "site": "eurogamer",
         "kind": "feature",
         "language": "en",
-        "score": null,
+        "score": 7,
         "url": "https://www.eurogamer.net/batman-arkham-city-harley-quinns-revenge-review"
       }
     ],
@@ -3550,29 +3431,22 @@
         "site": "gamespot",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.2,
         "url": "https://www.gamespot.com/reviews/yoshis-island-super-mario-advance-3-review/1900-2882007/"
       },
       {
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.4,
         "url": "https://www.ign.com/articles/2002/09/24/yoshis-island-super-mario-advance-3"
       },
       {
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.eurogamer.net/r-yoshisisland-gba"
-      },
-      {
-        "site": "nintendoworldreport",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.nintendoworldreport.com/review/3966/super-mario-advance-3-yoshis-island-game-boy-advance"
       }
     ],
     "contentStatus": "metacritic-must-play",
@@ -3608,7 +3482,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 4,
         "url": "https://www.eurogamer.net/donkey-kong-bananza-review"
       }
     ],
@@ -3631,7 +3505,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 10,
         "url": "https://www.ign.com/articles/spelunky-2-review"
       },
       {
@@ -3645,7 +3519,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 5,
         "url": "https://www.eurogamer.net/spelunky-2-review-the-depths-beckon"
       },
       {
@@ -3675,22 +3549,15 @@
         "site": "gamespot",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 8.6,
         "url": "https://www.gamespot.com/reviews/castlevania-aria-of-sorrow-review/1900-6026640/"
       },
       {
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.3,
         "url": "https://www.ign.com/articles/2003/05/05/castlevania-aria-of-sorrow"
-      },
-      {
-        "site": "nintendoworldreport",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.nintendoworldreport.com/review/4092/castlevania-aria-of-sorrow-game-boy-advance"
       }
     ],
     "contentStatus": "metacritic-must-play",
@@ -3712,22 +3579,15 @@
         "site": "gamespot",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.6,
         "url": "https://www.gamespot.com/reviews/castlevania-circle-of-the-moon-review/1900-2770559/"
       },
       {
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.ign.com/articles/2001/06/14/castlevania-circle-of-the-moon"
-      },
-      {
-        "site": "nintendoworldreport",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.nintendoworldreport.com/review/3788/castlevania-circle-of-the-moon-game-boy-advance"
       }
     ],
     "contentStatus": "metacritic-must-play",
@@ -3749,7 +3609,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 5,
         "url": "https://www.eurogamer.net/against-the-storm-review-a-perfectly-chaotic-city-builder"
       },
       {
@@ -3772,13 +3632,6 @@
         "language": "en",
         "score": null,
         "url": "https://aftermath.site/against-the-storm-is-a-really-good-city-builder"
-      },
-      {
-        "site": "nintendoworldreport",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.nintendoworldreport.com/review/71504/against-the-storm-switch-review"
       }
     ],
     "contentStatus": "metacritic-filtered",
@@ -3800,7 +3653,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.5,
         "url": "https://www.ign.com/articles/2008/10/28/fallout-3-au-review"
       },
       {
@@ -3814,7 +3667,7 @@
         "site": "eurogamer",
         "kind": "feature",
         "language": "en",
-        "score": null,
+        "score": 5,
         "url": "https://www.eurogamer.net/fallout-3-operation-anchorage-review"
       },
       {
@@ -3886,7 +3739,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 8.3,
         "url": "https://www.ign.com/articles/2007/11/14/crysis-au-review"
       },
       {
@@ -3900,7 +3753,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.eurogamer.net/crysis-review"
       }
     ],
@@ -3923,7 +3776,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.ign.com/articles/clair-obscur-expedition-33-review"
       },
       {
@@ -3937,7 +3790,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 4,
         "url": "https://www.eurogamer.net/clair-obscur-expedition-33-review"
       },
       {
@@ -3974,7 +3827,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.ign.com/articles/2014/03/11/dark-souls-2-review"
       },
       {
@@ -3988,7 +3841,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.eurogamer.net/dark-souls-2-review"
       },
       {
@@ -4018,7 +3871,7 @@
         "site": "gamespot",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 8.6,
         "url": "https://www.gamespot.com/reviews/golden-sun-review/1900-2824028/"
       },
       {
@@ -4032,22 +3885,15 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.7,
         "url": "https://www.ign.com/articles/2001/11/10/golden-sun"
       },
       {
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.eurogamer.net/r-goldensun-gba"
-      },
-      {
-        "site": "nintendoworldreport",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.nintendoworldreport.com/review/3823/golden-sun-game-boy-advance"
       }
     ],
     "contentStatus": "metacritic-must-play",
@@ -4069,7 +3915,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.6,
         "url": "https://www.ign.com/articles/2019/10/16/disco-elysium-review"
       },
       {
@@ -4083,7 +3929,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 3,
         "url": "https://www.eurogamer.net/disco-elysium-review-large-scale-whodunit-with-a-lack-of-focus"
       },
       {
@@ -4134,7 +3980,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 10,
         "url": "https://www.ign.com/articles/forza-horizon-5-review"
       },
       {
@@ -4148,7 +3994,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 4,
         "url": "https://www.eurogamer.net/forza-horizon-5-review-the-ultimate-big-tent-driving-game-cruises-to-mexico"
       },
       {
@@ -4178,7 +4024,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.ign.com/articles/2009/02/13/street-fighter-iv-au-review"
       },
       {
@@ -4192,7 +4038,7 @@
         "site": "eurogamer",
         "kind": "feature",
         "language": "en",
-        "score": null,
+        "score": 8,
         "url": "https://www.eurogamer.net/ultra-street-fighter-4-review"
       }
     ],
@@ -4229,7 +4075,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 5,
         "url": "https://www.eurogamer.net/hollow-knight-silksong-review"
       },
       {
@@ -4259,7 +4105,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 8.7,
         "url": "https://www.ign.com/articles/2009/11/04/dragon-age-origins-review"
       },
       {
@@ -4310,7 +4156,7 @@
         "site": "gamespot",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.2,
         "url": "https://www.gamespot.com/reviews/mario-kart-ds-review/1900-6139765/"
       },
       {
@@ -4324,22 +4170,15 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.5,
         "url": "https://www.ign.com/articles/2005/11/12/mario-kart-ds"
       },
       {
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.eurogamer.net/r-mariokart-ds"
-      },
-      {
-        "site": "nintendoworldreport",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.nintendoworldreport.com/review/4450/mario-kart-ds-nintendo-ds"
       }
     ],
     "contentStatus": "metacritic-must-play",
@@ -4361,7 +4200,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 8.8,
         "url": "https://www.ign.com/articles/2007/01/30/world-of-warcraft-the-burning-crusade-review"
       },
       {
@@ -4375,7 +4214,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 8,
         "url": "https://www.eurogamer.net/world-of-warcraft-the-burning-crusade-review"
       }
     ],
@@ -4398,7 +4237,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.ign.com/articles/2008/11/26/world-of-warcraft-wrath-of-the-lich-king-review"
       },
       {
@@ -4412,7 +4251,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 10,
         "url": "https://www.eurogamer.net/world-of-warcraft-wrath-of-the-lich-king-review"
       }
     ],
@@ -4449,7 +4288,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 4,
         "url": "https://www.eurogamer.net/inside-review"
       },
       {
@@ -4509,14 +4348,14 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.4,
         "url": "https://www.ign.com/articles/2013/11/14/the-legend-of-zelda-a-link-between-worlds-review"
       },
       {
         "site": "gamespot",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.gamespot.com/reviews/the-legend-of-zelda-a-link-between-worlds-review/1900-6415543/"
       },
       {
@@ -4525,13 +4364,6 @@
         "language": "ja",
         "score": null,
         "url": "https://www.4gamer.net/games/212/G021244/20130615013/"
-      },
-      {
-        "site": "nintendoworldreport",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.nintendoworldreport.com/review/35972/the-legend-of-zelda-a-link-between-worlds-nintendo-3ds"
       },
       {
         "site": "rpgsite",
@@ -4560,7 +4392,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 7.7,
         "url": "https://www.ign.com/articles/2007/05/25/resident-evil-4-review"
       },
       {
@@ -4597,7 +4429,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 10,
         "url": "https://www.ign.com/articles/crusader-kings-3-review"
       },
       {
@@ -4664,7 +4496,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.4,
         "url": "https://www.ign.com/articles/2016/05/28/overwatch-review"
       },
       {
@@ -4708,7 +4540,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.ign.com/articles/death-stranding-2-on-the-beach-review"
       },
       {
@@ -4722,7 +4554,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 4,
         "url": "https://www.eurogamer.net/death-stranding-2-on-the-beach-review"
       }
     ],
@@ -4798,7 +4630,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.6,
         "url": "https://www.ign.com/articles/2002/11/18/splinter-cell-review"
       },
       {
@@ -4812,7 +4644,7 @@
         "site": "eurogamer",
         "kind": "feature",
         "language": "en",
-        "score": null,
+        "score": 4,
         "url": "https://www.eurogamer.net/tom-clancys-splinter-cell-3d-review"
       }
     ],
@@ -4835,7 +4667,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.ign.com/articles/tekken-8-review"
       },
       {
@@ -4849,7 +4681,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 5,
         "url": "https://www.eurogamer.net/tekken-8-review"
       },
       {
@@ -4909,7 +4741,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 10,
         "url": "https://www.ign.com/articles/microsoft-flight-simulator-review"
       },
       {
@@ -5015,7 +4847,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.ign.com/articles/satisfactory-review"
       },
       {
@@ -5052,7 +4884,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.2,
         "url": "https://www.ign.com/articles/2012/10/08/dishonored-review"
       },
       {
@@ -5112,7 +4944,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.ign.com/articles/2007/02/12/galactic-civilizations-ii-dark-avatar-review"
       },
       {
@@ -5156,7 +4988,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 3,
         "url": "https://www.eurogamer.net/dragon-quest-11-echoes-of-an-elusive-age-review-a-staunchly-traditional-return-for-the-stately-rpg-series"
       },
       {
@@ -5193,7 +5025,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 8.9,
         "url": "https://www.ign.com/articles/2005/06/19/battlefield-2-review"
       },
       {
@@ -5283,14 +5115,14 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.ign.com/articles/big-walk-review"
       },
       {
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 5,
         "url": "https://www.eurogamer.net/big-walk-review"
       }
     ],
@@ -5320,7 +5152,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 5,
         "url": "https://www.eurogamer.net/ufo-50-review-a-rangy-confounding-and-audacious-proposition"
       },
       {
@@ -5401,7 +5233,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 4,
         "url": "https://www.eurogamer.net/ori-and-the-blind-forest-review"
       },
       {
@@ -5431,7 +5263,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.4,
         "url": "https://www.ign.com/articles/2007/10/09/half-life-2-episode-two-review"
       },
       {
@@ -5468,28 +5300,21 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.5,
         "url": "https://www.ign.com/articles/2011/11/09/super-mario-3d-land-review"
       },
       {
         "site": "gamespot",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 8,
         "url": "https://www.gamespot.com/reviews/super-mario-3d-land-review/1900-6344529/"
-      },
-      {
-        "site": "nintendoworldreport",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.nintendoworldreport.com/review/28387/super-mario-3d-land-nintendo-3ds"
       },
       {
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.eurogamer.net/super-mario-3d-land-review"
       }
     ],
@@ -5512,7 +5337,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 8.2,
         "url": "https://www.ign.com/articles/2007/10/09/portal-review"
       },
       {
@@ -5549,7 +5374,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.5,
         "url": "https://www.ign.com/articles/2009/03/06/empire-total-war-review"
       },
       {
@@ -5563,7 +5388,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.eurogamer.net/empire-total-war-review"
       },
       {
@@ -5593,7 +5418,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.ign.com/articles/animal-well-review"
       },
       {
@@ -5607,7 +5432,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 5,
         "url": "https://www.eurogamer.net/animal-well-review"
       },
       {
@@ -5637,29 +5462,22 @@
         "site": "gamespot",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.2,
         "url": "https://www.gamespot.com/reviews/advance-wars-dual-strike-review/1900-6131573/"
       },
       {
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.ign.com/articles/2005/08/19/advance-wars-dual-strike"
       },
       {
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.eurogamer.net/r-advancewarsds-ds"
-      },
-      {
-        "site": "nintendoworldreport",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.nintendoworldreport.com/review/4390/advance-wars-dual-strike-nintendo-ds"
       }
     ],
     "contentStatus": "metacritic-must-play",
@@ -5695,7 +5513,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 4,
         "url": "https://www.eurogamer.net/onimusha-way-of-the-sword-review"
       },
       {
@@ -5755,7 +5573,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.ign.com/articles/2012/09/12/guild-wars-2-review"
       },
       {
@@ -5769,7 +5587,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.eurogamer.net/guild-wars-2-review"
       },
       {
@@ -5799,7 +5617,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 10,
         "url": "https://www.ign.com/articles/forza-horizon-6-review"
       },
       {
@@ -5813,7 +5631,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 5,
         "url": "https://www.eurogamer.net/forza-horizon-6-review"
       },
       {
@@ -5857,7 +5675,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 5,
         "url": "https://www.eurogamer.net/animal-crossing-new-horizons-review-a-magical-vivarium-and-one-of-nintendos-best-games-yet"
       },
       {
@@ -5901,7 +5719,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.ign.com/articles/chicory-colorful-tale-review"
       },
       {
@@ -6003,7 +5821,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 5,
         "url": "https://www.eurogamer.net/hollow-knight-silksong-review"
       },
       {
@@ -6056,7 +5874,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.5,
         "url": "https://www.ign.com/articles/2009/12/22/bayonetta-review"
       },
       {
@@ -6087,43 +5905,6 @@
     "translationPath": "docs/games/bayonetta.mdx"
   },
   {
-    "slug": "bayonetta-plus-bayonetta-2",
-    "title": "猎天使魔女 + 猎天使魔女2",
-    "sourceTitle": "Bayonetta + Bayonetta 2",
-    "platform": "Nintendo Switch",
-    "score": 90,
-    "releaseYear": 2018,
-    "genre": "",
-    "metacriticUrl": "https://www.metacritic.com/game/bayonetta-plus-bayonetta-2/",
-    "sources": [
-      {
-        "site": "nintendoworldreport",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.nintendoworldreport.com/review/46470/bayonetta-switch-review"
-      },
-      {
-        "site": "nintendoworldreport",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.nintendoworldreport.com/review/46468/bayonetta-2-switch-review"
-      },
-      {
-        "site": "eurogamer",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.eurogamer.net/bayonetta-2-review"
-      }
-    ],
-    "contentStatus": "metacritic-filtered",
-    "hasTranslation": true,
-    "translationStatus": "translated",
-    "translationPath": "docs/games/bayonetta-plus-bayonetta-2.mdx"
-  },
-  {
     "slug": "mario-and-luigi-superstar-saga",
     "title": "马力欧与路易吉RPG",
     "sourceTitle": "Mario & Luigi: Superstar Saga",
@@ -6137,7 +5918,7 @@
         "site": "gamespot",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.2,
         "url": "https://www.gamespot.com/reviews/mario-and-luigi-superstar-saga/1900-6083876/"
       },
       {
@@ -6151,15 +5932,8 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.eurogamer.net/r-marioandluigi-gba"
-      },
-      {
-        "site": "nintendoworldreport",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.nintendoworldreport.com/review/4154/mario-n-luigi-superstar-saga-game-boy-advance"
       }
     ],
     "contentStatus": "metacritic-must-play",
@@ -6181,36 +5955,29 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 8.4,
         "url": "https://www.ign.com/articles/2009/10/21/mario-luigi-bowsers-inside-story-au-review"
       },
       {
         "site": "gamespot",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.gamespot.com/reviews/mario-and-luigi-bowsers-inside-story/1900-6226786/"
       },
       {
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.5,
         "url": "https://www.ign.com/articles/2009/09/10/mario-luigi-bowsers-inside-story-review"
       },
       {
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.eurogamer.net/mario-and-luigi-bowsers-inside-story-review"
-      },
-      {
-        "site": "nintendoworldreport",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.nintendoworldreport.com/review/20040/mario-n-luigi-bowsers-inside-story-nintendo-ds"
       }
     ],
     "contentStatus": "metacritic-must-play",
@@ -6232,7 +5999,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.4,
         "url": "https://www.ign.com/articles/2004/09/11/the-sims-2-review"
       },
       {
@@ -6262,7 +6029,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.ign.com/articles/2010/12/23/world-of-warcraft-cataclysm-review"
       },
       {
@@ -6276,7 +6043,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 10,
         "url": "https://www.eurogamer.net/world-of-warcraft-cataclysm-review"
       },
       {
@@ -6320,7 +6087,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.eurogamer.net/persona-4-golden-review"
       },
       {
@@ -6385,7 +6152,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.ign.com/articles/dave-the-diver-review"
       },
       {
@@ -6415,7 +6182,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.ign.com/articles/2011/03/17/total-war-shogun-2-review"
       },
       {
@@ -6429,7 +6196,7 @@
         "site": "eurogamer",
         "kind": "feature",
         "language": "en",
-        "score": null,
+        "score": 8,
         "url": "https://www.eurogamer.net/total-war-shogun-2-fall-of-the-samurai-review"
       }
     ],
@@ -6452,29 +6219,22 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.3,
         "url": "https://www.ign.com/articles/2007/10/10/the-legend-of-zelda-phantom-hourglass-au-review"
       },
       {
         "site": "gamespot",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.gamespot.com/reviews/the-legend-of-zelda-phantom-hourglass-review/1900-6180182/"
       },
       {
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.ign.com/articles/2007/09/25/the-legend-of-zelda-phantom-hourglass-review"
-      },
-      {
-        "site": "nintendoworldreport",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.nintendoworldreport.com/review/14526/the-legend-of-zelda-phantom-hourglass-nintendo-ds"
       }
     ],
     "contentStatus": "metacritic-must-play",
@@ -6526,7 +6286,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.ign.com/articles/2011/08/22/deus-ex-human-revolution-review"
       },
       {
@@ -6540,7 +6300,7 @@
         "site": "eurogamer",
         "kind": "feature",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.eurogamer.net/deus-ex-human-revolution-directors-cut-review"
       },
       {
@@ -6635,7 +6395,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 5,
         "url": "https://www.eurogamer.net/resident-evil-requiem-review"
       },
       {
@@ -6672,7 +6432,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.ign.com/articles/split-fiction-review"
       },
       {
@@ -6686,7 +6446,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 5,
         "url": "https://www.eurogamer.net/split-fiction-review"
       },
       {
@@ -6716,7 +6476,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.ign.com/articles/the-stanley-parable-ultra-deluxe-review"
       },
       {
@@ -6762,13 +6522,6 @@
         "language": "en",
         "score": null,
         "url": "https://rpgamer.com/review/chained-echoes-review/"
-      },
-      {
-        "site": "nintendoworldreport",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.nintendoworldreport.com/review/63269/chained-echoes-switch-review"
       }
     ],
     "contentStatus": "metacritic-filtered",
@@ -6790,22 +6543,15 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.5,
         "url": "https://www.ign.com/articles/2011/12/08/pushmo-review"
       },
       {
         "site": "gamespot",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 8.5,
         "url": "https://www.gamespot.com/reviews/pushmo-review/1900-6348267/"
-      },
-      {
-        "site": "nintendoworldreport",
-        "kind": "review",
-        "language": "en",
-        "score": null,
-        "url": "https://www.nintendoworldreport.com/review/28656/pushmo-nintendo-3ds"
       }
     ],
     "contentStatus": "metacritic-must-play",
@@ -6827,14 +6573,14 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.3,
         "url": "https://www.ign.com/articles/2002/04/05/tony-hawk-pro-skater-3-review"
       },
       {
         "site": "gamespot",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 10,
         "url": "https://www.gamespot.com/reviews/tony-hawks-pro-skater-3-review/1900-2820972/"
       }
     ],
@@ -6857,7 +6603,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.3,
         "url": "https://www.ign.com/articles/2002/04/05/tony-hawk-pro-skater-3-review"
       },
       {
@@ -6901,7 +6647,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 5,
         "url": "https://www.eurogamer.net/mina-the-hollower-review"
       },
       {
@@ -6959,7 +6705,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 5,
         "url": "https://www.eurogamer.net/mina-the-hollower-review"
       },
       {
@@ -7003,7 +6749,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.ign.com/articles/hi-fi-rush-review"
       },
       {
@@ -7017,7 +6763,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 4,
         "url": "https://www.eurogamer.net/hi-fi-rush-review-an-unrepentant-riot-of-rhythm-action"
       },
       {
@@ -7054,7 +6800,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.ign.com/articles/2002/06/25/civilization-iii-full-review"
       },
       {
@@ -7091,7 +6837,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.ign.com/articles/2010/09/20/civilization-v-review"
       },
       {
@@ -7105,7 +6851,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 8,
         "url": "https://www.eurogamer.net/sid-meiers-civilization-v-review"
       }
     ],
@@ -7128,7 +6874,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.2,
         "url": "https://www.ign.com/articles/2008/12/02/grand-theft-auto-iv-review"
       },
       {
@@ -7142,7 +6888,7 @@
         "site": "eurogamer",
         "kind": "feature",
         "language": "en",
-        "score": null,
+        "score": 8,
         "url": "https://www.eurogamer.net/grand-theft-auto-iv-the-ballad-of-gay-tony-review"
       },
       {
@@ -7172,7 +6918,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.ign.com/articles/2018/02/27/into-the-breach-review"
       },
       {
@@ -7186,7 +6932,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 4,
         "url": "https://www.eurogamer.net/into-the-breach-review-tactical-greatness-in-glorious-miniature"
       },
       {
@@ -7216,7 +6962,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.ign.com/articles/balatro-review"
       },
       {
@@ -7230,7 +6976,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 4,
         "url": "https://www.eurogamer.net/balatro-review"
       },
       {
@@ -7311,7 +7057,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 4,
         "url": "https://www.eurogamer.net/sea-of-stars-review"
       },
       {
@@ -7355,7 +7101,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.ign.com/articles/valheim-early-access-review"
       }
     ],
@@ -7378,7 +7124,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.ign.com/articles/2008/10/20/world-of-goo-review"
       },
       {
@@ -7392,7 +7138,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.eurogamer.net/world-of-goo-review"
       },
       {
@@ -7422,7 +7168,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 10,
         "url": "https://www.ign.com/articles/god-of-war-ragnarok-review"
       },
       {
@@ -7436,7 +7182,7 @@
         "site": "eurogamer",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 4,
         "url": "https://www.eurogamer.net/god-of-war-ragnarok-review-glorious-excess-makes-a-triumphant-return"
       },
       {
@@ -7466,7 +7212,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 8,
         "url": "https://www.ign.com/articles/shin-megami-tensei-v-vengeance-review"
       },
       {
@@ -7533,7 +7279,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 10,
         "url": "https://www.ign.com/articles/the-last-of-us-part-2-review"
       },
       {
@@ -7584,7 +7330,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.5,
         "url": "https://www.ign.com/articles/2019/07/12/ffxiv-shadowbringers-review"
       },
       {
@@ -7614,7 +7360,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.ign.com/articles/final-fantasy-7-rebirth-review"
       },
       {
@@ -7651,7 +7397,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.4,
         "url": "https://www.ign.com/articles/2013/07/24/dota-2-review"
       },
       {
@@ -7688,7 +7434,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9.2,
         "url": "https://www.ign.com/articles/2006/10/18/gtr-2-review"
       },
       {

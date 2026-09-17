@@ -63,12 +63,10 @@ const mediaLabels: Record<string, string> = {
   rockpapershotgun: 'RPS',
   rpgsite: 'RPG Site',
   adventuregamers: 'Adventure Gamers',
-  nintendoworldreport: 'NWR',
   '4gamer': '4Gamer.net',
   famitsu: 'Fami通',
   unwinnable: 'Unwinnable',
   rpgamer: 'RPGamer',
-  crpgaddict: 'CRPG Addict',
   aftermath: 'Aftermath',
   radicalphilosophy: 'Radical Philosophy',
   theatlantic: 'The Atlantic',
@@ -91,13 +89,18 @@ function ExternalReviewLink({source}: {source: MediaSource}) {
 export default function Home(): React.ReactNode {
   const games = gamesData as GameRecord[];
   const [platform, setPlatform] = useState('全部平台');
+  const [media, setMedia] = useState('全部媒体');
   const [sortOrder, setSortOrder] = useState<SortOrder>('score');
   const platforms = ['全部平台', ...Array.from(new Set(games.map((game) => game.platform)))];
   const catalogGames = useMemo(() => mergeGames(games), [games]);
+  const mediaOptions = ['全部媒体', ...Array.from(new Set(
+    catalogGames.flatMap((game) => game.sources.map((source) => source.site)),
+  ))];
   const translatedCount = catalogGames.filter((game) => game.hasTranslation).length;
 
   const visibleGames = useMemo(() => mergeGames(games
-    .filter((game) => platform === '全部平台' || game.platform === platform))
+    .filter((game) => platform === '全部平台' || game.platform === platform)
+    .filter((game) => media === '全部媒体' || game.sources.some((source) => source.site === media)))
     .sort((left, right) => {
       if (sortOrder === 'year') {
         return (right.releaseYear ?? 0) - (left.releaseYear ?? 0) || right.score - left.score;
@@ -127,6 +130,14 @@ export default function Home(): React.ReactNode {
                 <span>平台</span>
                 <select value={platform} onChange={(event) => setPlatform(event.target.value)}>
                   {platforms.map((item) => <option key={item} value={item}>{item}</option>)}
+                </select>
+              </label>
+              <label>
+                <span>媒体</span>
+                <select value={media} onChange={(event) => setMedia(event.target.value)}>
+                  {mediaOptions.map((item) => (
+                    <option key={item} value={item}>{mediaLabels[item] ?? item}</option>
+                  ))}
                 </select>
               </label>
               <label>
@@ -166,7 +177,7 @@ export default function Home(): React.ReactNode {
               <span className={styles.emptyNumber}>00</span>
               <div>
                 <h3>没有符合条件的游戏</h3>
-                <p>换一个平台试试。</p>
+                <p>换一个平台或媒体试试。</p>
               </div>
             </div>
           )}

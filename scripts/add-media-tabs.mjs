@@ -11,7 +11,6 @@ const labels = {
   rpgsite: 'RPG Site',
   rpgamer: 'RPGamer',
   '4gamer': '4Gamer.net',
-  crpgaddict: 'The CRPG Addict',
   adventuregamers: 'Adventure Gamers',
   theatlantic: 'The Atlantic',
   jesperjuul: 'Jesper Juul',

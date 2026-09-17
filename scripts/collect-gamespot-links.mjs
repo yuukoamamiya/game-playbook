@@ -102,7 +102,6 @@ for (const r of report) {
 console.error(`\nmissing ${report.length} | good ${good} | none ${miss}`);
 
 if (write) {
-  const exclude = new Set(['bayonetta-plus-bayonetta-2']);
   const overrides = {
     'elden-ring-shadow-of-the-erdtree': 'https://www.gamespot.com/reviews/elden-ring-shadow-of-the-erdtree-dlc-review-kill-them-with-kindness/1900-6418243/',
     'galactic-civilizations-ii-twilight-of-the-arnor': 'https://www.gamespot.com/reviews/galactic-civilizations-ii-twilight-of-the-arnor-re/1900-6191779/',
@@ -118,7 +117,6 @@ if (write) {
   for (const row of rows) {
     if (hasSource(row, 'gamespot')) continue;
     const slug = row.slug;
-    if (exclude.has(slug)) continue;
     if (overrides[slug]) { addSource(row, {site: 'gamespot', kind: 'review', language: 'en', score: null, url: overrides[slug]}); filled += 1; continue; }
     const best = candidates(row.title)[0];
     if (best && best.extras === 0 && best.prefixLen === best.titleLen) { addSource(row, {site: 'gamespot', kind: 'review', language: 'en', score: null, url: best.url}); filled += 1; }

@@ -13,7 +13,7 @@
 .catalogHeading h2 { margin: 0; color: var(--playbook-ink); font-size: 24px; letter-spacing: -.03em; }
 .controls { display: flex; gap: 12px; }
 .controls label { display: flex; align-items: center; gap: 8px; color: var(--ifm-color-emphasis-700); font: 500 11px/1.5 var(--ifm-font-family-monospace); }
-.controls select { min-width: 132px; padding: 8px 28px 8px 10px; color: var(--playbook-ink); background: var(--ifm-background-surface-color); border: 1px solid var(--ifm-color-emphasis-300); border-radius: 0; font: inherit; }
+.controls select { min-width: 132px; max-width: 190px; padding: 8px 28px 8px 10px; color: var(--playbook-ink); background: var(--ifm-background-surface-color); border: 1px solid var(--ifm-color-emphasis-300); border-radius: 0; font: inherit; }
 .gameGrid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; min-width: 0; }
 .gameCard { display: flex; gap: 20px; min-width: 0; min-height: 150px; padding: 24px; background: var(--ifm-background-surface-color); border: 1px solid var(--ifm-color-emphasis-200); transition: border-color .2s ease, transform .2s ease; }
 .gameCard:hover { border-color: var(--ifm-color-primary); transform: translateY(-2px); }
