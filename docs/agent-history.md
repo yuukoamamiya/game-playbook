@@ -17,6 +17,8 @@
 - `indienova` 曾临时加入，因用户确认存在版权风险已全部删除；不要恢复。
 - Early Access 评测可以保留。具体版本的评测仍需严格对应；文化评论、专题、历史回顾可以放宽版本对应。
 - 已检查齐泽克、加洛维、东浩纪、杰斯伯·尤尔和伊安·博格斯特。当前只有加洛维和尤尔确认有文章可对应现有目录游戏；博格斯特的已确认文章对应目录外作品，因此没有落库。
+- 学者文章用 `sources[].filter_group: "scholar"` 标记：`theatlantic`（博格斯特）、`jesperjuul`（尤尔）以及只有单篇文章的 `radicalphilosophy`（加洛维《Playing the Code》）和 `ctheory`（加洛维《Warcraft and Utopia》）都归入首页「学者」筛选项，卡片仍显示原始媒体名。`gamestudies` 是收录多篇论文的期刊，保持独立筛选项，其中加洛维的两篇不单独归入「学者」。
+- 已补录加洛维《Warcraft and Utopia》（CTheory 2006，主要讨论《魔兽世界》）→ `world-of-warcraft`。该文以前只有 PDF，University of Victoria 期刊站现提供 HTML 全文。
 
 ## 部署
 

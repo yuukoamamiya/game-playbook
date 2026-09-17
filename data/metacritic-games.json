@@ -3651,6 +3651,14 @@
         "language": "en",
         "score": null,
         "url": "https://gamestudies.org/0801/articles/karlsen"
+      },
+      {
+        "site": "ctheory",
+        "kind": "essay",
+        "language": "en",
+        "score": null,
+        "url": "https://journals.uvic.ca/index.php/ctheory/article/view/14501",
+        "filter_group": "scholar"
       }
     ]
   },
@@ -4052,7 +4060,8 @@
         "kind": "essay",
         "language": "en",
         "score": null,
-        "url": "https://www.radicalphilosophy.com/article/playing-the-code"
+        "url": "https://www.radicalphilosophy.com/article/playing-the-code",
+        "filter_group": "scholar"
       }
     ]
   },
@@ -4189,7 +4198,8 @@
         "kind": "essay",
         "language": "en",
         "score": null,
-        "url": "https://www.radicalphilosophy.com/article/playing-the-code"
+        "url": "https://www.radicalphilosophy.com/article/playing-the-code",
+        "filter_group": "scholar"
       },
       {
         "site": "gamestudies",
@@ -4369,7 +4379,8 @@
         "kind": "essay",
         "language": "en",
         "score": null,
-        "url": "https://www.radicalphilosophy.com/article/playing-the-code"
+        "url": "https://www.radicalphilosophy.com/article/playing-the-code",
+        "filter_group": "scholar"
       },
       {
         "site": "ign",
@@ -6838,7 +6849,8 @@
         "kind": "essay",
         "language": "en",
         "score": null,
-        "url": "https://www.radicalphilosophy.com/article/playing-the-code"
+        "url": "https://www.radicalphilosophy.com/article/playing-the-code",
+        "filter_group": "scholar"
       }
     ]
   },

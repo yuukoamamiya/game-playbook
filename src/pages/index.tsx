@@ -71,6 +71,7 @@ const mediaLabels: Record<string, string> = {
   rpgamer: 'RPGamer',
   aftermath: 'Aftermath',
   radicalphilosophy: 'Radical Philosophy',
+  ctheory: 'CTheory',
   jesperjuul: 'Jesper Juul',
   theatlantic: 'The Atlantic',
   gamestudies: 'Game Studies',
