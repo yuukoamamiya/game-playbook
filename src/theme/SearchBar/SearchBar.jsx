@@ -16,6 +16,19 @@ import { searchResultLimits } from "@easyops-cn/docusaurus-search-local/dist/cli
 import { parseKeymap, matchesKeymap, getKeymapHints } from "@easyops-cn/docusaurus-search-local/dist/client/client/utils/keymap";
 import { isMacPlatform } from "@easyops-cn/docusaurus-search-local/dist/client/client/utils/platform";
 import styles from "./SearchBar.module.css";
+const sharedIndexPromises = new Map();
+function fetchSharedIndex(baseUrl, searchContext) {
+    const cacheKey = `${baseUrl}${searchContext}`;
+    let promise = sharedIndexPromises.get(cacheKey);
+    if (!promise) {
+        promise = fetchIndexesByWorker(baseUrl, searchContext).catch((error) => {
+            sharedIndexPromises.delete(cacheKey);
+            throw error;
+        });
+        sharedIndexPromises.set(cacheKey, promise);
+    }
+    return promise;
+}
 async function fetchAutoCompleteJS() {
     const autoCompleteModule = await import("@easyops-cn/autocomplete.js");
     const autoComplete = autoCompleteModule.default;
@@ -65,7 +78,6 @@ export default function SearchBar({ handleSearchBarToggle, }) {
     // Should the input be focused after the index is loaded?
     const focusAfterIndexLoaded = useRef(false);
     const [loading, setLoading] = useState(false);
-    const [inputChanged, setInputChanged] = useState(false);
     const [inputValue, setInputValue] = useState("");
     const search = useRef(null);
     const askAIWidgetRef = useRef(null);
@@ -118,7 +130,7 @@ export default function SearchBar({ handleSearchBarToggle, }) {
         const [autoComplete, openAskAIModule] = await Promise.all([
             fetchAutoCompleteJS(),
             askAi ? fetchOpenAskAI() : Promise.resolve(null),
-            fetchIndexesByWorker(versionUrl, searchContext),
+            fetchSharedIndex(versionUrl, searchContext),
         ]);
         if (openAskAIModule) {
             setAskAIWidgetComponent(() => openAskAIModule.AskAIWidget);
@@ -276,6 +288,20 @@ export default function SearchBar({ handleSearchBarToggle, }) {
         }
     }, [hidden, searchContext, versionUrl, baseUrl, history]);
     useEffect(() => {
+        if (!isBrowser || hidden) {
+            return;
+        }
+        // Start loading the index after the page becomes idle so the first search
+        // does not have to begin the full download and Lunr initialization.
+        const preload = () => loadIndex();
+        if ("requestIdleCallback" in window) {
+            const idleId = window.requestIdleCallback(preload, {timeout: 1000});
+            return () => window.cancelIdleCallback(idleId);
+        }
+        const timeoutId = window.setTimeout(preload, 0);
+        return () => window.clearTimeout(timeoutId);
+    }, [isBrowser, hidden, loadIndex]);
+    useEffect(() => {
         if (!Mark) {
             return;
         }
@@ -327,9 +353,6 @@ export default function SearchBar({ handleSearchBarToggle, }) {
     }, [handleSearchBarToggle]);
     const onInputChange = useCallback((event) => {
         setInputValue(event.target.value);
-        if (event.target.value) {
-            setInputChanged(true);
-        }
     }, []);
     // Implement hint icons for the search shortcuts on mac and the rest operating systems.
     const isMac = isBrowser ? isMacPlatform() : false;
@@ -383,7 +406,7 @@ export default function SearchBar({ handleSearchBarToggle, }) {
         search.current?.autocomplete.setVal("");
     }, [location.pathname, location.search, location.hash, history]);
     return (<div className={clsx("navbar__search", styles.searchBarContainer, {
-            [styles.searchIndexLoading]: loading && inputChanged,
+            [styles.searchIndexLoading]: loading && focused,
             [styles.focused]: focused,
         })} hidden={hidden}
     // Manually make the search bar be LTR even if in RTL
