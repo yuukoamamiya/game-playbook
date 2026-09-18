@@ -15,7 +15,8 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-project.pages.dev',
+  // Set SITE_URL in the Cloudflare build environment for canonical URLs.
+  url: process.env.SITE_URL ?? process.env.CF_PAGES_URL ?? 'http://localhost:3000',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',

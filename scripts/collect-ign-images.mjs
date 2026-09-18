@@ -1,15 +1,18 @@
-import {readFile, writeFile, readdir, mkdir, access} from 'node:fs/promises';
+import {readFile, writeFile, readdir, mkdir, access, unlink} from 'node:fs/promises';
 import {resolve} from 'node:path';
+import {execFile} from 'node:child_process';
+import {promisify} from 'node:util';
+import {root} from './data-store.mjs';
 
-const root = 'D:/Documents/GitHub/Game';
 const enDir = resolve(root, 'content/reviews/en');
 const docDir = resolve(root, 'docs/games');
-const imgDir = resolve(root, 'static/img/reviews');
+const imgDir = resolve(root, 'static/img/reviews-webp');
 const userAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36';
 const maxWidth = 1280;
 const goodEnough = 900;
 const concurrency = 6;
 const force = process.argv.includes('--force');
+const execFileAsync = promisify(execFile);
 
 async function exists(path) {
   try { await access(path); return true; } catch { return false; }
@@ -68,7 +71,7 @@ async function processOne(file) {
   const fm = (await readFile(resolve(enDir, file), 'utf8')).match(/^---\r?\n([\s\S]*?)\r?\n---/)?.[1] ?? '';
   const primary = frontmatterField(fm, 'image');
   const fallback = frontmatterField(fm, 'image_fallback');
-  const outPath = resolve(imgDir, `${slug}.jpg`);
+  const outPath = resolve(imgDir, `${slug}.webp`);
 
   if (!primary && !fallback) {
     stats.failed += 1;
@@ -94,7 +97,16 @@ async function processOne(file) {
       failures.push(`${slug}: all candidates failed`);
       return;
     }
-    await writeFile(outPath, chosen.buffer);
+    const tempPath = resolve(imgDir, `.tmp-${slug}-${process.pid}`);
+    try {
+      await writeFile(tempPath, chosen.buffer);
+      await execFileAsync('ffmpeg', [
+        '-y', '-loglevel', 'error', '-i', tempPath,
+        '-c:v', 'libwebp', '-q:v', '82', outPath,
+      ]);
+    } finally {
+      await unlink(tempPath).catch(() => {});
+    }
     stats.downloaded += 1;
     console.log(`IMG   ${slug} | ${chosen.width}x${chosen.height} | ${chosen.buffer.length} bytes`);
   }
@@ -105,7 +117,7 @@ async function processOne(file) {
     const marker = new RegExp(`/img/reviews(?:-webp)?/${slug}\\.(?:jpg|webp)`);
     if (!marker.test(doc)) {
       const title = (doc.match(/^#\s+(.*)$/m)?.[1] ?? slug).trim();
-      const imageLine = `![${title} 游戏头图](/img/reviews/${slug}.jpg)`;
+      const imageLine = `![${title} 游戏头图](/img/reviews-webp/${slug}.webp)`;
       doc = doc.replace(/^(#\s+.*)$/m, `$1\n\n${imageLine}`);
       await writeFile(docPath, doc, 'utf8');
       stats.docsUpdated += 1;

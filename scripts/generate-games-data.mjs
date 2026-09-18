@@ -1,18 +1,15 @@
-import {readdir, readFile, writeFile} from 'node:fs/promises';
+import {readFile, writeFile} from 'node:fs/promises';
 import {dirname, resolve} from 'node:path';
 import {fileURLToPath} from 'node:url';
-import {getSources} from './media-sources.mjs';
+
+import {getSources, mediaLabels} from './media-sources.mjs';
+import {readGameDocuments, translatedTabs} from './content-manifest.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const dataPath = resolve(root, 'data/metacritic-games.json');
-const docsPath = resolve(root, 'docs/games');
 const outputPath = resolve(root, 'src/generated/games.json');
 const reviewsPath = resolve(root, 'src/generated/reviews.json');
-
-function field(frontmatter, name) {
-  const match = frontmatter.match(new RegExp(`^${name}:\\s*(.*)$`, 'm'));
-  return match?.[1]?.trim().replace(/^['"]|['"]$/g, '') ?? '';
-}
+const mediaLabelsPath = resolve(root, 'src/generated/media-labels.json');
 
 function numberValue(value) {
   const number = Number(value);
@@ -20,38 +17,19 @@ function numberValue(value) {
 }
 
 async function readTranslations() {
-  const files = (await readdir(docsPath)).filter((file) => (
-    /\.mdx?$/.test(file) && !file.startsWith('_') && file !== 'index.md'
-  ));
+  const documents = await readGameDocuments();
   const translations = new Map();
   const media = new Map();
 
-  for (const file of files) {
-    const source = await readFile(resolve(docsPath, file), 'utf8');
-    const match = source.match(/^---\r?\n([\s\S]*?)\r?\n---/);
-    if (!match) continue;
-
-    const frontmatter = match[1];
-    const slug = field(frontmatter, 'slug') || file.replace(/\.mdx?$/, '');
+  for (const document of documents) {
+    const {frontmatter, slug} = document;
+    const entries = translatedTabs(document);
     translations.set(slug, {
-      title: field(frontmatter, 'display_title') || field(frontmatter, 'title'),
-      status: field(frontmatter, 'translation_status') || 'translated',
-      path: `docs/games/${file}`,
+      title: frontmatter.display_title || frontmatter.title || '',
+      status: frontmatter.translation_status || 'translated',
+      path: `docs/games/${document.file}`,
+      hasTranslation: entries.length > 0,
     });
-
-    const entries = [...source.matchAll(/<ReviewTab\b([^>]*)>([\s\S]*?)<\/ReviewTab>/g)]
-      .map((match) => {
-        const attrs = match[1];
-        const site = (attrs.match(/site="([^"]+)"/) ?? [])[1] ?? '';
-        const label = (attrs.match(/label="([^"]+)"/) ?? [])[1] ?? '';
-        const id = (attrs.match(/id="([^"]+)"/) ?? [])[1] ?? site;
-        return {id, site, label, content: match[2]};
-      })
-      .filter((entry) => {
-        const cjk = (entry.content.match(/[\u4e00-\u9fff]/g) ?? []).length;
-        return entry.id && !/待补/.test(entry.content) && cjk >= 30;
-      })
-      .map(({id, site, label}) => ({id, site, label}));
     if (entries.length) media.set(slug, entries);
   }
 
@@ -75,12 +53,23 @@ const games = rows
       metacriticUrl: row.metacritic_url,
       sources: getSources(row).map((source) => ({...source, score: numberValue(source.score)})),
       contentStatus: row.content_status || 'links-only',
-      hasTranslation: Boolean(translation),
+      hasTranslation: Boolean(translation?.hasTranslation),
       translationStatus: translation?.status || 'pending',
       translationPath: translation?.path || '',
     };
   });
 
-games.sort((a, b) => b.score - a.score || a.title.localeCompare(b.title));
+games.sort((a, b) => (b.score ?? -1) - (a.score ?? -1) || a.title.localeCompare(b.title));
 await writeFile(outputPath, `${JSON.stringify(games, null, 2)}\n`, 'utf8');
 await writeFile(reviewsPath, `${JSON.stringify(Object.fromEntries(media), null, 2)}\n`, 'utf8');
+
+const mediaKeys = new Set([
+  ...Object.keys(mediaLabels),
+  ...games.flatMap((game) => game.sources.flatMap((source) => (
+    [source.site, source.filter_group].filter(Boolean)
+  ))),
+]);
+const labels = Object.fromEntries(
+  [...mediaKeys].sort().map((key) => [key, mediaLabels[key] ?? key]),
+);
+await writeFile(mediaLabelsPath, `${JSON.stringify(labels, null, 2)}\n`, 'utf8');

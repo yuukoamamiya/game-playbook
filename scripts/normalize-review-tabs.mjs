@@ -1,7 +1,8 @@
 import {readFile, writeFile, readdir} from 'node:fs/promises';
 import {resolve} from 'node:path';
+import {root} from './data-store.mjs';
 
-const docDir = 'D:/Documents/GitHub/Game/docs/games';
+const docDir = resolve(root, 'docs/games');
 
 function cjkCount(text) {
   return (text.match(/[\u4e00-\u9fff]/g) || []).length;

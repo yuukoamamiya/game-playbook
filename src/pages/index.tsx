@@ -1,7 +1,8 @@
-import {useMemo, useState} from 'react';
+import {useEffect, useMemo, useState} from 'react';
 import Link from '@docusaurus/Link';
 import Layout from '@theme/Layout';
 import gamesData from '../generated/games.json';
+import mediaLabelsData from '../generated/media-labels.json';
 import styles from './index.module.css';
 
 type SortOrder = 'score' | 'year';
@@ -29,6 +30,7 @@ type GameRecord = {
 
 type CatalogGame = Omit<GameRecord, 'platform'> & {
   platforms: string[];
+  platformScores: Array<{platform: string; score: number | null}>;
 };
 
 function mergeGames(records: GameRecord[]): CatalogGame[] {
@@ -37,11 +39,16 @@ function mergeGames(records: GameRecord[]): CatalogGame[] {
   for (const game of records) {
     const existing = merged.get(game.slug);
     if (!existing) {
-      merged.set(game.slug, {...game, platforms: [game.platform]});
+      merged.set(game.slug, {
+        ...game,
+        platforms: [game.platform],
+        platformScores: [{platform: game.platform, score: game.score}],
+      });
       continue;
     }
 
     if (!existing.platforms.includes(game.platform)) existing.platforms.push(game.platform);
+    existing.platformScores.push({platform: game.platform, score: game.score});
     const scores = [existing.score, game.score].filter((score): score is number => score != null);
     existing.score = scores.length ? Math.max(...scores) : null;
     existing.releaseYear ??= game.releaseYear;
@@ -57,28 +64,7 @@ function mergeGames(records: GameRecord[]): CatalogGame[] {
   return [...merged.values()];
 }
 
-const mediaLabels: Record<string, string> = {
-  scholar: '学者',
-  ign: 'IGN',
-  gamespot: 'GS',
-  eurogamer: 'Eurogamer',
-  nintendolife: 'Nintendo Life',
-  rockpapershotgun: 'RPS',
-  rpgsite: 'RPG Site',
-  adventuregamers: 'Adventure Gamers',
-  rpgfan: 'RPGFan',
-  '4gamer': '4Gamer.net',
-  unwinnable: 'Unwinnable',
-  rpgamer: 'RPGamer',
-  aftermath: 'Aftermath',
-  radicalphilosophy: 'Radical Philosophy',
-  ctheory: 'CTheory',
-  jesperjuul: 'Jesper Juul',
-  theatlantic: 'The Atlantic',
-  gamestudies: 'Game Studies',
-  todigra: 'ToDiGRA',
-  gamesandculture: 'Games and Culture',
-};
+const mediaLabels = mediaLabelsData as Record<string, string>;
 
 function mediaFilterKey(source: MediaSource): string {
   return source.filter_group || source.site;
@@ -102,13 +88,19 @@ export default function Home(): React.ReactNode {
   const [sortOrder, setSortOrder] = useState<SortOrder>('score');
   const platforms = ['全部平台', ...Array.from(new Set(games.map((game) => game.platform)))];
   const catalogGames = useMemo(() => mergeGames(games), [games]);
-  const mediaOptions = ['全部媒体', ...Array.from(new Set(
-    catalogGames.flatMap((game) => game.sources.map(mediaFilterKey)),
-  ))];
+  const platformGames = useMemo(() => games.filter(
+    (game) => platform === '全部平台' || game.platform === platform,
+  ), [games, platform]);
+  const mediaOptions = useMemo(() => ['全部媒体', ...Array.from(new Set(
+    platformGames.flatMap((game) => game.sources.map(mediaFilterKey)),
+  ))], [platformGames]);
   const translatedCount = catalogGames.filter((game) => game.hasTranslation).length;
 
-  const visibleGames = useMemo(() => mergeGames(games
-    .filter((game) => platform === '全部平台' || game.platform === platform)
+  useEffect(() => {
+    if (media !== '全部媒体' && !mediaOptions.includes(media)) setMedia('全部媒体');
+  }, [media, mediaOptions]);
+
+  const visibleGames = useMemo(() => mergeGames(platformGames
     .filter((game) => media === '全部媒体' || game.sources.some((source) => mediaFilterKey(source) === media)))
     .sort((left, right) => {
       if (sortOrder === 'year') {
@@ -116,7 +108,7 @@ export default function Home(): React.ReactNode {
           || (right.score ?? -1) - (left.score ?? -1);
       }
       return (right.score ?? -1) - (left.score ?? -1) || (right.releaseYear ?? 0) - (left.releaseYear ?? 0);
-    }), [games, media, platform, sortOrder]);
+      }), [media, platformGames, sortOrder]);
 
   return (
     <Layout title="游戏橱窗" description="个人游戏评测档案">
@@ -171,7 +163,12 @@ export default function Home(): React.ReactNode {
                         <Link to={`/docs/games/${game.slug}`}>{game.title}</Link>
                       ) : game.title}
                     </h3>
-                    <p>{game.releaseYear || '年份待补'} · {game.platforms.join(' · ')}</p>
+                    <p>
+                      {game.releaseYear || '年份待补'} · {game.platforms.join(' · ')}
+                      {game.score != null && (
+                        <> · MC {game.score}（{game.platformScores.find((item) => item.score === game.score)?.platform}）</>
+                      )}
+                    </p>
                     <div className={styles.reviewLinks}>
                       {game.metacriticUrl && game.score != null && (
                         <a href={game.metacriticUrl} target="_blank" rel="noreferrer">MC {game.score} ↗</a>

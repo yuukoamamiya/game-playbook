@@ -76,6 +76,7 @@ export function addSource(row, source) {
 }
 
 export const mediaLabels = {
+  scholar: '学者',
   ign: 'IGN',
   gamespot: 'GameSpot',
   eurogamer: 'Eurogamer',

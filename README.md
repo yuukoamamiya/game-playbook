@@ -46,4 +46,6 @@ npm run build
 - Build output directory：`build`
 - Node.js：`20` 或更高版本
 
+建议在 Cloudflare 的构建环境变量中设置 `SITE_URL`，例如 `https://example.com`。它用于生成 canonical URL、sitemap 和社交分享元数据；本地构建未设置时默认使用 `http://localhost:3000`。
+
 将改动推送到 GitHub 后，由 Cloudflare Pages 根据项目配置构建和发布网站。

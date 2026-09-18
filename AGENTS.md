@@ -14,7 +14,7 @@
 
 ```text
 data/metacritic-games.json       主数据：游戏 × 平台记录及 sources
-src/generated/                   由主数据和英文源生成的前台数据，不手工编辑
+src/generated/                   由主数据和英文源生成的前台数据，不手工编辑（含 games、reviews 和媒体名称映射）
 src/pages/index.tsx              首页：合并游戏记录、筛选、评分和媒体入口
 src/pages/index.module.css       首页样式
 src/components/                  可复用 React 组件，例如 ReviewTabs
