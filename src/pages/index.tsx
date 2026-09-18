@@ -14,6 +14,8 @@ type MediaSource = {
   language: string;
   score: number | null;
   url: string;
+  versionSlug?: string;
+  versionTitle?: string;
 };
 
 type GameRecord = {
@@ -75,7 +77,7 @@ function ExternalReviewLink({source}: {source: MediaSource}) {
   const label = mediaLabels[source.site] ?? source.site;
   const score = source.score == null ? '' : ` ${source.score}`;
   return (
-    <a href={source.url} target="_blank" rel="noreferrer">
+    <a href={source.url} target="_blank" rel="noreferrer" title={source.versionTitle}>
       {label}{score} ↗
     </a>
   );

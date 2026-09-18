@@ -1048,7 +1048,8 @@
         "score": 10,
         "url": "https://www.ign.com/articles/metroid-prime-remastered-review"
       }
-    ]
+    ],
+    "page_slug": "metroid-prime"
   },
   {
     "slug": "persona-5-royal",
@@ -1112,7 +1113,8 @@
         "score": null,
         "url": "https://rpgamer.com/2020/06/jrpg-study-time-persona-5-royal-is-a-tower-of-mechanics-that-never-topples/"
       }
-    ]
+    ],
+    "page_slug": "persona-5"
   },
   {
     "slug": "tetris-effect-connected",
@@ -1148,10 +1150,12 @@
         "score": null,
         "url": "https://www.eurogamer.net/tetris-effect-connected-review-pure-multiplayer-joy"
       }
-    ]
+    ],
+    "page_slug": "tetris-effect"
   },
   {
     "slug": "divinity-original-sin-ii-definitive-edition",
+    "page_slug": "divinity-original-sin-ii",
     "title": "Divinity: Original Sin II - Definitive Edition",
     "platform": "Nintendo Switch",
     "metacritic_score": 93,
@@ -1482,6 +1486,7 @@
   },
   {
     "slug": "dragon-quest-xi-s-echoes-of-an-elusive-age",
+    "page_slug": "dragon-quest-xi",
     "title": "Dragon Quest XI S: Echoes of an Elusive Age - Definitive Edition",
     "platform": "Nintendo Switch",
     "metacritic_score": 91,
@@ -1600,7 +1605,8 @@
         "score": 7,
         "url": "https://www.gamespot.com/reviews/shovel-knight-review/1900-6415805/"
       }
-    ]
+    ],
+    "page_slug": "shovel-knight"
   },
   {
     "slug": "sonic-mania-plus",
@@ -1629,7 +1635,8 @@
         "score": 9,
         "url": "https://www.gamespot.com/reviews/sonic-mania-plus-review-encore-encore/1900-6416729/"
       }
-    ]
+    ],
+    "page_slug": "sonic-mania"
   },
   {
     "slug": "animal-crossing-new-horizons",
@@ -1809,7 +1816,8 @@
         "score": null,
         "url": "https://www.rockpapershotgun.com/ori-and-the-blind-forest-definitive-edition-review"
       }
-    ]
+    ],
+    "page_slug": "ori-and-the-blind-forest"
   },
   {
     "slug": "persona-4-golden",
@@ -1991,6 +1999,7 @@
   },
   {
     "slug": "the-legend-of-zelda-tears-of-the-kingdom-nintendo",
+    "page_slug": "the-legend-of-zelda-tears-of-the-kingdom",
     "title": "The Legend of Zelda: Tears of the Kingdom - Nintendo Switch 2 Edition",
     "platform": "Nintendo Switch 2",
     "metacritic_score": 95,
@@ -2020,6 +2029,7 @@
   },
   {
     "slug": "the-legend-of-zelda-breath-of-the-wild-nintendo",
+    "page_slug": "the-legend-of-zelda-breath-of-the-wild",
     "title": "The Legend of Zelda: Breath of the Wild - Nintendo Switch 2 Edition",
     "platform": "Nintendo Switch 2",
     "metacritic_score": 94,
@@ -2128,6 +2138,7 @@
   },
   {
     "slug": "elden-ring-tarnished-edition",
+    "page_slug": "elden-ring",
     "title": "Elden Ring: Tarnished Edition",
     "platform": "Nintendo Switch 2",
     "metacritic_score": 90,
@@ -7012,7 +7023,8 @@
         "score": null,
         "url": "https://todigra.org/index.php/todigra/article/view/1772"
       }
-    ]
+    ],
+    "page_slug": "the-last-of-us-part-ii"
   },
   {
     "slug": "the-sims-2",
@@ -7077,7 +7089,8 @@
         "score": null,
         "url": "https://www.rockpapershotgun.com/the-stanley-parable-ultra-deluxe-has-a-cursed-awareness-of-its-own-weird-culty-relevance"
       }
-    ]
+    ],
+    "page_slug": "the-stanley-parable"
   },
   {
     "slug": "tony-hawks-pro-skater-3",

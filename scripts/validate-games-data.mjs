@@ -58,12 +58,17 @@ for (const [index, game] of games.entries()) {
   for (const field of ['title', 'platform', 'genre', 'content_status', 'notes']) {
     if (typeof game[field] !== 'string') error(`row ${row}: ${field} must be a string`);
   }
+  if (game.page_slug !== undefined && (
+    typeof game.page_slug !== 'string'
+    || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(game.page_slug)
+  )) error(`row ${row}: invalid page_slug`);
 
   const recordKey = `${game.slug}::${game.platform}`;
   if (records.has(recordKey)) error(`row ${row}: duplicate game/platform ${recordKey}`);
   records.add(recordKey);
-  if (rowsBySlug.has(game.slug)) rowsBySlug.get(game.slug).push(game);
-  else rowsBySlug.set(game.slug, [game]);
+  const pageSlug = game.page_slug || game.slug;
+  if (rowsBySlug.has(pageSlug)) rowsBySlug.get(pageSlug).push(game);
+  else rowsBySlug.set(pageSlug, [game]);
 
   if (typeof game.must_play !== 'boolean') error(`row ${row}: must_play must be boolean`);
   if (!allowedStatuses.has(game.content_status)) {
@@ -115,7 +120,7 @@ for (const document of documents) {
   const {frontmatter, slug, tabs, source} = document;
   if (seenDocs.has(slug)) error(`${document.file}: duplicate document slug ${slug}`);
   seenDocs.add(slug);
-  if (!rowsBySlug.has(slug)) error(`${document.file}: no matching game record for ${slug}`);
+  if (!rowsBySlug.has(slug)) error(`${document.file}: no matching game record for page ${slug}`);
   if (fileSlug !== slug) error(`${document.file}: filename slug does not match frontmatter slug ${slug}`);
   if (typeof frontmatter.title !== 'string' || !frontmatter.title.trim()) {
     error(`${document.file}: missing title in frontmatter`);

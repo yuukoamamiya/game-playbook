@@ -41,17 +41,25 @@ const {translations, media} = await readTranslations();
 const games = rows
   .filter((row) => row.must_play === true || String(row.must_play).toLowerCase() === 'true')
   .map((row) => {
-    const translation = translations.get(row.slug);
+    const pageSlug = row.page_slug || row.slug;
+    const translation = translations.get(pageSlug);
     return {
-      slug: row.slug,
+      slug: pageSlug,
+      sourceSlug: row.slug,
       title: translation?.title || row.title,
       sourceTitle: row.title,
+      versionTitle: row.title,
       platform: row.platform,
       score: numberValue(row.metacritic_score),
       releaseYear: numberValue(row.release_year),
       genre: row.genre,
       metacriticUrl: row.metacritic_url,
-      sources: getSources(row).map((source) => ({...source, score: numberValue(source.score)})),
+      sources: getSources(row).map((source) => ({
+        ...source,
+        score: numberValue(source.score),
+        versionSlug: row.slug,
+        versionTitle: row.title,
+      })),
       contentStatus: row.content_status || 'links-only',
       hasTranslation: Boolean(translation?.hasTranslation),
       translationStatus: translation?.status || 'pending',

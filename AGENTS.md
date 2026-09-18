@@ -32,6 +32,8 @@ docs/agent-history.md            历史决策记录，不作为当前待办清�
 
 `data/metacritic-games.json` 是唯一主数据层。每条记录对应一个游戏在一个平台上的 Metacritic 条目；同一游戏可能有多条平台记录。媒体文章统一放在 `sources` 数组中，不要新增某个媒体专用的顶层字段。
 
+当同一作品因平台升级版或发行版本不同而出现多个 Metacritic 条目时，在非主记录上设置 `page_slug` 指向共用的中文页面 slug。原始 `slug`、平台评分和 sources 仍保留，用于页面中的版本信息和对应评测；不要把真正不同的 DLC、资料片或重制作品仅凭名称相似强行合并。
+
 一个 source 通常包含以下字段：
 
 ```json
