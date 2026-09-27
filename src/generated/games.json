@@ -950,7 +950,7 @@
     "sources": [
       {
         "site": "ign",
-        "kind": "review",
+        "kind": "feature",
         "language": "en",
         "score": 9.3,
         "url": "https://www.ign.com/articles/2015/01/27/grim-fandango-remastered-review",
@@ -959,7 +959,7 @@
       },
       {
         "site": "gamespot",
-        "kind": "review",
+        "kind": "feature",
         "language": "en",
         "score": 8,
         "url": "https://www.gamespot.com/reviews/grim-fandango-remastered-review/1900-6416008/",
@@ -1157,7 +1157,7 @@
     "sources": [
       {
         "site": "ign",
-        "kind": "review",
+        "kind": "feature",
         "language": "en",
         "score": 8,
         "url": "https://www.ign.com/articles/the-elder-scrolls-iv-oblivion-remastered-review",
@@ -1339,7 +1339,7 @@
         "site": "ign",
         "kind": "review",
         "language": "en",
-        "score": null,
+        "score": 9,
         "url": "https://www.ign.com/articles/2005/12/04/sid-meiers-civilization-iv-review",
         "versionSlug": "sid-meiers-civilization-iv",
         "versionTitle": "Sid Meier's Civilization IV"
@@ -1436,7 +1436,7 @@
     "sources": [
       {
         "site": "ign",
-        "kind": "review",
+        "kind": "feature",
         "language": "en",
         "score": 9,
         "url": "https://www.ign.com/articles/mass-effect-legendary-edition-review-mass-effect-2-review",
@@ -3165,7 +3165,7 @@
     "sources": [
       {
         "site": "ign",
-        "kind": "review",
+        "kind": "feature",
         "language": "en",
         "score": 7,
         "url": "https://www.ign.com/articles/total-war-rome-remastered-review",
@@ -3301,7 +3301,7 @@
     "sources": [
       {
         "site": "ign",
-        "kind": "review",
+        "kind": "feature",
         "language": "en",
         "score": null,
         "url": "https://www.ign.com/articles/2001/12/06/warcraft-iii-reign-of-chaos-3",

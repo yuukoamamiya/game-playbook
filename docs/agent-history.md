@@ -29,7 +29,16 @@
 - 新增 `mother-2`（MOTHER 2 / EarthBound，Wii U）、`mother-3`（Mother 3，GBA）两个条目，补采 IGN、RPGFan、Eurogamer 正文并翻译进对应 `ReviewTab`；Eurogamer 的 Mother 3 评测分两页，`scripts/collect-media-reviews.mjs` 为此新增了 `paginate` 支持。
 - 当日主数据中带评分的 source 条目数：IGN 163、GameSpot 177、Eurogamer 92、RPGamer 18、RPG Site 34。
 
+## 维护核对（2026-09-27）
+
+- 统一英文源元数据：删除空目录 `content/reviews/en/bayonetta-plus-bayonetta-2`；为 `mother-2`、`mother-3` 补上 `source_file`，并把 `against-the-storm`、`chained-echoes`、`grand-theft-auto-san-andreas`、`mario-and-luigi-superstar-saga` 中指向不存在合并文件的 `source_file` 改为实际存在的按站点英文源。英文源仍按数据记录 `slug` 命名：升级/重制版记录（如 `persona-5-royal`、`the-legend-of-zelda-breath-of-the-wild-nintendo`）保留各自目录，用于版本专属文章，不与基础版 slug 合并。
+- 4Gamer 正文边界收紧：`scripts/collect-media-reviews.mjs` 中 4Gamer 的 `end` 由不生效的 `関連タイトル` 改为 `↑本文↑|↑記事内部↑|関連情報エリア|↓ソーシャルブックマーク`，并清理了 8 个既有 4Gamer 英文源尾部的「関連情報」链接列表。
+- `sources[].kind` 复核：把在原始作品记录下引用重制/合集评测的条目改为 `feature`（`grim-fandango` IGN/GameSpot＝2015 重制版，`rome-total-war` IGN＝2021 重制版，`the-elder-scrolls-iv-oblivion` IGN＝2025 重制版，`mass-effect-2` IGN＝2021《传奇版》），并在对应 `ReviewTab` 的说明中标明版本；`warcraft-iii-reign-of-chaos` 的 IGN 链接实为前瞻汇编，改为 `feature` 并在标签注明「前瞻」。
+- 评分核对：`sid-meiers-civilization-iv` 的 IGN 原文给出 Overall 9，已补入 `score: 9`；其余原清单入口经核对没有可直接归入的数字评分，保持 `null`。
+- 同一 URL 跨平台记录复用已复核：同作品多平台记录和基础版/升级版记录共用评测 URL 属预期行为，首页按 `site` + `url` 去重；`half-life-2` 上的 Eurogamer 文章实为《第二章》评测，已在标签和说明中标注。
+- 用户决定不再实现 GitHub Raw 图片代理（Cloudflare Worker）方案，相关待办已移除。
+
 ## 部署
 
 - GitHub 与 Cloudflare Pages 已连通，Cloudflare 构建命令为 `npm run build`，输出目录为 `build`，Node.js 使用 20 或更高版本。
-- 图片仍保留在 GitHub 的 `static/img/reviews/`；图片代理加速方案尚未实现，后续计划使用 Cloudflare Worker 从 GitHub Raw 读取并缓存。
+- 图片仍保留在仓库的 `static/img/reviews-webp/`，暂不计划额外的图片代理加速方案。

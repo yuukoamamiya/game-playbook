@@ -25,7 +25,7 @@ const SITES = {
   theatlantic: { start: /<section class="ArticleBody_root[^"]*"[^>]*>/, end: /<footer|class="ArticleBelow|class="ArticleFooter/, proxy: true },
   jesperjuul: { start: /<article id="post-[^"]*"[^>]*>/, end: /<\/article>/, minLength: 300 },
   gamestudies: { start: /<BODY[^>]*>/i, end: /<\/BODY>/i, proxy: true },
-  '4gamer': { start: /<div\s+class="maintxt">/, end: /関連タイトル/ },
+  '4gamer': { start: /<div\s+class="maintxt">/, end: /↑本文↑|↑記事内部↑|関連情報エリア|↓ソーシャルブックマーク/ },
   unwinnable: { start: /<article[^>]*>[\s\S]*?<\/header>/, end: /<\w+[^>]*class="tnp-subscription-posts"|<\w+[^>]*class="entry-bottom"|<\w+[^>]*class="related-post/, proxy: true, delay: 1500, authorPattern: /rel="author"[^>]*>([^<]+)<\/a>/, strip: [/You feel compelled to support great writing…\s*/] },
   aftermath: { start: /<article[^>]*>/, end: /<\/article>/, proxy: true },
   rpgfan: { start: /<div class="post-body post-text">/, end: /<hr\s*\/?>\s*<div class="grid-x small-12 scoreboard">/ },
