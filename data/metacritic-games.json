@@ -201,6 +201,106 @@
     ]
   },
   {
+    "slug": "mario-and-luigi-superstar-saga-plus-bowsers",
+    "title": "Mario & Luigi: Superstar Saga + Bowser's Minions",
+    "platform": "3DS",
+    "metacritic_score": 81,
+    "must_play": true,
+    "release_year": 2017,
+    "genre": "RPG",
+    "metacritic_url": "https://www.metacritic.com/game/mario-and-luigi-superstar-saga-plus-bowsers/",
+    "page_slug": "mario-and-luigi-superstar-saga",
+    "content_status": "manually-added",
+    "notes": "手动收录；GBA 前作的 3DS 重制版，与《超级马里奥 RPG》共页",
+    "sources": [
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": 8,
+        "url": "https://www.gamespot.com/reviews/mario-and-luigi-superstar-saga-bowsers-minions-rev/1900-6416785/"
+      }
+    ]
+  },
+  {
+    "slug": "mario-and-luigi-bowsers-inside-story-plus-bowser",
+    "title": "Mario & Luigi: Bowser's Inside Story + Bowser Jr.'s Journey",
+    "platform": "3DS",
+    "metacritic_score": 84,
+    "must_play": true,
+    "release_year": 2019,
+    "genre": "RPG",
+    "metacritic_url": "https://www.metacritic.com/game/mario-and-luigi-bowsers-inside-story-plus-bowser/",
+    "page_slug": "mario-and-luigi-bowsers-inside-story",
+    "content_status": "manually-added",
+    "notes": "手动收录；DS 前作的 3DS 重制版",
+    "sources": [
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": 8,
+        "url": "https://www.gamespot.com/reviews/mario-and-luigi-bowsers-inside-story-bowser-jrs-jo/1900-6417070/"
+      }
+    ]
+  },
+  {
+    "slug": "mario-and-luigi-dream-team",
+    "title": "Mario & Luigi: Dream Team",
+    "platform": "3DS",
+    "metacritic_score": 81,
+    "must_play": true,
+    "release_year": 2013,
+    "genre": "RPG",
+    "metacritic_url": "https://www.metacritic.com/game/mario-and-luigi-dream-team/",
+    "content_status": "manually-added",
+    "notes": "手动收录（未达 Must-Play）",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": 8,
+        "url": "https://www.ign.com/articles/2013/07/12/mario-luigi-dream-team-review"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": 8,
+        "url": "https://www.gamespot.com/reviews/mario-and-luigi-dream-team-review/1900-6411220/"
+      }
+    ]
+  },
+  {
+    "slug": "mario-and-luigi-paper-jam",
+    "title": "Mario & Luigi: Paper Jam",
+    "platform": "3DS",
+    "metacritic_score": 76,
+    "must_play": true,
+    "release_year": 2016,
+    "genre": "RPG",
+    "metacritic_url": "https://www.metacritic.com/game/mario-and-luigi-paper-jam/",
+    "content_status": "manually-added",
+    "notes": "手动收录（未达 Must-Play）",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": 5.9,
+        "url": "https://www.ign.com/articles/2016/01/20/mario-luigi-paper-jam-review"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": 6,
+        "url": "https://www.gamespot.com/reviews/mario-and-luigi-paper-jam-review/1900-6416344/"
+      }
+    ]
+  },
+  {
     "slug": "the-legend-of-zelda-a-link-to-the-past-four-swords",
     "title": "The Legend of Zelda: A Link to the Past / Four Swords",
     "platform": "Game Boy Advance",
@@ -656,6 +756,34 @@
     ]
   },
   {
+    "slug": "mother-3",
+    "title": "Mother 3",
+    "platform": "Game Boy Advance",
+    "metacritic_score": null,
+    "must_play": true,
+    "release_year": 2006,
+    "genre": "RPG",
+    "metacritic_url": "",
+    "content_status": "manually-added",
+    "notes": "手工补录；未见可用 Metacritic 总分；中文名：地球冒险3",
+    "sources": [
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": 7,
+        "url": "https://www.eurogamer.net/mother-3-review"
+      },
+      {
+        "site": "rpgfan",
+        "kind": "review",
+        "language": "en",
+        "score": 9.3,
+        "url": "https://www.rpgfan.com/review/mother-3/"
+      }
+    ]
+  },
+  {
     "slug": "grand-theft-auto-chinatown-wars",
     "title": "Grand Theft Auto: Chinatown Wars",
     "platform": "Nintendo DS",
@@ -889,6 +1017,34 @@
         "language": "en",
         "score": 9,
         "url": "https://www.ign.com/articles/2007/09/25/the-legend-of-zelda-phantom-hourglass-review"
+      }
+    ]
+  },
+  {
+    "slug": "mario-and-luigi-partners-in-time",
+    "title": "Mario & Luigi: Partners in Time",
+    "platform": "Nintendo DS",
+    "metacritic_score": 86,
+    "must_play": true,
+    "release_year": 2005,
+    "genre": "RPG",
+    "metacritic_url": "https://www.metacritic.com/game/mario-and-luigi-partners-in-time/",
+    "content_status": "manually-added",
+    "notes": "手动收录（未达 Must-Play）",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": 9,
+        "url": "https://www.ign.com/articles/2005/11/28/mario-luigi-partners-in-time"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": 8.9,
+        "url": "https://www.gamespot.com/reviews/mario-and-luigi-partners-in-time-review/1900-6140551/"
       }
     ]
   },
@@ -1948,6 +2104,76 @@
     ]
   },
   {
+    "slug": "bayonetta-plus-bayonetta-2",
+    "title": "Bayonetta + Bayonetta 2",
+    "platform": "Nintendo Switch",
+    "metacritic_score": 90,
+    "must_play": true,
+    "release_year": 2018,
+    "genre": "Action",
+    "metacritic_url": "https://www.metacritic.com/game/bayonetta-plus-bayonetta-2/",
+    "content_status": "metacritic-must-play",
+    "notes": "Metacritic Must-Play；Switch 合集，收录《猎天使魔女》与《猎天使魔女2》，并入《猎天使魔女2》页面",
+    "page_slug": "bayonetta-2",
+    "sources": []
+  },
+  {
+    "slug": "paper-mario-the-thousand-year-door",
+    "title": "Paper Mario: The Thousand-Year Door",
+    "platform": "Nintendo Switch",
+    "metacritic_score": 88,
+    "must_play": true,
+    "release_year": 2024,
+    "genre": "RPG",
+    "metacritic_url": "https://www.metacritic.com/game/paper-mario-the-thousand-year-door/",
+    "content_status": "manually-added",
+    "notes": "手动收录（未达 Must-Play）；NGC 原作的重制版",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": 9,
+        "url": "https://www.ign.com/articles/paper-mario-the-thousand-year-door-review"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": 9,
+        "url": "https://www.gamespot.com/reviews/paper-mario-the-thousand-year-door-review-step-inside-the-plumber-rpgs-back/1900-6418230/"
+      }
+    ]
+  },
+  {
+    "slug": "mario-and-luigi-brothership",
+    "title": "Mario & Luigi: Brothership",
+    "platform": "Nintendo Switch",
+    "metacritic_score": 77,
+    "must_play": true,
+    "release_year": 2024,
+    "genre": "RPG",
+    "metacritic_url": "https://www.metacritic.com/game/mario-and-luigi-brothership/",
+    "content_status": "manually-added",
+    "notes": "手动收录（未达 Must-Play）",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": 5,
+        "url": "https://www.ign.com/articles/mario-and-luigi-brothership-review"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": 6,
+        "url": "https://www.gamespot.com/reviews/mario-luigi-brothership-review-plug-and-play/1900-6418314/"
+      }
+    ]
+  },
+  {
     "slug": "hades-ii",
     "title": "Hades II",
     "platform": "Nintendo Switch 2",
@@ -2320,6 +2546,34 @@
         "language": "en",
         "score": null,
         "url": "https://unwinnable.com/2026/06/02/requiem-for-a-nightmare-the-dissonance-of-resident-evil-9/"
+      }
+    ]
+  },
+  {
+    "slug": "yoshi-and-the-mysterious-book",
+    "title": "Yoshi and the Mysterious Book",
+    "platform": "Nintendo Switch 2",
+    "metacritic_score": 80,
+    "must_play": true,
+    "release_year": 2026,
+    "genre": "Platformer",
+    "metacritic_url": "https://www.metacritic.com/game/yoshi-and-the-mysterious-book/",
+    "content_status": "manually-added",
+    "notes": "手动收录（未达 Must-Play）",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": 6,
+        "url": "https://www.ign.com/articles/yoshi-and-the-mysterious-book-review"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": 7,
+        "url": "https://www.gamespot.com/reviews/yoshi-and-the-mysterious-book-is-about-curiosity-not-conquest/1900-6418493/"
       }
     ]
   },
@@ -7290,34 +7544,6 @@
         "language": "en",
         "score": 8.8,
         "url": "https://www.rpgfan.com/review/earthbound/"
-      }
-    ]
-  },
-  {
-    "slug": "mother-3",
-    "title": "Mother 3",
-    "platform": "Game Boy Advance",
-    "metacritic_score": null,
-    "must_play": true,
-    "release_year": 2006,
-    "genre": "RPG",
-    "metacritic_url": "",
-    "content_status": "manually-added",
-    "notes": "手工补录；未见可用 Metacritic 总分；中文名：地球冒险3",
-    "sources": [
-      {
-        "site": "eurogamer",
-        "kind": "review",
-        "language": "en",
-        "score": 7,
-        "url": "https://www.eurogamer.net/mother-3-review"
-      },
-      {
-        "site": "rpgfan",
-        "kind": "review",
-        "language": "en",
-        "score": 9.3,
-        "url": "https://www.rpgfan.com/review/mother-3/"
       }
     ]
   }

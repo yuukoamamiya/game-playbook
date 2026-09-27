@@ -1660,6 +1660,59 @@
       "id": "eurogamer",
       "site": "eurogamer",
       "label": "Eurogamer"
+    },
+    {
+      "id": "gamespot-3ds",
+      "site": "gamespot",
+      "label": "GameSpot · 3DS 重制版"
+    }
+  ],
+  "mario-and-luigi-brothership": [
+    {
+      "id": "ign",
+      "site": "ign",
+      "label": "IGN"
+    },
+    {
+      "id": "gamespot",
+      "site": "gamespot",
+      "label": "GameSpot"
+    }
+  ],
+  "mario-and-luigi-dream-team": [
+    {
+      "id": "ign",
+      "site": "ign",
+      "label": "IGN"
+    },
+    {
+      "id": "gamespot",
+      "site": "gamespot",
+      "label": "GameSpot"
+    }
+  ],
+  "mario-and-luigi-paper-jam": [
+    {
+      "id": "ign",
+      "site": "ign",
+      "label": "IGN"
+    },
+    {
+      "id": "gamespot",
+      "site": "gamespot",
+      "label": "GameSpot"
+    }
+  ],
+  "mario-and-luigi-partners-in-time": [
+    {
+      "id": "ign",
+      "site": "ign",
+      "label": "IGN"
+    },
+    {
+      "id": "gamespot",
+      "site": "gamespot",
+      "label": "GameSpot"
     }
   ],
   "mario-and-luigi-superstar-saga": [
@@ -1677,6 +1730,11 @@
       "id": "eurogamer",
       "site": "eurogamer",
       "label": "Eurogamer"
+    },
+    {
+      "id": "gamespot-3ds",
+      "site": "gamespot",
+      "label": "GameSpot · 3DS 重制版"
     }
   ],
   "mario-kart-8-deluxe": [
@@ -2042,6 +2100,18 @@
       "id": "gamestudies-chaz-evans",
       "site": "gamestudies",
       "label": "Game Studies · Overwatch (2016)"
+    }
+  ],
+  "paper-mario-the-thousand-year-door": [
+    {
+      "id": "ign",
+      "site": "ign",
+      "label": "IGN"
+    },
+    {
+      "id": "gamespot",
+      "site": "gamespot",
+      "label": "GameSpot"
     }
   ],
   "persona-4-golden": [
@@ -3318,6 +3388,18 @@
       "id": "ctheory",
       "site": "ctheory",
       "label": "CTheory"
+    }
+  ],
+  "yoshi-and-the-mysterious-book": [
+    {
+      "id": "ign",
+      "site": "ign",
+      "label": "IGN"
+    },
+    {
+      "id": "gamespot",
+      "site": "gamespot",
+      "label": "GameSpot"
     }
   ],
   "yoshis-island-super-mario-advance-3": [

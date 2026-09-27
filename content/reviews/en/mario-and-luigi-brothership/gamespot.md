@@ -1,0 +1,43 @@
+---
+slug: "mario-and-luigi-brothership"
+source_title: "Mario &amp; Luigi: Brothership Review - Plug And Play"
+source_url: "https://www.gamespot.com/reviews/mario-luigi-brothership-review-plug-and-play/1900-6418314/"
+source_site: GameSpot
+review_score: 6
+review_score_text: ""
+author: "Steve Watts"
+published: "2024-11-06"
+---
+# Mario &amp; Luigi: Brothership Review - Plug And Play
+- Source: [GameSpot](https://www.gamespot.com/reviews/mario-luigi-brothership-review-plug-and-play/1900-6418314/)
+- Author: Steve Watts
+- Published: 2024-11-06
+- GameSpot score: 6 / 10
+The Mario & Luigi RPG series started on the Game Boy Advance, and even many years and a few iterations later, it has always reflected a connection to those roots. The two-button Game Boy Advance was the impetus for the series' central hook: Each brother is assigned to a face button and you control them both at once. Even as the series has progressed to platforms with more face buttons, the core concept has remained defined by its initial limitations. Now brought to the Switch, Mario & Luigi: Brothership feels like a conscious effort to escape those limitations, resulting in a lengthy RPG that can't quite sustain its own weight.
+
+In Brothership, several denizens of the Mushroom Kingdom are magically swept into the new setting of Concordia--a vast sea dotted with islands that used to be part of one contiguous land mass. A world tree of sorts, the Uni-Tree served as the tether that held all of the islands together, but it suddenly wilted and the islands drifted apart. With the help of a young researcher, you pilot a ship that houses a new Uni-Tree sapling, connecting islands and the Great Lighthouses that amplify its power to bring them all back together. So your ship comes to resemble a tugboat, with several islands tethered and pulled behind it.
+
+It's a concept that allows for lots of different kinds of environments and stories on self-contained little islands. One might be modeled like a desert, while another is a multi-story corporate headquarters. The Great Lighthouses serve as major dungeons, so each of the acts consists of the smaller stories on each island, the larger story arc of the region, and then the Great Lighthouse dungeon as its resolution.
+
+Mario and Luigi are wandering do-gooders who just chip in because they're in a position to help. And while they don't have spoken dialogue, you get a lot of characterization out of the stellar animation quality. Brothership is an impressive feat of art direction, showcasing both new and familiar characters with a simple but very effective style that has a cartoon-like elasticity. I never got tired of seeing Luigi's face light up, or the various arrival animations as they landed on different islands. There's a running gag that Mario always lands perfectly and Luigi always lands somewhat less perfectly, with lots of funny variations on just how many ways it can go wrong.
+
+If the islands are nicely differentiated, though, exploring them is unremarkable. Mario & Luigi has never been known for its platforming prowess, and you would never mistake Brothership for a proper Mario platformer. The controls are just a little too rigid, and sometimes that makes platforming puzzles feel less organic than they should. It also oddly abandons the dual-hero gimmick of Mario & Luigi by putting Mario squarely in the driver's seat. Luigi is less an equal than a sidekick who follows along (mostly) dutifully, and you can sometimes tap the L button to send him off to gather resources so you don't have to, or to have him help solve puzzles. That does alleviate some frustration I had with previous Mario & Luigi games, in which I had to get the timing for both brothers perfect while crossing a gap, for example, but it's strange to have Luigi so clearly play a supporting role. This functionally compromises its identity--less Mario & Luigi and more Mario featuring special guest Luigi.
+
+In combat, though, Luigi is more than an equal. Both brothers do their own animated versions of timing-based attacks, but for most boss fights, Luigi can summon a moment of "Luigi Logic" to do a special stage-based stunner that will leave the boss vulnerable. I got the sense this was to give the character something to do and act as a counterweight to him mostly being a second banana in the exploration segments. The timing attacks work just as well as ever here, and you select Jump or Hammer based on the enemy's attributes for a light rock-paper-scissors element. Counterattacks are back as well, and they can sometimes even just end a battle immediately as you deal heavy damage back to the opponent. That said, with only two party members, it can be very easy to get into a doom-loop of using revival items on each brother in turn, once you reach tougher enemies and you're first learning their attack patterns.
+
+Combat does have a couple of new wrinkles that help add more depth, the first of which is a regular pace of permanent upgrades. Every eight levels, you get to pick one upgrade to last you the rest of the game, like getting extra EXP from every battle or earning extra power stats with every subsequent level-up. Those are uniform between Mario and Luigi, but the two brothers do have their own specialties with stats that level up faster--Luigi is especially good at Defense and the Luck-like Stash stat, for example.
+
+The second major combat element is Plugs: major game-changing power-ups that can be equipped across a power-strip-like interface as you unlock more outlets. These can have attributes like creating a blast radius when you get an Excellent rating on a timed attack, giving you items back after use, or being especially resistant to certain status effects. The plugs have a limited number of charges, after which they go into a recharge state, but other plugs can impact the recharge timing too. All in all, I was reminded most of Materia from Final Fantasy 7, in which nodes could be set to enable powers and the real joy was in tinkering with powerful combinations. Plugs are even more versatile, in fact, because you can hot-swap them mid-battle without losing a turn.
+
+However, Plugs also raise the specter of Mario & Luigi: Brothership's major weakness: its pacing. The Mario & Luigi games are full-fledged RPGs, but they're compact, usually topping out at around 25 hours. Brothership seemed intent on hitting a lengthier playtime, and it just can't sustain itself for that long. The Plugs element doesn't even get introduced until almost 10 hours into the experience, and by then, combat was starting to feel rote. I appreciated that it injected a new element, but I would have liked to have it before combat was getting stale, not after.
+
+The pacing problems are only exacerbated as the game progresses. Late in the game, there's a required story quest that then leads to a decision that could make the quest itself totally irrelevant. At more than one point, you're required to revisit a bunch of islands you've already visited. There are two almost-identical boss fights that occur nearly back to back. Traveling by sea can be tedious, even with a faster-sailing option, and small Islets have no fast-travel option and must be sailed to manually. Plus, when a particular plot element gets introduced, the writing gets significantly funnier with several laugh-out-loud gags and dialogue, but it took me about 30 hours to get there. All this makes it feel like the game isn't really respecting your time. And worse, the performance suffers with drops in the frame rate, especially near the end, leaving it to finish on a sour note.
+
+All of this feels especially frustrating because, at its core, Brothership tells a sweet if simple fable about togetherness and human connection. The islands were ripped apart and isolated, and the ultimate threat at play is a sort of pandemic of loneliness. There's even a surprising light visual motif around screen addiction and how it may keep people from forming interpersonal bonds. It's a nice story, but it's not one that needs to be 50 hours long.
+
+That length may have been born from a desire to create a big, meaty RPG, but in the end, it mostly serves to accentuate the simplicity in all aspects. Stretched over so many hours, exploration becomes dull, combat feels repetitive, and the story can't sustain itself. Mario & Luigi: Brothership is well made and has some great ideas, but in breaking free of its handheld limitations, it becomes too ambitious for its own good.
+
+ Upvote (4)
+- Leave Blank
+
+ View Comments (14)

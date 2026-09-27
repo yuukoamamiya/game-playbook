@@ -38,6 +38,13 @@
 - 同一 URL 跨平台记录复用已复核：同作品多平台记录和基础版/升级版记录共用评测 URL 属预期行为，首页按 `site` + `url` 去重；`half-life-2` 上的 Eurogamer 文章实为《第二章》评测，已在标签和说明中标注。
 - 用户决定不再实现 GitHub Raw 图片代理（Cloudflare Worker）方案，相关待办已移除。
 
+## 新增条目（2026-09-27）
+
+- 全平台 Must-Play 扫描发现 1 条新记录：`bayonetta-plus-bayonetta-2`（Switch 合集，MC 90）；因其评测与已有的《猎天使魔女》《猎天使魔女2》重复，通过 `page_slug` 并入 `bayonetta-2` 页面。
+- 按用户要求手动收录（`content_status: manually-added`）非 Must-Play 的马力欧 RPG 系列：`mario-and-luigi-partners-in-time`（DS）、`mario-and-luigi-dream-team`（3DS）、`mario-and-luigi-paper-jam`（3DS）、`mario-and-luigi-brothership`（Switch）、`paper-mario-the-thousand-year-door`（Switch）、`yoshi-and-the-mysterious-book`（Switch 2）。
+- 两个 3DS 重制版通过 `page_slug` 并入原作页面并补充版本化标签：`mario-and-luigi-superstar-saga-plus-bowsers` → `mario-and-luigi-superstar-saga`（GameSpot · 3DS 重制版，8/10）、`mario-and-luigi-bowsers-inside-story-plus-bowser` → `mario-and-luigi-bowsers-inside-story`（GameSpot · 3DS 重制版，8/10）。
+- 每个新页面采集并翻译了 IGN 与 GameSpot 两篇评测；GameSpot 正文直接访问会被 Cloudflare 拦截，改用 Wayback Machine 快照（`web.archive.org`）取得正文与 JSON-LD 评分。IGN 正文用 `collect-media-reviews.mjs` 经本地代理采集。
+
 ## 部署
 
 - GitHub 与 Cloudflare Pages 已连通，Cloudflare 构建命令为 `npm run build`，输出目录为 `build`，Node.js 使用 20 或更高版本。

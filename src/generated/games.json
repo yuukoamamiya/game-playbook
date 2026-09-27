@@ -7198,6 +7198,23 @@
     "translationPath": "docs/games/bayonetta.mdx"
   },
   {
+    "slug": "bayonetta-2",
+    "sourceSlug": "bayonetta-plus-bayonetta-2",
+    "title": "猎天使魔女2",
+    "sourceTitle": "Bayonetta + Bayonetta 2",
+    "versionTitle": "Bayonetta + Bayonetta 2",
+    "platform": "Nintendo Switch",
+    "score": 90,
+    "releaseYear": 2018,
+    "genre": "Action",
+    "metacriticUrl": "https://www.metacritic.com/game/bayonetta-plus-bayonetta-2/",
+    "sources": [],
+    "contentStatus": "metacritic-must-play",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/bayonetta-2.mdx"
+  },
+  {
     "slug": "mario-and-luigi-superstar-saga",
     "sourceSlug": "mario-and-luigi-superstar-saga",
     "title": "马力欧与路易吉RPG",
@@ -9115,6 +9132,276 @@
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/nhl-2001.mdx"
+  },
+  {
+    "slug": "paper-mario-the-thousand-year-door",
+    "sourceSlug": "paper-mario-the-thousand-year-door",
+    "title": "纸片马力欧RPG 千年之门",
+    "sourceTitle": "Paper Mario: The Thousand-Year Door",
+    "versionTitle": "Paper Mario: The Thousand-Year Door",
+    "platform": "Nintendo Switch",
+    "score": 88,
+    "releaseYear": 2024,
+    "genre": "RPG",
+    "metacriticUrl": "https://www.metacritic.com/game/paper-mario-the-thousand-year-door/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": 9,
+        "url": "https://www.ign.com/articles/paper-mario-the-thousand-year-door-review",
+        "versionSlug": "paper-mario-the-thousand-year-door",
+        "versionTitle": "Paper Mario: The Thousand-Year Door"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": 9,
+        "url": "https://www.gamespot.com/reviews/paper-mario-the-thousand-year-door-review-step-inside-the-plumber-rpgs-back/1900-6418230/",
+        "versionSlug": "paper-mario-the-thousand-year-door",
+        "versionTitle": "Paper Mario: The Thousand-Year Door"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/paper-mario-the-thousand-year-door.mdx"
+  },
+  {
+    "slug": "mario-and-luigi-partners-in-time",
+    "sourceSlug": "mario-and-luigi-partners-in-time",
+    "title": "马力欧与路易吉RPG2",
+    "sourceTitle": "Mario & Luigi: Partners in Time",
+    "versionTitle": "Mario & Luigi: Partners in Time",
+    "platform": "Nintendo DS",
+    "score": 86,
+    "releaseYear": 2005,
+    "genre": "RPG",
+    "metacriticUrl": "https://www.metacritic.com/game/mario-and-luigi-partners-in-time/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": 9,
+        "url": "https://www.ign.com/articles/2005/11/28/mario-luigi-partners-in-time",
+        "versionSlug": "mario-and-luigi-partners-in-time",
+        "versionTitle": "Mario & Luigi: Partners in Time"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": 8.9,
+        "url": "https://www.gamespot.com/reviews/mario-and-luigi-partners-in-time-review/1900-6140551/",
+        "versionSlug": "mario-and-luigi-partners-in-time",
+        "versionTitle": "Mario & Luigi: Partners in Time"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/mario-and-luigi-partners-in-time.mdx"
+  },
+  {
+    "slug": "mario-and-luigi-bowsers-inside-story",
+    "sourceSlug": "mario-and-luigi-bowsers-inside-story-plus-bowser",
+    "title": "马力欧与路易吉RPG3!!!",
+    "sourceTitle": "Mario & Luigi: Bowser's Inside Story + Bowser Jr.'s Journey",
+    "versionTitle": "Mario & Luigi: Bowser's Inside Story + Bowser Jr.'s Journey",
+    "platform": "3DS",
+    "score": 84,
+    "releaseYear": 2019,
+    "genre": "RPG",
+    "metacriticUrl": "https://www.metacritic.com/game/mario-and-luigi-bowsers-inside-story-plus-bowser/",
+    "sources": [
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": 8,
+        "url": "https://www.gamespot.com/reviews/mario-and-luigi-bowsers-inside-story-bowser-jrs-jo/1900-6417070/",
+        "versionSlug": "mario-and-luigi-bowsers-inside-story-plus-bowser",
+        "versionTitle": "Mario & Luigi: Bowser's Inside Story + Bowser Jr.'s Journey"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/mario-and-luigi-bowsers-inside-story.mdx"
+  },
+  {
+    "slug": "mario-and-luigi-superstar-saga",
+    "sourceSlug": "mario-and-luigi-superstar-saga-plus-bowsers",
+    "title": "马力欧与路易吉RPG",
+    "sourceTitle": "Mario & Luigi: Superstar Saga + Bowser's Minions",
+    "versionTitle": "Mario & Luigi: Superstar Saga + Bowser's Minions",
+    "platform": "3DS",
+    "score": 81,
+    "releaseYear": 2017,
+    "genre": "RPG",
+    "metacriticUrl": "https://www.metacritic.com/game/mario-and-luigi-superstar-saga-plus-bowsers/",
+    "sources": [
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": 8,
+        "url": "https://www.gamespot.com/reviews/mario-and-luigi-superstar-saga-bowsers-minions-rev/1900-6416785/",
+        "versionSlug": "mario-and-luigi-superstar-saga-plus-bowsers",
+        "versionTitle": "Mario & Luigi: Superstar Saga + Bowser's Minions"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/mario-and-luigi-superstar-saga.mdx"
+  },
+  {
+    "slug": "mario-and-luigi-dream-team",
+    "sourceSlug": "mario-and-luigi-dream-team",
+    "title": "马力欧与路易吉RPG4 梦境冒险",
+    "sourceTitle": "Mario & Luigi: Dream Team",
+    "versionTitle": "Mario & Luigi: Dream Team",
+    "platform": "3DS",
+    "score": 81,
+    "releaseYear": 2013,
+    "genre": "RPG",
+    "metacriticUrl": "https://www.metacritic.com/game/mario-and-luigi-dream-team/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": 8,
+        "url": "https://www.ign.com/articles/2013/07/12/mario-luigi-dream-team-review",
+        "versionSlug": "mario-and-luigi-dream-team",
+        "versionTitle": "Mario & Luigi: Dream Team"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": 8,
+        "url": "https://www.gamespot.com/reviews/mario-and-luigi-dream-team-review/1900-6411220/",
+        "versionSlug": "mario-and-luigi-dream-team",
+        "versionTitle": "Mario & Luigi: Dream Team"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/mario-and-luigi-dream-team.mdx"
+  },
+  {
+    "slug": "yoshi-and-the-mysterious-book",
+    "sourceSlug": "yoshi-and-the-mysterious-book",
+    "title": "耀西与不可思议的图鉴",
+    "sourceTitle": "Yoshi and the Mysterious Book",
+    "versionTitle": "Yoshi and the Mysterious Book",
+    "platform": "Nintendo Switch 2",
+    "score": 80,
+    "releaseYear": 2026,
+    "genre": "Platformer",
+    "metacriticUrl": "https://www.metacritic.com/game/yoshi-and-the-mysterious-book/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": 6,
+        "url": "https://www.ign.com/articles/yoshi-and-the-mysterious-book-review",
+        "versionSlug": "yoshi-and-the-mysterious-book",
+        "versionTitle": "Yoshi and the Mysterious Book"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": 7,
+        "url": "https://www.gamespot.com/reviews/yoshi-and-the-mysterious-book-is-about-curiosity-not-conquest/1900-6418493/",
+        "versionSlug": "yoshi-and-the-mysterious-book",
+        "versionTitle": "Yoshi and the Mysterious Book"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/yoshi-and-the-mysterious-book.mdx"
+  },
+  {
+    "slug": "mario-and-luigi-brothership",
+    "sourceSlug": "mario-and-luigi-brothership",
+    "title": "马力欧与路易吉RPG 兄弟情",
+    "sourceTitle": "Mario & Luigi: Brothership",
+    "versionTitle": "Mario & Luigi: Brothership",
+    "platform": "Nintendo Switch",
+    "score": 77,
+    "releaseYear": 2024,
+    "genre": "RPG",
+    "metacriticUrl": "https://www.metacritic.com/game/mario-and-luigi-brothership/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": 5,
+        "url": "https://www.ign.com/articles/mario-and-luigi-brothership-review",
+        "versionSlug": "mario-and-luigi-brothership",
+        "versionTitle": "Mario & Luigi: Brothership"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": 6,
+        "url": "https://www.gamespot.com/reviews/mario-luigi-brothership-review-plug-and-play/1900-6418314/",
+        "versionSlug": "mario-and-luigi-brothership",
+        "versionTitle": "Mario & Luigi: Brothership"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/mario-and-luigi-brothership.mdx"
+  },
+  {
+    "slug": "mario-and-luigi-paper-jam",
+    "sourceSlug": "mario-and-luigi-paper-jam",
+    "title": "马力欧与路易吉RPG 纸片马力欧MIX",
+    "sourceTitle": "Mario & Luigi: Paper Jam",
+    "versionTitle": "Mario & Luigi: Paper Jam",
+    "platform": "3DS",
+    "score": 76,
+    "releaseYear": 2016,
+    "genre": "RPG",
+    "metacriticUrl": "https://www.metacritic.com/game/mario-and-luigi-paper-jam/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": 5.9,
+        "url": "https://www.ign.com/articles/2016/01/20/mario-luigi-paper-jam-review",
+        "versionSlug": "mario-and-luigi-paper-jam",
+        "versionTitle": "Mario & Luigi: Paper Jam"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": 6,
+        "url": "https://www.gamespot.com/reviews/mario-and-luigi-paper-jam-review/1900-6416344/",
+        "versionSlug": "mario-and-luigi-paper-jam",
+        "versionTitle": "Mario & Luigi: Paper Jam"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/mario-and-luigi-paper-jam.mdx"
   },
   {
     "slug": "mother-3",
