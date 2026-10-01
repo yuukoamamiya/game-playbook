@@ -72,13 +72,16 @@ for (const platform of platforms) {
 const unique = new Map(collected.map((game) => [`${game.platform}:${game.slug}`, game]));
 const rows = [...unique.values()].map((game) => {
   const old = existingByTitlePlatform.get(`${game.title}::${game.platform}`) ?? {};
+  const page = game.page;
+  const {page: _page, ...gameData} = game;
   const row = {
     ...old,
-    ...game,
+    ...gameData,
     sources: getSources(old),
     content_status: old.content_status || (getSources(old).length ? 'links-collected' : 'metacritic-must-play'),
-    notes: old.notes || `Metacritic Must-Play；平台：${game.platform}；来源页第${game.page}页`,
+    notes: old.notes || `Metacritic Must-Play；平台：${game.platform}；来源页第${page}页`,
   };
+  delete row.page;
   return row;
 });
 

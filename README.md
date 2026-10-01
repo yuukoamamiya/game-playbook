@@ -1,23 +1,10 @@
-# Game Playbook / 游戏档案库
+# Playbook / 游戏档案
 
-一个个人使用的 Docusaurus 静态网站，用来整理带有 Metacritic Must-Play 标记的游戏，并集中展示媒体评测、文化评论和中文译文。
+给自己留的一份游戏档案。把值得记住的游戏收进来，一个游戏一页：上面是 Metacritic 的资料和外部评测入口，下面是核对过的中文译文。收录的要么是 Metacritic 的 Must-Play，要么是自己想留的。
 
-网站按游戏页面组织内容。首页支持按游戏平台和媒体筛选，并显示 Metacritic、IGN、GameSpot、Eurogamer 等来源的评分和文章入口。
+内容其实是三层：`data/metacritic-games.json` 是唯一的事实来源（游戏、平台、评分、媒体链接都在这），`content/reviews/en/` 放翻译用的英文原文，`docs/games/` 是发出去的中文页面。首页和搜索要用的数据在构建时从这几层生成，网站本身没有数据库。
 
-## 项目结构
-
-- `data/metacritic-games.json`：游戏 × 平台的主数据，以及统一放在 `sources` 数组中的媒体文章入口。
-- `page_slug`：当同一作品的不同版本共用一个中文页面时，指向该页面的规范 slug；原始 `slug` 仍保留用于区分版本记录。
-- `src/generated/`：由主数据和英文来源生成的前台数据，不手工编辑。
-- `content/reviews/en/`：英文来源正文，仅用于翻译、摘要和核对，不会随网站公开发布。
-- `docs/games/`：公开的中文游戏页面，每个游戏一个页面，通过媒体标签切换译文。
-- `static/img/reviews-webp/`：游戏页面使用的头图。
-- `scripts/`：数据校验、生成、媒体采集和迁移脚本。
-- `DESIGN.md`：网站视觉和内容规则。
-- `AGENTS.md`：仓库结构、修改方式和协作约定。
-- `TODO.md`：当前尚未完成的文章正文、评分核对和其他维护事项。
-
-## 本地开发
+## 本地跑起来
 
 需要 Node.js 20 或更高版本。
 
@@ -26,27 +13,32 @@ npm install
 npm run start
 ```
 
-打开终端显示的本地地址即可预览网站。
+浏览器打开终端里给出的地址就能预览，改文件会热更新。
 
-常用检查命令：
+改完数据、脚本或页面，记得验一遍：
 
 ```bash
-npm run validate-data
-npm run generate-data
-npm run typecheck
-npm run build
+npm run verify
 ```
 
-修改数据、脚本或网站后，至少运行前三项；需要验证完整静态站点时再运行 `npm run build`。
+它会依次检查数据、重新生成前台数据、检查脚本语法和类型。要验证完整静态构建再跑 `npm run build`（产物在 `build/`，不提交）。
 
-## Cloudflare Pages
+## 目录里都有什么
 
-推荐配置：
+- `data/` — 主数据，所有游戏事实都只在这维护
+- `content/reviews/en/` — 英文原文，只用来翻译核对，不会发布
+- `docs/games/` — 中文游戏页面，一个游戏一页，页内按媒体切换译文
+- `static/img/reviews-webp/` — 页面头图
+- `scripts/` — 校验、生成和采集脚本，`scripts/archive/` 里是已经用过的一次性脚本
+- `AGENTS.md` — 字段含义、日常维护步骤和协作约定（要动这个仓库，先读它）
+- `DESIGN.md` / `TODO.md` — 视觉规则 / 待办
+
+## 部署
+
+推送到 GitHub 后交给 Cloudflare Pages 构建，配置：
 
 - Build command：`npm run build`
 - Build output directory：`build`
-- Node.js：`20` 或更高版本
+- Node.js：`20` 或更高
 
-建议在 Cloudflare 的构建环境变量中设置 `SITE_URL`，例如 `https://example.com`。它用于生成 canonical URL、sitemap 和社交分享元数据；本地构建未设置时默认使用 `http://localhost:3000`。
-
-将改动推送到 GitHub 后，由 Cloudflare Pages 根据项目配置构建和发布网站。
+站点地址默认是 `https://game-playbook.amamiyayuuko.com`，canonical、sitemap 和分享卡片都用它。换域名或构建预览时，用环境变量 `SITE_URL` 覆盖即可。

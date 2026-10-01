@@ -1,6 +1,6 @@
 import {readFile, writeFile, readdir, access} from 'node:fs/promises';
 import {resolve} from 'node:path';
-import {root} from './data-store.mjs';
+import {root} from '../data-store.mjs';
 
 const enDir = resolve(root, 'content/reviews/en');
 const docDir = resolve(root, 'docs/games');

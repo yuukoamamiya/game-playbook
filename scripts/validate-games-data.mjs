@@ -1,8 +1,8 @@
 import {access} from 'node:fs/promises';
 import {basename, resolve} from 'node:path';
 
-import {readGames} from './data-store.mjs';
-import {sourceKey} from './media-sources.mjs';
+import {readGames, root} from './data-store.mjs';
+import {mediaLabels, sourceKey} from './media-sources.mjs';
 import {docsPath, imagePath, readGameDocuments} from './content-manifest.mjs';
 
 const required = [
@@ -18,8 +18,8 @@ const documents = await readGameDocuments();
 const records = new Set();
 const errors = [];
 const warnings = [];
-const emptyGenreRows = [];
 const rowsBySlug = new Map();
+const urlSites = new Map();
 
 function error(message) {
   errors.push(message);
@@ -83,8 +83,6 @@ for (const [index, game] of games.entries()) {
   if (!game.metacritic_url && game.content_status !== 'manually-added') {
     error(`row ${row}: missing metacritic_url outside manually-added exception`);
   }
-  if (!game.genre) emptyGenreRows.push(game.slug);
-
   if (!Array.isArray(game.sources)) {
     error(`row ${row}: sources must be an array`);
     continue;
@@ -102,15 +100,27 @@ for (const [index, game] of games.entries()) {
       error(`${prefix}: site must be lowercase and trimmed`);
     }
     if (source?.kind && !allowedKinds.has(source.kind)) error(`${prefix}: unknown kind ${source.kind}`);
+    if (source?.site && !(source.site in mediaLabels)) {
+      warning(`${prefix}: site ${source.site} has no entry in mediaLabels`);
+    }
     if (source?.filter_group !== undefined && (
       typeof source.filter_group !== 'string' || !source.filter_group.trim()
     )) error(`${prefix}: filter_group must be a non-empty string when present`);
     if (source?.url && !isHttpUrl(source.url)) error(`${prefix}: invalid URL`);
+    if (source?.url && source?.site) {
+      const sites = urlSites.get(source.url) ?? new Set();
+      sites.add(source.site);
+      urlSites.set(source.url, sites);
+    }
     checkNumber(source?.score, `${prefix}: score`, {min: 0, max: 10});
     const key = sourceKey(source ?? {});
     if (rowSources.has(key)) error(`${prefix}: duplicate source ${key}`);
     rowSources.add(key);
   }
+}
+
+for (const [url, sites] of urlSites) {
+  if (sites.size > 1) warning(`URL used by multiple sites (${[...sites].join(', ')}): ${url}`);
 }
 
 const expectedDocs = new Set([...rowsBySlug.keys()]);
@@ -127,6 +137,14 @@ for (const document of documents) {
   }
   if (frontmatter.translation_status !== 'translated') {
     warning(`${document.file}: translation_status is ${frontmatter.translation_status ?? '(missing)'}`);
+  }
+
+  const sourceFile = frontmatter.source_file;
+  if (typeof sourceFile !== 'string' || !sourceFile.trim()) {
+    warning(`${document.file}: missing source_file in frontmatter`);
+  } else {
+    try { await access(resolve(root, sourceFile)); }
+    catch { error(`${document.file}: source_file does not exist: ${sourceFile}`); }
   }
 
   const imageRef = `/img/reviews-webp/${slug}.webp`;
@@ -161,10 +179,6 @@ for (const document of documents) {
 for (const slug of expectedDocs) {
   if (!seenDocs.has(slug)) error(`${slug}: missing document in ${docsPath}`);
 }
-if (emptyGenreRows.length) {
-  warning(`${emptyGenreRows.length} records have an empty genre field`);
-}
-
 if (errors.length) {
   console.error(errors.join('\n'));
   if (warnings.length) console.error(`\nWarnings:\n${warnings.join('\n')}`);

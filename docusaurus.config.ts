@@ -14,14 +14,20 @@ const config: Config = {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
-  // Set the production url of your site here
-  // Set SITE_URL in the Cloudflare build environment for canonical URLs.
-  url: process.env.SITE_URL ?? process.env.CF_PAGES_URL ?? 'http://localhost:3000',
+  // Production URL, used for canonical URLs, sitemap and social metadata.
+  // Override with SITE_URL when building for a preview or a different host.
+  url: process.env.SITE_URL ?? 'https://game-playbook.amamiyayuuko.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   onBrokenLinks: 'throw',
+
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'throw',
+    },
+  },
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -61,8 +67,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/social-card.jpg',
     colorMode: {
       respectPrefersColorScheme: true,
     },

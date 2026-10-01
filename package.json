@@ -8,6 +8,8 @@
     "build": "npm run validate-data && npm run generate-data && docusaurus build",
     "generate-data": "node scripts/generate-games-data.mjs",
     "validate-data": "node scripts/validate-games-data.mjs",
+    "check:scripts": "node scripts/check-scripts-syntax.mjs",
+    "verify": "npm run validate-data && npm run generate-data && npm run check:scripts && npm run typecheck",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",

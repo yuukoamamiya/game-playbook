@@ -168,7 +168,10 @@ export default function Home(): React.ReactNode {
                     <p>
                       {game.releaseYear || '年份待补'} · {game.platforms.join(' · ')}
                       {game.score != null && (
-                        <> · MC {game.score}（{game.platformScores.find((item) => item.score === game.score)?.platform}）</>
+                        <> · MC {game.score}（{game.platformScores
+                          .filter((item) => item.score === game.score)
+                          .map((item) => item.platform)
+                          .join(' / ')}）</>
                       )}
                     </p>
                     <div className={styles.reviewLinks}>

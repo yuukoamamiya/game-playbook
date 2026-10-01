@@ -1,7 +1,7 @@
 import {readdir, readFile, writeFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
-import {readGames, writeGames} from './data-store.mjs';
-import {getSources} from './media-sources.mjs';
+import {readGames, writeGames} from '../data-store.mjs';
+import {getSources} from '../media-sources.mjs';
 
 const legacyFields = [
   'ign_score', 'ign_url', 'gamespot_score', 'gamespot_url',

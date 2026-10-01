@@ -1,13 +1,3 @@
-const legacyMedia = [
-  {site: 'ign', kind: 'review', language: 'en', scoreField: 'ign_score', urlField: 'ign_url'},
-  {site: 'gamespot', kind: 'review', language: 'en', scoreField: 'gamespot_score', urlField: 'gamespot_url'},
-  {site: 'eurogamer', kind: 'review', language: 'en', urlField: 'eurogamer_url'},
-  {site: 'nintendolife', kind: 'review', language: 'en', urlField: 'nintendolife_url'},
-  {site: 'rockpapershotgun', kind: 'review', language: 'en', urlField: 'rockpapershotgun_url'},
-  {site: 'rpgsite', kind: 'review', language: 'en', urlField: 'rpgsite_url'},
-  {site: 'adventuregamers', kind: 'review', language: 'en', urlField: 'adventuregamers_url'},
-];
-
 function validUrl(url) {
   return typeof url === 'string' && /^https?:\/\//.test(url);
 }
@@ -34,32 +24,15 @@ export function normalizeSource(source) {
   return normalized;
 }
 
-export function sourcesFromLegacy(row) {
-  const collected = [];
-  const add = (source) => {
-    const normalized = normalizeSource(source);
-    if (normalized && !collected.some((item) => sourceKey(item) === sourceKey(normalized))) collected.push(normalized);
-  };
-
-  for (const media of legacyMedia) {
-    const url = row[media.urlField];
-    if (validUrl(url)) add({
-      site: media.site,
-      kind: media.kind,
-      language: media.language,
-      score: media.scoreField ? row[media.scoreField] : null,
-      url,
-    });
-  }
-  for (const url of Array.isArray(row.unwinnable_urls) ? row.unwinnable_urls : []) {
-    add({site: 'unwinnable', kind: 'essay', language: 'en', score: null, url});
-  }
-  for (const source of Array.isArray(row.sources) ? row.sources : []) add(source);
-  return collected;
-}
-
 export function getSources(row) {
-  return sourcesFromLegacy(row);
+  const collected = [];
+  for (const source of Array.isArray(row?.sources) ? row.sources : []) {
+    const normalized = normalizeSource(source);
+    if (normalized && !collected.some((item) => sourceKey(item) === sourceKey(normalized))) {
+      collected.push(normalized);
+    }
+  }
+  return collected;
 }
 
 export function hasSource(row, site) {

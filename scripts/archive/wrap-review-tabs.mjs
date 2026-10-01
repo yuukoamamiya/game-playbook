@@ -1,6 +1,6 @@
 import {readFile, writeFile, readdir} from 'node:fs/promises';
 import {resolve} from 'node:path';
-import {root} from './data-store.mjs';
+import {root} from '../data-store.mjs';
 
 const docDir = resolve(root, 'docs/games');
 const files = (await readdir(docDir)).filter((f) => f.endsWith('.mdx') && !f.startsWith('_'));

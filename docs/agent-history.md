@@ -45,6 +45,16 @@
 - 两个 3DS 重制版通过 `page_slug` 并入原作页面并补充版本化标签：`mario-and-luigi-superstar-saga-plus-bowsers` → `mario-and-luigi-superstar-saga`（GameSpot · 3DS 重制版，8/10）、`mario-and-luigi-bowsers-inside-story-plus-bowser` → `mario-and-luigi-bowsers-inside-story`（GameSpot · 3DS 重制版，8/10）。
 - 每个新页面采集并翻译了 IGN 与 GameSpot 两篇评测；GameSpot 正文直接访问会被 Cloudflare 拦截，改用 Wayback Machine 快照（`web.archive.org`）取得正文与 JSON-LD 评分。IGN 正文用 `collect-media-reviews.mjs` 经本地代理采集。
 
+## 仓库维护（2026-10-01）
+
+- 新增 `.github/workflows/ci.yml`：push/PR 时执行数据校验、生成前台数据、生成物漂移检查、类型检查和脚本语法检查；本地新增 `npm run verify` 与 `npm run check:scripts`。
+- `scripts/validate-games-data.mjs` 增强：检查中文页 `source_file` 是否存在、`sources[].site` 是否有 `mediaLabels` 映射、同一 URL 是否被多个站点复用（告警）；移除每次运行都出现的 `genre` 空值告警。
+- 单一数据源：185 个中文页 frontmatter 精简为 `title`、`display_title`、`slug`、`translation_status`、`source_file`，移除与主数据重复的 `platform`、`metacritic_score`、`must_play`、`release_year`、`genre`、`metacritic_url`、`content_status`、`notes`、`source_title`；`docs/games/_template.mdx` 同步。
+- 删除主数据中已无用的遗留 `page` 字段（页码只保留在 `notes`），`collect-metacritic-intersection.mjs` 不再写回；`media-sources.mjs` 移除已无数据引用的 legacy 媒体字段兼容代码。
+- 删除 Docusaurus 脚手架残留：未引用的模板图片、`blog/`、`docs/tutorial-*`、空目录。
+- 一次性迁移/批处理脚本移入 `scripts/archive/`，并加 `README.md` 说明不再运行。
+- 首页合并记录时，评分相同的平台全部列出，而不是只显示第一个。
+
 ## 部署
 
 - GitHub 与 Cloudflare Pages 已连通，Cloudflare 构建命令为 `npm run build`，输出目录为 `build`，Node.js 使用 20 或更高版本。
