@@ -55,6 +55,14 @@
 - 一次性迁移/批处理脚本移入 `scripts/archive/`，并加 `README.md` 说明不再运行。
 - 首页合并记录时，评分相同的平台全部列出，而不是只显示第一个。
 
+## 用户点名收录（2026-10-01）
+
+- 按用户点名单批新增 14 个作品（`content_status: manually-added`）：塞尔达传说 织梦岛、智慧的再现、火焰之纹章 万缕千丝、三角战略、勇者斗恶龙V 天空的新娘、马力欧+疯狂兔子 星耀之愿、圣兽之王、十三机兵防卫圈、吸血鬼幸存者、吸血鬼爬行者、BALL x PIT、开拓者：正义之怒、战锤40K：行商浪人、神界：原罪。三角力量／三角力量2／最终幻想6／潜水员戴夫／神界原罪2 已在库中，未重复添加。
+- 每条从 Metacritic 核对 slug、平台、评分、年份；多平台作品按所选平台查得对应分数（如 13 机兵 Switch 88、圣兽之王 Switch 89、吸血鬼幸存者 PC 86）。
+- 评测入口共 47 条，覆盖 IGN／GameSpot／Eurogamer／RPG Site／RPGamer／Rock Paper Shotgun。IGN、RPG Site、Eurogamer、RPS 用仓库采集脚本；GameSpot／RPGamer 直连被 Cloudflare 或站点阻断，改用 Wayback Machine CDX 索引反查 URL 与正文。
+- 每篇评测均采集英文正文（`content/reviews/en/<slug>/<site>.md`）并全文翻译进对应 `ReviewTab`；14 张头图用 `collect-game-images.mjs` 采集。
+- 已知：`collect-game-images.mjs` 对带 `page_slug` 的合并记录会生成同名多余图片，需手动删除（本次清理了 16 张）。
+
 ## 部署
 
 - GitHub 与 Cloudflare Pages 已连通，Cloudflare 构建命令为 `npm run build`，输出目录为 `build`，Node.js 使用 20 或更高版本。

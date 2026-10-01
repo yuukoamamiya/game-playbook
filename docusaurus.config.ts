@@ -12,6 +12,13 @@ const config: Config = {
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
+    // Faster builds and slightly smaller output via SWC / Lightning CSS.
+    faster: {
+      swcJsLoader: true,
+      swcJsMinimizer: true,
+      swcHtmlMinimizer: true,
+      lightningCssMinimizer: true,
+    },
   },
 
   // Production URL, used for canonical URLs, sitemap and social metadata.

@@ -1,4 +1,31 @@
 {
+  "13-sentinels-aegis-rim": [
+    {
+      "id": "ign",
+      "site": "ign",
+      "label": "IGN"
+    },
+    {
+      "id": "gamespot",
+      "site": "gamespot",
+      "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rpgsite",
+      "site": "rpgsite",
+      "label": "RPG Site"
+    },
+    {
+      "id": "rpgamer",
+      "site": "rpgamer",
+      "label": "RPGamer"
+    }
+  ],
   "advance-wars-dual-strike": [
     {
       "id": "gamespot",
@@ -202,6 +229,23 @@
       "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    }
+  ],
+  "ball-x-pit": [
+    {
+      "id": "ign",
+      "site": "ign",
+      "label": "IGN"
+    },
+    {
+      "id": "gamespot",
+      "site": "gamespot",
+      "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
     }
   ],
   "batman-arkham-asylum": [
@@ -769,6 +813,18 @@
       "label": "ign · Definitive Edition"
     }
   ],
+  "divinity-original-sin": [
+    {
+      "id": "ign",
+      "site": "ign",
+      "label": "IGN"
+    },
+    {
+      "id": "rpgamer",
+      "site": "rpgamer",
+      "label": "RPGamer"
+    }
+  ],
   "donkey-kong-bananza": [
     {
       "id": "ign",
@@ -828,6 +884,28 @@
       "id": "rpgsite",
       "site": "rpgsite",
       "label": "RPG Site"
+    }
+  ],
+  "dragon-quest-v-hand-of-the-heavenly-bride": [
+    {
+      "id": "ign",
+      "site": "ign",
+      "label": "IGN"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rpgsite",
+      "site": "rpgsite",
+      "label": "RPG Site"
+    },
+    {
+      "id": "rpgamer",
+      "site": "rpgamer",
+      "label": "RPGamer"
     }
   ],
   "dragon-quest-xi": [
@@ -1068,6 +1146,23 @@
       "id": "rpgamer",
       "site": "rpgamer",
       "label": "RPGamer"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rpgsite",
+      "site": "rpgsite",
+      "label": "RPG Site"
+    }
+  ],
+  "fire-emblem-fortunes-weave": [
+    {
+      "id": "ign",
+      "site": "ign",
+      "label": "IGN"
     },
     {
       "id": "eurogamer",
@@ -1783,6 +1878,23 @@
       "label": "IGN"
     }
   ],
+  "mario-plus-rabbids-sparks-of-hope": [
+    {
+      "id": "ign",
+      "site": "ign",
+      "label": "IGN"
+    },
+    {
+      "id": "gamespot",
+      "site": "gamespot",
+      "label": "GameSpot"
+    },
+    {
+      "id": "rpgamer",
+      "site": "rpgamer",
+      "label": "RPGamer"
+    }
+  ],
   "mass-effect-2": [
     {
       "id": "ign",
@@ -2112,6 +2224,18 @@
       "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    }
+  ],
+  "pathfinder-wrath-of-the-righteous": [
+    {
+      "id": "ign",
+      "site": "ign",
+      "label": "IGN"
+    },
+    {
+      "id": "rpgsite",
+      "site": "rpgsite",
+      "label": "RPG Site"
     }
   ],
   "persona-4-golden": [
@@ -2937,6 +3061,50 @@
       "label": "IGN · Switch 2"
     }
   ],
+  "the-legend-of-zelda-echoes-of-wisdom": [
+    {
+      "id": "ign",
+      "site": "ign",
+      "label": "IGN"
+    },
+    {
+      "id": "gamespot",
+      "site": "gamespot",
+      "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rpgsite",
+      "site": "rpgsite",
+      "label": "RPG Site"
+    }
+  ],
+  "the-legend-of-zelda-links-awakening": [
+    {
+      "id": "ign",
+      "site": "ign",
+      "label": "IGN"
+    },
+    {
+      "id": "gamespot",
+      "site": "gamespot",
+      "label": "GameSpot"
+    },
+    {
+      "id": "rpgsite",
+      "site": "rpgsite",
+      "label": "RPG Site"
+    },
+    {
+      "id": "rpgamer",
+      "site": "rpgamer",
+      "label": "RPGamer"
+    }
+  ],
   "the-legend-of-zelda-ocarina-of-time-3d": [
     {
       "id": "ign",
@@ -3188,6 +3356,33 @@
       "label": "Eurogamer"
     }
   ],
+  "triangle-strategy": [
+    {
+      "id": "ign",
+      "site": "ign",
+      "label": "IGN"
+    },
+    {
+      "id": "gamespot",
+      "site": "gamespot",
+      "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rpgsite",
+      "site": "rpgsite",
+      "label": "RPG Site"
+    },
+    {
+      "id": "rpgamer",
+      "site": "rpgamer",
+      "label": "RPGamer"
+    }
+  ],
   "ufo-50": [
     {
       "id": "gamespot",
@@ -3242,6 +3437,33 @@
       "label": "Unwinnable"
     }
   ],
+  "unicorn-overlord": [
+    {
+      "id": "ign",
+      "site": "ign",
+      "label": "IGN"
+    },
+    {
+      "id": "gamespot",
+      "site": "gamespot",
+      "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rpgsite",
+      "site": "rpgsite",
+      "label": "RPG Site"
+    },
+    {
+      "id": "rpgamer",
+      "site": "rpgamer",
+      "label": "RPGamer"
+    }
+  ],
   "unreal-tournament-1999": [
     {
       "id": "radicalphilosophy",
@@ -3273,6 +3495,25 @@
       "label": "IGN"
     }
   ],
+  "vampire-crawlers": [
+    {
+      "id": "gamespot",
+      "site": "gamespot",
+      "label": "GameSpot"
+    }
+  ],
+  "vampire-survivors": [
+    {
+      "id": "ign",
+      "site": "ign",
+      "label": "IGN"
+    },
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
+    }
+  ],
   "warcraft-iii-reign-of-chaos": [
     {
       "id": "ign",
@@ -3283,6 +3524,23 @@
       "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    }
+  ],
+  "warhammer-40000-rogue-trader": [
+    {
+      "id": "rockpapershotgun",
+      "site": "rockpapershotgun",
+      "label": "Rock Paper Shotgun"
+    },
+    {
+      "id": "rpgsite",
+      "site": "rpgsite",
+      "label": "RPG Site"
+    },
+    {
+      "id": "rpgamer",
+      "site": "rpgamer",
+      "label": "RPGamer"
     }
   ],
   "world-of-goo": [

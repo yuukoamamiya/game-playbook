@@ -6,7 +6,7 @@
 
 ## 本地跑起来
 
-需要 Node.js 20 或更高版本。
+需要 Node.js 22 或更高版本。
 
 ```bash
 npm install
@@ -39,6 +39,6 @@ npm run verify
 
 - Build command：`npm run build`
 - Build output directory：`build`
-- Node.js：`20` 或更高
+- Node.js：`22` 或更高
 
 站点地址默认是 `https://game-playbook.amamiyayuuko.com`，canonical、sitemap 和分享卡片都用它。换域名或构建预览时，用环境变量 `SITE_URL` 覆盖即可。

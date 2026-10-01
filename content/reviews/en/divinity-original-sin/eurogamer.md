@@ -1,0 +1,58 @@
+---
+slug: "divinity-original-sin"
+source_title: "Divinity: Original Sin review"
+source_url: "https://www.eurogamer.net/divinity-original-sin-review"
+source_site: eurogamer
+review_score: 9
+review_score_text: ""
+author: "Richard Cobbett"
+published: "2014-07-09"
+---
+
+# Divinity: Original Sin review — eurogamer Review
+
+- Source: [eurogamer](https://www.eurogamer.net/divinity-original-sin-review)
+- Author: Richard Cobbett
+- Published: 2014-07-09
+- Score: 9
+
+An old school Ultima-style RPG with all the modern trimmings.
+
+I can think of no finer compliment to pay  Divinity: Original Sin  than this: while it was rarely in danger of not being my favourite Ultima-inspired game since Ultima 7, it's the first one I can say - not without a lot of guilt, mind - that I might have enjoyed more than its inspiration. You'd think that nothing could live up to 20 years of fondness for a beloved game whose crap bits have long been mentally erased - and yet if Original Sin has a few rough edges smoothed off by patches in the near future, it's got a real shot at the title.
+
+## Price and availability
+
+- Windows and Mac on  Steam  and  GOG : &pound;29.99
+
+Either way, this is in every respect the game that Larian has been working towards since  Divine Divinity  showed up with its silly name and admirable goal of being the new Ultima 7, but without the decade of lessons that it took Origin to create its masterpiece back in 1992. As for the later Divinity games, I know they have fans, but for me they suffered from focusing on their big ideas at the expense of mundane but critical foundations. Not this time, though - at least, not where it counts. Original Sin is a far more traditional offering that successfully goes back to its roots without going back to basics, combining ambition and experience with a budget that has forced the design to embrace limitations as well as cool possibilities. All of this is in its favour.
+
+Simply calling the result a love letter to classic role-playing games does it a disservice. For starters, it's more of a mix-tape: a greatest hits collection that takes in everything from Ultima's world simulation (albeit lacking advanced elements like NPC schedules and day/night cycles) to the  Chrono Trigger -inspired home base at the End of Time. It even takes a few trips into other genres, including a fourth-wall-breaking "show me the future" gag straight from the LucasArts jokebook. Original Sin wears its many tributes on its sleeve. It's proud to be a nostalgia trip that lets you find flour, mix it into dough, bake it and make your own packed lunch.
+
+It's very much its own game too, though - a huge one, expect a good 50 hours - and I can't think of another RPG in which I've so enjoyed simply turning every new corner and finding out what's there. Officially, it's the tale of two Source Hunters, valiant heroes on a quest to get rid of Sourcery and eradicate evil Sourcerers from the world without so much as a brick in a sock to call their own. In typical RPG fashion, that's the premise rather than the plot, with early investigations quickly being overshadowed by both the inevitable end of the world and a journey filled with pit-stops that are anything but standard. Four demons trapped in statues who amuse themselves by pretending to grant wishes that lead supplicants to their deaths; dodgy adventuring guilds; hiring a prostitute to service a lonely troll; a pavilion that asks if you want to die and can be deadlier than any gazebo; a totem that tests whether your actions match your words... I'm just picking a few at random from my notes here. I could go on and on.
+
+From start to finish, Original Sin is full of life and jokes and an infectious sense of enthusiasm. Easily the highlight of the game is a talent called Pet Pal that lets you talk to animals; despite some generic humans sharing dialogue trees, every pig, rooster or rat scurrying around a dungeon gets at least a quip. It's the most brilliant yet utterly unnecessary labour of love since Vampire: Bloodlines' Malkavian dialogue.
+
+Stepping through that to the RPG core, things can get somewhat messy, but in ways that, for the most part, don't matter too much. The economy is a joke and every shopkeeper's pile of gold the punchline, with the land of Rivellon quickly establishing itself as fantasy's biggest hoarder of completely empty crates for no bloody reason. Both trade and inventory systems struggle to handle a four-character party, which can be a pain when shopping or handing in quest items. Stealth is weak - albeit entertaining to mess with by having one character distract an NPC while a partner loots all their stuff dressed as a giant bush.
+
+That you can run a basic con on NPCs to steal their stuff is, however, an excellent example of how deep and liberal Divinity's world simulation is. If you can come up with a crazy idea that's within the rules, you can probably do it: abduct a boss from their cozy arena and drop them right into an arse-kicking, say, or figure out that the penalty for smashing doors down with a weapon doesn't apply to having a mage burn through them instead. This can occasionally mess with the scripting, but it's great to have the flexibility, and Original Sin typically allows experiments rather than adding artificial restrictions.
+
+When simply following orders, though, quests can be less amusing. Far too often, it's not clear what you're meant to be doing, even when you've successfully done it - starting with being given a long to-do list in an opening town whose gates might as well kill an underlevelled party on exit and save the local zombies some effort. Much like Ultima 7, Original Sin is designed as a golden path that pretends to be far more open than it is. Areas and stories connect to each other with little advance warning, often making it unclear whether, say, the key to the secret area in the church you're sent to is simply well hidden (it's not) or on the other side of the map waiting for the end of a long story arc (it is). Sometimes the game barely offers anything beyond enemy levels as a hint as to where to head next.
+
+The issue is not that Original Sin doesn't give step-by-step objectives and hand-holdy markers for all of its quests. That's fine; refreshing, even. The problem is that it doesn't always replace them with anything, simply assuming knowledge and not adding clues that might make solving things a satisfying puzzle rather than a long stumble around increasingly empty maps. Good freeform RPG design begs the question: "How can I do this?" Here, it's too often a case of: "What the hell do you  want from me ?" Not always, not even most of the time, but enough to leave you wishing the script had enjoyed an extra pass for clarity.
+
+Original Sin gives you two main characters to play with, and this gimmick is an unqualified success - thankfully not as strict as Beyond Divinity's shared-death soul link. Playing alone, you control both characters at once, the duo bantering regularly about what's going on in ways that allow for each to develop their own character and outlook (arguments are settled with rock, paper, scissors). In co-op, a second player can be assigned one of the two characters, wandering around at will, taking turns in the combat to prevent things getting too chaotic (while still allowing for accidental, cough, friendly fire) and taking part in big moral decisions which don't affect much but offer just enough branching for roleplay purposes. It's a great system. The only annoyances I encountered were that the second player can't generate their own character, even when starting a new game, and a player not in a conversation can find themselves left out of the important details until suddenly thrown a moral decision to make with absolutely no context. [ Correction : Apparently it is possible for a second player to create a character if they connect while the host is on the character creation screen. Thanks to the readers who pointed this out.]
+
+Designing the whole game around two characters also helps Larian push Original Sin's most original RPG innovation - turn-based combat built around elements and synergies. A fireball doesn't simply do damage but sets the ground ablaze and burns up poison; likewise, a rain spell will put out the flames and can be combined with a cold spell to turn enemies to ice, or a lightning bolt to spread the love of electricity to enemies not already conveniently standing in a pool of water. These see a lot of different uses. Early on, for instance, you're in a graveyard when a madman spawns a whole screenful of living bombs that want nothing more than to run up and explode in your face. Click your fingers and make it rain, though, and all their fuses go out, leaving them just standing awkwardly, poppable as bubble-wrap.
+
+This system is both as clever and as fun as it sounds, if a mite overused. It's the core of the combat, with battlefield control soon becoming as important as straight-up damage dealing, increasing options for using the terrain, and the magic to do it all only limited by action points and cooldowns rather than the traditional mana pool.
+
+The sheer messiness of all these elemental effects splashing around can, however, make fights feel like an Unseen University student theatre performance of Bugsy Malone gone horribly wrong. Indoor fights can get very cramped, and several took a good couple of hours to beat, thanks less to their tactical challenge than to the keyboard-smashing cheesiness of enemy abilities synergising into a hard kick to the teeth for my characters' builds - builds which you can't respec until far, far, far too late in the game. There are two full companion characters at the moment (one mage, one fighter - two more are due to be patched in), as well as a small army of henchmen... ahem, in the interests of equality, I of course mean 'persons of hench'... who can be recruited to fill gaps in the party. But they can only compensate so much if your core Source Hunter duo wasted too many valuable points on worthless stats or missed a key skill book somewhere.
+
+As with the questing system, though, this is a question of tuning rather than a fundamental problem with the concept: a few specific fights letting the side down, a few unfortunate decisions standing out all the more for how good the rest of the game is, a few crap puzzles... these are almost all patchable things. Whilst I cannot predict if they will eventually be fixed - and I've spent a lot of time wavering over whether they constitute enough of a reason to bring the score down the notch that it does arguably deserve - the simple fact is that the many, many fantastic hours I've spent playing Original Sin more than compensated for the occasional frustrations.
+
+Certainly, I have no hesitation in recommending Original Sin to RPG fans old and new, provided that you're up for a challenge from very early on and don't expect to romp through, Diablo-style. While Skyrim is obviously more freeform and immersive, and the likes of  Mass Effect  are more cinematic, Divinity: Original Sin is hands down the best classic-style RPG in years. It's obviously not Ultima 8 in name (and that's probably for the best, because the Ultima 8 we got in reality was bloody awful). It is, however, in every way that counts, the best successor ever to those classic journeys to Britannia, and a triumph on its own terms as a modern RPG with no shortage of fresh ideas.
+
+As a friendly mouse put it only the other day: "Squeak squeak squeak, squeak squeak." Words to live by, those. Even if they do lose a little something in translation.
+
+     9
+      /  10

@@ -9134,6 +9134,177 @@
     "translationPath": "docs/games/world-of-warcraft-cataclysm.mdx"
   },
   {
+    "slug": "fire-emblem-fortunes-weave",
+    "sourceSlug": "fire-emblem-fortunes-weave",
+    "title": "火焰之纹章 万缕千丝",
+    "sourceTitle": "Fire Emblem: Fortune's Weave",
+    "versionTitle": "Fire Emblem: Fortune's Weave",
+    "platform": "Nintendo Switch 2",
+    "score": 89,
+    "releaseYear": 2026,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/fire-emblem-fortunes-weave/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/fire-emblem-fortunes-weave-review",
+        "versionSlug": "fire-emblem-fortunes-weave",
+        "versionTitle": "Fire Emblem: Fortune's Weave"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/fire-emblem-fortunes-weave-review",
+        "versionSlug": "fire-emblem-fortunes-weave",
+        "versionTitle": "Fire Emblem: Fortune's Weave"
+      },
+      {
+        "site": "rpgsite",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.rpgsite.net/review/21412-fire-emblem-fortunes-weave-review",
+        "versionSlug": "fire-emblem-fortunes-weave",
+        "versionTitle": "Fire Emblem: Fortune's Weave"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/fire-emblem-fortunes-weave.mdx"
+  },
+  {
+    "slug": "unicorn-overlord",
+    "sourceSlug": "unicorn-overlord",
+    "title": "圣兽之王",
+    "sourceTitle": "Unicorn Overlord",
+    "versionTitle": "Unicorn Overlord",
+    "platform": "Nintendo Switch",
+    "score": 89,
+    "releaseYear": 2024,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/unicorn-overlord/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/unicorn-overlord-review",
+        "versionSlug": "unicorn-overlord",
+        "versionTitle": "Unicorn Overlord"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/unicorn-overlord-review-a-rare-beast/1900-6418196/",
+        "versionSlug": "unicorn-overlord",
+        "versionTitle": "Unicorn Overlord"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/unicorn-overlord-review-endless-options-propel-this-strategy-rpg-to-epic-heights",
+        "versionSlug": "unicorn-overlord",
+        "versionTitle": "Unicorn Overlord"
+      },
+      {
+        "site": "rpgsite",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.rpgsite.net/review/15687-unicorn-overlord-review",
+        "versionSlug": "unicorn-overlord",
+        "versionTitle": "Unicorn Overlord"
+      },
+      {
+        "site": "rpgamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://rpgamer.com/review/unicorn-overlord-review/",
+        "versionSlug": "unicorn-overlord",
+        "versionTitle": "Unicorn Overlord"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/unicorn-overlord.mdx"
+  },
+  {
+    "slug": "13-sentinels-aegis-rim",
+    "sourceSlug": "13-sentinels-aegis-rim",
+    "title": "十三机兵防卫圈",
+    "sourceTitle": "13 Sentinels: Aegis Rim",
+    "versionTitle": "13 Sentinels: Aegis Rim",
+    "platform": "Nintendo Switch",
+    "score": 88,
+    "releaseYear": 2022,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/13-sentinels-aegis-rim/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/13-sentinels-aegis-rim-review",
+        "versionSlug": "13-sentinels-aegis-rim",
+        "versionTitle": "13 Sentinels: Aegis Rim"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/13-sentinels-aegis-rim-review-wow-cool-robot/1900-6417569/",
+        "versionSlug": "13-sentinels-aegis-rim",
+        "versionTitle": "13 Sentinels: Aegis Rim"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/13-sentinels-aegis-rim-review-a-heady-mix-of-sci-fi-passion-and-big-ideas",
+        "versionSlug": "13-sentinels-aegis-rim",
+        "versionTitle": "13 Sentinels: Aegis Rim"
+      },
+      {
+        "site": "rpgsite",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.rpgsite.net/review/12611-13-sentinels-aegis-rim-switch-review",
+        "versionSlug": "13-sentinels-aegis-rim",
+        "versionTitle": "13 Sentinels: Aegis Rim"
+      },
+      {
+        "site": "rpgamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://rpgamer.com/review/13-sentinels-aegis-rim-review/",
+        "versionSlug": "13-sentinels-aegis-rim",
+        "versionTitle": "13 Sentinels: Aegis Rim"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/13-sentinels-aegis-rim.mdx"
+  },
+  {
     "slug": "paper-mario-the-thousand-year-door",
     "sourceSlug": "paper-mario-the-thousand-year-door",
     "title": "纸片马力欧RPG 千年之门",
@@ -9168,6 +9339,105 @@
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/paper-mario-the-thousand-year-door.mdx"
+  },
+  {
+    "slug": "divinity-original-sin",
+    "sourceSlug": "divinity-original-sin",
+    "title": "神界：原罪",
+    "sourceTitle": "Divinity: Original Sin",
+    "versionTitle": "Divinity: Original Sin",
+    "platform": "PC",
+    "score": 87,
+    "releaseYear": 2014,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/divinity-original-sin/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2014/07/15/divinity-original-sin-review",
+        "versionSlug": "divinity-original-sin",
+        "versionTitle": "Divinity: Original Sin"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/divinity-original-sin-review",
+        "versionSlug": "divinity-original-sin",
+        "versionTitle": "Divinity: Original Sin"
+      },
+      {
+        "site": "rpgamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://rpgamer.com/review/divinity-original-sin-review/",
+        "versionSlug": "divinity-original-sin",
+        "versionTitle": "Divinity: Original Sin"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/divinity-original-sin.mdx"
+  },
+  {
+    "slug": "the-legend-of-zelda-links-awakening",
+    "sourceSlug": "the-legend-of-zelda-links-awakening",
+    "title": "塞尔达传说 织梦岛",
+    "sourceTitle": "The Legend of Zelda: Link's Awakening",
+    "versionTitle": "The Legend of Zelda: Link's Awakening",
+    "platform": "Nintendo Switch",
+    "score": 87,
+    "releaseYear": 2019,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/the-legend-of-zelda-links-awakening/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2019/09/19/the-legend-of-zelda-links-awakening-review",
+        "versionSlug": "the-legend-of-zelda-links-awakening",
+        "versionTitle": "The Legend of Zelda: Link's Awakening"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/the-legend-of-zelda-links-awakening-review-a-respe/1900-6417309/",
+        "versionSlug": "the-legend-of-zelda-links-awakening",
+        "versionTitle": "The Legend of Zelda: Link's Awakening"
+      },
+      {
+        "site": "rpgsite",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.rpgsite.net/review/9012-the-legend-of-zelda-links-awakening-review",
+        "versionSlug": "the-legend-of-zelda-links-awakening",
+        "versionTitle": "The Legend of Zelda: Link's Awakening"
+      },
+      {
+        "site": "rpgamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://rpgamer.com/review/the-legend-of-zelda-links-awakening-review/",
+        "versionSlug": "the-legend-of-zelda-links-awakening",
+        "versionTitle": "The Legend of Zelda: Link's Awakening"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/the-legend-of-zelda-links-awakening.mdx"
   },
   {
     "slug": "mario-and-luigi-partners-in-time",
@@ -9206,6 +9476,240 @@
     "translationPath": "docs/games/mario-and-luigi-partners-in-time.mdx"
   },
   {
+    "slug": "vampire-survivors",
+    "sourceSlug": "vampire-survivors",
+    "title": "吸血鬼幸存者",
+    "sourceTitle": "Vampire Survivors",
+    "versionTitle": "Vampire Survivors",
+    "platform": "PC",
+    "score": 86,
+    "releaseYear": 2022,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/vampire-survivors/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/vampire-survivors-review",
+        "versionSlug": "vampire-survivors",
+        "versionTitle": "Vampire Survivors"
+      },
+      {
+        "site": "rockpapershotgun",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.rockpapershotgun.com/vampire-survivors-review",
+        "versionSlug": "vampire-survivors",
+        "versionTitle": "Vampire Survivors"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/vampire-survivors.mdx"
+  },
+  {
+    "slug": "mario-plus-rabbids-sparks-of-hope",
+    "sourceSlug": "mario-plus-rabbids-sparks-of-hope",
+    "title": "马力欧+疯狂兔子 星耀之愿",
+    "sourceTitle": "Mario + Rabbids Sparks of Hope",
+    "versionTitle": "Mario + Rabbids Sparks of Hope",
+    "platform": "Nintendo Switch",
+    "score": 85,
+    "releaseYear": 2022,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/mario-plus-rabbids-sparks-of-hope/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/mario-rabbids-sparks-of-hope-review",
+        "versionSlug": "mario-plus-rabbids-sparks-of-hope",
+        "versionTitle": "Mario + Rabbids Sparks of Hope"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/mario-rabbids-sparks-of-hope-review-this-sparks-joy/1900-6417985/",
+        "versionSlug": "mario-plus-rabbids-sparks-of-hope",
+        "versionTitle": "Mario + Rabbids Sparks of Hope"
+      },
+      {
+        "site": "rpgamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://rpgamer.com/review/mario-rabbids-sparks-of-hope-review/",
+        "versionSlug": "mario-plus-rabbids-sparks-of-hope",
+        "versionTitle": "Mario + Rabbids Sparks of Hope"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/mario-plus-rabbids-sparks-of-hope.mdx"
+  },
+  {
+    "slug": "the-legend-of-zelda-echoes-of-wisdom",
+    "sourceSlug": "the-legend-of-zelda-echoes-of-wisdom",
+    "title": "塞尔达传说 智慧的再现",
+    "sourceTitle": "The Legend of Zelda: Echoes of Wisdom",
+    "versionTitle": "The Legend of Zelda: Echoes of Wisdom",
+    "platform": "Nintendo Switch",
+    "score": 85,
+    "releaseYear": 2024,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/the-legend-of-zelda-echoes-of-wisdom/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/the-legend-of-zelda-echoes-of-wisdom-review",
+        "versionSlug": "the-legend-of-zelda-echoes-of-wisdom",
+        "versionTitle": "The Legend of Zelda: Echoes of Wisdom"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/the-legend-of-zelda-echoes-of-wisdom-review-a-link-between-eras/1900-6418291/",
+        "versionSlug": "the-legend-of-zelda-echoes-of-wisdom",
+        "versionTitle": "The Legend of Zelda: Echoes of Wisdom"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/the-legend-of-zelda-echoes-of-wisdom-review-a-rebellious-remix-of-past-and-present",
+        "versionSlug": "the-legend-of-zelda-echoes-of-wisdom",
+        "versionTitle": "The Legend of Zelda: Echoes of Wisdom"
+      },
+      {
+        "site": "rpgsite",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.rpgsite.net/review/16358-the-legend-of-zelda-echoes-of-wisdom-review",
+        "versionSlug": "the-legend-of-zelda-echoes-of-wisdom",
+        "versionTitle": "The Legend of Zelda: Echoes of Wisdom"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/the-legend-of-zelda-echoes-of-wisdom.mdx"
+  },
+  {
+    "slug": "ball-x-pit",
+    "sourceSlug": "ball-x-pit",
+    "title": "BALL x PIT",
+    "sourceTitle": "BALL x PIT",
+    "versionTitle": "BALL x PIT",
+    "platform": "PC",
+    "score": 84,
+    "releaseYear": 2025,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/ball-x-pit/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/ball-x-pit-review",
+        "versionSlug": "ball-x-pit",
+        "versionTitle": "BALL x PIT"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/ball-x-pit-review-off-the-wall/1900-6418436/",
+        "versionSlug": "ball-x-pit",
+        "versionTitle": "BALL x PIT"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/ball-x-pit-review",
+        "versionSlug": "ball-x-pit",
+        "versionTitle": "BALL x PIT"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/ball-x-pit.mdx"
+  },
+  {
+    "slug": "dragon-quest-v-hand-of-the-heavenly-bride",
+    "sourceSlug": "dragon-quest-v-hand-of-the-heavenly-bride",
+    "title": "勇者斗恶龙V 天空的新娘",
+    "sourceTitle": "Dragon Quest V: Hand of the Heavenly Bride",
+    "versionTitle": "Dragon Quest V: Hand of the Heavenly Bride",
+    "platform": "Nintendo DS",
+    "score": 84,
+    "releaseYear": 2009,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/dragon-quest-v-hand-of-the-heavenly-bride/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2009/02/11/dragon-quest-v-hand-of-the-heavenly-bride-review",
+        "versionSlug": "dragon-quest-v-hand-of-the-heavenly-bride",
+        "versionTitle": "Dragon Quest V: Hand of the Heavenly Bride"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/dragon-quest-v-hand-of-the-heavenly-bride-review",
+        "versionSlug": "dragon-quest-v-hand-of-the-heavenly-bride",
+        "versionTitle": "Dragon Quest V: Hand of the Heavenly Bride"
+      },
+      {
+        "site": "rpgsite",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.rpgsite.net/review/2834-dragon-quest-v-hand-of-the-heavenly-bride-review",
+        "versionSlug": "dragon-quest-v-hand-of-the-heavenly-bride",
+        "versionTitle": "Dragon Quest V: Hand of the Heavenly Bride"
+      },
+      {
+        "site": "rpgamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://rpgamer.com/review/dragon-quest-v-hand-of-the-heavenly-bride-review/",
+        "versionSlug": "dragon-quest-v-hand-of-the-heavenly-bride",
+        "versionTitle": "Dragon Quest V: Hand of the Heavenly Bride"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/dragon-quest-v-hand-of-the-heavenly-bride.mdx"
+  },
+  {
     "slug": "mario-and-luigi-bowsers-inside-story",
     "sourceSlug": "mario-and-luigi-bowsers-inside-story-plus-bowser",
     "title": "马力欧与路易吉RPG3!!!",
@@ -9231,6 +9735,132 @@
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/mario-and-luigi-bowsers-inside-story.mdx"
+  },
+  {
+    "slug": "pathfinder-wrath-of-the-righteous",
+    "sourceSlug": "pathfinder-wrath-of-the-righteous",
+    "title": "开拓者：正义之怒",
+    "sourceTitle": "Pathfinder: Wrath of the Righteous",
+    "versionTitle": "Pathfinder: Wrath of the Righteous",
+    "platform": "PC",
+    "score": 83,
+    "releaseYear": 2021,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/pathfinder-wrath-of-the-righteous/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/pathfinder-wrath-of-the-righteous-review",
+        "versionSlug": "pathfinder-wrath-of-the-righteous",
+        "versionTitle": "Pathfinder: Wrath of the Righteous"
+      },
+      {
+        "site": "rpgsite",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.rpgsite.net/review/11864-pathfinder-wrath-of-the-righteous-review",
+        "versionSlug": "pathfinder-wrath-of-the-righteous",
+        "versionTitle": "Pathfinder: Wrath of the Righteous"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/pathfinder-wrath-of-the-righteous.mdx"
+  },
+  {
+    "slug": "triangle-strategy",
+    "sourceSlug": "triangle-strategy",
+    "title": "三角战略",
+    "sourceTitle": "Triangle Strategy",
+    "versionTitle": "Triangle Strategy",
+    "platform": "Nintendo Switch",
+    "score": 83,
+    "releaseYear": 2022,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/triangle-strategy/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/triangle-strategy-review-nintendo-switch",
+        "versionSlug": "triangle-strategy",
+        "versionTitle": "Triangle Strategy"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/triangle-strategy-review-were-talking-kings-and-successions/1900-6417840/",
+        "versionSlug": "triangle-strategy",
+        "versionTitle": "Triangle Strategy"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/triangle-strategy-review-an-enjoyably-complex-tale-of-a-battle-over-salt",
+        "versionSlug": "triangle-strategy",
+        "versionTitle": "Triangle Strategy"
+      },
+      {
+        "site": "rpgsite",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.rpgsite.net/review/12464-triangle-strategy-review",
+        "versionSlug": "triangle-strategy",
+        "versionTitle": "Triangle Strategy"
+      },
+      {
+        "site": "rpgamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://rpgamer.com/review/triangle-strategy-review/",
+        "versionSlug": "triangle-strategy",
+        "versionTitle": "Triangle Strategy"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/triangle-strategy.mdx"
+  },
+  {
+    "slug": "vampire-crawlers",
+    "sourceSlug": "vampire-crawlers",
+    "title": "吸血鬼爬行者",
+    "sourceTitle": "Vampire Crawlers: The Turbo Wildcard from Vampire Survivors",
+    "versionTitle": "Vampire Crawlers: The Turbo Wildcard from Vampire Survivors",
+    "platform": "PC",
+    "score": 82,
+    "releaseYear": 2026,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/vampire-crawlers-the-turbo-wildcard-from-vampire/",
+    "sources": [
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/vampire-crawlers-review-pixel-perfect-pandemonium/1900-6418483/",
+        "versionSlug": "vampire-crawlers",
+        "versionTitle": "Vampire Crawlers: The Turbo Wildcard from Vampire Survivors"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/vampire-crawlers.mdx"
   },
   {
     "slug": "mario-and-luigi-dream-team",
@@ -9330,6 +9960,51 @@
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/yoshi-and-the-mysterious-book.mdx"
+  },
+  {
+    "slug": "warhammer-40000-rogue-trader",
+    "sourceSlug": "warhammer-40000-rogue-trader",
+    "title": "战锤40K：行商浪人",
+    "sourceTitle": "Warhammer 40,000: Rogue Trader",
+    "versionTitle": "Warhammer 40,000: Rogue Trader",
+    "platform": "PC",
+    "score": 78,
+    "releaseYear": 2023,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/warhammer-40000-rogue-trader/",
+    "sources": [
+      {
+        "site": "rockpapershotgun",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.rockpapershotgun.com/warhammer-40000-rogue-trader-review",
+        "versionSlug": "warhammer-40000-rogue-trader",
+        "versionTitle": "Warhammer 40,000: Rogue Trader"
+      },
+      {
+        "site": "rpgsite",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.rpgsite.net/review/16164-warhammer-40000-rogue-trader-review",
+        "versionSlug": "warhammer-40000-rogue-trader",
+        "versionTitle": "Warhammer 40,000: Rogue Trader"
+      },
+      {
+        "site": "rpgamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://rpgamer.com/review/warhammer-40000-rogue-trader-review/",
+        "versionSlug": "warhammer-40000-rogue-trader",
+        "versionTitle": "Warhammer 40,000: Rogue Trader"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/warhammer-40000-rogue-trader.mdx"
   },
   {
     "slug": "mario-and-luigi-brothership",
