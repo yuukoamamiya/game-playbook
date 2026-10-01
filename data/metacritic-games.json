@@ -7909,6 +7909,27 @@
         "language": "en",
         "score": null,
         "url": "https://www.gamespot.com/reviews/the-legend-of-zelda-twilight-princess-review/1900-6161993/"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/the-legend-of-zelda-twilight-princess-hd-review"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/the-legend-of-zelda-twilight-princess-hd-review/1900-6416369/"
+      },
+      {
+        "site": "rpgsite",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.rpgsite.net/review/4759-the-legend-of-zelda-twilight-princess-hd-review"
       }
     ]
   },
@@ -7937,6 +7958,27 @@
         "language": "en",
         "score": null,
         "url": "https://www.gamespot.com/reviews/the-legend-of-zelda-the-wind-waker-review/1900-6023591/"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/the-legend-of-zelda-the-wind-waker-hd-review"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/the-legend-of-zelda-the-wind-waker-hd-review/1900-6414506/"
+      },
+      {
+        "site": "rpgsite",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.rpgsite.net/review/3156-the-legend-of-zelda-the-wind-waker-hd-review"
       }
     ]
   },
@@ -8126,6 +8168,20 @@
         "language": "en",
         "score": null,
         "url": "https://www.gamespot.com/reviews/the-legend-of-zelda-skyward-sword-review/1900-6345839/"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/review-the-legend-of-zelda-skyward-sword-hd-a-cloud-bound-romance"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/the-legend-of-zelda-skyward-sword-hd-review-link-to-the-past/1900-6417698/"
       }
     ]
   },
@@ -8154,6 +8210,20 @@
         "language": "en",
         "score": null,
         "url": "https://www.gamespot.com/reviews/xenoblade-chronicles-review/1900-6329918/"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/xenoblade-chronicles-definitive-edition-gently-re-touched-thoughtfully-expanded-take-on-a-modern-classic"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/xenoblade-chronicles-definitive-edition-review/1900-6417470/"
       }
     ]
   },
@@ -8210,6 +8280,13 @@
         "language": "en",
         "score": null,
         "url": "https://www.gamespot.com/reviews/okami-review/1900-6189305/"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/okami-hd-review"
       }
     ]
   },
@@ -8280,6 +8357,20 @@
         "language": "en",
         "score": null,
         "url": "https://www.eurogamer.net/super-mario-3d-world-review"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/super-mario-3d-world-bowsers-fury-review-mario-at-its-most-madcap-and-inventive"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/super-mario-3d-world-bowsers-fury-review/1900-6417639/"
       }
     ]
   },
@@ -8322,6 +8413,41 @@
         "language": "en",
         "score": null,
         "url": "https://rpgamer.com/review/xenoblade-chronicles-2-review/"
+      }
+    ]
+  },
+  {
+    "slug": "metroid-dread",
+    "title": "Metroid Dread",
+    "platform": "Nintendo Switch",
+    "metacritic_score": 88,
+    "must_play": true,
+    "release_year": 2021,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/metroid-dread/",
+    "content_status": "manually-added",
+    "notes": "用户点名收录；Metacritic：https://www.metacritic.com/game/metroid-dread/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/metroid-dread-review-nintendo-switch"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/metroid-dread-review-space-truckin/1900-6417757/"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/metroid-dread-review-a-sublime-return-for-a-nintendo-icon"
       }
     ]
   }

@@ -1956,6 +1956,23 @@
       "label": "RPG Site"
     }
   ],
+  "metroid-dread": [
+    {
+      "id": "ign",
+      "site": "ign",
+      "label": "IGN"
+    },
+    {
+      "id": "gamespot",
+      "site": "gamespot",
+      "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    }
+  ],
   "metroid-fusion": [
     {
       "id": "ign",
@@ -2177,6 +2194,11 @@
       "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer-hd",
+      "site": "eurogamer",
+      "label": "Eurogamer · HD 复刻"
     }
   ],
   "onimusha-way-of-the-sword": [
@@ -2851,6 +2873,11 @@
       "id": "eurogamer",
       "site": "eurogamer",
       "label": "Eurogamer"
+    },
+    {
+      "id": "eurogamer-bowsers",
+      "site": "eurogamer",
+      "label": "Eurogamer · 狂怒世界版"
     }
   ],
   "super-mario-advance-4-super-mario-bros-3": [
@@ -3289,6 +3316,16 @@
       "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer-hd",
+      "site": "eurogamer",
+      "label": "Eurogamer · HD 复刻"
+    },
+    {
+      "id": "gamespot-hd",
+      "site": "gamespot",
+      "label": "GameSpot · HD 复刻"
     }
   ],
   "the-legend-of-zelda-tears-of-the-kingdom": [
@@ -3328,6 +3365,21 @@
       "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer-hd",
+      "site": "eurogamer",
+      "label": "Eurogamer · HD 复刻"
+    },
+    {
+      "id": "gamespot-hd",
+      "site": "gamespot",
+      "label": "GameSpot · HD 复刻"
+    },
+    {
+      "id": "rpgsite-hd",
+      "site": "rpgsite",
+      "label": "RPG Site · HD 复刻"
     }
   ],
   "the-legend-of-zelda-twilight-princess": [
@@ -3340,6 +3392,21 @@
       "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer-hd",
+      "site": "eurogamer",
+      "label": "Eurogamer · HD 复刻"
+    },
+    {
+      "id": "gamespot-hd",
+      "site": "gamespot",
+      "label": "GameSpot · HD 复刻"
+    },
+    {
+      "id": "rpgsite-hd",
+      "site": "rpgsite",
+      "label": "RPG Site · HD 复刻"
     }
   ],
   "the-longest-journey": [
@@ -3856,6 +3923,16 @@
       "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer-de",
+      "site": "eurogamer",
+      "label": "Eurogamer · 决定版"
+    },
+    {
+      "id": "gamespot-de",
+      "site": "gamespot",
+      "label": "GameSpot · 决定版"
     }
   ],
   "yoshi-and-the-mysterious-book": [

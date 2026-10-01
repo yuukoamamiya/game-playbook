@@ -71,6 +71,13 @@
 - 太子（PoP）GameSpot 快照只有 403、超级马力欧 银河2 没有可用新版快照，这两款未收录 GameSpot；页面保留 IGN（银河2 另有 Eurogamer）。
 - 全部 15 篇评测采集英文正文并全文翻译；15 张头图用 `collect-game-images.mjs`；`src/generated/` 已重生成。
 
+## HD 复刻补录 + Metroid Dread（2026-10-01）
+
+- 用户确认 HD/复刻版评测也应收录：作为**补充来源加到同一页面**，用「<媒体> · HD 复刻 / 决定版 / 狂怒世界版」这类标签区分，并在标签内注明对应版本，全文翻译。
+- 为上一批的 GameCube/Wii/Wii U 作品补上复刻评测：黄昏公主 HD（Eurogamer/GameSpot/RPG Site）、风之杖 HD（Eurogamer/GameSpot/RPG Site）、御天之剑 HD（Eurogamer/GameSpot）、超级马力欧 3D世界+狂怒世界（Eurogamer）、大神 HD（Eurogamer）、异度神剑 决定版（Eurogamer/GameSpot）。
+- 新增《银河战士 生存恐惧》（Metroid Dread，Switch，MC 88，manually-added），评测 IGN / GameSpot / Eurogamer，全部翻译 + 头图。
+- 采集注意：Eurogamer 正文边界会误命中文章内图集的 `<nav class="pagination">`，导致长评测被截断（Metroid Dread 只取到前 1/3）；改用「article_body_content 到 article_footer、并截到相关阅读列表之前」的方式重新提取。
+
 ## 部署
 
 - GitHub 与 Cloudflare Pages 已连通，Cloudflare 构建命令为 `npm run build`，输出目录为 `build`，Node.js 使用 20 或更高版本。

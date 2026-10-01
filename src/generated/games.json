@@ -533,6 +533,33 @@
         "url": "https://www.gamespot.com/reviews/the-legend-of-zelda-the-wind-waker-review/1900-6023591/",
         "versionSlug": "the-legend-of-zelda-the-wind-waker",
         "versionTitle": "The Legend of Zelda: The Wind Waker"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/the-legend-of-zelda-the-wind-waker-hd-review",
+        "versionSlug": "the-legend-of-zelda-the-wind-waker",
+        "versionTitle": "The Legend of Zelda: The Wind Waker"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/the-legend-of-zelda-the-wind-waker-hd-review/1900-6414506/",
+        "versionSlug": "the-legend-of-zelda-the-wind-waker",
+        "versionTitle": "The Legend of Zelda: The Wind Waker"
+      },
+      {
+        "site": "rpgsite",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.rpgsite.net/review/3156-the-legend-of-zelda-the-wind-waker-hd-review",
+        "versionSlug": "the-legend-of-zelda-the-wind-waker",
+        "versionTitle": "The Legend of Zelda: The Wind Waker"
       }
     ],
     "contentStatus": "manually-added",
@@ -567,6 +594,33 @@
         "language": "en",
         "score": null,
         "url": "https://www.gamespot.com/reviews/the-legend-of-zelda-twilight-princess-review/1900-6161993/",
+        "versionSlug": "the-legend-of-zelda-twilight-princess",
+        "versionTitle": "The Legend of Zelda: Twilight Princess"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/the-legend-of-zelda-twilight-princess-hd-review",
+        "versionSlug": "the-legend-of-zelda-twilight-princess",
+        "versionTitle": "The Legend of Zelda: Twilight Princess"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/the-legend-of-zelda-twilight-princess-hd-review/1900-6416369/",
+        "versionSlug": "the-legend-of-zelda-twilight-princess",
+        "versionTitle": "The Legend of Zelda: Twilight Princess"
+      },
+      {
+        "site": "rpgsite",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.rpgsite.net/review/4759-the-legend-of-zelda-twilight-princess-hd-review",
         "versionSlug": "the-legend-of-zelda-twilight-princess",
         "versionTitle": "The Legend of Zelda: Twilight Princess"
       }
@@ -2558,6 +2612,24 @@
         "url": "https://www.eurogamer.net/super-mario-3d-world-review",
         "versionSlug": "super-mario-3d-world",
         "versionTitle": "Super Mario 3D World"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/super-mario-3d-world-bowsers-fury-review-mario-at-its-most-madcap-and-inventive",
+        "versionSlug": "super-mario-3d-world",
+        "versionTitle": "Super Mario 3D World"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/super-mario-3d-world-bowsers-fury-review/1900-6417639/",
+        "versionSlug": "super-mario-3d-world",
+        "versionTitle": "Super Mario 3D World"
       }
     ],
     "contentStatus": "manually-added",
@@ -2628,6 +2700,24 @@
         "language": "en",
         "score": null,
         "url": "https://www.gamespot.com/reviews/the-legend-of-zelda-skyward-sword-review/1900-6345839/",
+        "versionSlug": "the-legend-of-zelda-skyward-sword",
+        "versionTitle": "The Legend of Zelda: Skyward Sword"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/review-the-legend-of-zelda-skyward-sword-hd-a-cloud-bound-romance",
+        "versionSlug": "the-legend-of-zelda-skyward-sword",
+        "versionTitle": "The Legend of Zelda: Skyward Sword"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/the-legend-of-zelda-skyward-sword-hd-review-link-to-the-past/1900-6417698/",
         "versionSlug": "the-legend-of-zelda-skyward-sword",
         "versionTitle": "The Legend of Zelda: Skyward Sword"
       }
@@ -4351,6 +4441,24 @@
         "language": "en",
         "score": null,
         "url": "https://www.gamespot.com/reviews/xenoblade-chronicles-review/1900-6329918/",
+        "versionSlug": "xenoblade-chronicles",
+        "versionTitle": "Xenoblade Chronicles"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/xenoblade-chronicles-definitive-edition-gently-re-touched-thoughtfully-expanded-take-on-a-modern-classic",
+        "versionSlug": "xenoblade-chronicles",
+        "versionTitle": "Xenoblade Chronicles"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/xenoblade-chronicles-definitive-edition-review/1900-6417470/",
         "versionSlug": "xenoblade-chronicles",
         "versionTitle": "Xenoblade Chronicles"
       }
@@ -8396,6 +8504,15 @@
         "url": "https://www.gamespot.com/reviews/okami-review/1900-6189305/",
         "versionSlug": "okami",
         "versionTitle": "Okami"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/okami-hd-review",
+        "versionSlug": "okami",
+        "versionTitle": "Okami"
       }
     ],
     "contentStatus": "manually-added",
@@ -9816,6 +9933,51 @@
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/13-sentinels-aegis-rim.mdx"
+  },
+  {
+    "slug": "metroid-dread",
+    "sourceSlug": "metroid-dread",
+    "title": "银河战士 生存恐惧",
+    "sourceTitle": "Metroid Dread",
+    "versionTitle": "Metroid Dread",
+    "platform": "Nintendo Switch",
+    "score": 88,
+    "releaseYear": 2021,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/metroid-dread/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/metroid-dread-review-nintendo-switch",
+        "versionSlug": "metroid-dread",
+        "versionTitle": "Metroid Dread"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/metroid-dread-review-space-truckin/1900-6417757/",
+        "versionSlug": "metroid-dread",
+        "versionTitle": "Metroid Dread"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/metroid-dread-review-a-sublime-return-for-a-nintendo-icon",
+        "versionSlug": "metroid-dread",
+        "versionTitle": "Metroid Dread"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/metroid-dread.mdx"
   },
   {
     "slug": "paper-mario-the-thousand-year-door",
