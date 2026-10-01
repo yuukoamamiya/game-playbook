@@ -62,6 +62,7 @@
 - 评测入口共 47 条，覆盖 IGN／GameSpot／Eurogamer／RPG Site／RPGamer／Rock Paper Shotgun。IGN、RPG Site、Eurogamer、RPS 用仓库采集脚本；GameSpot／RPGamer 直连被 Cloudflare 或站点阻断，改用 Wayback Machine CDX 索引反查 URL 与正文。
 - 每篇评测均采集英文正文（`content/reviews/en/<slug>/<site>.md`）并全文翻译进对应 `ReviewTab`；14 张头图用 `collect-game-images.mjs` 采集。
 - 已知：`collect-game-images.mjs` 对带 `page_slug` 的合并记录会生成同名多余图片，需手动删除（本次清理了 16 张）。
+- 修复：加洛韦《玩代码》一文挂在《文明3》《半人马座阿尔法星》《模拟人生》《虚幻竞技场》四条记录上，但此前只有《虚幻竞技场》页面有该译文，导致首页「学者」筛选项能筛出前三个却点进去看不到。现已把同一译文补进另外三个页面（每页备注按实际提及的作品调整）。
 
 ## 部署
 
