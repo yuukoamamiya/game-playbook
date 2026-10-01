@@ -7883,5 +7883,446 @@
         "url": "https://rpgamer.com/review/divinity-original-sin-review/"
       }
     ]
+  },
+  {
+    "slug": "the-legend-of-zelda-twilight-princess",
+    "title": "The Legend of Zelda: Twilight Princess",
+    "platform": "GameCube",
+    "metacritic_score": 96,
+    "must_play": true,
+    "release_year": 2006,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/the-legend-of-zelda-twilight-princess/",
+    "content_status": "manually-added",
+    "notes": "用户点名收录；Metacritic：https://www.metacritic.com/game/the-legend-of-zelda-twilight-princess/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2006/12/15/the-legend-of-zelda-twilight-princess-review"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/the-legend-of-zelda-twilight-princess-review/1900-6161993/"
+      }
+    ]
+  },
+  {
+    "slug": "the-legend-of-zelda-the-wind-waker",
+    "title": "The Legend of Zelda: The Wind Waker",
+    "platform": "GameCube",
+    "metacritic_score": 96,
+    "must_play": true,
+    "release_year": 2003,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/the-legend-of-zelda-the-wind-waker/",
+    "content_status": "manually-added",
+    "notes": "用户点名收录；Metacritic：https://www.metacritic.com/game/the-legend-of-zelda-the-wind-waker/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2003/03/21/legend-of-zelda-the-wind-waker"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/the-legend-of-zelda-the-wind-waker-review/1900-6023591/"
+      }
+    ]
+  },
+  {
+    "slug": "super-mario-sunshine",
+    "title": "Super Mario Sunshine",
+    "platform": "GameCube",
+    "metacritic_score": 92,
+    "must_play": true,
+    "release_year": 2002,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/super-mario-sunshine/",
+    "content_status": "manually-added",
+    "notes": "用户点名收录；Metacritic：https://www.metacritic.com/game/super-mario-sunshine/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2002/08/22/super-mario-sunshine"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/super-mario-sunshine-review/1900-2878399/"
+      }
+    ]
+  },
+  {
+    "slug": "prince-of-persia-the-sands-of-time",
+    "title": "Prince of Persia: The Sands of Time",
+    "platform": "GameCube",
+    "metacritic_score": 92,
+    "must_play": true,
+    "release_year": 2003,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/prince-of-persia-the-sands-of-time/",
+    "content_status": "manually-added",
+    "notes": "用户点名收录；Metacritic：https://www.metacritic.com/game/prince-of-persia-the-sands-of-time/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2003/12/09/prince-of-persia-review-2"
+      }
+    ]
+  },
+  {
+    "slug": "metroid-prime-2-echoes",
+    "title": "Metroid Prime 2: Echoes",
+    "platform": "GameCube",
+    "metacritic_score": 92,
+    "must_play": true,
+    "release_year": 2004,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/metroid-prime-2-echoes/",
+    "content_status": "manually-added",
+    "notes": "用户点名收录；Metacritic：https://www.metacritic.com/game/metroid-prime-2-echoes/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2004/11/12/metroid-prime-2-echoes-2"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/metroid-prime-2-echoes-review/1900-6112996/"
+      }
+    ]
+  },
+  {
+    "slug": "pikmin-2",
+    "title": "Pikmin 2",
+    "platform": "GameCube",
+    "metacritic_score": 90,
+    "must_play": true,
+    "release_year": 2004,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/pikmin-2/",
+    "content_status": "manually-added",
+    "notes": "用户点名收录；Metacritic：https://www.metacritic.com/game/pikmin-2/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2004/08/20/pikmin-2"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/pikmin-2-review/1900-6106208/"
+      }
+    ]
+  },
+  {
+    "slug": "super-mario-galaxy-2",
+    "title": "Super Mario Galaxy 2",
+    "platform": "Wii",
+    "metacritic_score": 98,
+    "must_play": true,
+    "release_year": 2010,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/super-mario-galaxy-2/",
+    "content_status": "manually-added",
+    "notes": "用户点名收录；Metacritic：https://www.metacritic.com/game/super-mario-galaxy-2/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2010/05/21/super-mario-galaxy-2-review"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/super-mario-galaxy-2-review"
+      }
+    ]
+  },
+  {
+    "slug": "super-mario-galaxy",
+    "title": "Super Mario Galaxy",
+    "platform": "Wii",
+    "metacritic_score": 97,
+    "must_play": true,
+    "release_year": 2007,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/super-mario-galaxy/",
+    "content_status": "manually-added",
+    "notes": "用户点名收录；Metacritic：https://www.metacritic.com/game/super-mario-galaxy/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2007/11/08/super-mario-galaxy-review"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/super-mario-galaxy-review/1900-6182474/"
+      }
+    ]
+  },
+  {
+    "slug": "the-legend-of-zelda-skyward-sword",
+    "title": "The Legend of Zelda: Skyward Sword",
+    "platform": "Wii",
+    "metacritic_score": 93,
+    "must_play": true,
+    "release_year": 2011,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/the-legend-of-zelda-skyward-sword/",
+    "content_status": "manually-added",
+    "notes": "用户点名收录；Metacritic：https://www.metacritic.com/game/the-legend-of-zelda-skyward-sword/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2011/11/11/the-legend-of-zelda-skyward-sword-review"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/the-legend-of-zelda-skyward-sword-review/1900-6345839/"
+      }
+    ]
+  },
+  {
+    "slug": "xenoblade-chronicles",
+    "title": "Xenoblade Chronicles",
+    "platform": "Wii",
+    "metacritic_score": 92,
+    "must_play": true,
+    "release_year": 2010,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/xenoblade-chronicles/",
+    "content_status": "manually-added",
+    "notes": "用户点名收录；Metacritic：https://www.metacritic.com/game/xenoblade-chronicles/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2012/04/03/xenoblade-chronicles-review"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/xenoblade-chronicles-review/1900-6329918/"
+      }
+    ]
+  },
+  {
+    "slug": "metroid-prime-trilogy",
+    "title": "Metroid Prime Trilogy",
+    "platform": "Wii",
+    "metacritic_score": 91,
+    "must_play": true,
+    "release_year": 2009,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/metroid-prime-trilogy/",
+    "content_status": "manually-added",
+    "notes": "用户点名收录；Metacritic：https://www.metacritic.com/game/metroid-prime-trilogy/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2009/08/21/metroid-prime-trilogy-review"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/metroid-prime-trilogy-review"
+      }
+    ]
+  },
+  {
+    "slug": "okami",
+    "title": "Okami",
+    "platform": "Wii",
+    "metacritic_score": 90,
+    "must_play": true,
+    "release_year": 2008,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/okami/",
+    "content_status": "manually-added",
+    "notes": "用户点名收录；Metacritic：https://www.metacritic.com/game/okami/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2008/04/11/okami-review"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/okami-review/1900-6189305/"
+      }
+    ]
+  },
+  {
+    "slug": "metroid-prime-3-corruption",
+    "title": "Metroid Prime 3: Corruption",
+    "platform": "Wii",
+    "metacritic_score": 90,
+    "must_play": true,
+    "release_year": 2007,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/metroid-prime-3-corruption/",
+    "content_status": "manually-added",
+    "notes": "用户点名收录；Metacritic：https://www.metacritic.com/game/metroid-prime-3-corruption/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2007/08/27/metroid-prime-3-corruption-review"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/metroid-prime-3-corruption-review/1900-6177714/"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/metroid-prime-3-corruption-review"
+      }
+    ]
+  },
+  {
+    "slug": "super-mario-3d-world",
+    "title": "Super Mario 3D World",
+    "platform": "Wii U",
+    "metacritic_score": 93,
+    "must_play": true,
+    "release_year": 2013,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/super-mario-3d-world/",
+    "content_status": "manually-added",
+    "notes": "用户点名收录；Metacritic：https://www.metacritic.com/game/super-mario-3d-world/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2013/11/19/super-mario-3d-world-review"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/super-mario-3d-world-review/1900-6415544/"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/super-mario-3d-world-review"
+      }
+    ]
+  },
+  {
+    "slug": "xenoblade-chronicles-2",
+    "title": "Xenoblade Chronicles 2",
+    "platform": "Nintendo Switch",
+    "metacritic_score": 83,
+    "must_play": true,
+    "release_year": 2017,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/xenoblade-chronicles-2/",
+    "content_status": "manually-added",
+    "notes": "用户点名收录；Metacritic：https://www.metacritic.com/game/xenoblade-chronicles-2/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2017/11/30/xenoblade-chronicles-2-review"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/xenoblade-chronicles-2-review/1900-6416821/"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/xenoblade-chronicles-2-review"
+      },
+      {
+        "site": "rpgamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://rpgamer.com/review/xenoblade-chronicles-2-review/"
+      }
+    ]
   }
 ]

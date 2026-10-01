@@ -64,6 +64,13 @@
 - 已知：`collect-game-images.mjs` 对带 `page_slug` 的合并记录会生成同名多余图片，需手动删除（本次清理了 16 张）。
 - 修复：加洛韦《玩代码》一文挂在《文明3》《半人马座阿尔法星》《模拟人生》《虚幻竞技场》四条记录上，但此前只有《虚幻竞技场》页面有该译文，导致首页「学者」筛选项能筛出前三个却点进去看不到。现已把同一译文补进另外三个页面（每页备注按实际提及的作品调整）。
 
+## 用户点名收录·NGC/Wii/Wii U（2026-10-01）
+
+- 按用户点名新增 15 个作品（`manually-added`）：塞尔达传说 黄昏公主（GC 96）、风之杖（GC 96）、超级马力欧 阳光（GC 92）、波斯王子：时之沙（GC 92）、银河战士 Prime 2 回声（GC 92）、皮克敏2（GC 90）、超级马力欧 银河2（Wii 98）、超级马力欧 银河（Wii 97）、塞尔达传说 御天之剑（Wii 93）、异度神剑（Wii 92）、银河战士 Prime 三部曲（Wii 91）、大神（Wii 90）、银河战士 Prime 3 堕落（Wii 90）、超级马力欧 3D世界（Wii U 93）、异度神剑2（Switch 83）。平台值新增 `GameCube`、`Wii`、`Wii U`。
+- 评测入口 36 条，全部取**原始平台**的评测（不是后来的 HD/Switch 版）：IGN 15 条（含用 IGN sitemap 缓存定位到 2002–2013 年的老评测）、GameSpot 原版 13 条（Wayback 索引反查 URL + 最新快照的 `articleBody`）、Eurogamer 原版 6 条（Wayback 前缀索引，剔除 HD/电影等错配）、RPGamer 1 条（异度神剑2）。
+- 太子（PoP）GameSpot 快照只有 403、超级马力欧 银河2 没有可用新版快照，这两款未收录 GameSpot；页面保留 IGN（银河2 另有 Eurogamer）。
+- 全部 15 篇评测采集英文正文并全文翻译；15 张头图用 `collect-game-images.mjs`；`src/generated/` 已重生成。
+
 ## 部署
 
 - GitHub 与 Cloudflare Pages 已连通，Cloudflare 构建命令为 `npm run build`，输出目录为 `build`，Node.js 使用 20 或更高版本。

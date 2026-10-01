@@ -1,5 +1,77 @@
 [
   {
+    "slug": "super-mario-galaxy-2",
+    "sourceSlug": "super-mario-galaxy-2",
+    "title": "超级马力欧 银河2",
+    "sourceTitle": "Super Mario Galaxy 2",
+    "versionTitle": "Super Mario Galaxy 2",
+    "platform": "Wii",
+    "score": 98,
+    "releaseYear": 2010,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/super-mario-galaxy-2/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2010/05/21/super-mario-galaxy-2-review",
+        "versionSlug": "super-mario-galaxy-2",
+        "versionTitle": "Super Mario Galaxy 2"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/super-mario-galaxy-2-review",
+        "versionSlug": "super-mario-galaxy-2",
+        "versionTitle": "Super Mario Galaxy 2"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/super-mario-galaxy-2.mdx"
+  },
+  {
+    "slug": "super-mario-galaxy",
+    "sourceSlug": "super-mario-galaxy",
+    "title": "超级马力欧 银河",
+    "sourceTitle": "Super Mario Galaxy",
+    "versionTitle": "Super Mario Galaxy",
+    "platform": "Wii",
+    "score": 97,
+    "releaseYear": 2007,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/super-mario-galaxy/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2007/11/08/super-mario-galaxy-review",
+        "versionSlug": "super-mario-galaxy",
+        "versionTitle": "Super Mario Galaxy"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/super-mario-galaxy-review/1900-6182474/",
+        "versionSlug": "super-mario-galaxy",
+        "versionTitle": "Super Mario Galaxy"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/super-mario-galaxy.mdx"
+  },
+  {
     "slug": "super-mario-odyssey",
     "sourceSlug": "super-mario-odyssey",
     "title": "超级马力欧 奥德赛",
@@ -431,6 +503,78 @@
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/the-legend-of-zelda-tears-of-the-kingdom.mdx"
+  },
+  {
+    "slug": "the-legend-of-zelda-the-wind-waker",
+    "sourceSlug": "the-legend-of-zelda-the-wind-waker",
+    "title": "塞尔达传说 风之杖",
+    "sourceTitle": "The Legend of Zelda: The Wind Waker",
+    "versionTitle": "The Legend of Zelda: The Wind Waker",
+    "platform": "GameCube",
+    "score": 96,
+    "releaseYear": 2003,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/the-legend-of-zelda-the-wind-waker/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2003/03/21/legend-of-zelda-the-wind-waker",
+        "versionSlug": "the-legend-of-zelda-the-wind-waker",
+        "versionTitle": "The Legend of Zelda: The Wind Waker"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/the-legend-of-zelda-the-wind-waker-review/1900-6023591/",
+        "versionSlug": "the-legend-of-zelda-the-wind-waker",
+        "versionTitle": "The Legend of Zelda: The Wind Waker"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/the-legend-of-zelda-the-wind-waker.mdx"
+  },
+  {
+    "slug": "the-legend-of-zelda-twilight-princess",
+    "sourceSlug": "the-legend-of-zelda-twilight-princess",
+    "title": "塞尔达传说 黄昏公主",
+    "sourceTitle": "The Legend of Zelda: Twilight Princess",
+    "versionTitle": "The Legend of Zelda: Twilight Princess",
+    "platform": "GameCube",
+    "score": 96,
+    "releaseYear": 2006,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/the-legend-of-zelda-twilight-princess/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2006/12/15/the-legend-of-zelda-twilight-princess-review",
+        "versionSlug": "the-legend-of-zelda-twilight-princess",
+        "versionTitle": "The Legend of Zelda: Twilight Princess"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/the-legend-of-zelda-twilight-princess-review/1900-6161993/",
+        "versionSlug": "the-legend-of-zelda-twilight-princess",
+        "versionTitle": "The Legend of Zelda: Twilight Princess"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/the-legend-of-zelda-twilight-princess.mdx"
   },
   {
     "slug": "the-orange-box",
@@ -2377,6 +2521,51 @@
     "translationPath": "docs/games/starcraft-ii-wings-of-liberty.mdx"
   },
   {
+    "slug": "super-mario-3d-world",
+    "sourceSlug": "super-mario-3d-world",
+    "title": "超级马力欧 3D世界",
+    "sourceTitle": "Super Mario 3D World",
+    "versionTitle": "Super Mario 3D World",
+    "platform": "Wii U",
+    "score": 93,
+    "releaseYear": 2013,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/super-mario-3d-world/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2013/11/19/super-mario-3d-world-review",
+        "versionSlug": "super-mario-3d-world",
+        "versionTitle": "Super Mario 3D World"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/super-mario-3d-world-review/1900-6415544/",
+        "versionSlug": "super-mario-3d-world",
+        "versionTitle": "Super Mario 3D World"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/super-mario-3d-world-review",
+        "versionSlug": "super-mario-3d-world",
+        "versionTitle": "Super Mario 3D World"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/super-mario-3d-world.mdx"
+  },
+  {
     "slug": "super-smash-bros-ultimate",
     "sourceSlug": "super-smash-bros-ultimate",
     "title": "任天堂明星大乱斗 特别版",
@@ -2411,6 +2600,42 @@
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/super-smash-bros-ultimate.mdx"
+  },
+  {
+    "slug": "the-legend-of-zelda-skyward-sword",
+    "sourceSlug": "the-legend-of-zelda-skyward-sword",
+    "title": "塞尔达传说 御天之剑",
+    "sourceTitle": "The Legend of Zelda: Skyward Sword",
+    "versionTitle": "The Legend of Zelda: Skyward Sword",
+    "platform": "Wii",
+    "score": 93,
+    "releaseYear": 2011,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/the-legend-of-zelda-skyward-sword/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2011/11/11/the-legend-of-zelda-skyward-sword-review",
+        "versionSlug": "the-legend-of-zelda-skyward-sword",
+        "versionTitle": "The Legend of Zelda: Skyward Sword"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/the-legend-of-zelda-skyward-sword-review/1900-6345839/",
+        "versionSlug": "the-legend-of-zelda-skyward-sword",
+        "versionTitle": "The Legend of Zelda: Skyward Sword"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/the-legend-of-zelda-skyward-sword.mdx"
   },
   {
     "slug": "the-witcher-3-wild-hunt",
@@ -3350,6 +3575,69 @@
     "translationPath": "docs/games/metroid-fusion.mdx"
   },
   {
+    "slug": "metroid-prime-2-echoes",
+    "sourceSlug": "metroid-prime-2-echoes",
+    "title": "银河战士 Prime 2：回声",
+    "sourceTitle": "Metroid Prime 2: Echoes",
+    "versionTitle": "Metroid Prime 2: Echoes",
+    "platform": "GameCube",
+    "score": 92,
+    "releaseYear": 2004,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/metroid-prime-2-echoes/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2004/11/12/metroid-prime-2-echoes-2",
+        "versionSlug": "metroid-prime-2-echoes",
+        "versionTitle": "Metroid Prime 2: Echoes"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/metroid-prime-2-echoes-review/1900-6112996/",
+        "versionSlug": "metroid-prime-2-echoes",
+        "versionTitle": "Metroid Prime 2: Echoes"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/metroid-prime-2-echoes.mdx"
+  },
+  {
+    "slug": "prince-of-persia-the-sands-of-time",
+    "sourceSlug": "prince-of-persia-the-sands-of-time",
+    "title": "波斯王子：时之沙",
+    "sourceTitle": "Prince of Persia: The Sands of Time",
+    "versionTitle": "Prince of Persia: The Sands of Time",
+    "platform": "GameCube",
+    "score": 92,
+    "releaseYear": 2003,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/prince-of-persia-the-sands-of-time/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2003/12/09/prince-of-persia-review-2",
+        "versionSlug": "prince-of-persia-the-sands-of-time",
+        "versionTitle": "Prince of Persia: The Sands of Time"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/prince-of-persia-the-sands-of-time.mdx"
+  },
+  {
     "slug": "resident-evil-requiem",
     "sourceSlug": "resident-evil-requiem",
     "title": "生化危机：安魂曲",
@@ -3583,6 +3871,42 @@
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/super-mario-bros-wonder.mdx"
+  },
+  {
+    "slug": "super-mario-sunshine",
+    "sourceSlug": "super-mario-sunshine",
+    "title": "超级马力欧 阳光",
+    "sourceTitle": "Super Mario Sunshine",
+    "versionTitle": "Super Mario Sunshine",
+    "platform": "GameCube",
+    "score": 92,
+    "releaseYear": 2002,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/super-mario-sunshine/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2002/08/22/super-mario-sunshine",
+        "versionSlug": "super-mario-sunshine",
+        "versionTitle": "Super Mario Sunshine"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/super-mario-sunshine-review/1900-2878399/",
+        "versionSlug": "super-mario-sunshine",
+        "versionTitle": "Super Mario Sunshine"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/super-mario-sunshine.mdx"
   },
   {
     "slug": "super-mario-world-super-mario-advance-2",
@@ -3999,6 +4323,42 @@
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/warcraft-iii-reign-of-chaos.mdx"
+  },
+  {
+    "slug": "xenoblade-chronicles",
+    "sourceSlug": "xenoblade-chronicles",
+    "title": "异度神剑",
+    "sourceTitle": "Xenoblade Chronicles",
+    "versionTitle": "Xenoblade Chronicles",
+    "platform": "Wii",
+    "score": 92,
+    "releaseYear": 2010,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/xenoblade-chronicles/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2012/04/03/xenoblade-chronicles-review",
+        "versionSlug": "xenoblade-chronicles",
+        "versionTitle": "Xenoblade Chronicles"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/xenoblade-chronicles-review/1900-6329918/",
+        "versionSlug": "xenoblade-chronicles",
+        "versionTitle": "Xenoblade Chronicles"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/xenoblade-chronicles.mdx"
   },
   {
     "slug": "against-the-storm",
@@ -5367,6 +5727,42 @@
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/medal-of-honor-allied-assault.mdx"
+  },
+  {
+    "slug": "metroid-prime-trilogy",
+    "sourceSlug": "metroid-prime-trilogy",
+    "title": "银河战士 Prime 三部曲",
+    "sourceTitle": "Metroid Prime Trilogy",
+    "versionTitle": "Metroid Prime Trilogy",
+    "platform": "Wii",
+    "score": 91,
+    "releaseYear": 2009,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/metroid-prime-trilogy/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2009/08/21/metroid-prime-trilogy-review",
+        "versionSlug": "metroid-prime-trilogy",
+        "versionTitle": "Metroid Prime Trilogy"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/metroid-prime-trilogy-review",
+        "versionSlug": "metroid-prime-trilogy",
+        "versionTitle": "Metroid Prime Trilogy"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/metroid-prime-trilogy.mdx"
   },
   {
     "slug": "microsoft-flight-simulator",
@@ -7747,6 +8143,51 @@
     "translationPath": "docs/games/mario-and-luigi-superstar-saga.mdx"
   },
   {
+    "slug": "metroid-prime-3-corruption",
+    "sourceSlug": "metroid-prime-3-corruption",
+    "title": "银河战士 Prime 3：堕落",
+    "sourceTitle": "Metroid Prime 3: Corruption",
+    "versionTitle": "Metroid Prime 3: Corruption",
+    "platform": "Wii",
+    "score": 90,
+    "releaseYear": 2007,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/metroid-prime-3-corruption/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2007/08/27/metroid-prime-3-corruption-review",
+        "versionSlug": "metroid-prime-3-corruption",
+        "versionTitle": "Metroid Prime 3: Corruption"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/metroid-prime-3-corruption-review/1900-6177714/",
+        "versionSlug": "metroid-prime-3-corruption",
+        "versionTitle": "Metroid Prime 3: Corruption"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/metroid-prime-3-corruption-review",
+        "versionSlug": "metroid-prime-3-corruption",
+        "versionTitle": "Metroid Prime 3: Corruption"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/metroid-prime-3-corruption.mdx"
+  },
+  {
     "slug": "mina-the-hollower",
     "sourceSlug": "mina-the-hollower",
     "title": "挖掘者米娜",
@@ -7925,6 +8366,42 @@
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/nhl-2001.mdx"
+  },
+  {
+    "slug": "okami",
+    "sourceSlug": "okami",
+    "title": "大神",
+    "sourceTitle": "Okami",
+    "versionTitle": "Okami",
+    "platform": "Wii",
+    "score": 90,
+    "releaseYear": 2008,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/okami/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2008/04/11/okami-review",
+        "versionSlug": "okami",
+        "versionTitle": "Okami"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/okami-review/1900-6189305/",
+        "versionSlug": "okami",
+        "versionTitle": "Okami"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/okami.mdx"
   },
   {
     "slug": "onimusha-way-of-the-sword",
@@ -8132,6 +8609,42 @@
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/persona-4-golden.mdx"
+  },
+  {
+    "slug": "pikmin-2",
+    "sourceSlug": "pikmin-2",
+    "title": "皮克敏2",
+    "sourceTitle": "Pikmin 2",
+    "versionTitle": "Pikmin 2",
+    "platform": "GameCube",
+    "score": 90,
+    "releaseYear": 2004,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/pikmin-2/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2004/08/20/pikmin-2",
+        "versionSlug": "pikmin-2",
+        "versionTitle": "Pikmin 2"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/pikmin-2-review/1900-6106208/",
+        "versionSlug": "pikmin-2",
+        "versionTitle": "Pikmin 2"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/pikmin-2.mdx"
   },
   {
     "slug": "portal",
@@ -9834,6 +10347,60 @@
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/triangle-strategy.mdx"
+  },
+  {
+    "slug": "xenoblade-chronicles-2",
+    "sourceSlug": "xenoblade-chronicles-2",
+    "title": "异度神剑2",
+    "sourceTitle": "Xenoblade Chronicles 2",
+    "versionTitle": "Xenoblade Chronicles 2",
+    "platform": "Nintendo Switch",
+    "score": 83,
+    "releaseYear": 2017,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/xenoblade-chronicles-2/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/2017/11/30/xenoblade-chronicles-2-review",
+        "versionSlug": "xenoblade-chronicles-2",
+        "versionTitle": "Xenoblade Chronicles 2"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.gamespot.com/reviews/xenoblade-chronicles-2-review/1900-6416821/",
+        "versionSlug": "xenoblade-chronicles-2",
+        "versionTitle": "Xenoblade Chronicles 2"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.eurogamer.net/xenoblade-chronicles-2-review",
+        "versionSlug": "xenoblade-chronicles-2",
+        "versionTitle": "Xenoblade Chronicles 2"
+      },
+      {
+        "site": "rpgamer",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://rpgamer.com/review/xenoblade-chronicles-2-review/",
+        "versionSlug": "xenoblade-chronicles-2",
+        "versionTitle": "Xenoblade Chronicles 2"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/xenoblade-chronicles-2.mdx"
   },
   {
     "slug": "vampire-crawlers",

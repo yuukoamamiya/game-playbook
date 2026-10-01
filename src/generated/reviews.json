@@ -1973,6 +1973,47 @@
       "label": "Eurogamer"
     }
   ],
+  "metroid-prime-2-echoes": [
+    {
+      "id": "ign",
+      "site": "ign",
+      "label": "IGN"
+    },
+    {
+      "id": "gamespot",
+      "site": "gamespot",
+      "label": "GameSpot"
+    }
+  ],
+  "metroid-prime-3-corruption": [
+    {
+      "id": "ign",
+      "site": "ign",
+      "label": "IGN"
+    },
+    {
+      "id": "gamespot",
+      "site": "gamespot",
+      "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    }
+  ],
+  "metroid-prime-trilogy": [
+    {
+      "id": "ign",
+      "site": "ign",
+      "label": "IGN"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    }
+  ],
   "metroid-prime": [
     {
       "id": "ign",
@@ -2115,6 +2156,18 @@
     }
   ],
   "no-one-lives-forever-2-a-spy-in-h-a-r-m-s-way": [
+    {
+      "id": "ign",
+      "site": "ign",
+      "label": "IGN"
+    },
+    {
+      "id": "gamespot",
+      "site": "gamespot",
+      "label": "GameSpot"
+    }
+  ],
+  "okami": [
     {
       "id": "ign",
       "site": "ign",
@@ -2317,6 +2370,18 @@
       "label": "RPGamer · 2"
     }
   ],
+  "pikmin-2": [
+    {
+      "id": "ign",
+      "site": "ign",
+      "label": "IGN"
+    },
+    {
+      "id": "gamespot",
+      "site": "gamespot",
+      "label": "GameSpot"
+    }
+  ],
   "planescape-torment": [
     {
       "id": "gamespot",
@@ -2361,6 +2426,13 @@
       "id": "gamestudies",
       "site": "gamestudies",
       "label": "Game Studies"
+    }
+  ],
+  "prince-of-persia-the-sands-of-time": [
+    {
+      "id": "ign",
+      "site": "ign",
+      "label": "IGN"
     }
   ],
   "pushmo": [
@@ -2764,6 +2836,23 @@
       "label": "Eurogamer"
     }
   ],
+  "super-mario-3d-world": [
+    {
+      "id": "ign",
+      "site": "ign",
+      "label": "IGN"
+    },
+    {
+      "id": "gamespot",
+      "site": "gamespot",
+      "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    }
+  ],
   "super-mario-advance-4-super-mario-bros-3": [
     {
       "id": "gamespot",
@@ -2793,6 +2882,30 @@
       "label": "Eurogamer"
     }
   ],
+  "super-mario-galaxy-2": [
+    {
+      "id": "ign",
+      "site": "ign",
+      "label": "IGN"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    }
+  ],
+  "super-mario-galaxy": [
+    {
+      "id": "ign",
+      "site": "ign",
+      "label": "IGN"
+    },
+    {
+      "id": "gamespot",
+      "site": "gamespot",
+      "label": "GameSpot"
+    }
+  ],
   "super-mario-odyssey": [
     {
       "id": "ign",
@@ -2808,6 +2921,18 @@
       "id": "eurogamer",
       "site": "eurogamer",
       "label": "Eurogamer"
+    }
+  ],
+  "super-mario-sunshine": [
+    {
+      "id": "ign",
+      "site": "ign",
+      "label": "IGN"
+    },
+    {
+      "id": "gamespot",
+      "site": "gamespot",
+      "label": "GameSpot"
     }
   ],
   "super-mario-world-super-mario-advance-2": [
@@ -3154,6 +3279,18 @@
       "label": "IGN · 2"
     }
   ],
+  "the-legend-of-zelda-skyward-sword": [
+    {
+      "id": "ign",
+      "site": "ign",
+      "label": "IGN"
+    },
+    {
+      "id": "gamespot",
+      "site": "gamespot",
+      "label": "GameSpot"
+    }
+  ],
   "the-legend-of-zelda-tears-of-the-kingdom": [
     {
       "id": "ign",
@@ -3179,6 +3316,30 @@
       "id": "ign-switch-2",
       "site": "ign",
       "label": "IGN · Switch 2"
+    }
+  ],
+  "the-legend-of-zelda-the-wind-waker": [
+    {
+      "id": "ign",
+      "site": "ign",
+      "label": "IGN"
+    },
+    {
+      "id": "gamespot",
+      "site": "gamespot",
+      "label": "GameSpot"
+    }
+  ],
+  "the-legend-of-zelda-twilight-princess": [
+    {
+      "id": "ign",
+      "site": "ign",
+      "label": "IGN"
+    },
+    {
+      "id": "gamespot",
+      "site": "gamespot",
+      "label": "GameSpot"
     }
   ],
   "the-longest-journey": [
@@ -3661,6 +3822,40 @@
       "id": "ctheory",
       "site": "ctheory",
       "label": "CTheory"
+    }
+  ],
+  "xenoblade-chronicles-2": [
+    {
+      "id": "ign",
+      "site": "ign",
+      "label": "IGN"
+    },
+    {
+      "id": "gamespot",
+      "site": "gamespot",
+      "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
+      "id": "rpgamer",
+      "site": "rpgamer",
+      "label": "RPGamer"
+    }
+  ],
+  "xenoblade-chronicles": [
+    {
+      "id": "ign",
+      "site": "ign",
+      "label": "IGN"
+    },
+    {
+      "id": "gamespot",
+      "site": "gamespot",
+      "label": "GameSpot"
     }
   ],
   "yoshi-and-the-mysterious-book": [
