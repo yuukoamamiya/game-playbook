@@ -67,7 +67,14 @@ const games = rows
     };
   });
 
-games.sort((a, b) => (b.score ?? -1) - (a.score ?? -1) || a.title.localeCompare(b.title));
+function compareText(a, b) {
+  if (a === b) return 0;
+  return a < b ? -1 : 1;
+}
+
+// Sort by score, then by the ASCII slug so the output is identical on every
+// platform (localeCompare on CJK titles differs between Windows and Linux).
+games.sort((a, b) => (b.score ?? -1) - (a.score ?? -1) || compareText(a.slug, b.slug));
 await writeFile(outputPath, `${JSON.stringify(games, null, 2)}\n`, 'utf8');
 await writeFile(reviewsPath, `${JSON.stringify(Object.fromEntries(media), null, 2)}\n`, 'utf8');
 
