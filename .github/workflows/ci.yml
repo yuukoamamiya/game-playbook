@@ -25,3 +25,7 @@ jobs:
         run: npm run typecheck
       - name: Syntax-check scripts
         run: npm run check:scripts
+      - name: Run targeted regression tests
+        run: npm run test:regressions
+      - name: Build the site
+        run: npm run build

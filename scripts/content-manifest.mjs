@@ -47,7 +47,11 @@ export function parseDocument(source, file) {
 
 export function hasTranslationContent(content) {
   const cjk = (content.match(/[\u4e00-\u9fff]/g) ?? []).length;
-  return Boolean(content.trim()) && !/待补/.test(content) && cjk >= 30;
+  const containsPlaceholder = content.split(/\r?\n/).some((line) => (
+    /^\s*(?:[\p{Script=Han}A-Za-z0-9·]+\s*)?中文译文待补[。！!…]*\s*$/u.test(line)
+    || /^\s*待补\s*$/u.test(line)
+  ));
+  return Boolean(content.trim()) && !containsPlaceholder && cjk >= 30;
 }
 
 export async function readGameDocuments() {

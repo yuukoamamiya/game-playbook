@@ -3,6 +3,7 @@ import Link from '@docusaurus/Link';
 import Layout from '@theme/Layout';
 import gamesData from '../generated/games.json';
 import mediaLabelsData from '../generated/media-labels.json';
+import {mergeGames} from '../../scripts/merge-games.mjs';
 import styles from './index.module.css';
 
 type SortOrder = 'score' | 'year';
@@ -29,42 +30,6 @@ type GameRecord = {
   sources: MediaSource[];
   hasTranslation: boolean;
 };
-
-type CatalogGame = Omit<GameRecord, 'platform'> & {
-  platforms: string[];
-  platformScores: Array<{platform: string; score: number | null}>;
-};
-
-function mergeGames(records: GameRecord[]): CatalogGame[] {
-  const merged = new Map<string, CatalogGame>();
-
-  for (const game of records) {
-    const existing = merged.get(game.slug);
-    if (!existing) {
-      merged.set(game.slug, {
-        ...game,
-        platforms: [game.platform],
-        platformScores: [{platform: game.platform, score: game.score}],
-      });
-      continue;
-    }
-
-    if (!existing.platforms.includes(game.platform)) existing.platforms.push(game.platform);
-    existing.platformScores.push({platform: game.platform, score: game.score});
-    const scores = [existing.score, game.score].filter((score): score is number => score != null);
-    existing.score = scores.length ? Math.max(...scores) : null;
-    existing.releaseYear ??= game.releaseYear;
-    existing.metacriticUrl ||= game.metacriticUrl;
-    for (const source of game.sources) {
-      if (!existing.sources.some((item) => item.site === source.site && item.url === source.url)) {
-        existing.sources.push(source);
-      }
-    }
-    existing.hasTranslation ||= game.hasTranslation;
-  }
-
-  return [...merged.values()];
-}
 
 const mediaLabels = mediaLabelsData as Record<string, string>;
 

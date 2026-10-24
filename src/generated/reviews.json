@@ -820,6 +820,11 @@
       "label": "IGN"
     },
     {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    },
+    {
       "id": "rpgamer",
       "site": "rpgamer",
       "label": "RPGamer"

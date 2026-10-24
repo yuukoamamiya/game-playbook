@@ -127,11 +127,22 @@ export default function SearchBar({ handleSearchBarToggle, }) {
         indexStateMap.current.set(searchContext, "loading");
         search.current?.autocomplete.destroy();
         setLoading(true);
-        const [autoComplete, openAskAIModule] = await Promise.all([
-            fetchAutoCompleteJS(),
-            askAi ? fetchOpenAskAI() : Promise.resolve(null),
-            fetchSharedIndex(versionUrl, searchContext),
-        ]);
+        let autoComplete;
+        let openAskAIModule;
+        try {
+            [autoComplete, openAskAIModule] = await Promise.all([
+                fetchAutoCompleteJS(),
+                askAi ? fetchOpenAskAI() : Promise.resolve(null),
+                fetchSharedIndex(versionUrl, searchContext),
+            ]);
+        }
+        catch (error) {
+            // Clear the in-progress marker so focusing the input can retry.
+            indexStateMap.current.delete(searchContext);
+            setLoading(false);
+            console.error("Failed to load the search index; it can be retried on focus.", error);
+            return;
+        }
         if (openAskAIModule) {
             setAskAIWidgetComponent(() => openAskAIModule.AskAIWidget);
         }
