@@ -8450,5 +8450,173 @@
         "url": "https://www.eurogamer.net/metroid-dread-review-a-sublime-return-for-a-nintendo-icon"
       }
     ]
+  },
+  {
+    "slug": "the-legend-of-zelda-ocarina-of-time-2026",
+    "title": "The Legend of Zelda: Ocarina of Time",
+    "platform": "Nintendo Switch 2",
+    "metacritic_score": 95,
+    "must_play": true,
+    "release_year": 2026,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/the-legend-of-zelda-ocarina-of-time-2026/",
+    "content_status": "manually-added",
+    "notes": "用户点名收录（Switch 2 重制版）；Metacritic：https://www.metacritic.com/game/the-legend-of-zelda-ocarina-of-time-2026/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": 9,
+        "url": "https://www.ign.com/articles/the-legend-of-zelda-ocarina-of-time-review-remake"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": 9,
+        "url": "https://www.gamespot.com/reviews/the-zelda-ocarina-of-time-remake-shows-that-a-masterpiece-is-ageless/"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": 5,
+        "url": "https://www.eurogamer.net/the-legend-of-zelda-ocarina-of-time-remake-review"
+      }
+    ]
+  },
+  {
+    "slug": "ace-combat-8-wings-of-theve",
+    "title": "Ace Combat 8: Wings of Theve",
+    "platform": "PlayStation 5",
+    "metacritic_score": 87,
+    "must_play": true,
+    "release_year": 2026,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/ace-combat-8-wings-of-theve/",
+    "content_status": "manually-added",
+    "notes": "用户点名收录；Metacritic：https://www.metacritic.com/game/ace-combat-8-wings-of-theve/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": 9,
+        "url": "https://www.ign.com/articles/ace-combat-8-wings-of-theve-review"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": 8,
+        "url": "https://www.gamespot.com/reviews/ace-combat-8-is-utterly-absurd-and-better-off-for-it/"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": 4,
+        "url": "https://www.eurogamer.net/ace-combat-8-wings-of-theve-review"
+      }
+    ]
+  },
+  {
+    "slug": "fields-of-mistria",
+    "title": "Fields of Mistria",
+    "platform": "PC",
+    "metacritic_score": 88,
+    "must_play": true,
+    "release_year": 2026,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/fields-of-mistria/",
+    "content_status": "manually-added",
+    "notes": "用户点名收录；Metacritic：https://www.metacritic.com/game/fields-of-mistria/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": 9,
+        "url": "https://www.ign.com/articles/fields-of-mistria-review"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": 4,
+        "url": "https://www.eurogamer.net/fields-of-mistria-review"
+      }
+    ]
+  },
+  {
+    "slug": "phantom-blade-zero",
+    "title": "Phantom Blade Zero",
+    "platform": "PC",
+    "metacritic_score": 88,
+    "must_play": true,
+    "release_year": 2026,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/phantom-blade-zero/",
+    "content_status": "manually-added",
+    "notes": "用户点名收录；Metacritic：https://www.metacritic.com/game/phantom-blade-zero/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": 9,
+        "url": "https://www.ign.com/articles/phantom-blade-zero-review"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": 8,
+        "url": "https://www.gamespot.com/reviews/phantom-blade-zeros-combat-is-so-good-you-wont-care-the-story-makes-no-sense/"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": 3,
+        "url": "https://www.eurogamer.net/phantom-blade-zero-review-1"
+      }
+    ]
+  },
+  {
+    "slug": "pokemon-pokopia",
+    "title": "Pokémon Pokopia",
+    "platform": "Nintendo Switch 2",
+    "metacritic_score": 89,
+    "must_play": true,
+    "release_year": 2026,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/pokemon-pokopia/",
+    "content_status": "manually-added",
+    "notes": "用户点名收录；Metacritic：https://www.metacritic.com/game/pokemon-pokopia/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": 9,
+        "url": "https://www.ign.com/articles/pokemon-pokopia-review"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": 9,
+        "url": "https://www.gamespot.com/reviews/pokemon-pokopia-review-the-pokemon-anniversary-gift-i-didnt-know-i-wanted/1900-6418465/"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": 4,
+        "url": "https://www.eurogamer.net/pokemon-pokopia-review"
+      }
+    ]
   }
 ]

@@ -26,6 +26,23 @@
       "label": "RPGamer"
     }
   ],
+  "ace-combat-8-wings-of-theve": [
+    {
+      "id": "ign",
+      "site": "ign",
+      "label": "IGN"
+    },
+    {
+      "id": "gamespot",
+      "site": "gamespot",
+      "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    }
+  ],
   "advance-wars-dual-strike": [
     {
       "id": "gamespot",
@@ -1066,6 +1083,18 @@
       "id": "rpgamer-2",
       "site": "rpgamer",
       "label": "RPGamer · 2"
+    }
+  ],
+  "fields-of-mistria": [
+    {
+      "id": "ign",
+      "site": "ign",
+      "label": "IGN"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
     }
   ],
   "final-fantasy-vi": [
@@ -2397,6 +2426,23 @@
       "label": "RPGamer · 2"
     }
   ],
+  "phantom-blade-zero": [
+    {
+      "id": "ign",
+      "site": "ign",
+      "label": "IGN"
+    },
+    {
+      "id": "gamespot",
+      "site": "gamespot",
+      "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    }
+  ],
   "pikmin-2": [
     {
       "id": "ign",
@@ -2414,6 +2460,23 @@
       "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    }
+  ],
+  "pokemon-pokopia": [
+    {
+      "id": "ign",
+      "site": "ign",
+      "label": "IGN"
+    },
+    {
+      "id": "gamespot",
+      "site": "gamespot",
+      "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
     }
   ],
   "portal-2": [
@@ -3270,6 +3333,23 @@
       "id": "rpgamer",
       "site": "rpgamer",
       "label": "RPGamer"
+    }
+  ],
+  "the-legend-of-zelda-ocarina-of-time-2026": [
+    {
+      "id": "ign",
+      "site": "ign",
+      "label": "IGN"
+    },
+    {
+      "id": "gamespot",
+      "site": "gamespot",
+      "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
     }
   ],
   "the-legend-of-zelda-ocarina-of-time-3d": [

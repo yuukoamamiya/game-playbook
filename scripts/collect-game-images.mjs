@@ -13,6 +13,8 @@ const imageDir = resolve(root, 'static/img/reviews-webp');
 const userAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/126 Safari/537.36';
 const concurrency = 4;
 const force = process.argv.includes('--force');
+const onlySlugs = (process.argv.find((arg) => arg.startsWith('--slug='))?.slice('--slug='.length) ?? '')
+  .split(',').map((slug) => slug.trim()).filter(Boolean);
 
 async function exists(path) {
   try {
@@ -69,6 +71,7 @@ const rows = await readGames();
 const imageNames = new Set((await readdir(imageDir)).filter((file) => file.endsWith('.webp')));
 const targets = [...new Map(rows
   .filter((row) => row.must_play === true && (force || !imageNames.has(`${row.slug}.webp`)))
+  .filter((row) => !onlySlugs.length || onlySlugs.includes(row.slug))
   .map((row) => [row.slug, row])).values()];
 
 await mkdir(imageDir, {recursive: true});

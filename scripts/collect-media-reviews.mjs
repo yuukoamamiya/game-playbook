@@ -18,7 +18,7 @@ const PROXY = 'http://127.0.0.1:10809';
 // the local proxy (v2rayN); mark those with `proxy: true`. Avoid curl's
 // `--ssl-no-revoke` here: Cloudflare (e.g. Unwinnable) rejects that handshake.
 const SITES = {
-  eurogamer: { start: /<div class="article_body_content[^>]*>/, end: /<nav[^>]*class="[^"]*pagination|<div[^>]*class="[^"]*read-next|<footer/, proxy: true, paginate: { param: 'page', pattern: /of <span class="max">(\d+)<\/span>/ } },
+  eurogamer: { start: /<div class="article_body_content[^>]*>/, end: /<h2>\s*Read this next\s*<\/h2>|<div[^>]*class="[^"]*read-next|<footer/, proxy: true, paginate: { param: 'page', pattern: /of <span class="max">(\d+)<\/span>/ } },
   rockpapershotgun: { start: /<div class="article_body_content[^>]*>/, end: /<div[^>]*class="[^"]*read-next/, proxy: true },
   adventuregamers: { start: /<div class="[^"]*ag-content-area"/, end: /<footer/ },
   rpgsite: { start: /<div id="article-story"[^>]*>/, end: /<\/article>|<div[^>]*class="[^"]*(?:comments|related)/ },

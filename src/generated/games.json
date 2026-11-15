@@ -865,6 +865,51 @@
     "translationPath": "docs/games/the-legend-of-zelda-a-link-to-the-past-four-swords.mdx"
   },
   {
+    "slug": "the-legend-of-zelda-ocarina-of-time-2026",
+    "sourceSlug": "the-legend-of-zelda-ocarina-of-time-2026",
+    "title": "塞尔达传说 时之笛",
+    "sourceTitle": "The Legend of Zelda: Ocarina of Time",
+    "versionTitle": "The Legend of Zelda: Ocarina of Time",
+    "platform": "Nintendo Switch 2",
+    "score": 95,
+    "releaseYear": 2026,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/the-legend-of-zelda-ocarina-of-time-2026/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": 9,
+        "url": "https://www.ign.com/articles/the-legend-of-zelda-ocarina-of-time-review-remake",
+        "versionSlug": "the-legend-of-zelda-ocarina-of-time-2026",
+        "versionTitle": "The Legend of Zelda: Ocarina of Time"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": 9,
+        "url": "https://www.gamespot.com/reviews/the-zelda-ocarina-of-time-remake-shows-that-a-masterpiece-is-ageless/",
+        "versionSlug": "the-legend-of-zelda-ocarina-of-time-2026",
+        "versionTitle": "The Legend of Zelda: Ocarina of Time"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": 5,
+        "url": "https://www.eurogamer.net/the-legend-of-zelda-ocarina-of-time-remake-review",
+        "versionSlug": "the-legend-of-zelda-ocarina-of-time-2026",
+        "versionTitle": "The Legend of Zelda: Ocarina of Time"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/the-legend-of-zelda-ocarina-of-time-2026.mdx"
+  },
+  {
     "slug": "the-legend-of-zelda-tears-of-the-kingdom",
     "sourceSlug": "the-legend-of-zelda-tears-of-the-kingdom-nintendo",
     "title": "塞尔达传说 王国之泪",
@@ -9809,6 +9854,51 @@
     "translationPath": "docs/games/fire-emblem-fortunes-weave.mdx"
   },
   {
+    "slug": "pokemon-pokopia",
+    "sourceSlug": "pokemon-pokopia",
+    "title": "宝可梦 Pokopia",
+    "sourceTitle": "Pokémon Pokopia",
+    "versionTitle": "Pokémon Pokopia",
+    "platform": "Nintendo Switch 2",
+    "score": 89,
+    "releaseYear": 2026,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/pokemon-pokopia/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": 9,
+        "url": "https://www.ign.com/articles/pokemon-pokopia-review",
+        "versionSlug": "pokemon-pokopia",
+        "versionTitle": "Pokémon Pokopia"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": 9,
+        "url": "https://www.gamespot.com/reviews/pokemon-pokopia-review-the-pokemon-anniversary-gift-i-didnt-know-i-wanted/1900-6418465/",
+        "versionSlug": "pokemon-pokopia",
+        "versionTitle": "Pokémon Pokopia"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": 4,
+        "url": "https://www.eurogamer.net/pokemon-pokopia-review",
+        "versionSlug": "pokemon-pokopia",
+        "versionTitle": "Pokémon Pokopia"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/pokemon-pokopia.mdx"
+  },
+  {
     "slug": "unicorn-overlord",
     "sourceSlug": "unicorn-overlord",
     "title": "圣兽之王",
@@ -9935,6 +10025,42 @@
     "translationPath": "docs/games/13-sentinels-aegis-rim.mdx"
   },
   {
+    "slug": "fields-of-mistria",
+    "sourceSlug": "fields-of-mistria",
+    "title": "米斯特里亚牧场",
+    "sourceTitle": "Fields of Mistria",
+    "versionTitle": "Fields of Mistria",
+    "platform": "PC",
+    "score": 88,
+    "releaseYear": 2026,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/fields-of-mistria/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": 9,
+        "url": "https://www.ign.com/articles/fields-of-mistria-review",
+        "versionSlug": "fields-of-mistria",
+        "versionTitle": "Fields of Mistria"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": 4,
+        "url": "https://www.eurogamer.net/fields-of-mistria-review",
+        "versionSlug": "fields-of-mistria",
+        "versionTitle": "Fields of Mistria"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/fields-of-mistria.mdx"
+  },
+  {
     "slug": "metroid-dread",
     "sourceSlug": "metroid-dread",
     "title": "银河战士 生存恐惧",
@@ -10014,6 +10140,96 @@
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/paper-mario-the-thousand-year-door.mdx"
+  },
+  {
+    "slug": "phantom-blade-zero",
+    "sourceSlug": "phantom-blade-zero",
+    "title": "影之刃零",
+    "sourceTitle": "Phantom Blade Zero",
+    "versionTitle": "Phantom Blade Zero",
+    "platform": "PC",
+    "score": 88,
+    "releaseYear": 2026,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/phantom-blade-zero/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": 9,
+        "url": "https://www.ign.com/articles/phantom-blade-zero-review",
+        "versionSlug": "phantom-blade-zero",
+        "versionTitle": "Phantom Blade Zero"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": 8,
+        "url": "https://www.gamespot.com/reviews/phantom-blade-zeros-combat-is-so-good-you-wont-care-the-story-makes-no-sense/",
+        "versionSlug": "phantom-blade-zero",
+        "versionTitle": "Phantom Blade Zero"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": 3,
+        "url": "https://www.eurogamer.net/phantom-blade-zero-review-1",
+        "versionSlug": "phantom-blade-zero",
+        "versionTitle": "Phantom Blade Zero"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/phantom-blade-zero.mdx"
+  },
+  {
+    "slug": "ace-combat-8-wings-of-theve",
+    "sourceSlug": "ace-combat-8-wings-of-theve",
+    "title": "空战奇兵8 希孚之翼",
+    "sourceTitle": "Ace Combat 8: Wings of Theve",
+    "versionTitle": "Ace Combat 8: Wings of Theve",
+    "platform": "PlayStation 5",
+    "score": 87,
+    "releaseYear": 2026,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/ace-combat-8-wings-of-theve/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": 9,
+        "url": "https://www.ign.com/articles/ace-combat-8-wings-of-theve-review",
+        "versionSlug": "ace-combat-8-wings-of-theve",
+        "versionTitle": "Ace Combat 8: Wings of Theve"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": 8,
+        "url": "https://www.gamespot.com/reviews/ace-combat-8-is-utterly-absurd-and-better-off-for-it/",
+        "versionSlug": "ace-combat-8-wings-of-theve",
+        "versionTitle": "Ace Combat 8: Wings of Theve"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": 4,
+        "url": "https://www.eurogamer.net/ace-combat-8-wings-of-theve-review",
+        "versionSlug": "ace-combat-8-wings-of-theve",
+        "versionTitle": "Ace Combat 8: Wings of Theve"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/ace-combat-8-wings-of-theve.mdx"
   },
   {
     "slug": "divinity-original-sin",
