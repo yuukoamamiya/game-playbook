@@ -1796,31 +1796,7 @@
       "label": "GameSpot · 3DS 重制版"
     }
   ],
-  "mario-and-luigi-brothership": [
-    {
-      "id": "ign",
-      "site": "ign",
-      "label": "IGN"
-    },
-    {
-      "id": "gamespot",
-      "site": "gamespot",
-      "label": "GameSpot"
-    }
-  ],
   "mario-and-luigi-dream-team": [
-    {
-      "id": "ign",
-      "site": "ign",
-      "label": "IGN"
-    },
-    {
-      "id": "gamespot",
-      "site": "gamespot",
-      "label": "GameSpot"
-    }
-  ],
-  "mario-and-luigi-paper-jam": [
     {
       "id": "ign",
       "site": "ign",

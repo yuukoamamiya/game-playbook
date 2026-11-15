@@ -268,34 +268,6 @@
     ]
   },
   {
-    "slug": "mario-and-luigi-paper-jam",
-    "title": "Mario & Luigi: Paper Jam",
-    "platform": "3DS",
-    "metacritic_score": 76,
-    "must_play": true,
-    "release_year": 2016,
-    "genre": "RPG",
-    "metacritic_url": "https://www.metacritic.com/game/mario-and-luigi-paper-jam/",
-    "content_status": "manually-added",
-    "notes": "手动收录（未达 Must-Play）",
-    "sources": [
-      {
-        "site": "ign",
-        "kind": "review",
-        "language": "en",
-        "score": 5.9,
-        "url": "https://www.ign.com/articles/2016/01/20/mario-luigi-paper-jam-review"
-      },
-      {
-        "site": "gamespot",
-        "kind": "review",
-        "language": "en",
-        "score": 6,
-        "url": "https://www.gamespot.com/reviews/mario-and-luigi-paper-jam-review/1900-6416344/"
-      }
-    ]
-  },
-  {
     "slug": "the-legend-of-zelda-a-link-to-the-past-four-swords",
     "title": "The Legend of Zelda: A Link to the Past / Four Swords",
     "platform": "Game Boy Advance",
@@ -2093,34 +2065,6 @@
         "language": "en",
         "score": 9,
         "url": "https://www.gamespot.com/reviews/paper-mario-the-thousand-year-door-review-step-inside-the-plumber-rpgs-back/1900-6418230/"
-      }
-    ]
-  },
-  {
-    "slug": "mario-and-luigi-brothership",
-    "title": "Mario & Luigi: Brothership",
-    "platform": "Nintendo Switch",
-    "metacritic_score": 77,
-    "must_play": true,
-    "release_year": 2024,
-    "genre": "RPG",
-    "metacritic_url": "https://www.metacritic.com/game/mario-and-luigi-brothership/",
-    "content_status": "manually-added",
-    "notes": "手动收录（未达 Must-Play）",
-    "sources": [
-      {
-        "site": "ign",
-        "kind": "review",
-        "language": "en",
-        "score": 5,
-        "url": "https://www.ign.com/articles/mario-and-luigi-brothership-review"
-      },
-      {
-        "site": "gamespot",
-        "kind": "review",
-        "language": "en",
-        "score": 6,
-        "url": "https://www.gamespot.com/reviews/mario-luigi-brothership-review-plug-and-play/1900-6418314/"
       }
     ]
   },
