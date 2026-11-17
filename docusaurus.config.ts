@@ -18,6 +18,10 @@ const config: Config = {
       swcJsMinimizer: true,
       swcHtmlMinimizer: true,
       lightningCssMinimizer: true,
+      // The eager Git VCS (enabled by future.v4) only looks up absolute paths,
+      // so the sitemap plugin's relative source paths never resolve. Fall back
+      // to the per-file git log strategy so lastmod can be generated.
+      gitEagerVcs: false,
     },
   },
 
@@ -66,6 +70,12 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
         },
         blog: false,
+        sitemap: {
+          // Use each page's last git commit date so Search Console knows what changed.
+          lastmod: 'date',
+          // The search page is thin, duplicated content; keep it out of the sitemap.
+          ignorePatterns: ['/search', '/search/**'],
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
