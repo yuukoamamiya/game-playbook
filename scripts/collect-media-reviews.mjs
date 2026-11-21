@@ -4,10 +4,10 @@ import {execFile} from 'node:child_process';
 import {promisify} from 'node:util';
 import {tmpdir} from 'node:os';
 import {dataPath, root} from './data-store.mjs';
-import {exists} from './lib/images.mjs';
 import {PROXY_URL, sleep, userAgent} from './lib/fetch.mjs';
 import {decodeHtml} from './lib/csv.mjs';
 import {createSerializer, parseConcurrency, pool} from './lib/concurrency.mjs';
+import {chooseReviewOutputPath} from './lib/review-output.mjs';
 
 const execFileP = promisify(execFile);
 
@@ -42,6 +42,7 @@ const SITES = {
 // even when the overall pool is wider.
 const SERIAL_SITES = new Set(['unwinnable', '4gamer']);
 const serialize = createSerializer();
+const serializeOutput = createSerializer();
 
 function siteConfig(site) {
   return SITES[site] ?? null;
@@ -167,16 +168,10 @@ let written = 0, skipped = 0, failed = 0;
 const failures = [];
 
 async function processOne(t) {
-  await mkdir(resolve(enDir, t.slug), {recursive: true});
-  const basePath = resolve(enDir, t.slug, `${t.site}.md`);
-  let outPath = basePath;
-  if (await exists(basePath)) {
-    const existing = ((await readFile(basePath, 'utf8')).match(/^source_url:\s*"?(.*?)"?\s*$/m) ?? [])[1]?.trim();
-    if (!existing || existing === t.url) { skipped += 1; return; }
-    const key = t.url.replace(/\/$/, '').split('/').pop().replace(/[^a-z0-9]+/gi, '-').toLowerCase().slice(0, 48);
-    outPath = resolve(enDir, t.slug, `${t.site}-${key}.md`);
-    if (await exists(outPath)) { skipped += 1; return; }
-  }
+  const outDir = resolve(enDir, t.slug);
+  await mkdir(outDir, {recursive: true});
+  const {path: outPath, skip} = await chooseReviewOutputPath(outDir, t.site, t.url);
+  if (skip) { skipped += 1; return; }
   try {
     const config = siteConfig(t.site);
     const html = await fetchHtml(t.url, config.proxy);
@@ -222,8 +217,12 @@ async function processOne(t) {
 }
 
 await pool(targets, async (t) => {
-  if (SERIAL_SITES.has(t.site)) await serialize(t.site, () => processOne(t));
-  else await processOne(t);
+  const task = () => processOne(t);
+  if (SERIAL_SITES.has(t.site)) {
+    await serialize(t.site, () => serializeOutput(`${t.slug}|${t.site}`, task));
+  } else {
+    await serializeOutput(`${t.slug}|${t.site}`, task);
+  }
 }, {concurrency});
 
 console.log(`\nwritten ${written} | skipped ${skipped} | failed ${failed}`);
