@@ -1,7 +1,8 @@
 /**
- * 前台合并逻辑：把同一 slug 的多个平台记录合并成一张游戏卡片。
+ * 全站唯一的合并逻辑：把同一 slug 的多个平台记录合并成一张游戏卡片。
+ * 首页、`sidebars.ts` 和回归测试都直接使用这份实现。
  *
- * 与 `scripts/merge-games.mjs`（数据核心）保持同一套语义：
+ * 语义：
  * - score 取所有平台里的最高分；
  * - releaseYear 取最早的非空年份；
  * - metacriticUrl 来自评分最高的那条记录（同分保留先出现的那条）；
@@ -16,7 +17,6 @@ export type MediaSource = {
   language: string;
   score: number | null;
   url: string;
-  versionSlug?: string;
   versionTitle?: string;
 };
 
@@ -26,7 +26,6 @@ export type GameRecord = {
   platform: string;
   score: number | null;
   releaseYear: number | null;
-  genre: string;
   metacriticUrl: string;
   sources: MediaSource[];
   hasTranslation: boolean;

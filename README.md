@@ -6,7 +6,7 @@
 
 ## 本地跑起来
 
-需要 Node.js 22 或更高版本。
+需要 Node.js 22.6 或更高版本（回归测试直接跑 TypeScript 源文件，依赖 Node 的类型擦除）。采集脚本需要访问国外站点时，通过 devDependencies 里的 `undici` 走本地代理；更新头图或评测插图还需要 PATH 里有 `ffmpeg`（用于转 WebP）。
 
 ```bash
 npm install
@@ -30,7 +30,7 @@ npm run verify
 - `docs/games/` — 中文游戏页面，一个游戏一页，页内按媒体切换译文
 - `static/img/reviews-webp/` — 页面头图
 - `scripts/` — 校验、生成和采集脚本，`scripts/lib/` 是采集公共库，`scripts/archive/` 里是已经用过的一次性脚本
-- `src/lib/mergeGames.ts` — 前台平台记录合并（最高分/最早年/最高分 URL），脚本侧语义一致
+- `src/lib/mergeGames.ts` — 平台记录合并（最高分/最早年/最高分 URL），首页、侧边栏和回归测试共用这一份
 - `src/generated/versions/<slug>.json`、`src/generated/reviews/<slug>.json` — 按页拆分的生成物，文档页动态导入，避免全量大 JSON 进 bundle
 - `AGENTS.md` — 字段含义、日常维护步骤和协作约定（要动这个仓库，先读它）
 - `DESIGN.md` / `TODO.md` — 视觉规则 / 待办
@@ -41,7 +41,7 @@ npm run verify
 
 - Build command：`npm run build`
 - Build output directory：`build`
-- Node.js：`22` 或更高
+- Node.js：`22.6` 或更高
 
 `npm run build` 在 Docusaurus 构建后接着跑 Pagefind，把搜索索引写进 `build/pagefind/`。Pagefind 的索引是分片的，单个文件很小，不会撞上 Cloudflare Pages 25 MiB 的单文件上限（旧的单文件索引到 26 MB 就超过上限、部署失败）。索引只收 `build/docs/**/*.html` 里 `<article>` 的内容。
 

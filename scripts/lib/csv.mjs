@@ -56,13 +56,23 @@ export function parseCsvLine(line) {
   return values;
 }
 
+/** Compare strings by code point; stable across platforms and ICU versions. */
+export function compareText(left, right) {
+  if (left === right) return 0;
+  return left < right ? -1 : 1;
+}
+
 /** Decode the HTML entities the collectors actually meet. */
 export function decodeHtml(value) {
   return String(value ?? '').replace(/&(#x?[0-9a-f]+|[a-z]+);/gi, (match, code) => {
     if (code[0] === '#') {
       const hex = code[1] === 'x' || code[1] === 'X';
       const number = Number.parseInt(hex ? code.slice(2) : code.slice(1), hex ? 16 : 10);
-      return Number.isFinite(number) ? String.fromCodePoint(number) : match;
+      // String.fromCodePoint throws for out-of-range values; keep the raw entity
+      // so one malformed number cannot crash a whole collection run.
+      return Number.isInteger(number) && number >= 0 && number <= 0x10ffff
+        ? String.fromCodePoint(number)
+        : match;
     }
     return namedEntities[code.toLowerCase()] ?? match;
   });

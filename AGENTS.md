@@ -28,8 +28,8 @@
 ```text
 data/metacritic-games.json       主数据：游戏 × 平台记录及 sources
 data/confirmed-links.json        人工确认的媒体入口（add-confirmed-links 批量写入用）
-src/generated/                   由主数据和英文源生成的前台数据，不手工编辑（含 games、reviews、media-labels，以及按 slug 拆分的 versions/<slug>.json、reviews/<slug>.json）
-src/lib/mergeGames.ts            前台唯一的平台记录合并逻辑（TypeScript 强类型，语义与脚本侧一致）
+src/generated/                   由主数据和英文源生成的前台数据，不手工编辑（含 games、media-labels，以及按 slug 拆分的 versions/<slug>.json、reviews/<slug>.json）
+src/lib/mergeGames.ts            全站唯一的平台记录合并逻辑（前台与 sidebars 共用，回归测试直接测这份 TS）
 sidebars.ts                      左侧文档列表：读取 src/generated/games.json，按发售年份分组
 src/pages/index.tsx              首页：合并游戏记录、筛选、评分和媒体入口
 src/pages/index.module.css       首页样式
@@ -97,14 +97,14 @@ docs/agent-history.md            历史决策记录，不作为当前待办清�
 ### 版本处理
 
 - 同一作品因平台升级版、发行版本不同而出现多个 Metacritic 条目时，在非主记录上设 `page_slug` 指向共用的中文页面；各条记录保留自己的 `slug`、平台评分和 `sources`。`page_slug` 不要自指（与自身 `slug` 相同即删掉）；目标页必须存在且有主记录。
-- 合并语义（脚本与前台一致）：同一页多平台记录取最高分、最早发售年，`metacritic_url` 跟随最高分记录（同分保留首条）。前台合并只用 `src/lib/mergeGames.ts`，不要再从 `scripts/*.mjs` 导入。
+- 合并语义：同一页多平台记录取最高分、最早发售年，`metacritic_url` 跟随最高分记录（同分保留首条）。合并只实现在 `src/lib/mergeGames.ts`，前台、`sidebars.ts` 和回归测试共用，不要再复制一份。
 - 如果列表里只有某个特定版本，其他版本、DLC、重制版、皇家版、加强版或合集的文章，确认相关后可以作为补充来源，但标签或说明里要写明实际对应哪个版本，也不能把补充文章的评分当成当前版本的评分。
 - 真正不同的 DLC、资料片或重制作品，不要只凭名字相似就合并；版本关系不明确时先不收。
 - 文化评论、设计分析和历史回顾，在明确讨论该作品时可以用 `essay` 或 `feature`。
 
 ### 生成物和英文来源
 
-`src/generated/games.json`、`reviews.json`、`media-labels.json` 都是生成文件，改完主数据或英文源后运行 `npm run generate-data`，不要直接编辑。生成时会同步输出按 slug 拆分的 `src/generated/versions/<slug>.json`（版本表，前台 `GameVersions` 动态导入）和 `src/generated/reviews/<slug>.json`（该页译文标签清单，前台 `ReviewTabs` 动态导入），避免文档页全量引入大 JSON。
+`src/generated/games.json`、`media-labels.json` 都是生成文件，改完主数据或英文源后运行 `npm run generate-data`，不要直接编辑。`games.json` 只输出前台真正读取的字段。生成时还会输出按 slug 拆分的 `src/generated/versions/<slug>.json`（版本表，前台 `GameVersions` 动态导入）和 `src/generated/reviews/<slug>.json`（该页译文标签清单，前台 `ReviewTabs` 动态导入），避免文档页全量引入大 JSON。
 
 英文来源放在 `content/reviews/en/`，只用于翻译、摘要和核对；公开内容放在对应的 `docs/games/<slug>.mdx`。命名约定：新记录统一存为 `content/reviews/en/<slug>/<site>.md`；早期记录的主来源（基本是 IGN）是扁平的 `content/reviews/en/<slug>.md`，保留现状、不要搬迁。同一媒体有多篇时文件名要能区分文章，中文页 frontmatter 的 `source_file` 指向该页实际使用的那份，校验会检查它存在。一个游戏只有一个公开页，多个媒体通过 `ReviewTabs` / `ReviewTab` 切换，同一媒体多篇时为每个标签设唯一 `id`。
 
@@ -130,7 +130,7 @@ docs/agent-history.md            历史决策记录，不作为当前待办清�
 
 正文用 `scripts/collect-media-reviews.mjs` 采集到 `content/reviews/en/`，只用于翻译和核对，不进入前台。脚本按站点配置正文边界，已知约束：
 
-- Unwinnable、Aftermath、Rock Paper Shotgun、Eurogamer、Game Studies、The Atlantic 直连会返回 403 或超时，在脚本里标记 `proxy: true`，需要本地代理（v2rayN）在运行。代理地址统一读 `GAME_PLAYBOOK_HTTP_PROXY` / `HTTP_PROXY`，缺省 `http://127.0.0.1:10809`（见 `scripts/lib/fetch.mjs`）。
+- Unwinnable、Aftermath、Rock Paper Shotgun、Eurogamer、Game Studies、The Atlantic 直连会返回 403 或超时，在脚本里标记 `proxy: true`，需要本地代理（v2rayN）在运行。代理地址统一读 `GAME_PLAYBOOK_HTTP_PROXY` / `HTTP_PROXY`，缺省 `http://127.0.0.1:10809`（见 `scripts/lib/fetch.mjs`）。代理走 `undici`（已列入 devDependencies，`npm install` 会装好）；缺失时会直接报错，不再静默直连。
 - Unwinnable 对并发请求会返回 Cloudflare 403，用 `--concurrency=1` 串行采集（相关脚本已默认限串行，不要调大）。
 - curl 不要加 `--ssl-no-revoke`，该参数会让 Cloudflare 拒绝请求。采集失败会设置非零退出码，CI 会拦。
 - curl 加代理仍取不到正文的页面（例如 RPGamer），改用浏览器 MCP（Browser MCP 扩展 + opencode 的 `browsermcp`）读取真实页面后再保存。
@@ -172,13 +172,13 @@ GameSpot 正文插图放在 `content/reviews/en/<slug>/images/`，统一压成 W
 - `check-scripts-syntax.mjs`（`npm run check:scripts`）：检查所有 `.mjs` 脚本语法（跳过 `archive/`）。
 - `content-manifest.mjs`、`data-store.mjs`、`media-sources.mjs`：被上述脚本复用的工具模块；改数据结构时看它们。`numberValue` 在 `data-store.mjs`，`>= 0` 有效（0 分保留）。
 - `add-confirmed-links.mjs` + `data/confirmed-links.json`：人工确认入口的批量写入；`collect-aftermath/rps/rpgamer/theorist-links.mjs` 已改为 thin wrapper。
-- `scripts/lib/`：`csv.mjs`（解析/分词）、`fetch.mjs`（代理+超时重试）、`images.mjs`（下载转 WebP 回写）、`concurrency.mjs`（限并发/串行）。
+- `scripts/lib/`：`csv.mjs`（解析/分词/实体解码/码位排序）、`fetch.mjs`（代理+超时重试）、`images.mjs`（下载转 WebP 回写）、`concurrency.mjs`（限并发/串行）、`args.mjs`（位置参数/flag 解析）、`media-search.mjs`（Bing 结果解析与标题分词）。
 
-采集脚本（按需运行，行为各不相同，运行前先看脚本顶部注释确认读什么来源、默认是否写入）：
+采集脚本（按需运行，行为各不相同，运行前先看脚本顶部注释确认读什么来源、默认是否写入）。图片脚本依赖 PATH 中的 `ffmpeg`：
 
 - `collect-metacritic-intersection.mjs`：重新扫描 Metacritic Must-Play 列表，需本地代理。
 - `collect-ign-links.mjs`、`collect-gamespot-links.mjs`：从站点找评测入口，加 `--write` 才写入。
-- `collect-review-links.mjs [start] [limit]`、`collect-additional-review-links.mjs [start] [limit] [sites] [--dry-run]`：批量补通用媒体入口。
+- `collect-review-links.mjs [start] [limit] [--dry-run]`、`collect-additional-review-links.mjs [start] [limit] [sites] [--dry-run]`：批量补通用媒体入口；flag 不再占用位置参数。
 - `collect-4gamer-links.mjs [--dry-run] [--slug=...]`：单一媒体的入口补充（串行，改完末尾写一次）。
 - `collect-aftermath-links.mjs`、`collect-rps-links.mjs`、`collect-rpgamer-links.mjs`、`collect-theorist-links.mjs`：thin wrapper，实际走 `add-confirmed-links.mjs + data/confirmed-links.json`。
 - `collect-media-reviews.mjs [site] [--site=a,b] [--slug=x,y] [--concurrency=N]`：按站点抓英文正文到 `content/reviews/en/`（unwinnable 等强制串行）。
@@ -197,9 +197,9 @@ npm run verify
 git diff --check
 ```
 
-`npm run verify` 是 `verify:fast` 的别名，依次执行数据校验、生成前台数据、脚本语法检查、类型检查和回归测试。运行后确认 `src/generated/`（含 `versions/`、`reviews/` 按 slug 拆分文件）没有未提交的意外改动（生成物应与主数据保持一致）。只有需要验证完整静态构建或用户明确要求时才运行 `npm run build`；构建产物 `build/` 不提交。本地只改脚本时可用 `npm run verify:fast`（与 `verify` 相同，不含构建）。
+`npm run verify` 是 `verify:fast` 的别名，依次执行数据校验、生成前台数据、脚本语法检查、类型检查和回归测试。回归测试直接 import `src/lib/mergeGames.ts`，依赖 Node 22.6+ 的类型擦除（脚本已带 `--experimental-strip-types`）。运行后确认 `src/generated/`（含 `versions/`、`reviews/` 按 slug 拆分文件）没有未提交的意外改动（生成物应与主数据保持一致）。只有需要验证完整静态构建或用户明确要求时才运行 `npm run build`；构建产物 `build/` 不提交。本地只改脚本时可用 `npm run verify:fast`（与 `verify` 相同，不含构建）。
 
-`.github/workflows/ci.yml` 拆为两个 job：`data-check`（校验、生成、类型、语法、测试）先行，`site-build` 跑 `npm run build:ci`（同步插图 + Docusaurus 构建 + Pagefind，不重复 validate/generate），生成物漂移检查放在构建之后。
+`.github/workflows/ci.yml` 拆为两个 job：`data-check`（校验、生成、生成物漂移检查、类型、语法、测试）先行，`site-build` 跑 `npm run build:ci`（同步插图 + Docusaurus 构建 + Pagefind，不重复 validate/generate）。漂移检查必须放在 `generate-data` 之后；`site-build` 不跑生成，在那里检查永远不会产生 diff。
 
 ## Git 协作约定
 

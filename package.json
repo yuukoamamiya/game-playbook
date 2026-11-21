@@ -14,7 +14,7 @@
     "generate-data": "node scripts/generate-games-data.mjs",
     "validate-data": "node scripts/validate-games-data.mjs",
     "check:scripts": "node scripts/check-scripts-syntax.mjs",
-    "test:regressions": "node --test tests/*.test.mjs",
+    "test:regressions": "node --experimental-strip-types --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --test tests/*.test.mjs",
     "verify:fast": "npm run validate-data && npm run generate-data && npm run check:scripts && npm run typecheck && npm run test:regressions",
     "verify": "npm run verify:fast",
     "swizzle": "docusaurus swizzle",
@@ -42,7 +42,8 @@
     "@docusaurus/tsconfig": "3.10.2",
     "@docusaurus/types": "3.10.2",
     "@types/react": "^19.0.0",
-    "typescript": "~6.0.2"
+    "typescript": "~6.0.2",
+    "undici": "^7.30.2"
   },
   "browserslist": {
     "production": [
@@ -57,6 +58,6 @@
     ]
   },
   "engines": {
-    "node": ">=22.0"
+    "node": ">=22.6"
   }
 }

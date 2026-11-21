@@ -6,6 +6,7 @@ import {tmpdir} from 'node:os';
 import {dataPath, root} from './data-store.mjs';
 import {exists} from './lib/images.mjs';
 import {PROXY_URL, sleep, userAgent} from './lib/fetch.mjs';
+import {decodeHtml} from './lib/csv.mjs';
 import {createSerializer, parseConcurrency, pool} from './lib/concurrency.mjs';
 
 const execFileP = promisify(execFile);
@@ -31,12 +32,9 @@ const SITES = {
   unwinnable: { start: /<article[^>]*>[\s\S]*?<\/header>/, end: /<\w+[^>]*class="tnp-subscription-posts"|<\w+[^>]*class="entry-bottom"|<\w+[^>]*class="related-post/, proxy: true, delay: 1500, authorPattern: /rel="author"[^>]*>([^<]+)<\/a>/, strip: [/You feel compelled to support great writing…\s*/] },
   aftermath: { start: /<article[^>]*>/, end: /<\/article>/, proxy: true },
   rpgfan: { start: /<div class="post-body post-text">/, end: /<hr\s*\/?>\s*<div class="grid-x small-12 scoreboard">/ },
-  ign: {
-    variants: [
-      { host: /ign\.com\.cn$/, start: /<div[^>]*class="[^"]*article-body[^"]*"/, end: /<\/article>/ },
-      { start: /<div data-cy="article-content"/, end: /<div data-pogo="sidebar"[^>]*><\/div>|data-cy="comments-view-trigger"|data-cy="footer"/ },
-    ],
-  },
+  // IGN is intentionally absent: it uses the dedicated `collect-ign-reviews.mjs`
+  // and its flat `content/reviews/en/<slug>.md` layout. Listing it here would
+  // create a second, split copy under `en/<slug>/ign.md`.
 };
 
 // Unwinnable answers concurrent requests with a Cloudflare 403 and 4Gamer
@@ -45,25 +43,12 @@ const SITES = {
 const SERIAL_SITES = new Set(['unwinnable', '4gamer']);
 const serialize = createSerializer();
 
-function siteConfig(site, url) {
-  const config = SITES[site];
-  if (!config) return null;
-  if (!config.variants) return config;
-  let host = '';
-  try { host = new URL(url).hostname; } catch { /* keep empty */ }
-  return config.variants.find((v) => !v.host || v.host.test(host)) ?? config.variants[config.variants.length - 1];
-}
-
-function decodeEntities(s) {
-  const named = {amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ', mdash: '\u2014', ndash: '\u2013', hellip: '\u2026', rsquo: '\u2019', lsquo: '\u2018', rdquo: '\u201d', ldquo: '\u201c'};
-  return s.replace(/&(#x?[0-9a-f]+|[a-z]+);/gi, (m, c) => {
-    if (c[0] === '#') { const hex = c[1] === 'x' || c[1] === 'X'; const n = parseInt(hex ? c.slice(2) : c.slice(1), hex ? 16 : 10); return Number.isFinite(n) ? String.fromCodePoint(n) : m; }
-    return named[c.toLowerCase()] ?? m;
-  });
+function siteConfig(site) {
+  return SITES[site] ?? null;
 }
 
 function htmlToText(html) {
-  return decodeEntities(
+  return decodeHtml(
     html.replace(/<script[\s\S]*?<\/script>/gi, '')
       .replace(/<style[\s\S]*?<\/style>/gi, '')
       .replace(/<figure[\s\S]*?<\/figure>/gi, '')
@@ -117,6 +102,8 @@ function extractBody(html, config) {
   return text.replace(/\n{3,}/g, '\n\n').trim();
 }
 
+// curl instead of lib/fetch.mjs on purpose: several of these sites reject
+// undici's TLS fingerprint. The timeout/retry shape mirrors the shared helper.
 async function fetchHtml(url, useProxy) {
   let lastError;
   for (let attempt = 0; attempt < 3; attempt += 1) {
@@ -191,7 +178,7 @@ async function processOne(t) {
     if (await exists(outPath)) { skipped += 1; return; }
   }
   try {
-    const config = siteConfig(t.site, t.url);
+    const config = siteConfig(t.site);
     const html = await fetchHtml(t.url, config.proxy);
     if (config.delay) await sleep(config.delay);
     let body = extractBody(html, config);
@@ -200,7 +187,7 @@ async function processOne(t) {
     const meta = jsonLdMeta(html);
     if (!meta.author && config.authorPattern) {
       const match = html.match(config.authorPattern);
-      if (match) meta.author = decodeEntities(match[1]).trim();
+      if (match) meta.author = decodeHtml(match[1]).trim();
     }
     const title = meta.headline || t.title;
     const fm = [

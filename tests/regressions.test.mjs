@@ -4,7 +4,10 @@ import test from 'node:test';
 import {parseDocument, hasTranslationContent, translatedTabs} from '../scripts/content-manifest.mjs';
 import {numberValue} from '../scripts/data-store.mjs';
 import {getSources, normalizeSource} from '../scripts/media-sources.mjs';
-import {mergeGames} from '../scripts/merge-games.mjs';
+// The catalog merge lives in the front-end TypeScript module; Node's built-in
+// type stripping lets the regression tests exercise that exact implementation
+// instead of keeping a duplicate `.mjs` copy in sync by hand.
+import {mergeGames} from '../src/lib/mergeGames.ts';
 
 function record(overrides) {
   return {
@@ -13,7 +16,6 @@ function record(overrides) {
     platform: 'PC',
     score: null,
     releaseYear: null,
-    genre: '',
     metacriticUrl: '',
     hasTranslation: false,
     sources: [],

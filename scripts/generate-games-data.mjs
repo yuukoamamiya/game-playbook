@@ -5,11 +5,11 @@ import {fileURLToPath} from 'node:url';
 import {numberValue} from './data-store.mjs';
 import {getSources, mediaLabels} from './media-sources.mjs';
 import {readGameDocuments, translatedTabs} from './content-manifest.mjs';
+import {compareText} from './lib/csv.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const dataPath = resolve(root, 'data/metacritic-games.json');
 const outputPath = resolve(root, 'src/generated/games.json');
-const reviewsPath = resolve(root, 'src/generated/reviews.json');
 const mediaLabelsPath = resolve(root, 'src/generated/media-labels.json');
 const versionsDir = resolve(root, 'src/generated/versions');
 const pageReviewsDir = resolve(root, 'src/generated/reviews');
@@ -24,8 +24,6 @@ async function readTranslations() {
     const entries = translatedTabs(document);
     translations.set(slug, {
       title: frontmatter.display_title || frontmatter.title || '',
-      status: frontmatter.translation_status || 'translated',
-      path: `docs/games/${document.file}`,
       hasTranslation: entries.length > 0,
     });
     if (entries.length) media.set(slug, entries);
@@ -37,7 +35,8 @@ async function readTranslations() {
 const rows = JSON.parse(await readFile(dataPath, 'utf8'));
 const {translations, media} = await readTranslations();
 const games = rows
-  .filter((row) => row.must_play === true || String(row.must_play).toLowerCase() === 'true')
+  // validate-games-data enforces a boolean, so no string fallback is needed.
+  .filter((row) => row.must_play === true)
   .map((row) => {
     const pageSlug = row.page_slug || row.slug;
     const translation = translations.get(pageSlug);
@@ -45,36 +44,27 @@ const games = rows
       slug: pageSlug,
       sourceSlug: row.slug,
       title: translation?.title || row.title,
-      sourceTitle: row.title,
       versionTitle: row.title,
       platform: row.platform,
       score: numberValue(row.metacritic_score),
       releaseYear: numberValue(row.release_year),
-      genre: row.genre,
       metacriticUrl: row.metacritic_url,
       sources: getSources(row).map((source) => ({
         ...source,
         score: numberValue(source.score),
-        versionSlug: row.slug,
         versionTitle: row.title,
       })),
-      contentStatus: row.content_status ?? null,
       hasTranslation: Boolean(translation?.hasTranslation),
-      translationStatus: translation?.status || 'pending',
-      translationPath: translation?.path || '',
     };
   });
-
-function compareText(a, b) {
-  if (a === b) return 0;
-  return a < b ? -1 : 1;
-}
 
 // Sort by score, then by the ASCII slug so the output is identical on every
 // platform (localeCompare on CJK titles differs between Windows and Linux).
 games.sort((a, b) => (b.score ?? -1) - (a.score ?? -1) || compareText(a.slug, b.slug));
-await writeFile(outputPath, `${JSON.stringify(games, null, 2)}\n`, 'utf8');
-await writeFile(reviewsPath, `${JSON.stringify(Object.fromEntries(media), null, 2)}\n`, 'utf8');
+// Only ship fields the front end reads. sourceSlug/versionTitle stay in memory
+// for the per-page version table below, but are not duplicated into games.json.
+const catalog = games.map(({sourceSlug: _sourceSlug, versionTitle: _versionTitle, ...game}) => game);
+await writeFile(outputPath, `${JSON.stringify(catalog, null, 2)}\n`, 'utf8');
 
 // Per-page slices so the front end can dynamically import one page's data
 // instead of the full catalog. Contract: src/generated/<kind>/<pageSlug>.json

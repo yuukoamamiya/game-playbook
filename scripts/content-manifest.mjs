@@ -65,7 +65,7 @@ export function hasTranslationContent(content) {
 
 export async function readGameDocuments() {
   const files = (await readdir(docsPath)).filter((file) => (
-    /\.mdx?$/.test(file) && !file.startsWith('_') && file !== 'index.md'
+    /\.mdx?$/.test(file) && !file.startsWith('_') && !/^index\.mdx?$/.test(file)
   ));
   const documents = [];
 

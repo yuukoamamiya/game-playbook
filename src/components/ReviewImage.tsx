@@ -17,6 +17,8 @@ export default function ReviewImage({src, alt = '', group}: ReviewImageProps): R
   const [index, setIndex] = useState(0);
   const [portalHost, setPortalHost] = useState<HTMLElement | null>(null);
   const triggerRef = useRef<HTMLButtonElement | null>(null);
+  const dialogRef = useRef<HTMLDivElement | null>(null);
+  const closeButtonRef = useRef<HTMLButtonElement | null>(null);
 
   // SSR/SSG 阶段没有 document，挂载后再拿 body 作为 portal 容器。
   useEffect(() => {
@@ -52,10 +54,28 @@ export default function ReviewImage({src, alt = '', group}: ReviewImageProps): R
 
   useEffect(() => {
     if (items.length === 0) return undefined;
+    // Move focus into the dialog so keyboard users are not left tabbing through
+    // the page behind the lightbox.
+    closeButtonRef.current?.focus();
     const onKeyDown = (event: KeyboardEvent) => {
       if (event.key === 'Escape') close();
       if (event.key === 'ArrowLeft') step(-1);
       if (event.key === 'ArrowRight') step(1);
+      if (event.key !== 'Tab') return;
+
+      const focusable = [...(dialogRef.current?.querySelectorAll<HTMLElement>(
+        'button, [href], [tabindex]:not([tabindex="-1"])',
+      ) ?? [])].filter((element) => !element.hasAttribute('disabled'));
+      if (!focusable.length) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
     };
     window.addEventListener('keydown', onKeyDown);
     const previousOverflow = document.body.style.overflow;
@@ -89,6 +109,7 @@ export default function ReviewImage({src, alt = '', group}: ReviewImageProps): R
       </button>
       {current && portalHost && createPortal(
         <div
+          ref={dialogRef}
           className="review-lightbox"
           role="dialog"
           aria-modal="true"
@@ -96,6 +117,7 @@ export default function ReviewImage({src, alt = '', group}: ReviewImageProps): R
           onClick={close}
         >
           <button
+            ref={closeButtonRef}
             type="button"
             className="review-lightbox__close"
             aria-label="关闭"

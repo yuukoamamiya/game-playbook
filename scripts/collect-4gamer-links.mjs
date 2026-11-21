@@ -1,4 +1,3 @@
-import iconv from 'iconv-lite';
 import {readGames, writeGames} from './data-store.mjs';
 import {addSource, hasSource} from './media-sources.mjs';
 import {fetchWithTimeout} from './lib/fetch.mjs';
@@ -130,7 +129,9 @@ async function search4gamer(title) {
       headers: {'Content-Type': 'application/x-www-form-urlencoded', Referer: referer},
     }, {proxy: true, timeoutMs: 30000});
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    const html = iconv.decode(Buffer.from(await response.arrayBuffer()), 'EUC-JP');
+    // 4Gamer serves EUC-JP; Node's built-in decoder avoids a phantom dependency
+    // on iconv-lite (previously only present via express/body-parser).
+    const html = new TextDecoder('euc-jp').decode(await response.arrayBuffer());
     for (const candidate of parseCandidates(html, title)) {
       if (!candidates.some((item) => item.url === candidate.url)) candidates.push(candidate);
     }

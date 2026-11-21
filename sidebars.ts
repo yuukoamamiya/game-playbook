@@ -2,15 +2,9 @@ import {readFileSync} from 'node:fs';
 import {resolve} from 'node:path';
 
 import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
+import {mergeGames, type GameRecord} from './src/lib/mergeGames';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
-
-type GeneratedGame = {
-  slug: string;
-  title: string;
-  score: number | null;
-  releaseYear: number | null;
-};
 
 type GamePage = {
   slug: string;
@@ -30,9 +24,9 @@ type YearCategory = {
 // data/metacritic-games.json, so the sidebar follows the data instead of the
 // alphabetical order of the doc filenames.
 const generatedGamesPath = resolve(__dirname, 'src/generated/games.json');
-let games: GeneratedGame[];
+let games: GameRecord[];
 try {
-  games = JSON.parse(readFileSync(generatedGamesPath, 'utf8')) as GeneratedGame[];
+  games = JSON.parse(readFileSync(generatedGamesPath, 'utf8')) as GameRecord[];
 } catch (error) {
   throw new Error(
     `无法读取 ${generatedGamesPath}，先跑 npm run generate-data 生成前台数据`
@@ -42,23 +36,15 @@ try {
 
 // A public page can cover several platform records (via page_slug); list it
 // once, dated by its earliest release year and ranked by its best score.
-const pages = new Map<string, GamePage>();
-for (const game of games) {
-  const page = pages.get(game.slug);
-  if (!page) {
-    pages.set(game.slug, {slug: game.slug, score: game.score, year: game.releaseYear});
-    continue;
-  }
-  if (game.releaseYear !== null && (page.year === null || game.releaseYear < page.year)) {
-    page.year = game.releaseYear;
-  }
-  if (game.score !== null && (page.score === null || game.score > page.score)) {
-    page.score = game.score;
-  }
-}
+// Reuse the home page's merge so sidebar ordering cannot drift from the catalog.
+const pages: GamePage[] = mergeGames(games).map((game) => ({
+  slug: game.slug,
+  score: game.score,
+  year: game.releaseYear,
+}));
 
 const gamesByYear = new Map<number | 'unknown', GamePage[]>();
-for (const page of pages.values()) {
+for (const page of pages) {
   const key = page.year ?? 'unknown';
   const list = gamesByYear.get(key) ?? [];
   list.push(page);

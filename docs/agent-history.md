@@ -78,7 +78,17 @@
 - 新增《银河战士 生存恐惧》（Metroid Dread，Switch，MC 88，manually-added），评测 IGN / GameSpot / Eurogamer，全部翻译 + 头图。
 - 采集注意：Eurogamer 正文边界会误命中文章内图集的 `<nav class="pagination">`，导致长评测被截断（Metroid Dread 只取到前 1/3）；改用「article_body_content 到 article_footer、并截到相关阅读列表之前」的方式重新提取。
 
+## 代码审计与维护优化（2026-11-21）
+
+- 修复 CI 生成物漂移检查：`git diff --exit-code -- src/generated` 移回 `data-check` 的 `generate-data` 之后；原先放在 `site-build`，但该 job 不跑生成，检查永远通过。
+- 采集依赖加固：`undici` 列入 devDependencies，代理缺失时直接报错而不是静默直连；4Gamer 用 Node 内置 `TextDecoder('euc-jp')` 替代传递依赖 `iconv-lite`；`decodeHtml` 拒绝越界数字实体，`collect-media-reviews` 删除重复的实体解码实现。
+- 合并逻辑收敛为 `src/lib/mergeGames.ts` 一份：`sidebars.ts` 直接复用；删除 `scripts/merge-games.mjs` 和 `merge-games.d.mts`；回归测试改为直接 import 这份 TS（Node 22.6+ 类型擦除）。
+- 清理生成物：删除无人读取的 `src/generated/reviews.json`；`games.json` 只保留前台读取的字段（去掉 `sourceSlug`、`versionTitle`、`genre`、`contentStatus`、`translationStatus`、`translationPath`、source 级 `versionSlug`），体积从约 365KB 降到 260KB。
+- 采集脚本整理：新增 `scripts/lib/args.mjs`（flag/位置参数）和 `scripts/lib/media-search.mjs`（Bing 解析/标题分词）；`collect-review-links` 只在实际新增链接时改 `content_status` 并保留 `manually-added`，支持 `--dry-run` 且无变化不写文件；`collect-additional-review-links` 删除已不调用的 Bing 死代码并修复 `--dry-run` 被当成媒体名的问题。
+- 其他：确定性排序改用 `compareText`；`GameVersions` 按 `sourceSlug + platform` 展示多平台评分；IGN sitemap 缓存加 7 天 TTL；灯箱打开后移入焦点并限制 Tab 循环；`readGameDocuments` 同时排除 `index.mdx`；README/AGENTS 补充 `ffmpeg`、`undici` 和 Node 22.6 说明。
+- 验证：`npm run verify`（16 个回归测试通过）与 `npm run build`（Pagefind 索引 222 页）均成功。
+
 ## 部署
 
-- GitHub 与 Cloudflare Pages 已连通，Cloudflare 构建命令为 `npm run build`，输出目录为 `build`，Node.js 使用 20 或更高版本。
+- GitHub 与 Cloudflare Pages 已连通，Cloudflare 构建命令为 `npm run build`，输出目录为 `build`，Node.js 使用 22.6 或更高版本。
 - 图片仍保留在仓库的 `static/img/reviews-webp/`，暂不计划额外的图片代理加速方案。

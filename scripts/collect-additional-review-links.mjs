@@ -1,8 +1,10 @@
 import {readGames, writeGames} from './data-store.mjs';
 import {addSource, hasSource} from './media-sources.mjs';
 import {fetchText} from './lib/fetch.mjs';
-import {decodeHtml, normalizeUnicode, romanMap} from './lib/csv.mjs';
+import {decodeHtml, romanMap} from './lib/csv.mjs';
+import {cleanHtmlText, normalizedTokens} from './lib/media-search.mjs';
 import {parseConcurrency, pool} from './lib/concurrency.mjs';
+import {hasFlag, nonNegativeInt, positionalArgs} from './lib/args.mjs';
 
 // TODO(data): move this media table to data/review-media.json once the data
 // files are consolidated; keep it here for now to avoid a big diff.
@@ -19,75 +21,6 @@ const excludedWords = /\b(preview|previews|hands[- ]?on|impressions|news|guide|g
 const reviewWords = /\breview(?:ed|s|ing)?\b|reviews|\brecensione\b/i;
 const sitemapCache = new Map();
 const pageTitleCache = new Map();
-
-function cleanText(value) {
-  return decodeHtml(value.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim());
-}
-
-function extractBingTargetUrl(href) {
-  const decodedHref = decodeHtml(href);
-  try {
-    const parsed = new URL(decodedHref, 'https://www.bing.com');
-    const encoded = parsed.searchParams.get('u');
-    if (encoded?.startsWith('a1')) {
-      const decoded = Buffer.from(encoded.slice(2), 'base64').toString('utf8');
-      return decoded.startsWith('http') ? decoded : decodedHref;
-    }
-    return decodedHref;
-  } catch {
-    return decodedHref;
-  }
-}
-
-function parseSearchResults(html, target) {
-  const results = [];
-  const anchorPattern = /<li[^>]+class="[^">]*b_algo[^">]*"[\s\S]*?<h2[^>]*><a[^>]+href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/gi;
-  for (const match of html.matchAll(anchorPattern)) {
-    const url = extractBingTargetUrl(match[1]);
-    let parsed;
-    try {
-      parsed = new URL(url);
-    } catch {
-      continue;
-    }
-    if (!['http:', 'https:'].includes(parsed.protocol)) continue;
-    if (!(parsed.hostname === target.domain || parsed.hostname.endsWith(`.${target.domain}`))) continue;
-    const itemStart = Math.max(0, match.index ?? 0);
-    const item = html.slice(itemStart, Math.min(html.length, itemStart + 6000));
-    const title = cleanText(match[2]);
-    const snippet = cleanText(item.match(/<p[^>]*>([\s\S]*?)<\/p>/i)?.[1] ?? '');
-    const canonical = `${parsed.origin}${parsed.pathname}${parsed.search}${parsed.hash}`;
-    if (!results.some((result) => result.url === canonical)) results.push({url: canonical, title, snippet});
-  }
-  return results;
-}
-
-function normalizedTokens(title) {
-  const normalized = normalizeUnicode(title).toLowerCase()
-    .replace(/&/g, ' and ')
-    .replace(/\b(iii|iv|ii|vi|v)\b/g, (value) => romanMap[value] ?? value)
-    .replace(/[^a-z0-9]+/g, ' ');
-  return normalized.split(/\s+/).filter((token) => (token.length > 1 || /^\d$/.test(token)) && !['the', 'a', 'an', 'of', 'and', 'edition', 'definitive', 'version', 'game'].includes(token));
-}
-
-function chooseReview(results, title) {
-  const tokens = normalizedTokens(title);
-  if (!tokens.length) return null;
-  const ranked = results.map((result, index) => {
-    const haystack = `${result.url} ${result.title} ${result.snippet}`.toLowerCase()
-      .replace(/\b(iii|iv|ii|vi|v)\b/g, (value) => romanMap[value] ?? value);
-    const matched = tokens.filter((token) => haystack.includes(token));
-    const coverage = matched.length / tokens.length;
-    let score = matched.length * 3 + coverage * 4 - index * 0.1;
-    if (reviewWords.test(`${result.url} ${result.title} ${result.snippet}`)) score += 7;
-    if (excludedWords.test(`${result.url} ${result.title} ${result.snippet}`)) score -= 15;
-    if (/\/reviews?\//i.test(result.url)) score += 3;
-    return {...result, score, coverage, matched: matched.length};
-  }).sort((left, right) => right.score - left.score);
-  const best = ranked[0];
-  if (!best || best.coverage < (tokens.length <= 2 ? 1 : 0.7) || best.score < 10) return null;
-  return best;
-}
 
 function extractLocations(xml) {
   return [...xml.matchAll(/<loc>\s*([^<]+?)\s*<\/loc>/gi)].map((match) => decodeHtml(match[1]));
@@ -175,7 +108,7 @@ function extractPageTitle(html) {
   const ogTitle = html.match(/<meta[^>]+(?:property|name)=["']og:title["'][^>]+content=["']([^"']+)["']/i)?.[1]
     ?? html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+(?:property|name)=["']og:title["']/i)?.[1];
   const title = ogTitle ?? html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1] ?? '';
-  return cleanText(title);
+  return cleanHtmlText(title);
 }
 
 async function getPageTitle(url) {
@@ -231,14 +164,20 @@ async function findReview(target, title) {
 
 const rows = await readGames();
 
-const start = Math.max(0, Number(process.argv[2] ?? 0));
-const limit = Math.max(0, Number(process.argv[3] ?? rows.length - start));
+const argv = process.argv.slice(2);
+const positional = positionalArgs(argv);
+const start = nonNegativeInt(positional[0], 0);
+const limit = nonNegativeInt(positional[1], rows.length - start);
 const end = Math.min(rows.length, start + limit);
-const selectedMedia = process.argv[4] ? media.filter((target) => process.argv[4].split(',').includes(target.key)) : media;
-const dryRun = process.argv.includes('--dry-run');
+// Optional third positional is a comma-separated media list; flags never land here.
+const sitesArg = positional[2] ?? '';
+const selectedMedia = sitesArg
+  ? media.filter((target) => sitesArg.split(',').includes(target.key))
+  : media;
+const dryRun = hasFlag(argv, 'dry-run');
 // Rows are processed one at a time by default; each row already fans out over
 // its pending media. `--concurrency=N` widens that to N rows in flight.
-const concurrency = parseConcurrency(process.argv, 1);
+const concurrency = parseConcurrency(argv, 1);
 const stats = Object.fromEntries(selectedMedia.map((target) => [target.key, {found: 0, notFound: 0, error: 0, skipped: 0}]));
 
 await pool(rows.slice(start, end), async (row) => {

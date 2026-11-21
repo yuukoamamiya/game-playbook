@@ -3,8 +3,12 @@ import {resolve} from 'node:path';
 import {tmpdir} from 'node:os';
 import {readGames, writeGames} from './data-store.mjs';
 import {addSource, hasSource} from './media-sources.mjs';
-import {tokenize} from './lib/csv.mjs';
+import {compareText, tokenize} from './lib/csv.mjs';
 
+// Input: pre-downloaded GameSpot review URL lists in
+// `%TEMP%/opencode/gs-reviews-<n>.txt` (one URL per line). This script only
+// matches that corpus to the catalog; it does not fetch the sitemap itself.
+// Pass --write to persist confident matches (and the reviewed overrides below).
 const corpusDir = resolve(tmpdir(), 'opencode');
 const write = process.argv.includes('--write');
 
@@ -46,7 +50,7 @@ function candidates(title) {
     if (!m || m.extras > 2) continue;
     scored.push({...c, ...m, titleLen: tt.length});
   }
-  scored.sort((a, b) => a.score - b.score || a.url.localeCompare(b.url));
+  scored.sort((a, b) => a.score - b.score || compareText(a.url, b.url));
   return scored.slice(0, 3);
 }
 

@@ -20,6 +20,10 @@ jobs:
         run: npm run validate-data
       - name: Regenerate front-end data
         run: npm run generate-data
+      # 生成物必须和主数据一起提交：在这里检查才有意义，因为 generate-data
+      # 刚在本 job 里重写过 src/generated。site-build 不跑生成，放在那里永远不会产生 diff。
+      - name: Check generated output is committed
+        run: git diff --exit-code -- src/generated
       - name: Typecheck
         run: npm run typecheck
       - name: Syntax-check scripts
@@ -46,7 +50,3 @@ jobs:
       # 所以 build:ci 内部自己调用 sync-review-images（见 package.json）。
       - name: Build the site
         run: npm run build:ci
-      # 漂移检查放在构建之后：确认整条流水线跑完 src/generated 仍与主数据一致，
-      # 没有被 validate/generate/build 任何一步改写成未提交的内容。
-      - name: Check generated output is committed
-        run: git diff --exit-code -- src/generated

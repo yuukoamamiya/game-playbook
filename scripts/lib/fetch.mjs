@@ -5,8 +5,9 @@
 // environment, timeout + retry on 429/5xx.
 //
 // The local setup tunnels foreign sites through v2rayN. Proxying needs
-// `undici`'s ProxyAgent; when the package is not installed we warn once and
-// fall back to a direct connection instead of crashing at import time.
+// `undici`'s ProxyAgent (declared in devDependencies). If it is missing, fail
+// loudly on a proxy request instead of silently falling back to a direct
+// connection that would be blocked or throttled.
 
 export const userAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36';
 
@@ -25,9 +26,10 @@ export function getProxyDispatcher() {
       try {
         const {ProxyAgent} = await import('undici');
         return new ProxyAgent(PROXY_URL);
-      } catch {
-        console.error(`[fetch] undici is not installed; ignoring proxy ${PROXY_URL} and connecting directly`);
-        return null;
+      } catch (error) {
+        throw new Error(
+          `[fetch] proxy ${PROXY_URL} requested but undici could not be loaded: ${error.message}`,
+        );
       }
     })();
   }

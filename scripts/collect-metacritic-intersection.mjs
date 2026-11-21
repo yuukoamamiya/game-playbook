@@ -1,7 +1,7 @@
 import {readGames, writeGames} from './data-store.mjs';
 import {getSources} from './media-sources.mjs';
 import {fetchText} from './lib/fetch.mjs';
-import {decodeHtml} from './lib/csv.mjs';
+import {compareText, decodeHtml} from './lib/csv.mjs';
 
 // TODO(data): move this platform table to data/metacritic-platforms.json once
 // the data files are consolidated; keep it here for now to avoid a big diff.
@@ -75,7 +75,12 @@ const rows = [...unique.values()].map((game) => {
   return row;
 });
 
-rows.sort((left, right) => left.platform.localeCompare(right.platform) || right.metacritic_score - left.metacritic_score || left.title.localeCompare(right.title));
+// Code-point order keeps the JSON byte-identical between Windows and Linux.
+rows.sort((left, right) => (
+  compareText(left.platform, right.platform)
+  || right.metacritic_score - left.metacritic_score
+  || compareText(left.title, right.title)
+));
 await writeGames(rows);
 console.log(`Wrote ${rows.length} Must-Play games to the JSON data layer`);
 for (const platform of platforms) console.log(`${platform.label}: ${rows.filter((row) => row.platform === platform.label).length}`);

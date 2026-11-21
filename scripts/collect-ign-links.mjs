@@ -1,4 +1,4 @@
-import {readFile, writeFile, mkdir} from 'node:fs/promises';
+import {readFile, writeFile, mkdir, stat} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {tmpdir} from 'node:os';
 import {readGames, writeGames} from './data-store.mjs';
@@ -7,7 +7,20 @@ import {fetchText} from './lib/fetch.mjs';
 import {normalizeToken, tokenize} from './lib/csv.mjs';
 
 const cacheDir = resolve(tmpdir(), 'ign-sitemap-cache');
+const cacheTtlMs = 7 * 24 * 60 * 60 * 1000;
 const write = process.argv.includes('--write');
+
+async function loadSitemap(url, cacheFile) {
+  try {
+    const info = await stat(cacheFile);
+    if (Date.now() - info.mtimeMs < cacheTtlMs) return await readFile(cacheFile, 'utf8');
+  } catch {
+    // Missing or unreadable cache: fetch below.
+  }
+  const xml = await fetchText(url);
+  await writeFile(cacheFile, xml, 'utf8');
+  return xml;
+}
 
 const stop = new Set(['the', 'and', 'of', 'for', 'with', 'to', 'in', 'on', 'edition', 'definitive', 'remastered', 'complete', 'goty', 'game', 'year', 'a', 'an', 's', 'x']);
 const allowExtra = new Set(['article', 'articles', 'review', 'reviews', 'full', 'uk', 'au', 've', 'aussie', 'us', 'eu', 'hd', 'remastered', 'definitive', 'edition', 'goty', 'complete', 'pc', 'switch', 'xbox', 'ps4', 'ps5', 'series', 'new', 'updated', 'final', 'early', 'access', 'beta', 'launch', 'day', 'progress', 'impressions', 'plus', 'dlc', 'ffxiv', 'ex']);
@@ -21,9 +34,7 @@ const yearMaps = [...indexXml.matchAll(/<loc>([^<]+sitemap-articles-(\d{4})\.xml
 const corpus = [];
 for (const {url, year} of yearMaps) {
   const cacheFile = resolve(cacheDir, `y${year}.xml`);
-  let xml;
-  try { xml = await readFile(cacheFile, 'utf8'); }
-  catch { xml = await fetchText(url); await writeFile(cacheFile, xml, 'utf8'); }
+  const xml = await loadSitemap(url, cacheFile);
   for (const m of xml.matchAll(/<loc>([^<]+)<\/loc>/g)) {
     const u = m[1].replace(/&amp;/g, '&');
     if (u.includes('/articles/')) corpus.push(u);

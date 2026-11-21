@@ -37,11 +37,16 @@ export default function GameVersions({slug}: {slug: string}): React.ReactElement
     };
   }, [slug]);
 
+  // One row per release *and* platform: the same slug can legitimately have a
+  // PC and a console record (Hades, Queen's Domain), and both scores are useful.
   const versions = useMemo(() => {
-    const rows = records ?? [];
-    return rows.filter((version, index, items) => (
-      items.findIndex((item) => item.sourceSlug === version.sourceSlug) === index
-    ));
+    const seen = new Set<string>();
+    return (records ?? []).filter((version) => {
+      const key = `${version.sourceSlug}::${version.platform}`;
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
   }, [records]);
 
   if (versions.length < 2) return null;
