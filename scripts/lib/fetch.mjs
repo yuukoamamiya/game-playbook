@@ -17,6 +17,24 @@ export const PROXY_URL = process.env.GAME_PLAYBOOK_HTTP_PROXY
 
 export const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
+function sleepWithSignal(ms, signal) {
+  if (!signal) return sleep(ms);
+  if (signal.aborted) return Promise.reject(signal.reason);
+
+  return new Promise((resolve, reject) => {
+    const timer = setTimeout(() => {
+      signal.removeEventListener('abort', onAbort);
+      resolve();
+    }, ms);
+    function onAbort() {
+      clearTimeout(timer);
+      signal.removeEventListener('abort', onAbort);
+      reject(signal.reason);
+    }
+    signal.addEventListener('abort', onAbort, {once: true});
+  });
+}
+
 let dispatcherPromise;
 
 /** Lazily create (and cache) the undici ProxyAgent for PROXY_URL. */
@@ -63,16 +81,23 @@ export async function fetchWithTimeout(url, init = {}, options = {}) {
 
   const dispatcher = proxy ? await getProxyDispatcher() : null;
   const headers = {'User-Agent': userAgent, ...(init.headers ?? {})};
+  const externalSignal = init.signal;
   let lastError;
 
   for (let attempt = 0; attempt <= retries; attempt += 1) {
-    if (attempt > 0) await sleep(backoffMs * 2 ** (attempt - 1));
+    if (externalSignal?.aborted) throw externalSignal.reason;
+    if (attempt > 0) {
+      await sleepWithSignal(backoffMs * 2 ** (attempt - 1), externalSignal);
+    }
     try {
+      const timeoutSignal = AbortSignal.timeout(timeoutMs);
       const response = await fetch(url, {
         ...init,
         headers,
         ...(dispatcher ? {dispatcher} : {}),
-        signal: init.signal ?? AbortSignal.timeout(timeoutMs),
+        signal: externalSignal
+          ? AbortSignal.any([externalSignal, timeoutSignal])
+          : timeoutSignal,
       });
       if (isRetryableStatus(response.status) && attempt < retries) {
         lastError = new Error(`HTTP ${response.status}`);
@@ -81,6 +106,7 @@ export async function fetchWithTimeout(url, init = {}, options = {}) {
       }
       return response;
     } catch (error) {
+      if (externalSignal?.aborted) throw externalSignal.reason;
       lastError = error;
       if (attempt < retries && isRetryableError(error)) continue;
       throw error;
