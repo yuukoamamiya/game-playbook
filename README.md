@@ -13,7 +13,7 @@ npm install
 npm run start
 ```
 
-浏览器打开终端里给出的地址就能预览，改文件会热更新。
+浏览器打开终端里给出的地址就能预览，改文件会热更新。搜索索引由 Pagefind 在 `npm run build` 生成，`npm run start` 下没有搜索框；要试搜索先构建，再 `npm run serve`。
 
 改完数据、脚本或页面，记得验一遍：
 
@@ -40,5 +40,7 @@ npm run verify
 - Build command：`npm run build`
 - Build output directory：`build`
 - Node.js：`22` 或更高
+
+`npm run build` 在 Docusaurus 构建后接着跑 Pagefind，把搜索索引写进 `build/pagefind/`。Pagefind 的索引是分片的，单个文件很小，不会撞上 Cloudflare Pages 25 MiB 的单文件上限（旧的单文件索引到 26 MB 就超过上限、部署失败）。索引只收 `build/docs/**/*.html` 里 `<article>` 的内容。
 
 站点地址默认是 `https://game-playbook.amamiyayuuko.com`，canonical、sitemap 和分享卡片都用它。换域名或构建预览时，用环境变量 `SITE_URL` 覆盖即可。

@@ -151,6 +151,12 @@ docs/agent-history.md            历史决策记录，不作为当前待办清�
 
 左侧列表由 `sidebars.ts` 读取 `src/generated/games.json` 生成：年份作为一级分类（新到旧），游戏名作为二级条目（同一年内评分高的在前），不需要给 MDX 加 `sidebar_position`。`page_slug` 合并的多个平台记录只出现一次，年份取其中最早的发售年。文档 id 与文件名一致（`docs` 插件关掉了 `numberPrefixParser`），所以文件名要和 `slug` 保持一致。
 
+### 搜索
+
+搜索用 Pagefind。`npm run build` 在 Docusaurus 构建后调用 `npm run search-index`，从 `build/docs/**/*.html` 的 `<article>` 生成 `build/pagefind/`；导航栏按钮和弹窗由 `docusaurus.config.ts` 的 `headTags` 与 `navbar.items` 注入，只在生产构建出现。
+
+索引是分片的小文件，不要换回生成单个 `search-index.json` 的方案：Cloudflare Pages 单文件上限 25 MiB，旧索引涨到 26 MB 后每次部署都会失败。`npm run start` 下没有搜索框，要试搜索用 `npm run build && npm run serve`。
+
 ## 脚本清单
 
 维护流程常用的：

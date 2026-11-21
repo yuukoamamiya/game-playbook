@@ -41,3 +41,23 @@ html, body { background: var(--ifm-background-color); }
   --ifm-color-primary-lightest: #b7e5c7;
   --docusaurus-highlighted-code-line-bg: rgba(117, 201, 150, .16);
 }
+
+/* Pagefind search modal: match the site's paper/green palette and fonts. */
+:root {
+  --pf-font: var(--ifm-font-family-base);
+  --pf-background: var(--ifm-background-surface-color);
+  --pf-text: var(--ifm-font-color-base);
+  --pf-text-secondary: var(--ifm-color-emphasis-700);
+  --pf-text-muted: var(--ifm-color-emphasis-600);
+  --pf-border: var(--ifm-color-emphasis-300);
+  --pf-border-focus: var(--ifm-color-primary);
+  --pf-hover: var(--ifm-color-emphasis-100);
+  --pf-mark: var(--ifm-color-primary);
+  --pf-outline-focus: var(--ifm-color-primary);
+  --pf-border-radius: 4px;
+  --pf-modal-top: 8dvh;
+  --pf-modal-max-height: min(76dvh, 720px);
+}
+
+/* Pagefind prefixes sub-result headings with a "#"; keep the archive quiet. */
+pagefind-modal .pf-heading-link::before { content: none; }

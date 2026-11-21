@@ -5,7 +5,8 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
-    "build": "npm run validate-data && npm run generate-data && docusaurus build",
+    "build": "npm run validate-data && npm run generate-data && docusaurus build && npm run search-index",
+    "search-index": "pagefind --site build --glob \"docs/**/*.html\" --root-selector article --exclude-selectors \".hash-link,.table-of-contents\" --force-language zh",
     "generate-data": "node scripts/generate-games-data.mjs",
     "validate-data": "node scripts/validate-games-data.mjs",
     "check:scripts": "node scripts/check-scripts-syntax.mjs",
@@ -23,10 +24,10 @@
     "@docusaurus/core": "3.10.2",
     "@docusaurus/faster": "3.10.2",
     "@docusaurus/preset-classic": "3.10.2",
-    "@easyops-cn/docusaurus-search-local": "^0.55.3",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
     "js-yaml": "^4.1.0",
+    "pagefind": "^1.6.0",
     "prism-react-renderer": "^2.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"

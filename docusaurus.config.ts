@@ -4,6 +4,9 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
+// `docusaurus start` sets NODE_ENV=development and has no Pagefind bundle yet.
+const isProduction = process.env.NODE_ENV === 'production';
+
 const config: Config = {
   title: 'Playbook',
   tagline: '个人游戏评测档案',
@@ -48,19 +51,22 @@ const config: Config = {
     locales: ['zh-Hans'],
   },
 
-  plugins: [
-    [
-      require.resolve('@easyops-cn/docusaurus-search-local'),
-      {
-        hashed: true,
-        // The public archive is Chinese; avoid shipping the extra English stemmer
-        // and tokenizer in the search client and index.
-        language: ['zh'],
-        indexBlog: false,
-        highlightSearchTermsOnTargetPage: true,
-      },
-    ],
-  ],
+  // Search is indexed by Pagefind after `npm run build` (see package.json).
+  // It shards its index into many small files, so the archive can grow past
+  // Cloudflare Pages' 25 MiB per-file limit. The assets only exist in a built
+  // site, so they are skipped during `docusaurus start`.
+  headTags: isProduction
+    ? [
+        {
+          tagName: 'link',
+          attributes: {rel: 'stylesheet', href: '/pagefind/pagefind-component-ui.css'},
+        },
+        {
+          tagName: 'script',
+          attributes: {src: '/pagefind/pagefind-component-ui.js', type: 'module'},
+        },
+      ]
+    : [],
 
   presets: [
     [
@@ -78,8 +84,6 @@ const config: Config = {
         sitemap: {
           // Use each page's last git commit date so Search Console knows what changed.
           lastmod: 'date',
-          // The search page is thin, duplicated content; keep it out of the sitemap.
-          ignorePatterns: ['/search', '/search/**'],
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -103,6 +107,21 @@ const config: Config = {
           position: 'left',
           label: '文档库',
         },
+        ...(isProduction
+          ? [
+              {
+                type: 'html' as const,
+                position: 'right' as const,
+                value: '<pagefind-modal></pagefind-modal>',
+              },
+              {
+                type: 'html' as const,
+                position: 'right' as const,
+                value:
+                  '<pagefind-modal-trigger placeholder="搜索" compact></pagefind-modal-trigger>',
+              },
+            ]
+          : []),
       ],
     },
     footer: {
