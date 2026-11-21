@@ -1,5 +1,50 @@
 [
   {
+    "slug": "grand-theft-auto-vi",
+    "sourceSlug": "grand-theft-auto-vi",
+    "title": "侠盗猎车手VI",
+    "sourceTitle": "Grand Theft Auto VI",
+    "versionTitle": "Grand Theft Auto VI",
+    "platform": "PlayStation 5",
+    "score": 99,
+    "releaseYear": 2026,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/grand-theft-auto-vi/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": 10,
+        "url": "https://www.ign.com/articles/grand-theft-auto-vi-review",
+        "versionSlug": "grand-theft-auto-vi",
+        "versionTitle": "Grand Theft Auto VI"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": 10,
+        "url": "https://www.gamespot.com/reviews/grand-theft-auto-6-review/",
+        "versionSlug": "grand-theft-auto-vi",
+        "versionTitle": "Grand Theft Auto VI"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": 5,
+        "url": "https://www.eurogamer.net/grand-theft-auto-6-review",
+        "versionSlug": "grand-theft-auto-vi",
+        "versionTitle": "Grand Theft Auto VI"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/grand-theft-auto-vi.mdx"
+  },
+  {
     "slug": "super-mario-galaxy-2",
     "sourceSlug": "super-mario-galaxy-2",
     "title": "超级马力欧 银河2",
@@ -6134,6 +6179,42 @@
     "translationPath": "docs/games/planescape-torment.mdx"
   },
   {
+    "slug": "queens-domain",
+    "sourceSlug": "queens-domain",
+    "title": "女王魔域",
+    "sourceTitle": "Queen's Domain",
+    "versionTitle": "Queen's Domain",
+    "platform": "PlayStation 5",
+    "score": 91,
+    "releaseYear": 2026,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/queens-domain/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/queens-domain-quick-review",
+        "versionSlug": "queens-domain",
+        "versionTitle": "Queen's Domain"
+      },
+      {
+        "site": "rpgfan",
+        "kind": "review",
+        "language": "en",
+        "score": 8.5,
+        "url": "https://www.rpgfan.com/review/queens-domain/",
+        "versionSlug": "queens-domain",
+        "versionTitle": "Queen's Domain"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/queens-domain.mdx"
+  },
+  {
     "slug": "resident-evil-4",
     "sourceSlug": "resident-evil-4",
     "title": "生化危机 4",
@@ -10275,6 +10356,42 @@
     "hasTranslation": true,
     "translationStatus": "translated",
     "translationPath": "docs/games/divinity-original-sin.mdx"
+  },
+  {
+    "slug": "queens-domain",
+    "sourceSlug": "queens-domain",
+    "title": "女王魔域",
+    "sourceTitle": "Queen's Domain",
+    "versionTitle": "Queen's Domain",
+    "platform": "PC",
+    "score": 87,
+    "releaseYear": 2026,
+    "genre": "",
+    "metacriticUrl": "https://www.metacritic.com/game/queens-domain/",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/queens-domain-quick-review",
+        "versionSlug": "queens-domain",
+        "versionTitle": "Queen's Domain"
+      },
+      {
+        "site": "rpgfan",
+        "kind": "review",
+        "language": "en",
+        "score": 8.5,
+        "url": "https://www.rpgfan.com/review/queens-domain/",
+        "versionSlug": "queens-domain",
+        "versionTitle": "Queen's Domain"
+      }
+    ],
+    "contentStatus": "manually-added",
+    "hasTranslation": true,
+    "translationStatus": "translated",
+    "translationPath": "docs/games/queens-domain.mdx"
   },
   {
     "slug": "the-legend-of-zelda-links-awakening",

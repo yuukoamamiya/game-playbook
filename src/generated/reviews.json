@@ -1452,6 +1452,23 @@
       "label": "Eurogamer"
     }
   ],
+  "grand-theft-auto-vi": [
+    {
+      "id": "ign",
+      "site": "ign",
+      "label": "IGN"
+    },
+    {
+      "id": "gamespot",
+      "site": "gamespot",
+      "label": "GameSpot"
+    },
+    {
+      "id": "eurogamer",
+      "site": "eurogamer",
+      "label": "Eurogamer"
+    }
+  ],
   "grand-theft-auto-vice-city": [
     {
       "id": "ign",
@@ -2511,6 +2528,18 @@
       "id": "gamespot",
       "site": "gamespot",
       "label": "GameSpot"
+    }
+  ],
+  "queens-domain": [
+    {
+      "id": "ign",
+      "site": "ign",
+      "label": "IGN"
+    },
+    {
+      "id": "rpgfan",
+      "site": "rpgfan",
+      "label": "RPGFan"
     }
   ],
   "red-dead-redemption-2": [

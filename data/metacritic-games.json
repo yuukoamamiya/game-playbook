@@ -8562,5 +8562,97 @@
         "url": "https://www.eurogamer.net/pokemon-pokopia-review"
       }
     ]
+  },
+  {
+    "slug": "grand-theft-auto-vi",
+    "title": "Grand Theft Auto VI",
+    "platform": "PlayStation 5",
+    "metacritic_score": 99,
+    "must_play": true,
+    "release_year": 2026,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/grand-theft-auto-vi/",
+    "content_status": "manually-added",
+    "notes": "用户点名收录；Metacritic：99（基于 152 篇评测）。Xbox Series X 同为 99，暂无 PC 版。",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": 10,
+        "url": "https://www.ign.com/articles/grand-theft-auto-vi-review"
+      },
+      {
+        "site": "gamespot",
+        "kind": "review",
+        "language": "en",
+        "score": 10,
+        "url": "https://www.gamespot.com/reviews/grand-theft-auto-6-review/"
+      },
+      {
+        "site": "eurogamer",
+        "kind": "review",
+        "language": "en",
+        "score": 5,
+        "url": "https://www.eurogamer.net/grand-theft-auto-6-review"
+      }
+    ]
+  },
+  {
+    "slug": "queens-domain",
+    "title": "Queen's Domain",
+    "platform": "PC",
+    "metacritic_score": 87,
+    "must_play": true,
+    "release_year": 2026,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/queens-domain/",
+    "content_status": "manually-added",
+    "notes": "用户点名收录；Metacritic PC 87（12 篇评测）。PlayStation 5 91，Nintendo Switch 2 85，Xbox Series X 评测数不足。",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/queens-domain-quick-review"
+      },
+      {
+        "site": "rpgfan",
+        "kind": "review",
+        "language": "en",
+        "score": 8.5,
+        "url": "https://www.rpgfan.com/review/queens-domain/"
+      }
+    ]
+  },
+  {
+    "slug": "queens-domain",
+    "title": "Queen's Domain",
+    "platform": "PlayStation 5",
+    "metacritic_score": 91,
+    "must_play": true,
+    "release_year": 2026,
+    "genre": "",
+    "metacritic_url": "https://www.metacritic.com/game/queens-domain/",
+    "content_status": "manually-added",
+    "notes": "用户点名收录；Metacritic PlayStation 5 91（6 篇评测），共用 PC 页面。",
+    "page_slug": "queens-domain",
+    "sources": [
+      {
+        "site": "ign",
+        "kind": "review",
+        "language": "en",
+        "score": null,
+        "url": "https://www.ign.com/articles/queens-domain-quick-review"
+      },
+      {
+        "site": "rpgfan",
+        "kind": "review",
+        "language": "en",
+        "score": 8.5,
+        "url": "https://www.rpgfan.com/review/queens-domain/"
+      }
+    ]
   }
 ]
