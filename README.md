@@ -31,7 +31,7 @@ npm run verify
 - `static/img/reviews-webp/` — 页面头图
 - `scripts/` — 校验、生成和采集脚本，`scripts/lib/` 是采集公共库，`scripts/archive/` 里是已经用过的一次性脚本
 - `src/lib/mergeGames.ts` — 平台记录合并（最高分/最早年/最高分 URL），首页、侧边栏和回归测试共用这一份
-- `src/generated/versions/<slug>.json`、`src/generated/reviews/<slug>.json` — 按页拆分的生成物，文档页动态导入，避免全量大 JSON 进 bundle
+- `src/generated/versions/<slug>.json`、`src/generated/reviews/<slug>.json` — 按页拆分的生成物；版本数据由 MDX 编译插件生成静态表格，译文标签数据由文档页动态导入，避免全量大 JSON 进 bundle
 - `AGENTS.md` — 字段含义、日常维护步骤和协作约定（要动这个仓库，先读它）
 - `DESIGN.md` / `TODO.md` — 视觉规则 / 待办
 

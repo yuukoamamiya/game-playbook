@@ -25,7 +25,7 @@ The site is a personal game decision archive: calm, editorial, compact, and easy
 - Review illustrations use `<button>` wrapping `<img>` (not `img[role=button]`), restore focus on dialog close, and trap nothing behind `inert` background gaps.
 - Global `:focus-visible` outline is required; `prefers-reduced-motion: reduce` disables lightbox fade and card lift.
 - Game grid uses `content-visibility: auto` with `contain-intrinsic-size` to keep 200+ cards cheap to scroll.
-- Document pages dynamically import per-slug `src/generated/versions/<slug>.json` and `src/generated/reviews/<slug>.json` instead of the full `games.json`.
+- Document pages render per-slug `src/generated/versions/<slug>.json` as a Markdown table during MDX compilation, so SSG output and Pagefind include version metadata without importing the catalog into document bundles. Review labels still dynamically import per-slug `src/generated/reviews/<slug>.json`.
 - Pagefind CSS loads non-blocking (`media="print"` + onload); navbar search only exists in production builds.
 
 ## AI maintenance rules

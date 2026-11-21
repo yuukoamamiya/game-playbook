@@ -104,7 +104,7 @@ docs/agent-history.md            历史决策记录，不作为当前待办清�
 
 ### 生成物和英文来源
 
-`src/generated/games.json`、`media-labels.json` 都是生成文件，改完主数据或英文源后运行 `npm run generate-data`，不要直接编辑。`games.json` 只输出前台真正读取的字段。生成时还会输出按 slug 拆分的 `src/generated/versions/<slug>.json`（版本表，前台 `GameVersions` 动态导入）和 `src/generated/reviews/<slug>.json`（该页译文标签清单，前台 `ReviewTabs` 动态导入），避免文档页全量引入大 JSON。
+`src/generated/games.json`、`media-labels.json` 都是生成文件，改完主数据或英文源后运行 `npm run generate-data`，不要直接编辑。`games.json` 只输出前台真正读取的字段。生成时还会输出按 slug 拆分的 `src/generated/versions/<slug>.json`（版本表，由 `plugins/remark-game-versions.mjs` 在每页 MDX 编译时转为静态 Markdown 表格，使 SSG HTML 和 Pagefind 都包含版本信息）和 `src/generated/reviews/<slug>.json`（该页译文标签清单，前台 `ReviewTabs` 动态导入），避免文档页全量引入大 JSON。
 
 英文来源放在 `content/reviews/en/`，只用于翻译、摘要和核对；公开内容放在对应的 `docs/games/<slug>.mdx`。命名约定：新记录统一存为 `content/reviews/en/<slug>/<site>.md`；早期记录的主来源（基本是 IGN）是扁平的 `content/reviews/en/<slug>.md`，保留现状、不要搬迁。同一媒体有多篇时文件名要能区分文章，中文页 frontmatter 的 `source_file` 指向该页实际使用的那份，校验会检查它存在。一个游戏只有一个公开页，多个媒体通过 `ReviewTabs` / `ReviewTab` 切换，同一媒体多篇时为每个标签设唯一 `id`。
 

@@ -1,6 +1,7 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import remarkGameVersions from './plugins/remark-game-versions.mjs';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -81,6 +82,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+          beforeDefaultRemarkPlugins: [remarkGameVersions],
           // Doc ids are built in sidebars.ts from the game slugs, so keep the
           // id equal to the file path: otherwise "13-sentinels-aegis-rim"
           // would be read as a sidebar position prefix and become
