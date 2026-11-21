@@ -2,10 +2,10 @@ import {mkdir, writeFile} from 'node:fs/promises';
 import {dirname, resolve} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {readGames} from './data-store.mjs';
-import {getSources} from './media-sources.mjs';
 import {fetchWithTimeout} from './lib/fetch.mjs';
 import {decodeHtml} from './lib/csv.mjs';
 import {exists} from './lib/images.mjs';
+import {getIgnTargets} from './lib/ign-review-targets.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const outDir = resolve(root, 'content/reviews/en');
@@ -118,22 +118,14 @@ function renderMarkdown(row, page) {
 await mkdir(outDir, {recursive: true});
 const rows = await readGames();
 
-const targets = [];
-const seenSlugs = new Set();
-for (const row of rows) {
-  const sourceUrl = getSources(row).find((source) => source.site === 'ign')?.url ?? '';
-  if (!sourceUrl || !sourceUrl.includes('ign.com')) continue;
-  if (seenSlugs.has(row.slug)) continue;
-  seenSlugs.add(row.slug);
-  targets.push(row);
-}
+const targets = getIgnTargets(rows);
 
 let written = 0;
 let skipped = 0;
 let failed = 0;
 
 // Sequential by design: IGN rate-limits scrapers and `IGN_DELAY_MS` paces it.
-for (const row of targets) {
+for (const {row, sourceUrl} of targets) {
   const outPath = resolve(outDir, `${row.slug}.md`);
   if (!force && await exists(outPath)) {
     skipped += 1;

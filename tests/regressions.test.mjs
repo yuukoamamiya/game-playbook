@@ -4,6 +4,7 @@ import test from 'node:test';
 import {parseDocument, hasTranslationContent, translatedTabs} from '../scripts/content-manifest.mjs';
 import {numberValue} from '../scripts/data-store.mjs';
 import {getSources, normalizeSource} from '../scripts/media-sources.mjs';
+import {getIgnTargets} from '../scripts/lib/ign-review-targets.mjs';
 // The catalog merge lives in the front-end TypeScript module; Node's built-in
 // type stripping lets the regression tests exercise that exact implementation
 // instead of keeping a duplicate `.mjs` copy in sync by hand.
@@ -133,6 +134,20 @@ test('normalizeSource trims/lowercases and getSources de-duplicates by site+url'
   assert.deepEqual(sources.map(({url}) => url), [
     'https://example.com/review',
     'https://example.com/other',
+  ]);
+});
+
+test('getIgnTargets carries each IGN URL into the fetch target and de-duplicates slugs', () => {
+  const rows = [
+    {slug: 'first', sources: [{site: 'ign', url: 'https://www.ign.com/articles/first'}]},
+    {slug: 'first', sources: [{site: 'ign', url: 'https://www.ign.com/articles/duplicate'}]},
+    {slug: 'second', sources: [{site: 'ign', url: 'https://www.ign.com/articles/second'}]},
+    {slug: 'other', sources: [{site: 'gamespot', url: 'https://www.gamespot.com/review'}]},
+  ];
+
+  assert.deepEqual(getIgnTargets(rows), [
+    {row: rows[0], sourceUrl: 'https://www.ign.com/articles/first'},
+    {row: rows[2], sourceUrl: 'https://www.ign.com/articles/second'},
   ]);
 });
 
