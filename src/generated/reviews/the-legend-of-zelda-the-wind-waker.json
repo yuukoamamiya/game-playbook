@@ -1,0 +1,27 @@
+[
+  {
+    "id": "ign",
+    "site": "ign",
+    "label": "IGN"
+  },
+  {
+    "id": "gamespot",
+    "site": "gamespot",
+    "label": "GameSpot"
+  },
+  {
+    "id": "eurogamer-hd",
+    "site": "eurogamer",
+    "label": "Eurogamer · HD 复刻"
+  },
+  {
+    "id": "gamespot-hd",
+    "site": "gamespot",
+    "label": "GameSpot · HD 复刻"
+  },
+  {
+    "id": "rpgsite-hd",
+    "site": "rpgsite",
+    "label": "RPG Site · HD 复刻"
+  }
+]

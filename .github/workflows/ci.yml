@@ -6,7 +6,8 @@ on:
   pull_request:
 
 jobs:
-  verify:
+  # 数据/类型/脚本/回归测试，不构建站点：失败得快，也是构建的前置条件。
+  data-check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
@@ -19,13 +20,33 @@ jobs:
         run: npm run validate-data
       - name: Regenerate front-end data
         run: npm run generate-data
-      - name: Check generated output is committed
-        run: git diff --exit-code -- src/generated
       - name: Typecheck
         run: npm run typecheck
       - name: Syntax-check scripts
         run: npm run check:scripts
       - name: Run targeted regression tests
         run: npm run test:regressions
+
+  # 站点构建 + Pagefind 索引单独成 job，等 data-check 通过后再跑。
+  # 纯文档改动目前也会走全量构建：为了少一次构建而引入额外的 path 过滤 action
+  # 或让 job 有条件跳过（会牵扯 required status checks），收益不值得。
+  site-build:
+    needs: data-check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      # 用 build:ci 而不是 build：validate-data/generate-data 已在 data-check 跑过，
+      # 这里只做「同步评测插图 + docusaurus build + pagefind 索引」。
+      # 注意 npm 的 prebuild 钩子只对 `npm run build` 生效、不会作用于 build:ci，
+      # 所以 build:ci 内部自己调用 sync-review-images（见 package.json）。
       - name: Build the site
-        run: npm run build
+        run: npm run build:ci
+      # 漂移检查放在构建之后：确认整条流水线跑完 src/generated 仍与主数据一致，
+      # 没有被 validate/generate/build 任何一步改写成未提交的内容。
+      - name: Check generated output is committed
+        run: git diff --exit-code -- src/generated

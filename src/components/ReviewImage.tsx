@@ -1,4 +1,4 @@
-import React, {useCallback, useEffect, useState} from 'react';
+import React, {useCallback, useEffect, useRef, useState} from 'react';
 import {createPortal} from 'react-dom';
 
 type ReviewImageProps = {
@@ -12,9 +12,16 @@ type LightboxItem = {
   alt: string;
 };
 
-export default function ReviewImage({src, alt = '', group}: ReviewImageProps): React.ReactNode {
+export default function ReviewImage({src, alt = '', group}: ReviewImageProps): React.ReactElement {
   const [items, setItems] = useState<LightboxItem[]>([]);
   const [index, setIndex] = useState(0);
+  const [portalHost, setPortalHost] = useState<HTMLElement | null>(null);
+  const triggerRef = useRef<HTMLButtonElement | null>(null);
+
+  // SSR/SSG 阶段没有 document，挂载后再拿 body 作为 portal 容器。
+  useEffect(() => {
+    setPortalHost(document.body);
+  }, []);
 
   const open = useCallback(() => {
     const nodes = Array.from(
@@ -30,10 +37,17 @@ export default function ReviewImage({src, alt = '', group}: ReviewImageProps): R
     setIndex(found >= 0 ? found : 0);
   }, [group, src]);
 
-  const close = useCallback(() => setItems([]), []);
+  const close = useCallback(() => {
+    setItems([]);
+    // 关闭后把焦点还给触发按钮，键盘用户不会掉到页面开头。
+    triggerRef.current?.focus();
+  }, []);
 
   const step = useCallback((delta: number) => {
-    setIndex((current) => (current + delta + items.length) % items.length);
+    setIndex((current) => {
+      if (items.length < 2) return current;
+      return (current + delta + items.length) % items.length;
+    });
   }, [items.length]);
 
   useEffect(() => {
@@ -56,24 +70,24 @@ export default function ReviewImage({src, alt = '', group}: ReviewImageProps): R
 
   return (
     <>
-      <img
-        src={src}
-        alt={alt}
-        loading="lazy"
-        decoding="async"
-        data-review-group={group}
-        className="review-image"
-        role="button"
-        tabIndex={0}
+      <button
+        ref={triggerRef}
+        type="button"
+        className="review-image-button"
+        aria-haspopup="dialog"
+        aria-label={alt || '查看插图'}
         onClick={open}
-        onKeyDown={(event) => {
-          if (event.key === 'Enter' || event.key === ' ') {
-            event.preventDefault();
-            open();
-          }
-        }}
-      />
-      {current && createPortal(
+      >
+        <img
+          src={src}
+          alt={alt}
+          loading="lazy"
+          decoding="async"
+          data-review-group={group}
+          className="review-image"
+        />
+      </button>
+      {current && portalHost && createPortal(
         <div
           className="review-lightbox"
           role="dialog"
@@ -123,7 +137,7 @@ export default function ReviewImage({src, alt = '', group}: ReviewImageProps): R
             </button>
           )}
         </div>,
-        document.body,
+        portalHost,
       )}
     </>
   );

@@ -1,12 +1,11 @@
-import fs from 'node:fs/promises';
-import {ProxyAgent, fetch} from 'undici';
 import {readGames, writeGames} from './data-store.mjs';
 import {addSource, hasSource} from './media-sources.mjs';
+import {fetchText} from './lib/fetch.mjs';
+import {decodeHtml, normalizeUnicode, romanMap} from './lib/csv.mjs';
+import {parseConcurrency, pool} from './lib/concurrency.mjs';
 
-const userAgent = 'Mozilla/5.0 (compatible; GamePlaybookResearch/1.0)';
-const proxyUrl = process.env.GAME_PLAYBOOK_HTTP_PROXY || 'http://127.0.0.1:10809';
-const dispatcher = new ProxyAgent(proxyUrl);
-
+// TODO(data): move this media table to data/review-media.json once the data
+// files are consolidated; keep it here for now to avoid a big diff.
 const media = [
   {key: 'pcgamer', domain: 'pcgamer.com', label: 'PC Gamer'},
   {key: 'eurogamer', domain: 'eurogamer.net', label: 'Eurogamer'},
@@ -20,43 +19,6 @@ const excludedWords = /\b(preview|previews|hands[- ]?on|impressions|news|guide|g
 const reviewWords = /\breview(?:ed|s|ing)?\b|reviews|\brecensione\b/i;
 const sitemapCache = new Map();
 const pageTitleCache = new Map();
-
-function parseCsvLine(line) {
-  const values = [];
-  let value = '';
-  let quoted = false;
-  for (let index = 0; index < line.length; index += 1) {
-    const char = line[index];
-    if (char === '"' && line[index + 1] === '"' && quoted) {
-      value += '"';
-      index += 1;
-    } else if (char === '"') {
-      quoted = !quoted;
-    } else if (char === ',' && !quoted) {
-      values.push(value);
-      value = '';
-    } else {
-      value += char;
-    }
-  }
-  values.push(value);
-  return values;
-}
-
-function csvCell(value) {
-  const text = value == null ? '' : String(value);
-  return /[",\r\n]/.test(text) ? `"${text.replaceAll('"', '""')}"` : text;
-}
-
-function decodeHtml(value) {
-  return value
-    .replaceAll('&amp;', '&')
-    .replaceAll('&#39;', "'")
-    .replaceAll('&quot;', '"')
-    .replaceAll('&lt;', '<')
-    .replaceAll('&gt;', '>')
-    .replaceAll('&#x27;', "'");
-}
 
 function cleanText(value) {
   return decodeHtml(value.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim());
@@ -101,9 +63,9 @@ function parseSearchResults(html, target) {
 }
 
 function normalizedTokens(title) {
-  const normalized = title.toLowerCase()
+  const normalized = normalizeUnicode(title).toLowerCase()
     .replace(/&/g, ' and ')
-    .replace(/\b(iii|iv|ii|vi|v)\b/g, (value) => ({ii: '2', iii: '3', iv: '4', v: '5', vi: '6'})[value] ?? value)
+    .replace(/\b(iii|iv|ii|vi|v)\b/g, (value) => romanMap[value] ?? value)
     .replace(/[^a-z0-9]+/g, ' ');
   return normalized.split(/\s+/).filter((token) => (token.length > 1 || /^\d$/.test(token)) && !['the', 'a', 'an', 'of', 'and', 'edition', 'definitive', 'version', 'game'].includes(token));
 }
@@ -113,7 +75,7 @@ function chooseReview(results, title) {
   if (!tokens.length) return null;
   const ranked = results.map((result, index) => {
     const haystack = `${result.url} ${result.title} ${result.snippet}`.toLowerCase()
-      .replace(/\b(iii|iv|ii|vi|v)\b/g, (value) => ({ii: '2', iii: '3', iv: '4', v: '5', vi: '6'})[value] ?? value);
+      .replace(/\b(iii|iv|ii|vi|v)\b/g, (value) => romanMap[value] ?? value);
     const matched = tokens.filter((token) => haystack.includes(token));
     const coverage = matched.length / tokens.length;
     let score = matched.length * 3 + coverage * 4 - index * 0.1;
@@ -131,24 +93,19 @@ function extractLocations(xml) {
   return [...xml.matchAll(/<loc>\s*([^<]+?)\s*<\/loc>/gi)].map((match) => decodeHtml(match[1]));
 }
 
-async function fetchText(url) {
-  const response = await fetch(url, {
-    dispatcher,
-    headers: { 'User-Agent': userAgent, Accept: 'text/html,application/xml,text/xml' },
-  });
-  if (!response.ok) throw new Error(`HTTP ${response.status}`);
-  return response.text();
+function fetchTextProxied(url) {
+  return fetchText(url, {headers: {Accept: 'text/html,application/xml,text/xml'}}, {proxy: true});
 }
 
 async function getSitemapArticleUrls(target) {
   if (sitemapCache.has(target.key)) return sitemapCache.get(target.key);
   let articleUrls = [];
   try {
-    const root = await fetchText(`https://${target.base ?? `www.${target.domain}`}/sitemap.xml`);
+    const root = await fetchTextProxied(`https://${target.base ?? `www.${target.domain}`}/sitemap.xml`);
     const children = extractLocations(root).filter((url) => /sitemap/i.test(url) && /\.xml(?:\.gz)?(?:$|\?)/i.test(url));
     const childResults = await Promise.all(children.map(async (url) => {
       try {
-        const xml = await fetchText(url);
+        const xml = await fetchTextProxied(url);
         return extractLocations(xml);
       } catch {
         return [];
@@ -167,7 +124,7 @@ async function getSitemapArticleUrls(target) {
   }
   if (!articleUrls.length && target.listing) {
     try {
-      const html = await fetchText(target.listing);
+      const html = await fetchTextProxied(target.listing);
       const links = [...html.matchAll(/href\s*=\s*["']([^"']*\/review(?:mini)?\/[^"']+)["']/gi)]
         .map((match) => new URL(match[1], target.listing).href.split('?')[0]);
       articleUrls = links;
@@ -189,7 +146,7 @@ function pathTokens(url) {
     // Keep the encoded path if it contains malformed escaping.
   }
   return path
-    .replace(/\b(iii|iv|ii|vi|v)\b/g, (value) => ({ii: '2', iii: '3', iv: '4', v: '5', vi: '6'})[value] ?? value)
+    .replace(/\b(iii|iv|ii|vi|v)\b/g, (value) => romanMap[value] ?? value)
     .replace(/[^a-z0-9]+/g, ' ');
 }
 
@@ -224,7 +181,7 @@ function extractPageTitle(html) {
 async function getPageTitle(url) {
   if (pageTitleCache.has(url)) return pageTitleCache.get(url);
   try {
-    const html = await fetchText(url);
+    const html = await fetchTextProxied(url);
     const title = extractPageTitle(html);
     pageTitleCache.set(url, title);
     return title;
@@ -279,10 +236,12 @@ const limit = Math.max(0, Number(process.argv[3] ?? rows.length - start));
 const end = Math.min(rows.length, start + limit);
 const selectedMedia = process.argv[4] ? media.filter((target) => process.argv[4].split(',').includes(target.key)) : media;
 const dryRun = process.argv.includes('--dry-run');
+// Rows are processed one at a time by default; each row already fans out over
+// its pending media. `--concurrency=N` widens that to N rows in flight.
+const concurrency = parseConcurrency(process.argv, 1);
 const stats = Object.fromEntries(selectedMedia.map((target) => [target.key, {found: 0, notFound: 0, error: 0, skipped: 0}]));
 
-for (let rowIndex = start; rowIndex < end; rowIndex += 1) {
-  const row = rows[rowIndex];
+await pool(rows.slice(start, end), async (row) => {
   const pending = selectedMedia.filter((target) => {
     if (hasSource(row, target.key)) {
       stats[target.key].skipped += 1;
@@ -311,7 +270,9 @@ for (let rowIndex = start; rowIndex < end; rowIndex += 1) {
       console.log(`NOT_FOUND | ${row.slug} | ${target.label}`);
     }
   }
-  if (!dryRun) await writeGames(rows);
-}
+}, {concurrency});
 
+if (!dryRun) await writeGames(rows);
 console.log(JSON.stringify({rows: `${start + 1}-${end}`, dryRun, stats}, null, 2));
+
+if (Object.values(stats).some((entry) => entry.error > 0)) process.exitCode = 1;

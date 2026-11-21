@@ -1,0 +1,27 @@
+[
+  {
+    "id": "ign",
+    "site": "ign",
+    "label": "IGN"
+  },
+  {
+    "id": "gamespot",
+    "site": "gamespot",
+    "label": "GameSpot"
+  },
+  {
+    "id": "rpgamer",
+    "site": "rpgamer",
+    "label": "RPGamer"
+  },
+  {
+    "id": "ign-2",
+    "site": "ign",
+    "label": "IGN · 2"
+  },
+  {
+    "id": "eurogamer",
+    "site": "eurogamer",
+    "label": "Eurogamer"
+  }
+]

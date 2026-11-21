@@ -24,15 +24,18 @@ export function normalizeSource(source) {
   return normalized;
 }
 
+// Identity is `site::url` (see sourceKey); kind/language/score are metadata of
+// the same article, so two entries that differ only in those fields are the
+// same source. A Map keeps the first occurrence and makes the de-dupe O(n).
 export function getSources(row) {
-  const collected = [];
+  const collected = new Map();
   for (const source of Array.isArray(row?.sources) ? row.sources : []) {
     const normalized = normalizeSource(source);
-    if (normalized && !collected.some((item) => sourceKey(item) === sourceKey(normalized))) {
-      collected.push(normalized);
-    }
+    if (!normalized) continue;
+    const key = sourceKey(normalized);
+    if (!collected.has(key)) collected.set(key, normalized);
   }
-  return collected;
+  return [...collected.values()];
 }
 
 export function hasSource(row, site) {

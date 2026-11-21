@@ -1,0 +1,17 @@
+[
+  {
+    "id": "rockpapershotgun",
+    "site": "rockpapershotgun",
+    "label": "Rock Paper Shotgun"
+  },
+  {
+    "id": "rpgsite",
+    "site": "rpgsite",
+    "label": "RPG Site"
+  },
+  {
+    "id": "rpgamer",
+    "site": "rpgamer",
+    "label": "RPGamer"
+  }
+]

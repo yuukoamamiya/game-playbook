@@ -7,11 +7,16 @@ import {root} from './data-store.mjs';
 export const docsPath = resolve(root, 'docs/games');
 export const imagePath = resolve(root, 'static/img/reviews-webp');
 
+// JSX attributes can use either quote style, so accept both `attr="value"`
+// and `attr='value'` (mixed within one tag is fine too).
 function parseAttributes(attributes) {
-  return Object.fromEntries(
-    [...attributes.matchAll(/(?:^|\s)(id|site|label)="([^"]*)"/g)]
-      .map((match) => [match[1], match[2]]),
-  );
+  const parsed = {};
+  for (const match of attributes.matchAll(
+    /(?:^|\s)(id|site|label)\s*=\s*(?:"([^"]*)"|'([^']*)')/g,
+  )) {
+    parsed[match[1]] = match[2] ?? match[3];
+  }
+  return parsed;
 }
 
 export function parseDocument(source, file) {
@@ -45,6 +50,10 @@ export function parseDocument(source, file) {
   };
 }
 
+// A tab counts as translated when it has at least 30 Han characters and no
+// standalone placeholder line. The threshold filters out summaries, image
+// captions and accidental one-line Chinese while still accepting short
+// translated review snippets; it is deliberately shared by generate/validate.
 export function hasTranslationContent(content) {
   const cjk = (content.match(/[\u4e00-\u9fff]/g) ?? []).length;
   const containsPlaceholder = content.split(/\r?\n/).some((line) => (

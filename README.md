@@ -21,15 +21,17 @@ npm run start
 npm run verify
 ```
 
-它会依次检查数据、重新生成前台数据、检查脚本语法和类型。要验证完整静态构建再跑 `npm run build`（产物在 `build/`，不提交）。
+它会依次检查数据、重新生成前台数据、检查脚本语法、类型和回归测试。要验证完整静态构建再跑 `npm run build`（产物在 `build/`，不提交）。`verify:fast` 与 `verify` 相同（不含构建）；CI 另有 `build:ci`（同步插图 + 构建 + 索引，不重复校验/生成）。
 
 ## 目录里都有什么
 
-- `data/` — 主数据，所有游戏事实都只在这维护
+- `data/` — 主数据，所有游戏事实都只在这维护（人工确认入口另有 `data/confirmed-links.json`）
 - `content/reviews/en/` — 英文原文，只用来翻译核对，不会发布
 - `docs/games/` — 中文游戏页面，一个游戏一页，页内按媒体切换译文
 - `static/img/reviews-webp/` — 页面头图
-- `scripts/` — 校验、生成和采集脚本，`scripts/archive/` 里是已经用过的一次性脚本
+- `scripts/` — 校验、生成和采集脚本，`scripts/lib/` 是采集公共库，`scripts/archive/` 里是已经用过的一次性脚本
+- `src/lib/mergeGames.ts` — 前台平台记录合并（最高分/最早年/最高分 URL），脚本侧语义一致
+- `src/generated/versions/<slug>.json`、`src/generated/reviews/<slug>.json` — 按页拆分的生成物，文档页动态导入，避免全量大 JSON 进 bundle
 - `AGENTS.md` — 字段含义、日常维护步骤和协作约定（要动这个仓库，先读它）
 - `DESIGN.md` / `TODO.md` — 视觉规则 / 待办
 

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "ign",
+    "site": "ign",
+    "label": "IGN"
+  },
+  {
+    "id": "gamespot",
+    "site": "gamespot",
+    "label": "GameSpot"
+  },
+  {
+    "id": "eurogamer",
+    "site": "eurogamer",
+    "label": "Eurogamer"
+  },
+  {
+    "id": "rpgsite",
+    "site": "rpgsite",
+    "label": "RPG Site"
+  },
+  {
+    "id": "ign-switch-2",
+    "site": "ign",
+    "label": "IGN · Switch 2"
+  }
+]

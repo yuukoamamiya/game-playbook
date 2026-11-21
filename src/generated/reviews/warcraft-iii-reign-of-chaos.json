@@ -1,0 +1,12 @@
+[
+  {
+    "id": "ign",
+    "site": "ign",
+    "label": "IGN · 前瞻"
+  },
+  {
+    "id": "gamespot",
+    "site": "gamespot",
+    "label": "GameSpot"
+  }
+]

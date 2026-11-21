@@ -1,0 +1,22 @@
+[
+  {
+    "id": "gamespot",
+    "site": "gamespot",
+    "label": "GameSpot"
+  },
+  {
+    "id": "4gamer",
+    "site": "4gamer",
+    "label": "4Gamer.net"
+  },
+  {
+    "id": "rpgsite",
+    "site": "rpgsite",
+    "label": "RPG Site"
+  },
+  {
+    "id": "unwinnable",
+    "site": "unwinnable",
+    "label": "Unwinnable"
+  }
+]

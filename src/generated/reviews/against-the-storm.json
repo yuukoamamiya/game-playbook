@@ -1,0 +1,22 @@
+[
+  {
+    "id": "eurogamer",
+    "site": "eurogamer",
+    "label": "Eurogamer"
+  },
+  {
+    "id": "rockpapershotgun",
+    "site": "rockpapershotgun",
+    "label": "Rock Paper Shotgun"
+  },
+  {
+    "id": "unwinnable",
+    "site": "unwinnable",
+    "label": "Unwinnable"
+  },
+  {
+    "id": "aftermath",
+    "site": "aftermath",
+    "label": "Aftermath"
+  }
+]

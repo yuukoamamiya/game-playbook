@@ -20,6 +20,14 @@ The site is a personal game decision archive: calm, editorial, compact, and easy
 - Keep the game record fields stable. Add a new field only when it is useful for filtering or comparison.
 - Never edit generated output or invent game scores.
 
+## Accessibility and performance rules
+
+- Review illustrations use `<button>` wrapping `<img>` (not `img[role=button]`), restore focus on dialog close, and trap nothing behind `inert` background gaps.
+- Global `:focus-visible` outline is required; `prefers-reduced-motion: reduce` disables lightbox fade and card lift.
+- Game grid uses `content-visibility: auto` with `contain-intrinsic-size` to keep 200+ cards cheap to scroll.
+- Document pages dynamically import per-slug `src/generated/versions/<slug>.json` and `src/generated/reviews/<slug>.json` instead of the full `games.json` / `reviews.json`.
+- Pagefind CSS loads non-blocking (`media="print"` + onload); navbar search only exists in production builds.
+
 ## AI maintenance rules
 
 - Preserve the existing information architecture unless the user asks for a redesign.

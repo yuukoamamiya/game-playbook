@@ -1,70 +1,16 @@
-import {mkdir, writeFile, access} from 'node:fs/promises';
+import {mkdir, writeFile} from 'node:fs/promises';
 import {dirname, resolve} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {readGames} from './data-store.mjs';
 import {getSources} from './media-sources.mjs';
+import {fetchWithTimeout} from './lib/fetch.mjs';
+import {decodeHtml} from './lib/csv.mjs';
+import {exists} from './lib/images.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const outDir = resolve(root, 'content/reviews/en');
-const userAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36';
 const force = process.argv.includes('--force');
 const delayMs = Number(process.env.IGN_DELAY_MS ?? 1200);
-
-function parseCsv(text) {
-  const rows = [];
-  let row = [];
-  let value = '';
-  let quoted = false;
-
-  for (let index = 0; index < text.length; index += 1) {
-    const char = text[index];
-    const next = text[index + 1];
-
-    if (char === '"' && quoted && next === '"') {
-      value += '"';
-      index += 1;
-    } else if (char === '"') {
-      quoted = !quoted;
-    } else if (char === ',' && !quoted) {
-      row.push(value);
-      value = '';
-    } else if ((char === '\n' || char === '\r') && !quoted) {
-      if (char === '\r' && next === '\n') index += 1;
-      row.push(value);
-      if (row.some((cell) => cell !== '')) rows.push(row);
-      row = [];
-      value = '';
-    } else {
-      value += char;
-    }
-  }
-
-  if (value || row.length > 0) {
-    row.push(value);
-    if (row.some((cell) => cell !== '')) rows.push(row);
-  }
-
-  const [header = [], ...records] = rows;
-  return records.map((record) => Object.fromEntries(
-    header.map((name, index) => [name, record[index] ?? '']),
-  ));
-}
-
-function decodeEntities(value) {
-  const named = {
-    amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ',
-    mdash: '\u2014', ndash: '\u2013', hellip: '\u2026', rsquo: '\u2019',
-    lsquo: '\u2018', rdquo: '\u201d', ldquo: '\u201c', copy: '\u00a9',
-  };
-  return value.replace(/&(#x?[0-9a-f]+|[a-z]+);/gi, (match, code) => {
-    if (code[0] === '#') {
-      const hex = code[1] === 'x' || code[1] === 'X';
-      const number = Number.parseInt(hex ? code.slice(2) : code.slice(1), hex ? 16 : 10);
-      return Number.isFinite(number) ? String.fromCodePoint(number) : match;
-    }
-    return named[code.toLowerCase()] ?? match;
-  });
-}
 
 function htmlToMarkdown(html) {
   let text = html
@@ -86,7 +32,7 @@ function htmlToMarkdown(html) {
     .replace(/<\/p>/gi, '\n\n')
     .replace(/<[^>]+>/g, '');
 
-  text = decodeEntities(text)
+  text = decodeHtml(text)
     .replace(/[ \t]+\n/g, '\n')
     .replace(/\n{3,}/g, '\n\n')
     .trim();
@@ -96,15 +42,6 @@ function htmlToMarkdown(html) {
 
 function yamlString(value) {
   return `"${String(value ?? '').replaceAll('\\', '\\\\').replaceAll('"', '\\"')}"`;
-}
-
-async function exists(path) {
-  try {
-    await access(path);
-    return true;
-  } catch {
-    return false;
-  }
 }
 
 function extractNextData(html) {
@@ -127,7 +64,7 @@ const cache = new Map();
 
 async function fetchPage(url) {
   if (cache.has(url)) return cache.get(url);
-  const response = await fetch(url, {headers: {'User-Agent': userAgent, 'Accept-Language': 'en-US,en;q=0.9'}});
+  const response = await fetchWithTimeout(url, {headers: {'Accept-Language': 'en-US,en;q=0.9'}}, {timeoutMs: 45000});
   const html = await response.text();
   const page = response.ok ? pageFromNextData(extractNextData(html)) : null;
   const result = {status: response.status, page};
@@ -195,6 +132,7 @@ let written = 0;
 let skipped = 0;
 let failed = 0;
 
+// Sequential by design: IGN rate-limits scrapers and `IGN_DELAY_MS` paces it.
 for (const row of targets) {
   const outPath = resolve(outDir, `${row.slug}.md`);
   if (!force && await exists(outPath)) {
@@ -220,3 +158,4 @@ for (const row of targets) {
 }
 
 console.log(`\nwritten ${written} | skipped ${skipped} | failed ${failed} | targets ${targets.length}`);
+if (failed) process.exitCode = 1;

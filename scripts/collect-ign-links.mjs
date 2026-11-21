@@ -1,71 +1,21 @@
 import {readFile, writeFile, mkdir} from 'node:fs/promises';
-import {resolve, dirname} from 'node:path';
-import {fileURLToPath} from 'node:url';
+import {resolve} from 'node:path';
 import {tmpdir} from 'node:os';
 import {readGames, writeGames} from './data-store.mjs';
 import {addSource, hasSource} from './media-sources.mjs';
+import {fetchText} from './lib/fetch.mjs';
+import {normalizeToken, tokenize} from './lib/csv.mjs';
 
-const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const cacheDir = resolve(tmpdir(), 'ign-sitemap-cache');
-const userAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36';
 const write = process.argv.includes('--write');
 
-function parseCsv(text) {
-  const rows = [];
-  let row = [];
-  let value = '';
-  let quoted = false;
-  for (let i = 0; i < text.length; i += 1) {
-    const c = text[i];
-    const n = text[i + 1];
-    if (c === '"' && quoted && n === '"') { value += '"'; i += 1; }
-    else if (c === '"') { quoted = !quoted; }
-    else if (c === ',' && !quoted) { row.push(value); value = ''; }
-    else if ((c === '\n' || c === '\r') && !quoted) {
-      if (c === '\r' && n === '\n') i += 1;
-      row.push(value);
-      if (row.some((x) => x !== '')) rows.push(row);
-      row = []; value = '';
-    } else { value += c; }
-  }
-  if (value || row.length) { row.push(value); if (row.some((x) => x !== '')) rows.push(row); }
-  return rows;
-}
-
-function csvCell(value) {
-  const text = value == null ? '' : String(value);
-  return /[",\r\n]/.test(text) ? `"${text.replaceAll('"', '""')}"` : text;
-}
-
-const roman = /^(i|ii|iii|iv|v|vi|vii|viii|ix|x|\d+)$/;
 const stop = new Set(['the', 'and', 'of', 'for', 'with', 'to', 'in', 'on', 'edition', 'definitive', 'remastered', 'complete', 'goty', 'game', 'year', 'a', 'an', 's', 'x']);
 const allowExtra = new Set(['article', 'articles', 'review', 'reviews', 'full', 'uk', 'au', 've', 'aussie', 'us', 'eu', 'hd', 'remastered', 'definitive', 'edition', 'goty', 'complete', 'pc', 'switch', 'xbox', 'ps4', 'ps5', 'series', 'new', 'updated', 'final', 'early', 'access', 'beta', 'launch', 'day', 'progress', 'impressions', 'plus', 'dlc', 'ffxiv', 'ex']);
-const romanMap = {i: '1', ii: '2', iii: '3', iv: '4', v: '5', vi: '6', vii: '7', viii: '8', ix: '9', x: '10'};
-
-function stem(token) {
-  return token.length > 4 && token.endsWith('s') && !token.endsWith('ss') ? token.slice(0, -1) : token;
-}
-
-function normalizeToken(token) {
-  const stemmed = stem(token);
-  return romanMap[stemmed] ?? stemmed;
-}
-
-function tokenize(text) {
-  return text
-    .toLowerCase()
-    .replace(/['’]/g, '')
-    .replace(/[^a-z0-9]+/g, ' ')
-    .split(/\s+/)
-    .filter(Boolean)
-    .map(normalizeToken)
-    .filter((t) => (t.length >= 2 || /^\d+$/.test(t)) && !stop.has(t));
-}
 
 const negative = /\b(preview|previews|hands-on|impressions|news|guide|guides|walkthrough|trailer|video|feature|interview|tips|wiki|deal|deals|sale|release-date|patch|update|roundup|review-roundup|movie|film|tv|mod|ai-generated|rumor|leak|how-to|explained|everything|best|top|ranked|buying|preorder|reaction|opinion|editorial|column)\b/;
 
 await mkdir(cacheDir, {recursive: true});
-const indexXml = await (await fetch('https://www.ign.com/rss/sitemap-articles.xml', {headers: {'User-Agent': userAgent}})).text();
+const indexXml = await fetchText('https://www.ign.com/rss/sitemap-articles.xml');
 const yearMaps = [...indexXml.matchAll(/<loc>([^<]+sitemap-articles-(\d{4})\.xml)<\/loc>/g)].map((m) => ({url: m[1], year: m[2]}));
 
 const corpus = [];
@@ -73,7 +23,7 @@ for (const {url, year} of yearMaps) {
   const cacheFile = resolve(cacheDir, `y${year}.xml`);
   let xml;
   try { xml = await readFile(cacheFile, 'utf8'); }
-  catch { xml = await (await fetch(url, {headers: {'User-Agent': userAgent}})).text(); await writeFile(cacheFile, xml, 'utf8'); }
+  catch { xml = await fetchText(url); await writeFile(cacheFile, xml, 'utf8'); }
   for (const m of xml.matchAll(/<loc>([^<]+)<\/loc>/g)) {
     const u = m[1].replace(/&amp;/g, '&');
     if (u.includes('/articles/')) corpus.push(u);
@@ -87,7 +37,7 @@ function pathTokens(url) {
 }
 
 function variants(title) {
-  const full = tokenize(title);
+  const full = tokenize(title, stop);
   const out = [full];
   const drop = new Set(['sid', 'meier', 'meiers', 'tom', 'clancy', 'clancys', 'the']);
   let i = 0;
@@ -126,8 +76,7 @@ const rows = await readGames();
 const report = [];
 for (const row of rows) {
   if (hasSource(row, 'ign')) continue;
-  const cand = candidates(row.title);
-  report.push({slug: row.slug, title: row.title, cand});
+  report.push({row, slug: row.slug, title: row.title, cand: candidates(row.title)});
 }
 
 let confident = 0;
@@ -142,6 +91,8 @@ for (const r of report) {
 console.error(`\nmissing ${report.length} | confident ${confident} | no-candidate ${none}`);
 
 if (write) {
+  // TODO(data): move these reviewed overrides to data/ign-overrides.json once
+  // the data files are consolidated; keep them here for now to avoid a big diff.
   const overrides = {
     'age-of-empires-ii-the-age-of-kings': 'https://www.ign.com/articles/1999/10/09/age-of-empires-ii-the-age-of-kings',
     'warcraft-iii-reign-of-chaos': 'https://www.ign.com/articles/2001/12/06/warcraft-iii-reign-of-chaos-3',
@@ -151,11 +102,9 @@ if (write) {
     'grand-theft-auto-iii': 'https://www.ign.com/articles/grand-theft-auto-iii-the-legacy-review',
   };
   let filled = 0;
-  for (const row of rows) {
-    if (hasSource(row, 'ign')) continue;
-    const slug = row.slug;
+  for (const {row, slug, cand} of report) {
     if (overrides[slug]) { addSource(row, {site: 'ign', kind: 'review', language: 'en', score: null, url: overrides[slug]}); filled += 1; continue; }
-    const best = candidates(row.title)[0];
+    const best = cand[0];
     if (best && best.extra.length === 0 && best.score >= 15) { addSource(row, {site: 'ign', kind: 'review', language: 'en', score: null, url: best.url}); filled += 1; }
   }
   await writeGames(rows);

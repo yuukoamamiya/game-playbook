@@ -1,0 +1,37 @@
+[
+  {
+    "id": "ign",
+    "site": "ign",
+    "label": "IGN"
+  },
+  {
+    "id": "gamespot",
+    "site": "gamespot",
+    "label": "GameSpot"
+  },
+  {
+    "id": "rpgamer",
+    "site": "rpgamer",
+    "label": "RPGamer"
+  },
+  {
+    "id": "rpgsite",
+    "site": "rpgsite",
+    "label": "RPG Site"
+  },
+  {
+    "id": "rockpapershotgun",
+    "site": "rockpapershotgun",
+    "label": "Rock Paper Shotgun"
+  },
+  {
+    "id": "rockpapershotgun-2",
+    "site": "rockpapershotgun",
+    "label": "Rock Paper Shotgun · 2"
+  },
+  {
+    "id": "rpgamer-2",
+    "site": "rpgamer",
+    "label": "RPGamer · 2"
+  }
+]

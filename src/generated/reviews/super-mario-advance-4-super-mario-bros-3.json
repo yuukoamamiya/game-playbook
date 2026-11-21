@@ -1,0 +1,12 @@
+[
+  {
+    "id": "gamespot",
+    "site": "gamespot",
+    "label": "GameSpot"
+  },
+  {
+    "id": "ign",
+    "site": "ign",
+    "label": "IGN"
+  }
+]

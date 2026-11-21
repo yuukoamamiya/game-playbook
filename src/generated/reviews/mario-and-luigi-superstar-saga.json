@@ -1,0 +1,22 @@
+[
+  {
+    "id": "gamespot",
+    "site": "gamespot",
+    "label": "GameSpot"
+  },
+  {
+    "id": "ign",
+    "site": "ign",
+    "label": "IGN"
+  },
+  {
+    "id": "eurogamer",
+    "site": "eurogamer",
+    "label": "Eurogamer"
+  },
+  {
+    "id": "gamespot-3ds",
+    "site": "gamespot",
+    "label": "GameSpot · 3DS 重制版"
+  }
+]

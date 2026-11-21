@@ -19,8 +19,29 @@
   --docusaurus-highlighted-code-line-bg: rgba(47, 125, 85, .1);
 }
 
-html { overflow-y: scroll; scrollbar-gutter: stable; }
+/* 只预留滚动条槽位，不要强制 overflow-y: scroll（后者会在部分平台叠出双滚动条）。 */
+html { scrollbar-gutter: stable; }
 html, body { background: var(--ifm-background-color); }
+
+/* 键盘焦点统一可见；:focus-visible 在鼠标点击时不触发。 */
+:focus-visible {
+  outline: 2px solid var(--ifm-color-primary);
+  outline-offset: 2px;
+}
+
+/* 仅供屏幕阅读器的标题/说明（版本表 caption、单标签页标题）。 */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
 .navbar { border-bottom: 1px solid var(--ifm-color-emphasis-200); }
 .navbar__title { font-family: var(--ifm-font-family-monospace); font-size: 13px; letter-spacing: .04em; }
 .navbar__link { font-size: 13px; }
@@ -62,17 +83,27 @@ html, body { background: var(--ifm-background-color); }
 /* Pagefind prefixes sub-result headings with a "#"; keep the archive quiet. */
 pagefind-modal .pf-heading-link::before { content: none; }
 
-/* Review illustrations: inline images open a keyboard-friendly lightbox. */
+/* Review illustrations: lightbox trigger is a button so keyboard users get
+   native Enter/Space handling; the image itself is not focusable. */
+.review-image-button {
+  display: block;
+  width: fit-content;
+  max-width: 100%;
+  margin: 1.25rem auto;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: zoom-in;
+}
+
 .review-image {
   display: block;
   max-width: 100%;
   height: auto;
-  margin: 1.25rem auto;
   border-radius: 4px;
-  cursor: zoom-in;
 }
 
-.review-image:focus-visible {
+.review-image-button:focus-visible {
   outline: 2px solid var(--ifm-color-primary);
   outline-offset: 4px;
 }
@@ -80,6 +111,7 @@ pagefind-modal .pf-heading-link::before { content: none; }
 .review-lightbox {
   position: fixed;
   inset: 0;
+  /* 盖住导航栏、搜索弹窗等所有固定层（Docusaurus 常见层级最高约 200）。 */
   z-index: 10000;
   display: flex;
   align-items: center;
@@ -164,6 +196,12 @@ pagefind-modal .pf-heading-link::before { content: none; }
 @keyframes review-lightbox-in {
   from { opacity: 0; }
   to { opacity: 1; }
+}
+
+/* 用户要求减少动态效果时，关闭淡入和按钮过渡。 */
+@media (prefers-reduced-motion: reduce) {
+  .review-lightbox { animation: none; }
+  .review-lightbox button { transition: none; }
 }
 
 @media (max-width: 640px) {

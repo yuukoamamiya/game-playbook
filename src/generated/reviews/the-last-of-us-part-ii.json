@@ -1,0 +1,27 @@
+[
+  {
+    "id": "ign",
+    "site": "ign",
+    "label": "IGN"
+  },
+  {
+    "id": "gamespot",
+    "site": "gamespot",
+    "label": "GameSpot"
+  },
+  {
+    "id": "gamestudies",
+    "site": "gamestudies",
+    "label": "Game Studies"
+  },
+  {
+    "id": "gamestudies-reay",
+    "site": "gamestudies",
+    "label": "Game Studies · The Last of Us Part II Remastered"
+  },
+  {
+    "id": "todigra",
+    "site": "todigra",
+    "label": "ToDiGRA"
+  }
+]

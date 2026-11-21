@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ign",
+    "site": "ign",
+    "label": "IGN"
+  },
+  {
+    "id": "gamespot",
+    "site": "gamespot",
+    "label": "GameSpot"
+  },
+  {
+    "id": "eurogamer",
+    "site": "eurogamer",
+    "label": "Eurogamer"
+  },
+  {
+    "id": "theatlantic",
+    "site": "theatlantic",
+    "label": "The Atlantic"
+  },
+  {
+    "id": "unwinnable",
+    "site": "unwinnable",
+    "label": "Unwinnable"
+  },
+  {
+    "id": "unwinnable-2",
+    "site": "unwinnable",
+    "label": "Unwinnable · 2"
+  }
+]

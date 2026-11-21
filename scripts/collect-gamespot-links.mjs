@@ -1,47 +1,14 @@
-import {readFile, writeFile, readdir} from 'node:fs/promises';
-import {resolve, dirname} from 'node:path';
-import {fileURLToPath} from 'node:url';
+import {readFile, readdir} from 'node:fs/promises';
+import {resolve} from 'node:path';
 import {tmpdir} from 'node:os';
 import {readGames, writeGames} from './data-store.mjs';
 import {addSource, hasSource} from './media-sources.mjs';
+import {tokenize} from './lib/csv.mjs';
 
-const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const corpusDir = resolve(tmpdir(), 'opencode');
 const write = process.argv.includes('--write');
 
-function parseCsv(text) {
-  const rows = [];
-  let row = [];
-  let value = '';
-  let quoted = false;
-  for (let i = 0; i < text.length; i += 1) {
-    const c = text[i];
-    const n = text[i + 1];
-    if (c === '"' && quoted && n === '"') { value += '"'; i += 1; }
-    else if (c === '"') { quoted = !quoted; }
-    else if (c === ',' && !quoted) { row.push(value); value = ''; }
-    else if ((c === '\n' || c === '\r') && !quoted) {
-      if (c === '\r' && n === '\n') i += 1;
-      row.push(value);
-      if (row.some((x) => x !== '')) rows.push(row);
-      row = []; value = '';
-    } else { value += c; }
-  }
-  if (value || row.length) { row.push(value); if (row.some((x) => x !== '')) rows.push(row); }
-  return rows;
-}
-
-function csvCell(value) {
-  const text = value == null ? '' : String(value);
-  return /[",\r\n]/.test(text) ? `"${text.replaceAll('"', '""')}"` : text;
-}
-
 const stop = new Set(['the', 'and', 'of', 'for', 'with', 'to', 'in', 'on', 'a', 'an', 's', 'x', 'game', 'year']);
-const romanMap = {i: '1', ii: '2', iii: '3', iv: '4', v: '5', vi: '6', vii: '7', viii: '8', ix: '9', x: '10'};
-function norm(t) { const s = t.length > 4 && t.endsWith('s') && !t.endsWith('ss') ? t.slice(0, -1) : t; return romanMap[s] ?? s; }
-function tokenize(text) {
-  return text.toLowerCase().replace(/['’]/g, '').replace(/[^a-z0-9]+/g, ' ').split(/\s+/).filter(Boolean).map(norm).filter((t) => (t.length >= 2 || /^\d+$/.test(t)) && !stop.has(t));
-}
 
 const corpus = [];
 for (const f of await readdir(corpusDir)) {
@@ -52,7 +19,7 @@ for (const f of await readdir(corpusDir)) {
     if (!m) continue;
     const slug = m[1];
     if (/^\d+$/.test(slug) || slug === 'reviews') continue;
-    corpus.push({url, slug, tokens: tokenize(slug)});
+    corpus.push({url, slug, tokens: tokenize(slug, stop)});
   }
 }
 console.error(`corpus: ${corpus.length} gamespot reviews`);
@@ -71,7 +38,7 @@ function matchScore(titleTokens, slugTokens) {
 }
 
 function candidates(title) {
-  const tt = tokenize(title);
+  const tt = tokenize(title, stop);
   if (!tt.length) return [];
   const scored = [];
   for (const c of corpus) {
@@ -88,7 +55,7 @@ const rows = await readGames();
 const report = [];
 for (const row of rows) {
   if (hasSource(row, 'gamespot')) continue;
-  report.push({slug: row.slug, title: row.title, cand: candidates(row.title)});
+  report.push({row, slug: row.slug, title: row.title, cand: candidates(row.title)});
 }
 
 let good = 0, miss = 0;
@@ -102,6 +69,8 @@ for (const r of report) {
 console.error(`\nmissing ${report.length} | good ${good} | none ${miss}`);
 
 if (write) {
+  // TODO(data): move these reviewed overrides to data/gamespot-overrides.json
+  // once the data files are consolidated; keep them here for now.
   const overrides = {
     'elden-ring-shadow-of-the-erdtree': 'https://www.gamespot.com/reviews/elden-ring-shadow-of-the-erdtree-dlc-review-kill-them-with-kindness/1900-6418243/',
     'galactic-civilizations-ii-twilight-of-the-arnor': 'https://www.gamespot.com/reviews/galactic-civilizations-ii-twilight-of-the-arnor-re/1900-6191779/',
@@ -114,11 +83,9 @@ if (write) {
     'the-last-of-us-part-ii-remastered': 'https://www.gamespot.com/reviews/the-last-of-us-part-2-spoilerfree-review/1900-6417483/',
   };
   let filled = 0;
-  for (const row of rows) {
-    if (hasSource(row, 'gamespot')) continue;
-    const slug = row.slug;
+  for (const {row, slug, cand} of report) {
     if (overrides[slug]) { addSource(row, {site: 'gamespot', kind: 'review', language: 'en', score: null, url: overrides[slug]}); filled += 1; continue; }
-    const best = candidates(row.title)[0];
+    const best = cand[0];
     if (best && best.extras === 0 && best.prefixLen === best.titleLen) { addSource(row, {site: 'gamespot', kind: 'review', language: 'en', score: null, url: best.url}); filled += 1; }
   }
   await writeGames(rows);

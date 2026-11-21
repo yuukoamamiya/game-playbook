@@ -1,22 +1,24 @@
-import {readFile, writeFile, mkdir, access, rm} from 'node:fs/promises';
-import {resolve, dirname} from 'node:path';
-import {fileURLToPath} from 'node:url';
+import {readFile, writeFile, mkdir, rm} from 'node:fs/promises';
+import {resolve} from 'node:path';
 import {execFile} from 'node:child_process';
 import {promisify} from 'node:util';
 import {tmpdir} from 'node:os';
+import {dataPath, root} from './data-store.mjs';
+import {exists} from './lib/images.mjs';
+import {PROXY_URL, sleep, userAgent} from './lib/fetch.mjs';
+import {createSerializer, parseConcurrency, pool} from './lib/concurrency.mjs';
 
 const execFileP = promisify(execFile);
 
-const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const dataPath = resolve(root, 'data/metacritic-games.json');
 const enDir = resolve(root, 'content/reviews/en');
-const userAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36';
-
-const PROXY = 'http://127.0.0.1:10809';
+const PROXY = PROXY_URL;
 
 // Some sites return 403/timeout to a direct connection and only respond through
 // the local proxy (v2rayN); mark those with `proxy: true`. Avoid curl's
 // `--ssl-no-revoke` here: Cloudflare (e.g. Unwinnable) rejects that handshake.
+//
+// TODO(data): move this site table to data/review-sites.json once the data
+// files are consolidated; keep it here for now to avoid a big diff.
 const SITES = {
   eurogamer: { start: /<div class="article_body_content[^>]*>/, end: /<h2>\s*Read this next\s*<\/h2>|<div[^>]*class="[^"]*read-next|<footer/, proxy: true, paginate: { param: 'page', pattern: /of <span class="max">(\d+)<\/span>/ } },
   rockpapershotgun: { start: /<div class="article_body_content[^>]*>/, end: /<div[^>]*class="[^"]*read-next/, proxy: true },
@@ -36,6 +38,12 @@ const SITES = {
     ],
   },
 };
+
+// Unwinnable answers concurrent requests with a Cloudflare 403 and 4Gamer
+// throttles bursts, so those sites run with concurrency=1 (serialized per site)
+// even when the overall pool is wider.
+const SERIAL_SITES = new Set(['unwinnable', '4gamer']);
+const serialize = createSerializer();
 
 function siteConfig(site, url) {
   const config = SITES[site];
@@ -110,21 +118,34 @@ function extractBody(html, config) {
 }
 
 async function fetchHtml(url, useProxy) {
-  const tmp = resolve(tmpdir(), `mfetch-${process.pid}-${Math.random().toString(36).slice(2)}.html`);
-  try {
-    const args = ['-sS', '-L', '-m', '45', '-A', userAgent];
-    if (useProxy) args.push('-x', PROXY);
-    args.push('-o', tmp, '-w', '%{http_code}', url);
-    const {stdout} = await execFileP('curl', args, {maxBuffer: 1024 * 1024});
-    const status = Number(stdout.trim());
-    if (status !== 200) throw new Error(`HTTP ${status}`);
-    return await readFile(tmp, 'utf8');
-  } finally {
-    await rm(tmp, {force: true});
+  let lastError;
+  for (let attempt = 0; attempt < 3; attempt += 1) {
+    if (attempt > 0) await sleep(1500 * attempt);
+    const tmp = resolve(tmpdir(), `mfetch-${process.pid}-${Math.random().toString(36).slice(2)}.html`);
+    try {
+      const args = ['-sS', '-L', '-m', '45', '-A', userAgent];
+      if (useProxy) args.push('-x', PROXY);
+      args.push('-o', tmp, '-w', '%{http_code}', url);
+      const {stdout} = await execFileP('curl', args, {maxBuffer: 1024 * 1024});
+      const status = Number(stdout.trim());
+      if (status === 200) return await readFile(tmp, 'utf8');
+      lastError = new Error(`HTTP ${status}`);
+      if (status !== 429 && status < 500) throw lastError;
+    } finally {
+      await rm(tmp, {force: true});
+    }
   }
+  throw lastError;
 }
 
-async function exists(p) { try { await access(p); return true; } catch { return false; } }
+const args = process.argv.slice(2);
+const flag = (name) => {
+  const hit = args.find((a) => a.startsWith(`--${name}=`));
+  return hit ? hit.slice(name.length + 3).split(',').map((s) => s.trim()).filter(Boolean) : [];
+};
+const onlySites = [...args.filter((a) => !a.startsWith('--')), ...flag('site')];
+const onlySlugs = flag('slug');
+const concurrency = parseConcurrency(args, 5);
 
 async function appendPages(url, config, html, body) {
   const max = Number((html.match(config.paginate.pattern) ?? [])[1] ?? 1);
@@ -138,14 +159,6 @@ async function appendPages(url, config, html, body) {
   }
   return body;
 }
-
-const args = process.argv.slice(2);
-const flag = (name) => {
-  const hit = args.find((a) => a.startsWith(`--${name}=`));
-  return hit ? hit.slice(name.length + 3).split(',').map((s) => s.trim()).filter(Boolean) : [];
-};
-const onlySites = [...args.filter((a) => !a.startsWith('--')), ...flag('site')];
-const onlySlugs = flag('slug');
 
 const records = JSON.parse(await readFile(dataPath, 'utf8'));
 const targets = [];
@@ -161,13 +174,10 @@ for (const rec of records) {
     targets.push({slug: rec.slug, title: rec.title, site: src.site, url: src.url, score: src.score});
   }
 }
-console.error(`targets: ${targets.length}`);
+console.error(`targets: ${targets.length} | concurrency: ${concurrency}`);
 
 let written = 0, skipped = 0, failed = 0;
 const failures = [];
-const concurrency = Number(flag('concurrency')[0] ?? 5);
-const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-let cursor = 0;
 
 async function processOne(t) {
   await mkdir(resolve(enDir, t.slug), {recursive: true});
@@ -181,7 +191,6 @@ async function processOne(t) {
     if (await exists(outPath)) { skipped += 1; return; }
   }
   try {
-    const res = {ok: true};
     const config = siteConfig(t.site, t.url);
     const html = await fetchHtml(t.url, config.proxy);
     if (config.delay) await sleep(config.delay);
@@ -225,8 +234,11 @@ async function processOne(t) {
   }
 }
 
-async function worker() { while (cursor < targets.length) { const t = targets[cursor]; cursor += 1; await processOne(t); } }
-await Promise.all(Array.from({length: concurrency}, worker));
+await pool(targets, async (t) => {
+  if (SERIAL_SITES.has(t.site)) await serialize(t.site, () => processOne(t));
+  else await processOne(t);
+}, {concurrency});
 
 console.log(`\nwritten ${written} | skipped ${skipped} | failed ${failed}`);
 if (failures.length) console.log(`failures:\n${failures.join('\n')}`);
+if (failed) process.exitCode = 1;

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "ign",
+    "site": "ign",
+    "label": "IGN"
+  },
+  {
+    "id": "gamespot",
+    "site": "gamespot",
+    "label": "GameSpot"
+  },
+  {
+    "id": "gamestudies",
+    "site": "gamestudies",
+    "label": "Game Studies"
+  },
+  {
+    "id": "gamestudies-karlsen",
+    "site": "gamestudies",
+    "label": "Game Studies · World of Warcraft"
+  },
+  {
+    "id": "ctheory",
+    "site": "ctheory",
+    "label": "CTheory"
+  }
+]

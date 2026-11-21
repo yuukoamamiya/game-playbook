@@ -1,0 +1,22 @@
+[
+  {
+    "id": "radicalphilosophy",
+    "site": "radicalphilosophy",
+    "label": "Radical Philosophy"
+  },
+  {
+    "id": "gamespot",
+    "site": "gamespot",
+    "label": "GameSpot"
+  },
+  {
+    "id": "gamestudies",
+    "site": "gamestudies",
+    "label": "Game Studies · 社会现实主义"
+  },
+  {
+    "id": "gamestudies-griebel",
+    "site": "gamestudies",
+    "label": "Game Studies · 自我投射"
+  }
+]

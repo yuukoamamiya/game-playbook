@@ -1,10 +1,10 @@
-import {ProxyAgent, fetch} from 'undici';
 import {readGames, writeGames} from './data-store.mjs';
 import {getSources} from './media-sources.mjs';
+import {fetchText} from './lib/fetch.mjs';
+import {decodeHtml} from './lib/csv.mjs';
 
-const userAgent = 'Mozilla/5.0 (compatible; GamePlaybookResearch/1.0)';
-const proxyUrl = process.env.GAME_PLAYBOOK_HTTP_PROXY || 'http://127.0.0.1:10809';
-const dispatcher = new ProxyAgent(proxyUrl);
+// TODO(data): move this platform table to data/metacritic-platforms.json once
+// the data files are consolidated; keep it here for now to avoid a big diff.
 const platforms = [
   {slug: 'pc', label: 'PC'},
   {slug: 'nintendo-switch', label: 'Nintendo Switch'},
@@ -14,20 +14,10 @@ const platforms = [
   {slug: '3ds', label: '3DS'},
 ];
 
-function decodeHtml(value) {
-  return value
-    .replaceAll('&amp;', '&')
-    .replaceAll('&quot;', '"')
-    .replaceAll('&#39;', "'")
-    .replaceAll('&lt;', '<')
-    .replaceAll('&gt;', '>');
-}
-
 async function fetchPage(platform, page) {
   const url = `https://www.metacritic.com/browse/game/${platform.slug}/all/all-time/metascore/?page=${page}`;
-  const response = await fetch(url, {dispatcher, headers: {'User-Agent': userAgent}});
-  if (!response.ok) throw new Error(`Metacritic returned ${response.status} for ${url}`);
-  return {url, html: await response.text()};
+  const html = await fetchText(url, {}, {proxy: true, timeoutMs: 45000});
+  return {url, html};
 }
 
 function parseGames(html, platform, page) {

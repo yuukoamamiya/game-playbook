@@ -1,0 +1,27 @@
+[
+  {
+    "id": "ign",
+    "site": "ign",
+    "label": "IGN"
+  },
+  {
+    "id": "gamespot",
+    "site": "gamespot",
+    "label": "GameSpot"
+  },
+  {
+    "id": "gamestudies",
+    "site": "gamestudies",
+    "label": "Game Studies"
+  },
+  {
+    "id": "gamestudies-rendle-pasternack",
+    "site": "gamestudies",
+    "label": "Game Studies · Elden Ring"
+  },
+  {
+    "id": "unwinnable",
+    "site": "unwinnable",
+    "label": "Unwinnable"
+  }
+]

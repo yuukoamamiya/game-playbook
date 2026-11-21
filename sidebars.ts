@@ -29,9 +29,16 @@ type YearCategory = {
 // src/generated/games.json is written by `npm run generate-data` from
 // data/metacritic-games.json, so the sidebar follows the data instead of the
 // alphabetical order of the doc filenames.
-const games = JSON.parse(
-  readFileSync(resolve(__dirname, 'src/generated/games.json'), 'utf8'),
-) as GeneratedGame[];
+const generatedGamesPath = resolve(__dirname, 'src/generated/games.json');
+let games: GeneratedGame[];
+try {
+  games = JSON.parse(readFileSync(generatedGamesPath, 'utf8')) as GeneratedGame[];
+} catch (error) {
+  throw new Error(
+    `无法读取 ${generatedGamesPath}，先跑 npm run generate-data 生成前台数据`
+    + `（${error instanceof Error ? error.message : String(error)}）`,
+  );
+}
 
 // A public page can cover several platform records (via page_slug); list it
 // once, dated by its earliest release year and ranked by its best score.

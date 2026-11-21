@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ign",
+    "site": "ign",
+    "label": "IGN"
+  },
+  {
+    "id": "gamespot",
+    "site": "gamespot",
+    "label": "GameSpot"
+  },
+  {
+    "id": "eurogamer",
+    "site": "eurogamer",
+    "label": "Eurogamer"
+  },
+  {
+    "id": "rockpapershotgun",
+    "site": "rockpapershotgun",
+    "label": "Rock Paper Shotgun"
+  },
+  {
+    "id": "gamesandculture",
+    "site": "gamesandculture",
+    "label": "Games and Culture"
+  },
+  {
+    "id": "unwinnable",
+    "site": "unwinnable",
+    "label": "Unwinnable"
+  }
+]

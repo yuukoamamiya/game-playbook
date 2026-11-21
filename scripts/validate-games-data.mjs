@@ -13,8 +13,27 @@ const allowedKinds = new Set(['review', 'essay', 'feature', 'score']);
 const allowedStatuses = new Set([
   'links-collected', 'manually-added', 'metacritic-filtered', 'metacritic-must-play',
 ]);
+const allowedTopFields = new Set([
+  'slug', 'title', 'platform', 'metacritic_score', 'must_play', 'release_year',
+  'genre', 'metacritic_url', 'sources', 'content_status', 'notes', 'page_slug',
+]);
+const allowedSourceFields = new Set([
+  'site', 'kind', 'language', 'score', 'url', 'filter_group',
+]);
+// The Metacritic platform names currently used by data/metacritic-games.json.
+// Keep this list in sync with the distinct platform values in the data file;
+// its purpose is to catch typos, not to reject future platforms silently.
+const allowedPlatforms = new Set([
+  '3DS', 'Game Boy Advance', 'GameCube', 'Nintendo DS', 'Nintendo Switch',
+  'Nintendo Switch 2', 'PC', 'PlayStation 5', 'Wii', 'Wii U',
+]);
+const allowedFrontmatterFields = new Set([
+  'title', 'display_title', 'slug', 'translation_status', 'source_file',
+  'sidebar_label', 'description',
+]);
 const games = await readGames();
 const documents = await readGameDocuments();
+const documentSlugs = new Set(documents.map((document) => document.slug));
 const records = new Set();
 const errors = [];
 const warnings = [];
@@ -51,6 +70,9 @@ function checkNumber(value, label, {min, max, integer = false} = {}) {
 for (const [index, game] of games.entries()) {
   const row = index + 1;
   for (const field of required) if (!(field in game)) error(`row ${row}: missing ${field}`);
+  for (const field of Object.keys(game)) {
+    if (!allowedTopFields.has(field)) error(`row ${row}: unknown field ${field}`);
+  }
 
   if (typeof game.slug !== 'string' || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(game.slug)) {
     error(`row ${row}: invalid slug`);
@@ -58,10 +80,31 @@ for (const [index, game] of games.entries()) {
   for (const field of ['title', 'platform', 'genre', 'content_status', 'notes']) {
     if (typeof game[field] !== 'string') error(`row ${row}: ${field} must be a string`);
   }
+  if (typeof game.platform === 'string' && !allowedPlatforms.has(game.platform)) {
+    error(`row ${row}: unknown platform ${game.platform}`);
+  }
   if (game.page_slug !== undefined && (
     typeof game.page_slug !== 'string'
     || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(game.page_slug)
   )) error(`row ${row}: invalid page_slug`);
+  if (typeof game.page_slug === 'string') {
+    if (game.page_slug === game.slug) {
+      // A redundant page_slug on a record whose slug already is the page is
+      // harmless when another record owns the page; without one it would be a
+      // true self-reference with no base record, which is always a mistake.
+      const hasOtherRecord = games.some((other, otherIndex) => (
+        otherIndex !== index && other.slug === game.slug
+      ));
+      if (hasOtherRecord) {
+        warning(`row ${row}: redundant page_slug self-reference; drop page_slug`);
+      } else {
+        error(`row ${row}: page_slug must not reference itself`);
+      }
+    }
+    if (!documentSlugs.has(game.page_slug)) {
+      error(`row ${row}: page_slug target ${game.page_slug} has no document`);
+    }
+  }
 
   const recordKey = `${game.slug}::${game.platform}`;
   if (records.has(recordKey)) error(`row ${row}: duplicate game/platform ${recordKey}`);
@@ -91,6 +134,9 @@ for (const [index, game] of games.entries()) {
   const rowSources = new Set();
   for (const [sourceIndex, source] of game.sources.entries()) {
     const prefix = `row ${row} source ${sourceIndex + 1}`;
+    for (const field of Object.keys(source ?? {})) {
+      if (!allowedSourceFields.has(field)) error(`${prefix}: unknown field ${field}`);
+    }
     for (const field of ['site', 'kind', 'language', 'url']) {
       if (typeof source?.[field] !== 'string' || !source[field].trim()) {
         error(`${prefix}: missing ${field}`);
@@ -101,7 +147,7 @@ for (const [index, game] of games.entries()) {
     }
     if (source?.kind && !allowedKinds.has(source.kind)) error(`${prefix}: unknown kind ${source.kind}`);
     if (source?.site && !(source.site in mediaLabels)) {
-      warning(`${prefix}: site ${source.site} has no entry in mediaLabels`);
+      error(`${prefix}: site ${source.site} has no entry in mediaLabels`);
     }
     if (source?.filter_group !== undefined && (
       typeof source.filter_group !== 'string' || !source.filter_group.trim()
@@ -123,6 +169,14 @@ for (const [url, sites] of urlSites) {
   if (sites.size > 1) warning(`URL used by multiple sites (${[...sites].join(', ')}): ${url}`);
 }
 
+// Every page merged through page_slug needs a base record of its own, or a
+// public document that carries the page (version-only pages are valid).
+for (const [pageSlug, pageRows] of rowsBySlug) {
+  if (!pageRows.some((game) => !game.page_slug) && !documentSlugs.has(pageSlug)) {
+    error(`page ${pageSlug}: no main record and no document`);
+  }
+}
+
 const expectedDocs = new Set([...rowsBySlug.keys()]);
 const seenDocs = new Set();
 for (const document of documents) {
@@ -134,6 +188,11 @@ for (const document of documents) {
   if (fileSlug !== slug) error(`${document.file}: filename slug does not match frontmatter slug ${slug}`);
   if (typeof frontmatter.title !== 'string' || !frontmatter.title.trim()) {
     error(`${document.file}: missing title in frontmatter`);
+  }
+  for (const field of Object.keys(frontmatter)) {
+    if (!allowedFrontmatterFields.has(field)) {
+      warning(`${document.file}: unexpected frontmatter field ${field}`);
+    }
   }
   if (frontmatter.translation_status !== 'translated') {
     warning(`${document.file}: translation_status is ${frontmatter.translation_status ?? '(missing)'}`);
@@ -158,7 +217,8 @@ for (const document of documents) {
   const openingTabs = source.match(/<ReviewTab\b[^>]*>/g)?.length ?? 0;
   const closingTabs = source.match(/<\/ReviewTab>/g)?.length ?? 0;
   if (openingTabs !== closingTabs) error(`${document.file}: unbalanced ReviewTab tags`);
-  const wrapperSlugs = [...source.matchAll(/<ReviewTabs\b[^>]*slug="([^"]+)"/g)].map((match) => match[1]);
+  const wrapperSlugs = [...source.matchAll(/<ReviewTabs\b[^>]*slug\s*=\s*(?:"([^"]+)"|'([^']+)')/g)]
+    .map((match) => match[1] ?? match[2]);
   if (!wrapperSlugs.length) error(`${document.file}: missing ReviewTabs wrapper`);
   if (wrapperSlugs.some((wrapperSlug) => wrapperSlug !== slug)) {
     error(`${document.file}: ReviewTabs slug does not match ${slug}`);

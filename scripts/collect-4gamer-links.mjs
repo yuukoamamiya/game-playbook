@@ -1,14 +1,13 @@
-import {ProxyAgent, fetch} from 'undici';
 import iconv from 'iconv-lite';
 import {readGames, writeGames} from './data-store.mjs';
 import {addSource, hasSource} from './media-sources.mjs';
+import {fetchWithTimeout} from './lib/fetch.mjs';
 
-const userAgent = 'Mozilla/5.0 (compatible; GamePlaybookResearch/1.0)';
-const proxyUrl = process.env.GAME_PLAYBOOK_HTTP_PROXY || 'http://127.0.0.1:10809';
-const dispatcher = new ProxyAgent(proxyUrl);
 const endpoint = 'https://www.4gamer.net/script/search/search.php';
 const referer = 'https://www.4gamer.net/script/search/index.php?mode=article&start';
 
+// TODO(data): move this alias table to data/4gamer-aliases.json once the data
+// files are consolidated; keep it here for now to avoid a big diff.
 const aliases = {
   'the-legend-of-zelda-ocarina-of-time-3d': 'ゼルダの伝説 時のオカリナ 3D',
   'fire-emblem-awakening': 'ファイアーエムブレム 覚醒',
@@ -125,10 +124,11 @@ async function search4gamer(title) {
       SALE_FILTER: '', END_FILTER: '', MODE: 'article', ORMODE: '', TEMPLATE_TYPE: 'PC',
       YEAR: '', MONTH: '', DAY: '', SORT: 'date', TITLE: title,
     });
-    const response = await fetch(endpoint, {
-      method: 'POST', body: params, dispatcher,
-      headers: {'User-Agent': userAgent, 'Content-Type': 'application/x-www-form-urlencoded', Referer: referer},
-    });
+    const response = await fetchWithTimeout(endpoint, {
+      method: 'POST',
+      body: params,
+      headers: {'Content-Type': 'application/x-www-form-urlencoded', Referer: referer},
+    }, {proxy: true, timeoutMs: 30000});
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const html = iconv.decode(Buffer.from(await response.arrayBuffer()), 'EUC-JP');
     for (const candidate of parseCandidates(html, title)) {
@@ -146,6 +146,8 @@ const selected = rows.filter((row) => !requestedSlug || row.slug === requestedSl
 const handled = new Set();
 const stats = {found: 0, notFound: 0, skipped: 0, noAlias: 0, error: 0};
 
+// Serial on purpose: the 4Gamer search endpoint throttles bursts and this is a
+// low-volume, manually triggered pass. Do not wrap this loop in `pool`.
 for (const row of selected) {
   if (handled.has(row.slug) || hasSource(row, '4gamer')) {
     stats.skipped += 1;
@@ -174,7 +176,9 @@ for (const row of selected) {
     console.log(`ERROR | ${row.slug} | ${error.message}`);
   }
   handled.add(row.slug);
-  if (!dryRun) await writeGames(rows);
 }
 
+// Write once at the end so a crashed run cannot leave a half-updated file.
+if (!dryRun && stats.found) await writeGames(rows);
 console.log(JSON.stringify({dryRun, rows: selected.length, stats}, null, 2));
+if (stats.error) process.exitCode = 1;

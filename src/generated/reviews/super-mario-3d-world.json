@@ -1,0 +1,22 @@
+[
+  {
+    "id": "ign",
+    "site": "ign",
+    "label": "IGN"
+  },
+  {
+    "id": "gamespot",
+    "site": "gamespot",
+    "label": "GameSpot"
+  },
+  {
+    "id": "eurogamer",
+    "site": "eurogamer",
+    "label": "Eurogamer"
+  },
+  {
+    "id": "eurogamer-bowsers",
+    "site": "eurogamer",
+    "label": "Eurogamer · 狂怒世界版"
+  }
+]

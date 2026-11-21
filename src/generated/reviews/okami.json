@@ -1,0 +1,17 @@
+[
+  {
+    "id": "ign",
+    "site": "ign",
+    "label": "IGN"
+  },
+  {
+    "id": "gamespot",
+    "site": "gamespot",
+    "label": "GameSpot"
+  },
+  {
+    "id": "eurogamer-hd",
+    "site": "eurogamer",
+    "label": "Eurogamer · HD 复刻"
+  }
+]

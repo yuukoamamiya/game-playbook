@@ -1,22 +1,16 @@
-import {readFile, writeFile, readdir, mkdir, access, unlink} from 'node:fs/promises';
+import {readFile, readdir, mkdir} from 'node:fs/promises';
 import {resolve} from 'node:path';
-import {execFile} from 'node:child_process';
-import {promisify} from 'node:util';
 import {root} from './data-store.mjs';
+import {exists, fetchImageSource, saveWebp, updateDocument} from './lib/images.mjs';
+import {parseConcurrency, pool} from './lib/concurrency.mjs';
 
 const enDir = resolve(root, 'content/reviews/en');
 const docDir = resolve(root, 'docs/games');
 const imgDir = resolve(root, 'static/img/reviews-webp');
-const userAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36';
 const maxWidth = 1280;
 const goodEnough = 900;
-const concurrency = 6;
 const force = process.argv.includes('--force');
-const execFileAsync = promisify(execFile);
-
-async function exists(path) {
-  try { await access(path); return true; } catch { return false; }
-}
+const concurrency = parseConcurrency(process.argv, 6);
 
 function frontmatterField(fm, name) {
   return (fm.match(new RegExp(`^${name}:\\s*(.*)$`, 'm'))?.[1] ?? '').trim().replace(/^['"]|['"]$/g, '');
@@ -53,10 +47,7 @@ function imageSize(buffer) {
 }
 
 async function fetchImage(url) {
-  const response = await fetch(normalize(url), {headers: {'User-Agent': userAgent}});
-  if (!response.ok) throw new Error(`HTTP ${response.status}`);
-  const buffer = Buffer.from(await response.arrayBuffer());
-  if (buffer.length < 1000) throw new Error(`too small (${buffer.length} bytes)`);
+  const buffer = await fetchImageSource(normalize(url));
   return {buffer, ...imageSize(buffer)};
 }
 
@@ -97,43 +88,21 @@ async function processOne(file) {
       failures.push(`${slug}: all candidates failed`);
       return;
     }
-    const tempPath = resolve(imgDir, `.tmp-${slug}-${process.pid}`);
-    try {
-      await writeFile(tempPath, chosen.buffer);
-      await execFileAsync('ffmpeg', [
-        '-y', '-loglevel', 'error', '-i', tempPath,
-        '-c:v', 'libwebp', '-q:v', '82', outPath,
-      ]);
-    } finally {
-      await unlink(tempPath).catch(() => {});
-    }
+    await saveWebp(chosen.buffer, outPath);
     stats.downloaded += 1;
     console.log(`IMG   ${slug} | ${chosen.width}x${chosen.height} | ${chosen.buffer.length} bytes`);
   }
 
-  const docPath = resolve(docDir, `${slug}.mdx`);
-  if (await exists(docPath)) {
-    let doc = await readFile(docPath, 'utf8');
-    const marker = new RegExp(`/img/reviews(?:-webp)?/${slug}\\.(?:jpg|webp)`);
-    if (!marker.test(doc)) {
-      const title = (doc.match(/^#\s+(.*)$/m)?.[1] ?? slug).trim();
-      const imageLine = `![${title} 游戏头图](/img/reviews-webp/${slug}.webp)`;
-      doc = doc.replace(/^(#\s+.*)$/m, `$1\n\n${imageLine}`);
-      await writeFile(docPath, doc, 'utf8');
-      stats.docsUpdated += 1;
-    }
-  }
+  const updated = await updateDocument(slug, {
+    docsDir: docDir,
+    marker: new RegExp(`/img/reviews(?:-webp)?/${slug}\\.(?:jpg|webp)`),
+    missingDoc: 'skip',
+  });
+  if (updated) stats.docsUpdated += 1;
 }
 
-let cursor = 0;
-async function worker() {
-  while (cursor < files.length) {
-    const file = files[cursor];
-    cursor += 1;
-    await processOne(file);
-  }
-}
-await Promise.all(Array.from({length: concurrency}, worker));
+await pool(files, processOne, {concurrency});
 
 console.log(`\ndownloaded ${stats.downloaded} | skipped ${stats.skipped} | failed ${stats.failed} | docsUpdated ${stats.docsUpdated}`);
 if (failures.length) console.log(`notes:\n${failures.join('\n')}`);
+if (stats.failed) process.exitCode = 1;

@@ -59,7 +59,14 @@ const config: Config = {
     ? [
         {
           tagName: 'link',
-          attributes: {rel: 'stylesheet', href: '/pagefind/pagefind-component-ui.css'},
+          attributes: {
+            rel: 'stylesheet',
+            href: '/pagefind/pagefind-component-ui.css',
+            // 搜索样式只在打开面板时才用得到，别让它阻塞首屏：
+            // 先当 print 表低优先级加载，onload 后再切回 all。
+            media: 'print',
+            onload: "this.media='all'",
+          },
         },
         {
           tagName: 'script',

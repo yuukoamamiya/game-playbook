@@ -1,48 +1,7 @@
 import {dataPath, readGames, writeGames} from './data-store.mjs';
 import {addSource, hasSource} from './media-sources.mjs';
-const userAgent = 'Mozilla/5.0 (compatible; GamePlaybookResearch/1.0)';
-
-function parseCsvLine(line) {
-  const values = [];
-  let value = '';
-  let quoted = false;
-  for (let index = 0; index < line.length; index += 1) {
-    const char = line[index];
-    if (char === '"' && line[index + 1] === '"' && quoted) {
-      value += '"';
-      index += 1;
-    } else if (char === '"') {
-      quoted = !quoted;
-    } else if (char === ',' && !quoted) {
-      values.push(value);
-      value = '';
-    } else {
-      value += char;
-    }
-  }
-  values.push(value);
-  return values;
-}
-
-function csvCell(value) {
-  const text = value == null ? '' : String(value);
-  return /[",\r\n]/.test(text) ? `"${text.replaceAll('"', '""')}"` : text;
-}
-
-function decodeHtml(value) {
-  return value.replaceAll('&amp;', '&').replaceAll('&#39;', "'").replaceAll('&quot;', '"');
-}
-
-function extractTargetUrl(href) {
-  const encoded = href.match(/\/RU=([^/]+)\/RK=/)?.[1];
-  if (!encoded) return '';
-  try {
-    const decoded = decodeURIComponent(encoded);
-    return decoded.startsWith('http') ? decoded : '';
-  } catch {
-    return '';
-  }
-}
+import {fetchWithTimeout} from './lib/fetch.mjs';
+import {decodeHtml} from './lib/csv.mjs';
 
 function cleanText(value) {
   return decodeHtml(value.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim());
@@ -92,9 +51,7 @@ function chooseReview(results, title) {
 async function findReview(domain, title) {
   const section = domain === 'ign.com' ? 'articles' : 'reviews';
   const query = `site:${domain}/${section} "${title}" review`;
-  const response = await fetch(`https://www.bing.com/search?q=${encodeURIComponent(query)}`, {
-    headers: { 'User-Agent': userAgent },
-  });
+  const response = await fetchWithTimeout(`https://www.bing.com/search?q=${encodeURIComponent(query)}`, {}, {timeoutMs: 30000});
   if (!response.ok) return { query, result: null };
   const html = await response.text();
   return { query, result: chooseReview(parseSearchResults(html, domain, section), title) };
@@ -105,7 +62,10 @@ const start = Number(process.argv[2] ?? 0);
 const limit = Number(process.argv[3] ?? rows.length - start);
 const end = Math.min(rows.length, start + limit);
 let changed = 0;
+let failed = 0;
 
+// Kept sequential on purpose: Bing throttles parallel scrapes and the report is
+// easier to read in row order.
 for (const row of rows.slice(start, end)) {
   const targets = [
     ['ign.com', 'ign'],
@@ -123,12 +83,16 @@ for (const row of rows.slice(start, end)) {
         console.log(`${row.platform} | ${row.title} | ${field} | NOT_FOUND`);
       }
     } catch (error) {
+      failed += 1;
       console.log(`${row.platform} | ${row.title} | ${field} | ERROR: ${error.message}`);
     }
   }
   if (row.sources?.length) row.content_status = 'links-collected';
-  await writeGames(rows);
 }
 
 await writeGames(rows);
 console.log(`Updated ${changed} review links in ${dataPath} (rows ${start + 1}-${end})`);
+if (failed) {
+  console.error(`${failed} lookups failed`);
+  process.exitCode = 1;
+}
