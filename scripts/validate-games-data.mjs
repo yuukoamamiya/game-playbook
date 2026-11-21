@@ -4,6 +4,7 @@ import {basename, resolve} from 'node:path';
 import {readGames, root} from './data-store.mjs';
 import {mediaLabels, sourceKey} from './media-sources.mjs';
 import {docsPath, imagePath, readGameDocuments} from './content-manifest.mjs';
+import {validatePageAliases} from './lib/page-aliases.mjs';
 
 const required = [
   'slug', 'title', 'platform', 'metacritic_score', 'must_play', 'release_year',
@@ -87,25 +88,6 @@ for (const [index, game] of games.entries()) {
     typeof game.page_slug !== 'string'
     || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(game.page_slug)
   )) error(`row ${row}: invalid page_slug`);
-  if (typeof game.page_slug === 'string') {
-    if (game.page_slug === game.slug) {
-      // A redundant page_slug on a record whose slug already is the page is
-      // harmless when another record owns the page; without one it would be a
-      // true self-reference with no base record, which is always a mistake.
-      const hasOtherRecord = games.some((other, otherIndex) => (
-        otherIndex !== index && other.slug === game.slug
-      ));
-      if (hasOtherRecord) {
-        warning(`row ${row}: redundant page_slug self-reference; drop page_slug`);
-      } else {
-        error(`row ${row}: page_slug must not reference itself`);
-      }
-    }
-    if (!documentSlugs.has(game.page_slug)) {
-      error(`row ${row}: page_slug target ${game.page_slug} has no document`);
-    }
-  }
-
   const recordKey = `${game.slug}::${game.platform}`;
   if (records.has(recordKey)) error(`row ${row}: duplicate game/platform ${recordKey}`);
   records.add(recordKey);
@@ -169,11 +151,13 @@ for (const [url, sites] of urlSites) {
   if (sites.size > 1) warning(`URL used by multiple sites (${[...sites].join(', ')}): ${url}`);
 }
 
-// Every page merged through page_slug needs a base record of its own, or a
-// public document that carries the page (version-only pages are valid).
-for (const [pageSlug, pageRows] of rowsBySlug) {
-  if (!pageRows.some((game) => !game.page_slug) && !documentSlugs.has(pageSlug)) {
-    error(`page ${pageSlug}: no main record and no document`);
+// A page_slug destination must resolve directly to a document. The document
+// can intentionally represent a version-only page with no same-slug record.
+for (const message of validatePageAliases(games, documentSlugs)) error(message);
+
+for (const pageSlug of rowsBySlug.keys()) {
+  if (!documentSlugs.has(pageSlug)) {
+    error(`page ${pageSlug}: missing document`);
   }
 }
 
