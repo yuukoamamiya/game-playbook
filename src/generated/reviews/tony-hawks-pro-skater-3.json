@@ -2,11 +2,11 @@
   {
     "id": "ign",
     "site": "ign",
-    "label": "IGN"
+    "label": "IGN · PC 版"
   },
   {
     "id": "gamespot",
     "site": "gamespot",
-    "label": "GameSpot"
+    "label": "GameSpot · PS2 版"
   }
 ]

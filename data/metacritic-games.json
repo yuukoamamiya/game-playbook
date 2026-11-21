@@ -312,13 +312,13 @@
     "genre": "",
     "metacritic_url": "https://www.metacritic.com/game/tony-hawks-pro-skater-2/",
     "content_status": "metacritic-must-play",
-    "notes": "Metacritic Must-Play；平台：Game Boy Advance；来源页第1页",
+    "notes": "Metacritic Must-Play；平台：Game Boy Advance；来源页第1页；GameSpot 来源为 PlayStation 版补充评测，不作为本平台评分",
     "sources": [
       {
         "site": "gamespot",
-        "kind": "review",
+        "kind": "feature",
         "language": "en",
-        "score": 9.9,
+        "score": null,
         "url": "https://www.gamespot.com/reviews/tony-hawks-pro-skater-2-review/1900-2630641/"
       }
     ]
@@ -690,20 +690,20 @@
     "genre": "",
     "metacritic_url": "https://www.metacritic.com/game/tony-hawks-pro-skater-3/",
     "content_status": "metacritic-must-play",
-    "notes": "Metacritic Must-Play；平台：Game Boy Advance；来源页第1页",
+    "notes": "Metacritic Must-Play；平台：Game Boy Advance；来源页第1页；IGN 来源对应 PC 版；GameSpot 来源为 PS2 版补充评测，跨平台文章不作为本平台评分",
     "sources": [
       {
         "site": "ign",
-        "kind": "review",
+        "kind": "feature",
         "language": "en",
-        "score": 9.3,
+        "score": null,
         "url": "https://www.ign.com/articles/2002/04/05/tony-hawk-pro-skater-3-review"
       },
       {
         "site": "gamespot",
-        "kind": "review",
+        "kind": "feature",
         "language": "en",
-        "score": 10,
+        "score": null,
         "url": "https://www.gamespot.com/reviews/tony-hawks-pro-skater-3-review/1900-2820972/"
       }
     ]
@@ -1224,13 +1224,13 @@
     "genre": "",
     "metacritic_url": "https://www.metacritic.com/game/tetris-effect-connected/",
     "content_status": "links-collected",
-    "notes": "IGN搜索到的是Tetris Effect主评测，未找到Connected专属IGN评测",
+    "notes": "IGN 来源为 2018 年 Tetris Effect 原版补充评测，非 Connected 专属评测；原版评分不作为 Connected 评分",
     "sources": [
       {
         "site": "ign",
-        "kind": "review",
+        "kind": "feature",
         "language": "en",
-        "score": 8.5,
+        "score": null,
         "url": "https://www.ign.com/articles/2018/11/09/tetris-effect-review"
       },
       {
@@ -5691,13 +5691,13 @@
     "genre": "",
     "metacritic_url": "https://www.metacritic.com/game/tony-hawks-pro-skater-2/",
     "content_status": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第4页",
+    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第4页；GameSpot 来源为 PlayStation 版补充评测，不作为本平台评分",
     "sources": [
       {
         "site": "gamespot",
-        "kind": "review",
+        "kind": "feature",
         "language": "en",
-        "score": 9.9,
+        "score": null,
         "url": "https://www.gamespot.com/reviews/tony-hawks-pro-skater-2-review/1900-2630641/"
       }
     ]
@@ -7117,7 +7117,7 @@
     "genre": "",
     "metacritic_url": "https://www.metacritic.com/game/tony-hawks-pro-skater-3/",
     "content_status": "metacritic-filtered",
-    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第6页",
+    "notes": "Metacritic高分（≥90）与Must-Play交集；来源页第6页；IGN 来源对应 PC 版；GameSpot 来源为 PS2 版补充评测，跨平台文章不作为本平台评分",
     "sources": [
       {
         "site": "ign",
@@ -7128,9 +7128,9 @@
       },
       {
         "site": "gamespot",
-        "kind": "review",
+        "kind": "feature",
         "language": "en",
-        "score": 10,
+        "score": null,
         "url": "https://www.gamespot.com/reviews/tony-hawk-pro-skater-3-review/1900-2820972/"
       }
     ]

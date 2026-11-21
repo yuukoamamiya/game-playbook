@@ -790,9 +790,9 @@
     "sources": [
       {
         "site": "gamespot",
-        "kind": "review",
+        "kind": "feature",
         "language": "en",
-        "score": 9.9,
+        "score": null,
         "url": "https://www.gamespot.com/reviews/tony-hawks-pro-skater-2-review/1900-2630641/",
         "versionTitle": "Tony Hawk's Pro Skater 2"
       }
@@ -1183,9 +1183,9 @@
     "sources": [
       {
         "site": "ign",
-        "kind": "review",
+        "kind": "feature",
         "language": "en",
-        "score": 8.5,
+        "score": null,
         "url": "https://www.ign.com/articles/2018/11/09/tetris-effect-review",
         "versionTitle": "Tetris Effect: Connected"
       },
@@ -5285,9 +5285,9 @@
     "sources": [
       {
         "site": "gamespot",
-        "kind": "review",
+        "kind": "feature",
         "language": "en",
-        "score": 9.9,
+        "score": null,
         "url": "https://www.gamespot.com/reviews/tony-hawks-pro-skater-2-review/1900-2630641/",
         "versionTitle": "Tony Hawk's Pro Skater 2"
       }
@@ -7572,17 +7572,17 @@
     "sources": [
       {
         "site": "ign",
-        "kind": "review",
+        "kind": "feature",
         "language": "en",
-        "score": 9.3,
+        "score": null,
         "url": "https://www.ign.com/articles/2002/04/05/tony-hawk-pro-skater-3-review",
         "versionTitle": "Tony Hawk's Pro Skater 3"
       },
       {
         "site": "gamespot",
-        "kind": "review",
+        "kind": "feature",
         "language": "en",
-        "score": 10,
+        "score": null,
         "url": "https://www.gamespot.com/reviews/tony-hawks-pro-skater-3-review/1900-2820972/",
         "versionTitle": "Tony Hawk's Pro Skater 3"
       }
@@ -7607,9 +7607,9 @@
       },
       {
         "site": "gamespot",
-        "kind": "review",
+        "kind": "feature",
         "language": "en",
-        "score": 10,
+        "score": null,
         "url": "https://www.gamespot.com/reviews/tony-hawk-pro-skater-3-review/1900-2820972/",
         "versionTitle": "Tony Hawk's Pro Skater 3"
       }

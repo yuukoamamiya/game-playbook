@@ -88,6 +88,14 @@
 - 其他：确定性排序改用 `compareText`；`GameVersions` 按 `sourceSlug + platform` 展示多平台评分；IGN sitemap 缓存加 7 天 TTL；灯箱打开后移入焦点并限制 Tab 循环；`readGameDocuments` 同时排除 `index.mdx`；README/AGENTS 补充 `ffmpeg`、`undici` 和 Node 22.6 说明。
 - 验证：`npm run verify`（16 个回归测试通过）与 `npm run build`（Pagefind 索引 222 页）均成功。
 
+## 来源版本与原文链接修正（2026-11-21）
+
+- 根据现有英文源核对 Tony Hawk 2 的 GameSpot 来源：实际讨论 PlayStation 版。保留为 PC/GBA 记录的补充文章，改为 `feature`、清除这些记录中误用的媒体评分，并在中文标签和来源说明中明确实际平台；原文及译文中的原版评分保留并注明适用范围。
+- Tony Hawk 3 的 IGN 来源实际讨论 PC 版：PC 记录保留正式评测及评分，GBA 记录改为无评分补充文章；同时确认 GameSpot 来源实际讨论 PS2 版，将 PC/GBA 记录中的该来源改为无评分补充文章。中文标签分别注明 PC、PS2 版。
+- Tetris Effect: Connected 记录中的 IGN 来源为 2018 年原版评测：改为无评分补充文章，修正英文源标题，中文标签和来源说明注明原版；不再把原版 8.5 分用于 Connected 记录。
+- 修复来源栏裸链接把中文右括号及紧接的分隔点包含进地址的问题：新增 MDX remark 插件，仅修正来源/原文段落中全角括号包围的裸链接，保留 URL 内合法括号、查询参数和显式 Markdown 链接。新增回归测试，并在构建后扫描游戏页面的实际链接。
+- TODO 中上述三项具体遗留已处理；这次核对不代表重新审核了全部外部文章。
+
 ## 部署
 
 - GitHub 与 Cloudflare Pages 已连通，Cloudflare 构建命令为 `npm run build`，输出目录为 `build`，Node.js 使用 22.6 或更高版本。

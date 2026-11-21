@@ -141,6 +141,8 @@ docs/agent-history.md            历史决策记录，不作为当前待办清�
 
 复制 `docs/games/_template.mdx` 创建新页面，文件名与数据中的 `slug` 一致。页面只放中文译文、必要的原文链接和页面结构，不粘贴英文原文或个人备注。译文中的裸 `{`、`}` 会被 MDX 当成表达式，改用中文括号或其他写法；不要用 `<http://…>` 自动链接，用普通 Markdown 链接。
 
+来源栏的原文地址也用显式 Markdown 链接（例如 `来源：[IGN](https://www.ign.com/...)`）；不要依赖 `媒体名（裸 URL）· 作者` 的自动识别，它可能把中文右括号和分隔点吞进 URL。既有来源栏由 `plugins/remark-source-links.mjs` 在编译时修正链接边界。
+
 页面 frontmatter 只保留展示和翻译相关字段：`title`、`display_title`、`slug`、`translation_status`、`source_file`。平台、评分、年份等游戏事实以 `data/metacritic-games.json` 为准，不要写进 MDX，避免两处不一致。
 
 文章头图属于游戏页面，不属于某个媒体标签，图片放在 `static/img/reviews-webp/<slug>.webp`，页面级头图和媒体译文分开。

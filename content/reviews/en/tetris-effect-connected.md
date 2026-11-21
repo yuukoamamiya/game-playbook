@@ -1,6 +1,6 @@
 ---
 slug: "tetris-effect-connected"
-source_title: "Tetris Effect: Connected"
+source_title: "Tetris Effect"
 source_url: "https://www.ign.com/articles/2018/11/09/tetris-effect-review"
 source_site: IGN
 review_score: 8.5
@@ -11,7 +11,7 @@ image: "https://assets1.ignimgs.com/2018/11/09/tetriseffect-blogroll-01-15417806
 image_fallback: "https://assets1.ignimgs.com/2018/06/07/tetris-effect---button-1528335221766.jpg"
 ---
 
-# Tetris Effect: Connected — IGN Review
+# Tetris Effect — IGN Review
 
 - Source: [IGN](https://www.ign.com/articles/2018/11/09/tetris-effect-review)
 - Author: Dan Crowd
