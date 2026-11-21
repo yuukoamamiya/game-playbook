@@ -28,6 +28,7 @@
 ```text
 data/metacritic-games.json       主数据：游戏 × 平台记录及 sources
 src/generated/                   由主数据和英文源生成的前台数据，不手工编辑（含 games、reviews 和媒体名称映射）
+sidebars.ts                      左侧文档列表：读取 src/generated/games.json，按发售年份分组
 src/pages/index.tsx              首页：合并游戏记录、筛选、评分和媒体入口
 src/pages/index.module.css       首页样式
 src/components/                  可复用 React 组件，例如 ReviewTabs
@@ -145,6 +146,10 @@ docs/agent-history.md            历史决策记录，不作为当前待办清�
 ### 修改首页或组件
 
 首页数据来自 `src/generated/games.json`，不要在 React 页面里硬编码游戏列表。首页先按平台和媒体筛选平台记录，再按 `slug` 合并为游戏；媒体名称映射和 `sources` 展示逻辑要同步。要改标签显示、译文识别或页面交互时，看 `src/components/ReviewTabs.tsx` 及相关样式。
+
+### 修改左侧文档列表
+
+左侧列表由 `sidebars.ts` 读取 `src/generated/games.json` 生成：年份作为一级分类（新到旧），游戏名作为二级条目（同一年内评分高的在前），不需要给 MDX 加 `sidebar_position`。`page_slug` 合并的多个平台记录只出现一次，年份取其中最早的发售年。文档 id 与文件名一致（`docs` 插件关掉了 `numberPrefixParser`），所以文件名要和 `slug` 保持一致。
 
 ## 脚本清单
 

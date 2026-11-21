@@ -68,6 +68,11 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+          // Doc ids are built in sidebars.ts from the game slugs, so keep the
+          // id equal to the file path: otherwise "13-sentinels-aegis-rim"
+          // would be read as a sidebar position prefix and become
+          // "sentinels-aegis-rim".
+          numberPrefixParser: false,
         },
         blog: false,
         sitemap: {
