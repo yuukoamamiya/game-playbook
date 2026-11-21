@@ -28,6 +28,8 @@ Your individual ability to control and affect the rhythm of the game comes from 
 
 > Watching the enemy ancient collapse is incredibly satisfying.
 
+<img src="images/gamespot-01.webp" alt="Watching the enemy ancient collapse is incredibly satisfying." width="960" height="540" loading="lazy" decoding="async" style="max-width:100%;height:auto" />
+
 The aim for most players is to accumulate as much gold and experience as possible, with income being delivered mostly by scoring the killing blow on enemy creeps and players. It’s almost always easier to gang up on stray enemies as a group, which is why it’s rarely a good idea to run about on your own. Then it’s a case of splashing all your hard-earned money on some ultra-powerful items from the shop, while levelling up your base stats and abilities, and then clobbering the enemy team into submission via a few five-versus-five team fights. Rarely does it feel that simple, however.
 
 At the time of writing, 102 of the original Dota’s 112 heroes have made their way into the sequel. Each hero has a handful of unique abilities and generally works best in a specific role, such as supporting other players as Omniknight, roaming around the map looking for opportunistic kills as Spirit Breaker, or evolving throughout the course of the game into an all-powerful vehicle of carnage and destruction as Phantom Assassin.
@@ -37,6 +39,8 @@ There’s only one map, unlike in many other MOBA titles, although Valve has not
 There are multiple layers of additional information that become increasingly relevant as you invest more time in the game. How do you effectively divide your forces? When should your team attempt to vanquish Roshan, the map’s most powerful creep? What are runes? What’s the significance of the fact that creeps get slightly stronger every seven and a half minutes?
 
 > Dota 2's client also allows you to watch eSports matches.
+
+<img src="images/gamespot-02.webp" alt="Dota 2's client also allows you to watch eSports matches." width="960" height="540" loading="lazy" decoding="async" style="max-width:100%;height:auto" />
 
 Often the game’s dizzying scale is seen as off-putting or simply too complex, but the truth of Dota is that it can be entertaining as a new player to just sit down and let all those extraneous factors play out around you. Getting down to the brass tacks of the game with a group of like-minded friends is a lot of fun: start by buying your characters’ recommended items, try your best not to get caught out of position, and get into the habit of buying observer wards. And watch out for Riki.
 
@@ -52,6 +56,8 @@ While Dota 2 has transferred the core of the original Dota into a cleaner, moder
 
 > Any opportunity to safely accrue gold and experience should be taken.
 
+<img src="images/gamespot-03.webp" alt="Any opportunity to safely accrue gold and experience should be taken." width="960" height="540" loading="lazy" decoding="async" style="max-width:100%;height:auto" />
+
 Occasionally there are big, beautiful reversals that turn into plucky underdog stories to be shared on forums and between friends, but for the most part, a team that starves its opposition of money and experience wins the game. Dota 2 ups the ante even further by featuring the concept of denying–one of its most divisive features, and one of the chief distinctions between Dota 2 and Riot’s League of Legends–which is when you purposefully kill off your own creeps, allies, and structures so that the enemy team doesn’t get the experience or gold.
 
 A tense game is always going to be exhilarating, of course, though the game’s matchmaking system often feels like a weak link. The gargantuan task of bucketing groups of players into balanced matches in a game that requires both individual and group skills is understandably challenging, but too many matches feel a bit lopsided–either an effortless stomp or a painfully inevitable defeat. Hopefully the influx of new blood over the coming months will help smooth out these bumps.
@@ -59,6 +65,8 @@ A tense game is always going to be exhilarating, of course, though the game’s 
 Valve has poured considerable effort into building Dota 2’s powerful client, however, and this impressive platform can sometimes help take the sting out of defeat. This is a free-to-play game, but it’s one which sets itself apart by being an unquestionably fair one: every hero is immediately available to all players, unlike in League of Legends, and real-money purchases of weapons, hats, and armour are purely cosmetic. Following Team Fortress 2‘s lead, the game also regularly drops tempting crates that can be unlocked with keys costing a couple of bucks. At the end of each game, players are subjected to a showering of random loot drops, and it’s easily possible to notch up hundreds of items just by playing normally for six months.
 
 > Knowing when to push your advantage is crucial to success.
+
+<img src="images/gamespot-04.webp" alt="Knowing when to push your advantage is crucial to success." width="960" height="540" loading="lazy" decoding="async" style="max-width:100%;height:auto" />
 
 Dota 2’s extensive customisation offers new taunts, announcers (Half-Life 2‘s Dr Kleiner is a particular highlight), and HUD skins, with many of these items created and voted into the game by the community. Passes to watch pro matches live from the in-game client can also be purchased, and Dota 2’s suite of options to spectate matches (with incorporated commentary) are undoubtedly the envy of every other MOBA developer on the planet. This is a free-to-play game that feels generous, with profits being dished out to item creators and the eSports teams, and Valve is already in the habit of running seasonal events that award you with heaps of new items.
 

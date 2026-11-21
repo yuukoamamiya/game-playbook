@@ -24,6 +24,8 @@ At the outset of Portal, you wake up in a sleeping pod. Rising to the tinny soun
 
 > So if you step through the blue one, you'll come out…where?
 
+<img src="images/gamespot-01.webp" alt="So if you step through the blue one, you'll come out…where?" width="960" height="720" loading="lazy" decoding="async" style="max-width:100%;height:auto" />
+
 The first few levels of Portal introduce you to fairly simple applications of portal technology, eventually putting the portal gun in your hands and enabling you to create portals anywhere you like. Well, not *quite* anywhere. Certain surfaces are not portal-able, and this is one way that subsequent levels, known as test chambers, become more difficult. Other elements, such as energy balls, weighted cubes, floor switches, and moving platforms, are incorporated into the test chambers in increasingly exacting ways, but the real complexity and the real genius of Portal lie in the challenge of "thinking in portals."
 
 Sure, you know that if you place portals here and there, you will enter here and exit there, but what if *here* is the floor 20 feet below you and *there* is a spot high up on the wall? You'll retain your momentum while going through the portal, so entering the floor portal at speed will rocket you out of the wall portal perpendicular to the floor. This has a profound impact on your strategy, but not all portal-thinking is strategic. If you place one portal at your feet and the other on the ceiling overheard, will you fall forever? Or if you put two portals on the floor side by side, could you create a reasonable facsimile of whack-a-mole? The magic of Portal is that it truly does inspire this unique flavor of spatial imagination, and once you get a taste, you'll be delighted to find yourself thinking in portals even when you're not in front of your PC.
@@ -31,6 +33,8 @@ Sure, you know that if you place portals here and there, you will enter here and
 If portal technology is the meat of the game, then GLaDOS is the perfectly paired wine. The omnipresent voice that guides you through the test chambers, GLaDOS initially reveals a dry, almost unintentional sense of humor in the first few test chambers. As you progress, her humor begins to show signs of self-awareness, eventually blossoming into something too hilarious and too well-deployed to spoil here. Suffice it to say, it is one of the chief pleasures of Portal and features some of the best writing in video game history.
 
 > Speedy thing goes in, speedy thing comes out.
+
+<img src="images/gamespot-02.webp" alt="Speedy thing goes in, speedy thing comes out." width="960" height="720" loading="lazy" decoding="async" style="max-width:100%;height:auto" />
 
 For all its heady delights, Portal is a short-lived feast and can be reasonably completed in as little as five hours. To help draw things out a bit, Valve has included six advanced chambers, all of which are existing test chambers tweaked to present a tougher challenge. You can also take on challenge maps and attempt to complete the test chambers with the least number of portals, the least steps, or in the least time. Ever since it was originally released more than six months ago, there has been ample time for the online community to produce a bevy of maps that, though varying in quality, are freely available for any test-chamber-hungry portaler to download. Its Orange Box roots mean that Portal also comes equipped with in-game achievements that can serve to extend its longevity. Nevertheless, the odds are that it'll be over a bit too quickly for your liking.
 

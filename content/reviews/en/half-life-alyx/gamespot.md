@@ -32,11 +32,17 @@ What's just as important is Alyx's multitool, which serves as a way to engage in
 
 *Once you get the hang of its mechanics, combat ramps up the intensity.*
 
+<img src="images/gamespot-01.webp" alt="Once you get the hang of its mechanics, combat ramps up the intensity." width="960" height="540" loading="lazy" decoding="async" style="max-width:100%;height:auto" />
+
 Half-Life: Alyx revolves around the balance of the aforementioned puzzle elements and its suspenseful combat scenarios. It may not have many of the bombastic firefights, helicopter chases, or seemingly insurmountable enemies from the series' past–most of that's been exchanged for close encounters, sometimes tapping into a horror element that Half-Life had only previously toyed with.
 
 Headcrabs aren't the annoying pests they were before; at times, they're terrifying because they will literally latch onto your head or cause the occasional jump scare. The same goes for Barnacles; trust me when I say that you do not want your own virtual body dragged up toward the ceiling by its disgusting slimy tongue. Other scenarios play on navigating pitch-black darkness with your wrist-mounted flashlight as Xen creatures lurk about. There's also an entire chapter dedicated to "Jeff," an invincible mutant with sharp hearing who can't see, and he must be dealt with through clever environmental manipulation. A genuine dread you might not expect from Half-Life lingers throughout.
 
 Combine soldiers may still be knobheads, but when they're chasing you down in VR and your sick headshot skills aren't there to save you, their threat becomes imminent and sometimes nerve-wracking. You'll hear the familiar radio chatter of the Combine, and feel relieved at the sound of the recognizable flatlining ring of a fallen Combine soldier. It's also nostalgic and oddly comforting to hear those signature old-school techno beats during most of these heated firefights, and then heal up on a health charger that uses the same sound effect since Half-Life 1. There aren't many types of Combine soldiers or styles of encounters, but I was always eager to face them head-on in each scenario.
+
+<img src="images/gamespot-02.webp" alt="" width="960" height="540" loading="lazy" decoding="async" style="max-width:100%;height:auto" />
+
+
 
 Alyx herself packs light [when it comes to weapons, with only a pistol, shotgun, and SMG](https://www.gamespot.com/articles/half-life-alyx-weapon-upgrade-and-items-guide/1100-6475048/). However, all three have a few upgrades to make them more effective, which must be done at Combine Fabricator stations at certain points in the game. The only real collectible is Resin, and pieces are scattered about each level. With ammo often scarce and Resin tucked away in corners, scavenging is a core element, further emphasizing Alyx's scrappy nature. And honestly, the slim arsenal fits the types of combat sequences throughout the game.
 
@@ -45,6 +51,8 @@ It's as satisfying to take your punchy shotgun to a Combine heavy as it is to ig
 When looking at gameplay as a whole, Half-Life: Alyx takes many of the concepts we've seen evolve since VR's inception and distills them to their fundamentals. It executes most of them to a T, thus creating a VR experience that's a full, cohesive whole. A number of [accessibility options are available](https://www.gamespot.com/articles/half-life-alyx-accessibility-options-guide/1100-6475045/) as well; different movement and turning styles can help mitigate motion sickness, and there's a single-controller mode that allows you to performing all the game's necessary actions on one hand. You can also have crouching and standing actions mapped to buttons for height adjustment, making [the seated VR experience](https://www.gamespot.com/articles/how-to-play-half-life-alyx-seated/1100-6475084/) better.
 
 *Fighting the Combine will bring back memories of Half-Life 2 with their radio chatter and flatline ring.*
+
+<img src="images/gamespot-03.webp" alt="Fighting the Combine will bring back memories of Half-Life 2 with their radio chatter and flatline ring." width="960" height="540" loading="lazy" decoding="async" style="max-width:100%;height:auto" />
 
 That said, environmental interaction isn't perfect. Doors and mechanisms you need to grip don't always react to your movements the way you'd expect, and sometimes there are just too many unimportant objects scattered about that obscure the thing you're actually trying to pull in with your Gravity Gloves. Thankfully, these instances are rare enough as to not drag down otherwise intuitive mechanics.
 
@@ -57,6 +65,8 @@ You'll be struck by the awe-inspiring sights throughout the journey across City 
 The very concept of VR becomes the core narrative device–your hands, and by extension, Alyx's actions, are fundamental to the delivery of its best moments. In its finality, you'll truly understand why VR was the only way this game could have even existed–it's something surreal, revelatory, and incredibly empowering. Half-Life: Alyx has far-reaching implications for the future of the franchise, both in where it goes next and what forms future games can even take. And in true Half-Life fashion, more questions than answers linger, but for good reason and not without a reminder of why you love the series to begin with.
 
 *Some views across City 17 are breathtaking, especially in VR.*
+
+<img src="images/gamespot-04.webp" alt="Some views across City 17 are breathtaking, especially in VR." width="960" height="540" loading="lazy" decoding="async" style="max-width:100%;height:auto" />
 
 Yes, this game is somewhat of a companion piece to mainline Half-Life games, taking place five years before Half-Life 2, but that doesn't really matter in the grand scheme of things. Disappointment you may have felt in its 13-year hiatus will feel like water under the bridge, and in a way, have played into just how powerful Half-Life: Alyx turned out to be. The names, the faces, the iconic objects that have become synonymous with Half-Life have their specific place. And if you weren't aware previously, you'll see just how important Alyx Vance–the series' most infallible personality–has been the entire time.
 

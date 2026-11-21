@@ -24,6 +24,8 @@ The Dragon Quest series is a standard-bearer for an entire genre. Numerous JRPGs
 
 Dragon Quest XI is no exception. The chosen hero and his growing group of party members go on a globe-spanning adventure in a realm of fantasy and magic, exploring dungeons, solving story beats to proceed, and battling foes in turn-based combat. It's a tale you're probably familiar with if you've played any classic JRPG. But Dragon Quest XI is proof that traditions and tropes don't have to feel worn-out and dull, as this gorgeous adventure will challenge your skills, tug at your heartstrings, and keep you eagerly playing further and further into its lengthy quest.
 
+<img src="images/gamespot-01.webp" alt="" width="960" height="540" loading="lazy" decoding="async" style="max-width:100%;height:auto" />
+
 The hero of Dragon Quest XI is the reincarnation of the Luminary, a chosen warrior who will destroy a foretold dark presence. Yet the glorious hero is not welcomed with open arms when his destiny is revealed; some fear him as a harbinger that disaster is imminent, and wish him dead. As the hero adventures from his hometown into the wider world, he makes many friends, encounters wicked monsters, endures intense tribulations, and fights for light in the shadow of an empire manipulated by darkness.
 
 That setup likely sounds quite familiar. The story in Dragon Quest XI doesn't really offer any novel plot beats or twists, but that's not a knock against it; the game does a spectacular job of melding familiar story elements with engaging characters and excellent choreography.

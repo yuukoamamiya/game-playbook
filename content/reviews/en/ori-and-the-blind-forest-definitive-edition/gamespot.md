@@ -28,17 +28,27 @@ There’s a certain elegance to the game’s initial sorrow, and it translates t
 
 > Don't be too distracted by the beauty: The sequence that follows is deadly enough.
 
+<img src="images/gamespot-01.webp" alt="Don't be too distracted by the beauty: The sequence that follows is deadly enough." width="960" height="540" loading="lazy" decoding="async" style="max-width:100%;height:auto" />
+
 One by one, you learn new skills, and new challenges arrive with them. Ori can fire energy orbs at nearby foes when he isn’t avoiding them completely, and those creatures can be difficult to overcome. The blobs that stick to walls and ceilings? They aren’t much of a hassle, at least until they coat the surfaces you need to cross and spit acid onto the ground. They won’t let you stay still: You must take advantage of Ori’s dexterity, by leaping over acidic pustules, jumping from wall to wall, or putting the other abilities you have to good use. For instance, you ultimately learn how to deflect projectiles, aiming them back at your foes while propelling yourself in the opposite direction. Turning an oncoming ball of fire back towards its owner is fun, but if you don’t pay attention, you could thrust Ori into a wall of spikes, or into a crow hovering nearby.
 
 Propelling yourself through the sky in this manner becomes one of Ori and the Blind Forest’s most vital maneuvers. When you first learn it, you typically use the glowing lanterns that dangle from overhangs. Soon, however, you must fire Ori through treacherous areas replete with fiery spheres and those pesky crows, which hurl towards you as if launched from a slingshot. Timing is crucial, as is quickly determining the safest trajectory that still delivers you to your destination. That mid-air fling is at the heart of one of the game’s most thrilling scenes: a difficult escape from roaring tides that swallow you whole should you make a single grievous error.
 
 > Ancient contraptions provide an air of mystery and wonder.
 
+<img src="images/gamespot-02.webp" alt="" width="960" height="540" loading="lazy" decoding="async" style="max-width:100%;height:auto" />
+
+<img src="images/gamespot-03.webp" alt="Ancient contraptions provide an air of mystery and wonder." width="960" height="540" loading="lazy" decoding="async" style="max-width:100%;height:auto" />
+
 The trial and error this scene and others require can prove frustrating if you prefer to move on to the next area rather than discover, learn, and adapt. I admit to shouting a few expletives when unforeseen circumstances cut my attempts short, falling boulders with crystalline spikes covering their undersides and perilous geysers that spurted from the walls among them. But what a feeling it is to overcome these challenges. The tightly timed retreats that close each chapter are among the finest joys in any platformer–or any game at all–released in recent years. If Ori were clumsy, or if these sequences weren’t timed so precisely, these moments would be simply annoying. But in Ori and the Blind Forest, each element harmonizes with every other. If you run into trouble, the game’s save system eases the pain. You gather crystals as you play that function as checkpoints, allowing you to determine where you will respawn if you succumb to a bile-spewing frog. You must take care, however, not to drop these crystals everywhere you go, since you can only carry so many.
 
 Those pulse-pounding escapes are complemented by moments of quiet bliss. In time, Ori can break his fall with a leafy parachute, gliding across the screen like a flower petal on the wind. During these moments, it’s easy to appreciate the game’s visual artistry. Multiple layers give each environment a lovely sense of depth. As you cross a log that bridges one tunnel to the next, thick trees rise in the background. Embers and fire crackle behind you, giving your trek across the troubled world a sense of urgency and purpose. Luminescent blue plants alternately close and unfurl with each jump, shining and glittering even as they become your next cause of death. It is a fairy tale come to life, a description that has rightfully earned “cliche” status–yet rarely is the description so apt as it is in Ori and the Blind Forest.
 
 > This is one of many sequences that combine the glee of motion with a tricky mechanic.
+
+<img src="images/gamespot-04.webp" alt="" width="960" height="540" loading="lazy" decoding="async" style="max-width:100%;height:auto" />
+
+<img src="images/gamespot-05.webp" alt="This is one of many sequences that combine the glee of motion with a tricky mechanic." width="960" height="540" loading="lazy" decoding="async" style="max-width:100%;height:auto" />
 
 It isn’t just the vibrant art and lush orchestral soundtrack that furnish a storybook mood. It’s also the story, which is infrequently told to you via subtitles, accompanied by a narrator who chants along in an unknown language, in the style of Okami, or Panzer Dragoon Orta. It is a simple fable about the renewal of a ravaged land; It is in the details that you find the delights worth prizing. A critter that absconds with an important artifact gains importance you don’t initially expect, revealing loneliness, fear, and tenderness not with words, but with exaggerated bows and nods. If there is any blight on this atmospheric transcendence, it is the frame rate, which occasionally falters, ever so slightly, in the final hours.
 

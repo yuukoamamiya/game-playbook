@@ -24,6 +24,8 @@ Though it adds and removes modes whole cloth, the core of Tetris Effect remains 
 
 You'll need that focus in multiplayer. Whether you're playing cooperatively with other players or competing against them, the multiplayer modes in Connected ratchet up the intensity found in the original. Connected features four multiplayer modes–three competitive, one co-op. As in most games, other players will push you in ways a single-player campaign will not.
 
+<img src="images/gamespot-01.webp" alt="Score Attack in Tetris Effect: Connected" width="960" height="540" loading="lazy" decoding="async" style="max-width:100%;height:auto" />
+
 Most players will rush right to Zone Battle, an updated version of what I imagine when I think of competitive Tetris, a survival mode where completing lines on your field creates extra garbage lines for your opponents. The Connected version adds the zone mechanic from Tetris Effect, which stops the parade of pieces and allows you to complete a large number of lines in a short time. Using zone effectively adds an extra layer of strategy: Activating it at the right time can guarantee a victory, but it's surprisingly tricky to find the correct moment to use it. Though it seems like the ability to save up and cash in lines would only intensify the dominance of elite players, I found it allowed you to turn a good flow into a meaningful attack, regardless of whether you're winning or losing. It won't keep a superior player from stomping you, mind you, but zone rewards players who can be mindful of the situations on both fields and retain the focus to clear lines.
 
 In addition to Zone Battle, Connected also has two versions of Score Attack, a more traditional competitive mode without garbage-line or zone mechanics. In standard Score Attack, you play for the high score and survival. In Classic Score Attack, you do the same, but with the original 1984 rules, so you can't bank pieces, use T-Spins, and so on.
@@ -31,6 +33,8 @@ In addition to Zone Battle, Connected also has two versions of Score Attack, a m
 Zone Battle is an interesting riff, but it's a known quantity. The most interesting mode–this game's crown jewel–is the eponymous Connected co-op mode, where three players collectively try to outlast a series of AI opponents, one at a time. At first, the four players simply play Tetris. The AI enemies, named after the signs of the Zodiac, have special abilities called "blitzes" to make things difficult for you, which range from annoying parlor tricks like moving your field up and down to genuinely infuriating maneuvers like temporarily increasing the speed of your drops to force errors. Once a week, there's also an asynchronous Connected Versus mode, where players can spar 3-on-1.
 
 When the three human players clear enough lines on their fields, you automatically trigger a special form of the zone ability, which combines all three of your fields into one. You and your partners take turns placing pieces on the extra-wide field and must clear extra-long lines. Like every level and mode in Tetris Effect, you need to find a natural rhythm in the game, but in this case you do so by getting in sync with your partners. Only one person plays a piece at a time, so being able to quickly find the right spot and anticipate where the others will go becomes crucial. Like zone battle, you need to be focused to fill gaps quickly, but also mindful of the whole field and what's happening.
+
+<img src="images/gamespot-02.webp" alt="Connected mode in Tetris Effect: Connected" width="960" height="540" loading="lazy" decoding="async" style="max-width:100%;height:auto" />
 
 In most games, that kind of coordination would require voice chat, but this particular mode benefits from relying on non-verbal communication. It requires more awareness and consideration of your fellow players than the competitive modes because you're sharing a single field. The goal of Tetris Effect, across its modes, is to feel the flow of the game without interruption or getting into your own head; silently syncing with your partners, showing them what you plan to do with your next piece and trusting that they'll understand and plan around that offers an interesting variation on that theme, and it can create incredible results if you can… connect.
 
@@ -41,6 +45,8 @@ But there's no time for regrets in Tetris. The next piece is falling and you onl
 ## Tetris Effect: Connected On Nintendo Switch
 
 Tetris Effect: Connected on Nintendo Switch is exactly what you would hope it'd be. The full game makes the move to the portable hybrid console, and despite my concerns that it would lack the visual fidelity necessary to recreate the transcendent experience that Effect provides elsewhere, the Switch version is more than capable. Audio lacks a bit of punch when using the system's built-in speakers, but the ability to play Effect on the go more than makes up for that.
+
+<img src="images/gamespot-03.webp" alt="" width="960" height="540" loading="lazy" decoding="async" style="max-width:100%;height:auto" />
 
 The new multiplayer modes introduced in Connected are all present here, and fortunately, they come equipped with cross-play support, helping to ensure you don't have problems finding other players (though I did encounter the occasional server issue).
 

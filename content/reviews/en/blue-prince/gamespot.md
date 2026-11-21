@@ -42,6 +42,8 @@ Now, here is where the design of Blue Prince shows off its real magic, and if yo
 
 *Playing detective, complete with magnifying glass, in Blue Prince.*
 
+<img src="images/gamespot-01.webp" alt="Playing detective, complete with magnifying glass, in Blue Prince." width="960" height="540" loading="lazy" decoding="async" style="max-width:100%;height:auto" />
+
 The old manor house itself is endlessly changing, with a seemingly infinite combination of permutations and criss-crossing solutions. Many of these solutions are extremely flexible and can be solved in multiple ways, which works well in the context of a roguelike, because it allows you to make constant progress, even when a run ends in dead ends or other frustrations. But at a certain point, you begin to transition to another puzzle, and one that is much more rigid, with fewer and more-specific solutions. At first I thought this was counter to the game's goals and philosophy, but then over time I realized it's integral to the real beauty of the Blue Prince's design.
 
 All the unfurling of layers and seeing how the machine ticks were not an end to themselves. The house is a puzzle box, of course, and it's full of individual and interlocking puzzles. But it is also an incredibly flexible tool. The campaign is not just about making your way through the house. It is about training you how to *wield* the house. The challenges are a series of locks, and Blue Prince is about learning how to use the physical space itself as a skeleton key that can open them.

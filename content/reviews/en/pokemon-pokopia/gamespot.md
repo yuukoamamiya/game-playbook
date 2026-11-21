@@ -40,6 +40,8 @@ Advertisement
 Ludicolo shows off his moves in Pokemon Pokopia
 Gallery
 
+<img src="images/gamespot-01.webp" alt="Ludicolo shows off his moves in Pokemon Pokopia" width="960" height="540" loading="lazy" decoding="async" style="max-width:100%;height:auto" />
+
 The system is flexible because, among other things, lots of Pokemon have the same sets of specialties. Bulbasaur has the Grow ability that gives your crops and flowers a burst of growth, but if your resident Bulbasaur isn’t around, you could also ask an Oddish. Occasionally, you’ll also meet a story-critical named Pokemon, like Mosslax, a Snorlax who snoozed so long that moss grew all over his body; or Peakychu, a Pikachu who burned out his electricity-generating abilities and looks a bit droopy and sickly. These fun and cute twists on classic Pokemon designs are always a delight and help give the game even more personality.
 
 The sheer variety of Pokemon on display is impressive. My Pokedex is already several dozen entries long and I haven’t even discovered all of those, and there are surely more to attract that I haven’t found hints for yet. The roster leans heavily on classic Pokemon, like Eevee, alongside more recent ones that share similarly simplistic designs, like Dartrix. That appears to be a conscious choice to lean into the art style, which is bright and bubbly, and looks great when rendering one of those classically styled Pokemon. When it gets into more complex design territory with legendary Pokemon, the art style falters a little and looks sillier. That said, the 30 years of Pokemon designs means Pokopia has plenty to curate from across the spectrum of games. I’ve seen Pokemon from Red and Blue all the way to the Scarlet and Violet generations, and there are many more to uncover.
@@ -49,6 +51,8 @@ The vast majority of Pokemon are presented as happy, sweet little friends, but P
 Sometimes you’ll just capture little slices of Pokemon life. Once, I was alerted to a photo op and got out my camera to snap a picture of Charmander sleeping by the campfire. As I lined up my shot, I saw that Squirtle was peacefully sniffing flowers in the background. This wasn’t a second photo op, just a little moment captured on camera that I happened to see, and that made the world feel that much more alive.
 
 A beachside vacation in Pokemon Pokopia
+
+<img src="images/gamespot-02.webp" alt="A beachside vacation in Pokemon Pokopia" width="960" height="540" loading="lazy" decoding="async" style="max-width:100%;height:auto" />
 
 Similarly, the world itself is bursting with secrets to uncover. More than once, I wandered in a direction only to discover something amazing. I ventured underground into an active volcano and discovered a massive castle. Another time, I found what appeared to be underground bunkers complete with tons of old human decorations and artifacts. I was more than 15 hours in before I idly wondered what was behind a breakable wall in the very first locale, only to find a vast secret area. There are layers upon layers upon layers, both figuratively and literally, to explore.
 

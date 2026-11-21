@@ -28,9 +28,13 @@ In some ways, I mean that literally. The game gave me stress nightmares, not bec
 
 There are narrative reasons for that, though, and they do work. Being helpless as a player in the face of Ellie's destruction serves a grander purpose that I won't spoil here. The biggest issue is that the most impactful of her kills occur in cutscenes rather than in combat, and that obscures the purpose of combat's more upsetting aspects.
 
+<img src="images/gamespot-01.webp" alt="Ellie and her gal pal Dina in Jackson." width="960" height="540" loading="lazy" decoding="async" style="max-width:100%;height:auto" />
+
 The Last of Us Part II's combat is tense and exhilarating, though confronting in its brutality. Ellie is scrappy and agile, and moving through a combat arena is an art. Her movements are smooth enough that they almost look scripted; you can duck and dodge in a fight and deliver a return blow with a series of button presses that translate into a strangely graceful dance. You can accidentally alert an enemy to your presence only to slip through a tight space in the wall, vault through a window, and outrun your pursuer through a building to reestablish your cover and gain the upper hand. You can also easily get surrounded and die horribly, whether you're fighting people or infected.
 
 Navigating any given combat scenario is a puzzle in which you have to figure out exactly how to get from point A to point B with the resources you have. I'm partial to stealth when possible, and it's especially rewarding to decide how you're going to silently kill each enemy with only a flimsy silencer, two arrows, and your default knife. Should you kill the blind clickers first because they're strong and deadly, or should you kill the infected runners first because they can see you? Can you retrieve an arrow from a corpse to be reused on their friend? Most importantly, where's the exit?
+
+<img src="images/gamespot-02.webp" alt="Ellie fighting one of the new infected types, a poisonous shambler." width="960" height="540" loading="lazy" decoding="async" style="max-width:100%;height:auto" />
 
 You can also find yourself going up against both humans and infected at the same time, and this is when combat is properly fun instead of just tense. By throwing a bottle, you can draw a clicker toward an enemy soldier and simply wait for them to kill each other. You can shoot glass above an enemy's head to send a runner or two straight to their location. You can simply take advantage of the chaos and start shooting indiscriminately. Regardless, it makes you feel clever and giddy and weirdly proud of yourself.
 
@@ -42,11 +46,15 @@ All of that surely exists to make you feel bad about killing people and their do
 
 Frankly, the fact that your enemies have names doesn't make them any less in your way. You have to do what you have to do to get to the next location, and you *want* to do that to see where the story goes next.
 
+<img src="images/gamespot-03.webp" alt="I don't know these dudes' names, but I definitely killed them." width="960" height="540" loading="lazy" decoding="async" style="max-width:100%;height:auto" />
+
 This disconnect between the video game-y aspects and the grander narrative is compounded by looting and collectible-hunting. Looting during a fight is exciting, especially when you find the one extra bullet you need or a bit of health that can keep you going. But more often than not, I'd loot and look for collectibles only after I'd killed every enemy in the vicinity. It's far easier and safer, for one, and I didn't want to miss any of the interesting sub-plots found in scattered notes and photographs just because I wanted to kill fewer people.
 
 Finding collectibles and piecing together the stories held within them is rewarding and paints a picture of the outbreak as it developed through the years. A bank robbery gone wrong sticks out as a favorite, and there are quite a few other stories worth finding. A lot of the time, seeking out these collectibles will force you to get creative–things like breaking windows to bypass a locked door or swinging on a cable to get to an area that's just out of reach. There's nothing so difficult that you feel like a genius for figuring it out, but it does make you feel appropriately resourceful.
 
 Most of the time, there aren't any collectibles to find in combat-heavy areas. But there are still notes and things to find when enemies are around, and as a result, I ended up scouring every corner of every area in the hopes of finding something cool. Because most combat arenas give you multiple avenues of attack and escape, though, I ended up backtracking through most of them to try to find things, and that can severely disrupt the pacing. The nooks and crannies that work well in combat just become one more place to look for a note or trading card, and the fact that you're looking for trading cards at all often feels too game-y for the otherwise sobering tone.
+
+<img src="images/gamespot-04.webp" alt="High-contrast mode, one of The Last of Us Part II's many excellent accessibility options." width="960" height="540" loading="lazy" decoding="async" style="max-width:100%;height:auto" />
 
 I ended up enabling an accessibility option called high-contrast mode to help with my collectible hunt. When toggled on, it mutes the background, removes textures, and highlights interactable objects and enemies. I used it after clearing an area of enemies to speed up the looting part, and while it wasn't the most elegant solution, it did help the pacing. It's one of a litany of accessibility options, too, which allow you to fine-tune the gameplay, sound, and visuals to your needs. It's a commendable suite that's incredibly inclusive.
 

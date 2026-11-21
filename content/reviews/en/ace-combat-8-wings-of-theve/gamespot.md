@@ -96,6 +96,8 @@ Co-op Warfare is similar, only you can destroy players on the other team as well
 
 Additionally, limited-time modes occasionally pop up in lobbies. Scramble lets a team of four go head-to-head against powerful computer-controlled squads, while Emergency Sorties task eight players with defeating iconic superweapons from previous Ace Combat games. Special PvP events also crop up from time to time, featuring four-on-four deathmatches and eight-player free-for-alls. 
 
+<img src="images/gamespot-01.webp" alt="" width="960" height="540" loading="lazy" decoding="async" style="max-width:100%;height:auto" />
+
 Dogfights against human players are inherently fascinating, because even the best enemy AI can’t possibly compare with the human mind. There’s also plenty here if you’d prefer to team up with friends, but I can’t see the player base sustaining for too long after the honeymoon period ends. The missions in Co-op Assault and Co-op Warfare devolve into tedium after three or four matches, and the unbalanced nature of the whole thing is frustrating.
 
 Advertisement

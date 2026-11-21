@@ -24,6 +24,8 @@ The pitch is simple: UFO 50 is a compilation of fictional retro games made throu
 
 In reality, of course, the games were created by a team of modern-day developers led by Spelunky's Derek Yu. That makes the decision to make not just a retro game but 50 retro games remarkably ambitious. One would expect such a massive undertaking to result in minigames at most, but that is not the case. These are almost universally the size and scope of actual games you would buy in the 1980s--still often smaller than the games we'd expect today, but not compromised for their fictional time period.
 
+<img src="images/gamespot-01.webp" alt="The character-select screen in Fist Hell" width="960" height="540" loading="lazy" decoding="async" style="max-width:100%;height:auto" />
+
 And while UFO 50 doesn't tell a straightforward narrative story, there is a lot of richness to be found in the meta-fiction of UFO Soft. You see the logo changing over time. The games themselves get more complex and more refined, and have better art direction and better quality-of-life features, over the fictional timeline. The games themselves have little notes about their development, and you can piece together criss-crossing plotlines involving the studio's personalities and leadership. The occasional sequel will appear, showing an early style of iterative development that might result in radically different gameplay styles springing from the same core concepts. One of the games--a point-and-click adventure called Night Manor--has glimpses of the early cinematic achievement that you could see being influential in the fiction of the world.
 
 Like a lot of early games, the simplicity of the controls means you more-or-less figure out the game by playing. This can be slightly frustrating sometimes, especially when a game ventures into territory with more complex, board game-like mechanics, like Devilition. Others, like Mooncat, have strange and counterintuitive controls that I struggled to get a proper feel for. This is realistic in that a lot of old video games tried to approximate board-game complexity or experiment with control schemes, but the wealth of other games to play made it difficult to remain patient with those more inscrutable ones.
@@ -50,7 +52,11 @@ Possibly my favorite surprise of the bunch, Party House is an ingenious puzzle g
 
 The party commences, a random assortment of your rolodex of party-goers shows up, and you tabulate your cash and popularity to put toward the next party, all while steering toward some particular win condition like having four aliens attend a single party. It's shockingly compelling, and easy to keep the party going for just one more turn late into the night.
 
-### The Big Bell Race
+###
+
+<img src="images/gamespot-02.webp" alt="The cops break up the party in Party House" width="960" height="600" loading="lazy" decoding="async" style="max-width:100%;height:auto" />
+
+The Big Bell Race
 
 The is one of the shortest games of the collection but also one most suited to multiplayer. The Big Bell Race is pure game mechanics: You're a spaceship navigating through a boxy maze-like racetrack while bouncing off the other racing ships and grabbing power-ups that create track hazards for your competitors. A single tournament is eight quick races, but the competition can be fierce, and you can always play two-player to bump elbows against a friend.
 
@@ -62,7 +68,11 @@ At first glance, Warptank appears similar to the classic Blaster Master tank seg
 
 This metroidvania-like platformer has a hook similar to Warptank, but the application of it in this genre makes it feel very different. As an alien soldier, you can swap the gravity polarity by double-tapping the jump button, so all of the traps and enemies are positioned to take advantage of stages that could be upside-down at any time. The result is something like the second quest of Symphony of the Night in a reversed castle, except you control when the whole thing flips on its head.
 
-### Pingolf
+###
+
+<img src="images/gamespot-03.webp" alt="The alien protagonist of Vainger" width="960" height="540" loading="lazy" decoding="async" style="max-width:100%;height:auto" />
+
+Pingolf
 
 Lots of early games tried to approximate sports like golf, but Pingolf is a more modern take with a sci-fi aesthetic. The side-scrolling stages are set up like platforming stages with some elements of pinball, with narrow corners and bounce pads. It feels not quite like anything else, though the closest analogue is probably the recent Cursed to Golf.
 
@@ -74,7 +84,11 @@ It wouldn't be a retro-style compilation without a River City Ransom riff, but F
 
 Another surprising favorite from a genre I haven't had much experience with, Valbrace is a first-person dungeon-crawling RPG, similar to Dungeon Master or Wizardry 2. The presentation is top-notch for emulating the peculiar, pixelated look of those dungeon crawlers, and when you encounter monsters, you enter a more active real-time third-person combat system. What really helps it stand out, though, is the magic system, which maps spells onto a particular pattern drawn with your D-pad. You discover those spells as you proceed through the dungeon, but even if you die, the spell pattern will still work on your next run. That means if you can remember the spells--or map them onto graph paper--you'll make each subsequent run that much easier.
 
-### Rakshasa
+###
+
+<img src="images/gamespot-04.webp" alt="Fighting goblins in Valbrace" width="960" height="540" loading="lazy" decoding="async" style="max-width:100%;height:auto" />
+
+Rakshasa
 
 A side-scrolling action game along the lineage of Ghosts & Goblins, this one has you taking on hordes of demons with a unique revival mechanic. You're extremely vulnerable to attacks and bound to die, but each time you die, you can recover your life by navigating around the demons of the spiritual plane. Each time you die, more demons are added, making it increasingly difficult--but not impossible--to recover your body.
 

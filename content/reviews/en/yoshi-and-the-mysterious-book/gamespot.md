@@ -33,13 +33,10 @@ Speaking of seeing and believing, the visual style in Mysterious Book is gorgeou
 
 This clear targeting of younger gamers has its drawbacks, though. Most notably, while this is a game that seems aimed at early- or pre-readers, it's absolutely chock full of text to read, and there is no voice acting or spoken dialogue to make the experience more accessible to the audience that will likely be enjoying this game most. Mr. E speaks in simlish-like vocalizing but the dialogue has to be read. Discoveries pop up as text as well. The hint system is all text too. A younger player without strong reading skills might be able to play with the systems and make discoveries, but it may be hard for them to progress without someone around to interpret the text for them.
 
+<img src="images/gamespot-01.webp" alt="Yoshi and the Mysterious Book" width="960" height="540" loading="lazy" decoding="async" style="max-width:100%;height:auto" />
+
 For older players, there is a little more complexity hidden behind the first ending. It's actually one of the coolest features the game has to offer, which makes it strange to rope it behind game completion. Once you finish the main story you open up a modular UI, with "Exploration Tools" that can be bought in exchange for the Smiley Flowers you've been gathering throughout the journey and then mapped to a grid overlay. These tools are unlocked in a particular order so you can't select which ones you want, but a few of them include a Bioscanner to track nearby creatures, thermometers to track temperature, and more. There's even a lifebar for Yoshi, which confusingly doesn't seem to do anything since you can't die--but when Yoshi gets low enough in health he visibly reacts. Presumably this system was running under the hood the whole time but I never even noticed until unlocking the tool.
 
 Those tools can be applied to extra biomes that open up after the first ending as well. That extends the adventure into new areas with new creatures, as well as allowing you to discover how those creatures and your new Exploration Tools interact with all the ones you've already found.
 
 How much mileage you get out of those extra stages, and in fact out of the entire game, relies largely on your level of curiosity. Yoshi and the Mysterious Book is fundamentally a game about poking and prodding at the world and seeing what happens. It won't test your precision platforming skills, but it serves as a gentle introduction for novices, and an experiment for even experienced gamers to see an audacious, expanded idea of what a platformer can be.
-
- Upvote (5)
-- Leave Blank
-
- View Comments (2)

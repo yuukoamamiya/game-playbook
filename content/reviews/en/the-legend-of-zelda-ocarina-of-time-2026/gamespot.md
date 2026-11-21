@@ -22,6 +22,8 @@ Many of the characters have been given full voice acting for cutscenes and certa
 
 Link and Ruto
 
+<img src="images/gamespot-01.webp" alt="Link and Ruto" width="960" height="540" loading="lazy" decoding="async" style="max-width:100%;height:auto" />
+
 The one drawback to the addition of voice acting is Sheik, through no fault of the performer. I previously wondered how the Ocarina remake would handle that particular twist, and the answer is that it tries but ultimately fails to strike a satisfying balance. The dialogue makes it clear that the game wants to maintain its original intent, but both the revised character model and the voice acting make it less believable. The actor does as great a job as the rest of the cast, but it’s difficult to maintain a plot revelation that, in hindsight, relied so heavily on the limitations of the N64. At a certain point, it strains credulity that Link and Navi don’t just figure it out.
 
 That minor point aside, though, the new cutscenes lend more drama to what was already one of my favorite Zelda stories. There’s more emphasis on facial expressions and finely detailed animation work to show gestures, so key moments hit with that much more weight. Saria’s tearful goodbye to Link at the edge of Kokiri Forest is a perfect example of this. Saria does all the talking and Link remains silent, which could risk feeling uncomfortable or odd. Instead, Link’s tiny moment of hesitation before he turns toward his destiny suggests that he feels just as warmly towards her but isn’t sure how to say it. It’s a lovely little moment that establishes a deep bond. 
@@ -32,6 +34,8 @@ Other times, the cutscenes simply make plot points more explicit than they were 
 
 Kokiri Village
 
+<img src="images/gamespot-02.webp" alt="Kokiri Village" width="960" height="540" loading="lazy" decoding="async" style="max-width:100%;height:auto" />
+
 And while this remake hews very closely to the original design, it does add a few quality-of-life features that help smooth and modernize the experience. The most impactful of these is the addition of a jump button, which is simply excellent. The original Ocarina lacked a jump button due to the limitations of the controller and Nintendo exploring this new 3D space, and the remake on the 3DS retained that original design. In the 2026 game, the jump button feels completely natural and fits right into the stage and dungeon design as if it had always been there. Ocarina was never a game with difficult platforming challenges, but it feels great to be able to freely determine your own jumps, or to hop up onto a vine or ladder before you get there to speed up traversal. There was some degree of skepticism among fans at adding a jump button, but having now played Ocarina of Time with one, it’s hard for me to imagine going back.
 
 Other additions are less impactful but still appreciated. The equipment bar returns from the Breath of the Wild and Tears of the Kingdom games, letting you easily pull up the piece of gear you need for a given challenge. Similarly, both the boots and your newly minted Lenses of Truth (they look more like goggles now) are mapped to directional buttons for quick toggling. You can only have one pair of boots or the other mapped to the quick-toggle, but it’s still a vast improvement over manually switching in the menu. 
@@ -39,6 +43,8 @@ Other additions are less impactful but still appreciated. The equipment bar retu
 One of my favorite new QOL additions is the Business Scrub. You can buy or find seeds that summon this Deku shopkeeper anywhere in the world, including in dungeons, and he sells a handful of necessary staples like potions, bombs, and arrows. That means no more trekking out of a dungeon to refill your potions before you take on a boss. At the same time, you don’t want to waste the seeds unless you really need them, so it doesn’t drain the adventure of all its challenge. 
 
 Link learns Zelda’s Lullaby
+
+<img src="images/gamespot-03.webp" alt="Link learns Zelda’s Lullaby" width="960" height="540" loading="lazy" decoding="async" style="max-width:100%;height:auto" />
 
 Then there are broader additions, like the Threads of Time. This is essentially a quest tracker that points you in the right direction for the main story quest, as well as any side quests that you’ve begun. Some of the quest puzzles in Ocarina can be fairly abstract, and this doesn’t really function as a hint system so much as a reminder of where you left off. It’s also visually satisfying, filling in a tapestry of Link’s adventures with more detail as you complete more quests. The tapestry itself looks wonderfully textured, and it was always fun seeing the ways in which new boss monsters or quest elements would be visualized in its style. A similar addition is the Hall of Fallen Foes, a statuary of all the beasts and bosses you’ve defeated across Hyrule. It’s nothing revolutionary, but it is nice to have the opportunity to really soak in the visual detail of these designs without fighting against them, and for the bosses you can challenge them to a rematch to sharpen your skills. 
 
@@ -50,11 +56,15 @@ And to my delight, it retains the incredible strangeness of the original Ocarina
 
 Ganondorf appears
 
+<img src="images/gamespot-04.webp" alt="Ganondorf appears" width="960" height="540" loading="lazy" decoding="async" style="max-width:100%;height:auto" />
+
 Meanwhile, the darker elements are intact as well, and even enhanced. The first time adult Link ventures out of the Temple of Time to see a ruined Hyrule is supposed to feel tragic, and it’s delivered here with appropriate gravity. Some boss monsters are especially horrific and creepy, like the mini-boss Dead Hand. The Cursed Rich Man is a true jump-scare. Even the ReDead are pretty startling, though they’re revised slightly with clearer visual indicators that make them less frustrating to encounter. 
 
 Because it is so reverent, the weaker parts of the original Ocarina of Time are still the weakest parts of its remake. The Water Temple is much more visually readable, but raising and lowering the water level can still be mildly annoying. The Shadow Temple is more linear and weaker than the other dungeons and heavily relies on its hidden-objects gimmick. The free camera and jump button make the stealth sections in Hyrule Castle and the Gerudo Fortress easier to manage, but the Gerudo one in particular is still a chore. To me, those felt like minor concessions for retaining and respecting the original design. It simply wouldn’t feel like Ocarina of Time if it tossed out these moments of friction, so this is partly an act of curation.
 
 Sheik
+
+<img src="images/gamespot-05.webp" alt="Sheik" width="960" height="540" loading="lazy" decoding="async" style="max-width:100%;height:auto" />
 
 When Nintendo remade Ocarina of Time for the 3DS in 2011, it was still within a certain era of Zelda games. It was released just a few months before Skyward Sword and years before the series had reinvented itself with Breath of the Wild. The context at the time was that this was a touched-up version of a classic 3D Zelda, but in the same recognizable format as what was then considered the current Zelda template. Now, against the backdrop of Breath of the Wild and Tears of the Kingdom, a remake of Ocarina of Time carries a different responsibility. This isn’t merely revisiting an older Zelda in a recognizable form; it’s revisiting another era of Zelda entirely. That gives it a certain weight, and raises the question of whether this form of Zelda can still feel modern. 
 

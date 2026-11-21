@@ -27,6 +27,8 @@ Unsurprisingly, combat is Phantom Blade Zero’s bread and butter. It’s also u
 Advertisement
 Phantom Blade Zero
 
+<img src="images/gamespot-01.webp" alt="Phantom Blade Zero" width="960" height="540" loading="lazy" decoding="async" style="max-width:100%;height:auto" />
+
 The choreography isn’t something you can replicate in video games without resorting to quick-time events, but Phantom Blade Zero still makes it look and feel like you’re engaged in a cinematic, free-flowing dance to the death. You have light and heavy attacks at your disposal, with combos alternating between the two. The key is that these attacks require no commitment. 
 
 There’s never a point where an attack begins and locks you into an animation until it ends. Switching to defense–either to block or parry–is instantaneous, even if you’re mid-combo. Some attacks will even deflect incoming strikes automatically, recreating the back-and-forth, simultaneous attack-and-defend action Wuxia is known for. The whole thing is antithetical to the call-and-response philosophy of so many other action games, but it works when enemies test your abilities.
@@ -48,6 +50,8 @@ Whether it’s a broken blade that transforms into a ranged weapon after drinkin
 Each weapon also has a secondary attack that breaks the non-committal rule. Landing heavy attacks builds Sha-Chi Essence, which you can then spend on weapon-specific techniques called Power Surges. While some of these might enhance your offense for a short time, others unleash devastating combos that you can’t cancel out of, forcing you to consider when the opportune time to utilize them is. 
 
 Phantom Blade Zero
+
+<img src="images/gamespot-02.webp" alt="Phantom Blade Zero" width="960" height="540" loading="lazy" decoding="async" style="max-width:100%;height:auto" />
 
 The same is true of Phantom Edges: secondary weapons you can use a limited number of times before needing to replenish their stock. These range from heavy axes that can break through shields and armor to ranged weapons, chained sickles, flying guillotines, and a magical bell that can summon puppets to fight by your side. Both Power Surges and Phantom Edges add another layer to Phantom Blade Zero’s flashy combat, upping the ante in desperate situations or providing that extra oomph you need to finish off a boss.
 

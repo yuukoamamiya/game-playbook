@@ -32,11 +32,15 @@ On top of Sonic Mania’s fantastic presentation, the game also controls like a 
 
 > It can feel exhilarating to pass through a multitude of pathways, especially at top speed.
 
+<img src="images/gamespot-01.webp" alt="It can feel exhilarating to pass through a multitude of pathways, especially at top speed." width="960" height="540" loading="lazy" decoding="async" style="max-width:100%;height:auto" />
+
 Level design is at the series’ best here, sporting 12 zones that are each meticulously designed with cleverly placed obstacles and varied pathways that keep you guessing. It can feel exhilarating to pass through a multitude of pathways, especially at top speed. No route ahead ever feels incorrect as you sprint through loops or hit springs launching you into different directions, and there are rarely any instances where the action halts without reason. And thanks to the visibility granted by the widescreen aspect ratio and the smooth framerate, your awareness and sense of control running through a zone feels better than Sonic’s classic outings ever did.
 
 It also helps that levels are designed around the abilities of each character. While Sonic can blaze a trail through a zone, Knuckles and Tails can find other paths beyond his reach thanks to their respective climbing and flying abilities, which often lead to new ways of experiencing the same stage. It’s enjoyable to engage with the subtle ways each character interacts with the world and the conveniences they offer. And you’re rewarded for taking the time to do so, as on some occasions, characters even get completely new levels to explore that are designed specifically around their abilities.
 
 > We all know where this goes…
+
+<img src="images/gamespot-02.webp" alt="We all know where this goes…" width="960" height="540" loading="lazy" decoding="async" style="max-width:100%;height:auto" />
 
 Sonic Mania closely follows its forebears, utilizing the exhilarating sense of speed that the 2D games charted their success upon. However, it never incorporates elements from the past purely for the sake of nostalgia; rather, it expands upon the familiar with new ideas of its own. This is most apparent when you play remixed versions of older zones from the first five games. Sonic Mania’s version of Sonic 2’s Chemical Plant zone introduces a mechanic where you constantly jump on jelly to bounce upwards to new parts of the level. Changes like this liven up the design of well-known levels, offering fresh and gratifying new experiences.
 
@@ -45,6 +49,8 @@ New zones, on top of offering a suite of charming visuals and catchy melodies, d
 In the same style as Sonic 3, every level culminates in a boss fight–ranging from relatively simple, to demanding set-piece battles where you go head-to-head with Eggman and his minions. However, there are some fights that pay homage not only to past games, but early spin-offs from the Sonic’s history, such as Dr. Robotnik’s Mean Bean Machine and Sonic Fighters. There’s also a fair number of more challenging battles that require more advanced tactics to beat. One has you dodging projectiles as you use a series of poles to propel yourself towards a spider robot. Boss fights offer a great balance of difficulty, steadily challenging and entertaining you in numerous ways as you progress.
 
 > The past and present seamlessly intermingle in Sonic Mania, answering your nostalgic yearning, while satisfying your thirst for fresh concepts.
+
+<img src="images/gamespot-03.webp" alt="The past and present seamlessly intermingle in Sonic Mania, answering your nostalgic yearning, while satisfying your thirst for fresh concepts." width="960" height="540" loading="lazy" decoding="async" style="max-width:100%;height:auto" />
 
 The more you play Sonic Mania, the more it rewards you with reasons to keep playing. Additional modes like Competition and Time Attack offer other ways to experience its levels. Aside from acquiring all the Chaos Emeralds to obtain the true ending, one of the most compelling reasons to replay zones come from Secrets–Sonic Mania’s term for unlocks that give you access to new characters and abilities. For example, you can play through the entire campaign using Sonic’s Insta-Shield ability from Sonic 3. You can even unlock “& Knuckles” mode, where a second player can play cooperatively with you as Knuckles instead of Tails.
 

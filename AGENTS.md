@@ -143,6 +143,8 @@ docs/agent-history.md            历史决策记录，不作为当前待办清�
 
 缺少头图时运行 `node scripts/collect-game-images.mjs`。脚本从对应的 Metacritic 游戏页获取图像候选，只补缺失文件，并同步在页面里加头图；已有图片不要用 `--force` 覆盖，除非明确要重新采集。
 
+GameSpot 正文插图放在 `content/reviews/en/<slug>/images/`，统一压成 WebP（最长边 960）并保留英文源里的相对引用；构建和开发服务器启动前，`scripts/sync-review-images.mjs` 会把它们复制到被 git 忽略的 `static/img/reviews-gs/<slug>/`。中文页面用 `<ReviewImage src="/img/reviews-gs/<slug>/gamespot-01.webp" alt={...} group="<slug>-gamespot" />` 引用，组件自带 `loading="lazy"`，点击会打开灯箱，同一 `group` 的图片可用左右方向键或按钮切换。只保留正文内嵌插图，不要重新插入 GameSpot 页尾的截图图库。
+
 ### 修改首页或组件
 
 首页数据来自 `src/generated/games.json`，不要在 React 页面里硬编码游戏列表。首页先按平台和媒体筛选平台记录，再按 `slug` 合并为游戏；媒体名称映射和 `sources` 展示逻辑要同步。要改标签显示、译文识别或页面交互时，看 `src/components/ReviewTabs.tsx` 及相关样式。
