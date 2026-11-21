@@ -5,6 +5,7 @@ import {parseDocument, hasTranslationContent, translatedTabs} from '../scripts/c
 import {numberValue} from '../scripts/data-store.mjs';
 import {getSources, normalizeSource} from '../scripts/media-sources.mjs';
 import {getIgnTargets} from '../scripts/lib/ign-review-targets.mjs';
+import {fetchAndRenderIgnTarget} from '../scripts/lib/ign-review-render.mjs';
 // The catalog merge lives in the front-end TypeScript module; Node's built-in
 // type stripping lets the regression tests exercise that exact implementation
 // instead of keeping a duplicate `.mjs` copy in sync by hand.
@@ -149,6 +150,34 @@ test('getIgnTargets carries each IGN URL into the fetch target and de-duplicates
     {row: rows[0], sourceUrl: 'https://www.ign.com/articles/first'},
     {row: rows[2], sourceUrl: 'https://www.ign.com/articles/second'},
   ]);
+});
+
+test('IGN target fetch and render uses the selected source URL without network access', async () => {
+  const target = {
+    row: {
+      slug: 'first',
+      title: 'First Game',
+      sources: [{site: 'ign', url: 'https://www.ign.com/articles/first'}],
+    },
+    sourceUrl: 'https://www.ign.com/articles/first',
+  };
+  const requestedUrls = [];
+  const result = await fetchAndRenderIgnTarget(target, async (url) => {
+    requestedUrls.push(url);
+    return {
+      status: 200,
+      page: {
+        processedHtml: '<p>Review body &amp; details.</p>',
+        review: {score: 8, scoreText: 'Great'},
+      },
+    };
+  });
+
+  assert.deepEqual(requestedUrls, [target.sourceUrl]);
+  assert.equal(result.status, 200);
+  assert.match(result.markdown, /source_url: "https:\/\/www\.ign\.com\/articles\/first"/);
+  assert.match(result.markdown, /\[IGN\]\(https:\/\/www\.ign\.com\/articles\/first\)/);
+  assert.match(result.markdown, /Review body & details\./);
 });
 
 test('parseDocument accepts single-quoted ReviewTab attributes', () => {
